@@ -32,210 +32,6 @@ L4：（6~7）屏蔽绝大部分底材、屏蔽#8#11#12、屏蔽所有亮金、�
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
-//║█║                                          任务物品                                         ║█║
-//╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
-//║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
-//╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
-// QUEST ITEMS (ACT 1)
-ItemDisplay[bks]: %NAME%{%TAN%现在是树头木拳的住所%NL%源远流长，被荒野所保护%NL%圣树之皮的碎片}
-ItemDisplay[bkd]: %NAME%{%TAN%寻找先知迪卡凯恩%NL%沉沦魔半神拉卡尼休的遗嘱%NL%去往崔斯特瑞姆的传送门}
-ItemDisplay[hdm]: %NAME%{%TAN%带回给盲眼姐妹会%NL%被古老的赫拉迪克法师强化%NL%因原罪之战的需要而制作}
-// QUEST ITEMS (ACT 2)
-ItemDisplay[ass]: %NAME%{%GOLD%右击阅读%NL%%GRAY%(使用后可以永久增加1个技能点数)%NL%%NL%%TAN%那些留下来倾听的人是有学问的人.}
-ItemDisplay[tr1]: %NAME%{%TAN%进入塔拉夏古墓%NL%寻找捆缚巴尔的线索%NL%战胜堕落的罗达门特，赫拉迪姆木乃伊}
-ItemDisplay[box]: %NAME%{%RED%不要怂，就是瓦！%NL%搏一搏，单车变摩托！%NL%Slam Ur God Damn Items！}
-ItemDisplay[msf]: %NAME%{%TAN%皇室的遗物，尘世的凋零%NL%在节肢动物编织的隧道下面}
-ItemDisplay[vip]: %NAME%{%TAN%巨蛇牙皮栖息在此%NL%无尽的日蚀，埋藏在鳞片下%NL%在黑暗中，一个未佩戴的护身符}
-ItemDisplay[hst]: %NAME%{%TAN%团结法师部落%NL%泰瑞尔的嘱托%NL%黑暗流放者出现}
-// QUEST ITEMS (ACT 3)
-ItemDisplay[j34]: %NAME%{%TAN%团结法师部落%NL%泰瑞尔的嘱托%NL%黑暗流放者出现}
-ItemDisplay[g34]: %NAME%{%TAN%死后的生命%NL%库亚的骨灰%NL%不朽的骨灰盒}
-ItemDisplay[xyz]: %NAME%{%GOLD%右击饮用%NL%%GRAY%(永久增加20生命上限)%NL%%NL%%TAN%永远由现在组成.}
-ItemDisplay[g33]: %NAME%{%TAN%迷失在撒卡兰姆的狂热中%NL%斯卡西姆所制造%NL%魔法的巅峰}
-ItemDisplay[qey]: %NAME%{%TAN%概念通过眼睛唤起.}
-ItemDisplay[qbr]: %NAME%{%TAN%大脑用来滋养思想.}
-ItemDisplay[qhr]: %NAME%{%TAN%心有其原因，而原因一无所知.}
-ItemDisplay[qf1]: %NAME%{%TAN%萨卡兰姆的魁黑钢%NL%不曾堕落的克林姆}
-ItemDisplay[qf2]: %NAME%{%TAN%意志之于优雅就像马之于骑手.}
-ItemDisplay[bbb]: %NAME%{%TAN%地狱魔头的影响%NL%古老库拉斯特的秘密%NL%书中记载了:}
-ItemDisplay[mss]: %NAME%{%TAN%黑暗深渊的诅咒%NL%仇恨无尽的释放}
-// QUEST ITEMS (ACT 4)
-ItemDisplay[hfh]: %NAME%{%TAN%影牙的锻造者%NL%燃烧地狱的传奇}
-// QUEST ITEMS (ACT 5)
-ItemDisplay[ice]: %NAME%{%TAN%喝下它，哪怕你有钢铁般的心肠也能被融化...}
-ItemDisplay[tr2]: %NAME%{%GOLD%右击阅读%NL%%GRAY%(永久增加10所有抗性)%NL%%NL%%TAN%哪里有强权，哪里就有反抗.}
-//╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
-//║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
-//╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
-//║█║                                          特殊物品                                         ║█║                                                                  
-//╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
-//║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
-//╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
-//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
-//║                                      ▬▬▬▬▬ 特殊物品 ▬▬▬▬▬                                     ║ 
-//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[pk1]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%ORANGE%%NAME% (女伯爵) %WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //恐惧之钥
-ItemDisplay[pk2]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%ORANGE%%NAME% (召喚者) %WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //憎恨之钥
-ItemDisplay[pk3]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%ORANGE%%NAME% (尼拉塞克) %WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //毁灭之钥
-ItemDisplay[dhn]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%DGREEN%%NAME%%WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //暗黑破坏神之角
-ItemDisplay[bey]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%DGREEN%%NAME%%WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //巴尔之眼
-ItemDisplay[mbr]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%DGREEN%%NAME%%WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //墨菲斯托之脑
-ItemDisplay[toa]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%———{%GOLD%右键点击洗点%NL%%NL%%TAN%Token of Absolution} //赦免徽章
-ItemDisplay[tes]: %NL%%NAME% (A1.A2)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%4种不同精华合成洗点徽章} //扭曲的苦痛精华
-ItemDisplay[ceh]: %NL%%NAME% (A3)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%4种不同精华合成洗点徽章} //充盈的憎恨精华
-ItemDisplay[bet]: %NL%%NAME% (A4)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%4种不同精华合成洗点徽章} //燃烧的恐惧精华
-ItemDisplay[fed]: %NL%%NAME% (A5)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%4种不同精华合成洗点徽章} //溃烂的毁灭精华
-ItemDisplay[std]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%BORDER(85,1)%%BGCOLOR(60)% //英雄旗帜
-ItemDisplay[leg]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(15)% //维特之腿
-ItemDisplay[cx5]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%GOLD%★★%WHITE%☆%NAME% (ooc)%WHITE%☆%GOLD%★★%NOTIFY(ITEM)%%MAPICON(5,11)%%BORDER(85,1)%%BGCOLOR(15)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%———{%ORANGE%地图:%GREEN%3%变成心悦农场/%PURPLE%22%新增词缀/%WHITE%25%无变化/%DGREEN%50%重新洗牌%NL%%ORANGE%可打孔装备:%RED%25%出随机孔数/%PURPLE%25%新增词缀/%WHITE%25%无变化/%DGREEN%25%报废%NL%%ORANGE%不可打孔装备:%PURPLE%25%新增词缀/%WHITE%50%无变化/%DGREEN%25%报废%NL%%RED%腐化机率:} //腐化宝珠
-ItemDisplay[cx6]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%GOLD%★★%DGREEN%%NAME%%GOLD%★★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //暗黑破坏神的灵魂石
-ItemDisplay[cx7]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%☆☆%DGREEN%%NAME%%WHITE%☆☆%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //混沌之钥
-ItemDisplay[ear]: %ORANGE%%NAME%
-//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
-//║                                  ▬▬▬▬▬ 遗物地图(Relic) ▬▬▬▬▬                                  ║ 
-//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[ma10 !ID]: >>  Relics  <<%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //寒霜洞窟 (Icy Cavern)  BUG無法顯示
-ItemDisplay[ma2 !ID]: >>  Relics  <<%NL%蜃景荒漠%NL%%RED%<T3-Lv88>{%RED%(Forgotten Desert)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma3 !ID]: >>  Relics  <<%NL%遺棄之地%NL%%DGREEN%<T?-Lv??>{%DGREEN%(Abandoned Precinct)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //遺棄之地 (Abandoned Precinct)
-ItemDisplay[ma4 !ID]: >>  Relics  <<%NL%亵渎教堂%%NL%%GREEN%<T2-Lv87>{%GREEN%(Desecrated Temple)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //亵渎教堂 (Desecrated Temple)
-ItemDisplay[ma5 !ID]: >>  Relics  <<%NL%凜冬高原%NL%%WHITE%<T1-Lv86>{%WHITE%(Frigid Plateau)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma6 !ID]: >>  Relics  <<%NL%崩壞堡壘%NL%%RED%<T3-Lv88>{%RED%(Ruined Citadel)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7 !ID]: >>  Relics  <<%NL%焚燒森林%NL%%RED%<T3-Lv88>{%RED%(Burnt Forest)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //焚燒森林 (Burnt Forest)
-ItemDisplay[ma8 !ID]: >>  Relics  <<%NL%發霉地穴%NL%%GREEN%<T2-Lv87>{%GREEN%(Musty Crypt)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //發霉地穴 (Musty Crypt)
-ItemDisplay[ma9 !ID]: >>  Relics  <<%NL%昏暗地窖%NL%%GREEN%<T2-Lv87>{%GREEN%(Dim Cellar)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma11 !ID]: >>  Relics  <<%NL%悅心農場%NL%%DGREEN%<T0-Lv86>{%DGREEN%(Pleasant Pasture)}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%  //悅心農場 (Pleasant Pasture) BUG無法顯示
-ItemDisplay[MAP !ID]: >>  Relics  <<%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //暂时用这种方式显示寒霜洞窟 (Icy Cavern)
-//─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //寒霜洞窟 (Icy Cavern)  BUG無法顯示
-ItemDisplay[ma2]: (Forgotten Desert)%NL%蜃景荒漠%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma3]: (Abandoned Precinct)%NL%遺棄之地%NL%%DGREEN%<T?-Lv??>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //遺棄之地 (Abandoned Precinct)
-ItemDisplay[ma4]: (Desecrated Temple)%NL%亵渎教堂%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //亵渎教堂 (Desecrated Temple)
-ItemDisplay[ma5]: (Frigid Plateau)%NL%凜冬高原%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma6]: (Ruined Citadel)%NL%崩壞堡壘%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7]: (Burnt Forest)%NL%焚燒森林%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //焚燒森林 (Burnt Forest)
-ItemDisplay[ma8]: (Musty Crypt)%NL%發霉地穴%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //發霉地穴 (Musty Crypt)
-ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心農場%NL%%DGREEN%<T0-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //悅心農場 (Pleasant Pasture) BUG無法顯示
-ItemDisplay[MAP ID]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //暂时用这种方式显示寒霜洞窟 (Icy Cavern) 
-ItemDisplay[maz]: %NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%祝君好运！%NL%你只有一次机会%NL%进入后无法开启传送门，死亡后无法返回}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%//地獄審判
-//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
-//║                                        ▬▬▬▬▬ 卷轴 ▬▬▬▬▬                                       ║
-//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[tsc DIFF=0]: %BLUE%传送
-ItemDisplay[isc DIFF=0]: %GREEN%鉴定
-ItemDisplay[tbk]: %GOLD%%NAME%
-ItemDisplay[ibk]: %GOLD%%NAME%
-//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
-//║                                        ▬▬▬▬▬ 金币 ▬▬▬▬▬                                       ║
-//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[CLVL>89 GOLD>7999]: %NAME% //90级後只顯示8000元以上
-ItemDisplay[(CLVL>79 AND CLVL<90) GOLD>4999]: %NAME% //80~89级只顯示5000元以上
-ItemDisplay[(CLVL>59 AND CLVL<80) GOLD>2499]: %NAME% //60~79级只顯示2500元以上
-ItemDisplay[(CLVL>44 AND CLVL<60) GOLD>999]: %NAME% //45~59级只顯示1000元以上
-ItemDisplay[(CLVL>24 AND CLVL<45) GOLD>499]: %NAME% //25~44级只顯示500元以上
-ItemDisplay[CLVL<25 GOLD>100]: %NAME% //1~24级只顯示100元以上
-ItemDisplay[GOLD>0]:
-//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
-//║                                        ▬▬▬▬▬ 药水 ▬▬▬▬▬                                       ║
-//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[hp1 CLVL<15]: %RED%! %GRAY%H%WHITE%
-ItemDisplay[hp2 CLVL<15]: %RED%! %WHITE%H%WHITE%
-ItemDisplay[mp1 CLVL<15]: %BLUE%! %GRAY%M%WHITE%
-ItemDisplay[mp2 CLVL<15]: %BLUE%! %WHITE%M%WHITE%
-ItemDisplay[hp1 OR mp1]:
-//─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[hp2 CLVL<25]: %RED%! %GRAY%H%WHITE%
-ItemDisplay[hp3 CLVL<25]: %RED%! %WHITE%H%WHITE%
-ItemDisplay[mp2 CLVL<25]: %BLUE%! %GRAY%M%WHITE%
-ItemDisplay[mp3 CLVL<25]: %BLUE%! %WHITE%M%WHITE%
-ItemDisplay[hp2 OR mp2]:
-//─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[hp3 CLVL<40]: %RED%! %GRAY%H%WHITE%
-ItemDisplay[hp4 CLVL<40]: %RED%! %WHITE%H%WHITE%
-ItemDisplay[mp3 CLVL<40]: %BLUE%! %GRAY%M%WHITE%
-ItemDisplay[mp4 CLVL<40]: %BLUE%! %WHITE%M%WHITE%
-ItemDisplay[hp3 OR mp3]:
-//─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[hp4 CLVL<60]: %RED%! %GRAY%H%WHITE%
-ItemDisplay[hp5 (FILTERLVL=1 OR FILTERLVL=3 OR FILTERLVL=5 OR FILTERLVL=7)]: %RED%! %WHITE%H%WHITE%
-ItemDisplay[mp4 CLVL<60]: %BLUE%! %GRAY%M%WHITE%
-ItemDisplay[mp5 (FILTERLVL=1 OR FILTERLVL=3 OR FILTERLVL=5 OR FILTERLVL=7)]: %BLUE%! %WHITE%M%WHITE%
-ItemDisplay[hp4 OR mp4]:
-//─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[rvs]: %PURPLE%r %GRAY%35%%BGCOLOR(15)%%BORDER(4,1)%
-ItemDisplay[rvl]: %NL%%PURPLE%R %WHITE%70%%NL%%BGCOLOR(15)%%BORDER(4,1)%
-//─────────────────────────────────────────────────────────────────────────────────────────────────
-// 10级後刪除没用的各类投掷瓶
-//─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>9]:
-//─────────────────────────────────────────────────────────────────────────────────────────────────
-// 钥匙
-//─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[key]: {%WHITE%我的昵称是 %RED%沐红衣%NL%%WHITE%请加入 %ORANGE%QQ群:921724765%NL%%WHITE%有任何 %ORANGE%意见%WHITE%/%ORANGE%建议 %WHITE%或者发现 %ORANGE%Bugs}%CONTINUE%
-ItemDisplay[key FILTERLVL=1]: k
-//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
-//║                                        ▬▬▬▬▬ 宝石 ▬▬▬▬▬                                       ║
-//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[gzv FILTERLVL<6]: %WHITE%紫 %GRAY%[%PURPLE%●%GRAY%]%BORDER(4,1)%
-ItemDisplay[glw FILTERLVL<4]: %WHITE%钻 %GRAY%[%WHITE%●%GRAY%]%BORDER(4,1)%
-ItemDisplay[glg FILTERLVL<4]: %WHITE%绿 %GRAY%[%GREEN%●%GRAY%]%BORDER(4,1)%
-ItemDisplay[glr FILTERLVL<6]: %WHITE%红 %GRAY%[%RED%●%GRAY%]%BORDER(4,1)%
-ItemDisplay[glb FILTERLVL<4]: %WHITE%蓝 %GRAY%[%BLUE%●%GRAY%]%BORDER(4,1)%
-ItemDisplay[gly FILTERLVL<4]: %WHITE%黄 %GRAY%[%YELLOW%●%GRAY%]%BORDER(4,1)%
-ItemDisplay[skl]: %GOLD%骷髅 %GRAY%[%GRAY%●%GRAY%]%BORDER(4,1)%%BGCOLOR(15)%
-ItemDisplay[gpv]: %ORANGE%[P] %WHITE%紫 %GRAY%[%PURPLE%●%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
-ItemDisplay[gpw]: %ORANGE%[P] %WHITE%钻 %GRAY%[%WHITE%●%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
-ItemDisplay[gpg]: %ORANGE%[P] %WHITE%绿 %GRAY%[%GREEN%●%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
-ItemDisplay[gpr]: %ORANGE%[P] %WHITE%红 %GRAY%[%RED%●%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
-ItemDisplay[gpb]: %ORANGE%[P] %WHITE%蓝 %GRAY%[%BLUE%●%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
-ItemDisplay[gpy]: %ORANGE%[P] %WHITE%黄 %GRAY%[%YELLOW%●%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
-ItemDisplay[skz]: %ORANGE%[P] %GOLD%骷髅 %GRAY%[%GRAY%●%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
-//─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku)]: ★%NAME%★%CONTINUE% // 一般
-ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf)]: ★%NAME%★%CONTINUE% // 缺陷
-ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc)]: ★%NAME%★%CONTINUE% // 碎裂
-ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku) DIFF>0]: // 一般
-ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf) DIFF>0]: // 缺陷
-ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) DIFF>0]: // 碎裂
-//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
-//║                                      ▬▬▬▬▬ # RUNES ▬▬▬▬▬                                      ║
-//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[r01 FILTERLVL=1]: %NOTIFY(WHITE)%%WHITE%El %WHITE%[#1]
-ItemDisplay[r02 FILTERLVL=1]: %NOTIFY(WHITE)%%WHITE%Eld %WHITE%[#2]
-ItemDisplay[r03 FILTERLVL=1]: %NOTIFY(WHITE)%%WHITE%Tir %WHITE%[#3]
-ItemDisplay[r04 FILTERLVL<4]: %NOTIFY(ORANGE)%%ORANGE%Nef %WHITE%[#4]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:Blood Glove]}
-ItemDisplay[r05 FILTERLVL=1]: %NOTIFY(WHITE)%%WHITE%Eth %WHITE%[#5]
-ItemDisplay[r06 FILTERLVL<4]: %NOTIFY(ORANGE)%%ORANGE%Ith %WHITE%[#6]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:Caster Belt]}
-ItemDisplay[r07 FILTERLVL<4]: %NOTIFY(ORANGE)%%WHITE%Tal %WHITE%[#7]
-ItemDisplay[r08 FILTERLVL<6]: %NOTIFY(ORANGE)%%ORANGE%Ral %WHITE%[#8]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:Caster Amu]}
-ItemDisplay[r09 FILTERLVL<4]: %NOTIFY(ORANGE)%%ORANGE%Ort %WHITE%[#9]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:Hit Gloves]}
-ItemDisplay[r10 FILTERLVL<4]: %NOTIFY(ORANGE)%%ORANGE%Thul %WHITE%[#10]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:Caster Boot]}
-ItemDisplay[r11 FILTERLVL<6]: %NOTIFY(ORANGE)%%ORANGE%Amn %WHITE%[#11]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:Blood Amu]}
-ItemDisplay[r12 FILTERLVL<6]: %NOTIFY(ORANGE)%%ORANGE%Sol %WHITE%[#12]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:HP Ring]}
-ItemDisplay[r13 FILTERLVL<4]: %NOTIFY(WHITE)%%WHITE%Shael %GREEN%[#13]
-ItemDisplay[r14]: %NOTIFY(GREEN)%%NL%%GREEN%Dol %RED%[#14]%NL%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[↑武器↑]}
-ItemDisplay[r15]: %NOTIFY(GREEN)%%NL%%GREEN%Hel %RED%[#15]%NL%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[↑防具↑]}
-ItemDisplay[r16]: %NOTIFY(GREEN)%%NL%%GREEN%Io %RED%[#16]%NL%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[↑防具↑]}
-ItemDisplay[r17]: %NOTIFY(GREEN)%%NL%%GREEN%Lum %RED%[#17]%NL%%BORDER(85,1)%%BGCOLOR(15)%{%GOLD%[↑武器↑]}
-ItemDisplay[r18]: %NOTIFY(GREEN)%%NL%%GREEN%Ko %RED%[#18]%NL%%BORDER(85,1)%%BGCOLOR(15)%{%GOLD%[↑防%YELLOW%具↑]}
-ItemDisplay[r19]: %NOTIFY(GREEN)%%NL%%GREEN%Fal %RED%[#19]%NL%%BORDER(85,1)%%BGCOLOR(15)%{%YELLOW%[↑武器↑]}
-ItemDisplay[r20]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Lem  %YELLOW%[#20] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r21]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Pul  %YELLOW%[#21] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(66)%
-ItemDisplay[r22]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Um  %YELLOW%[#22] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r23]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Mal  %YELLOW%[#23] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r24]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%>>  Ist %YELLOW%[#24] %ORANGE%<<%RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r25]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%>>  Gul %YELLOW%[#25] %ORANGE%<<%RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r26]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%☆☆%RED%>>>>%GOLD%>>  Vex %YELLOW%[#26] %GOLD%<<%RED%<<<<%PURPLE%☆☆%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r27]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%☆☆%RED%>>>>%GOLD%>>  Ohm %YELLOW%[#27] %GOLD%<<%RED%<<<<%PURPLE%☆☆%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r28]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Lo  %PURPLE%[#28] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r29]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Sur  %PURPLE%[#29] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r30]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%★★%PURPLE%★★%YELLOW%☆☆%GOLD%★★>>%RED%>>>>  %GOLD%Ber  %PURPLE%[#30] %RED%<<<<%GOLD%<<★★%YELLOW%☆☆%PURPLE%★★%RED%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r31]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%★★%PURPLE%★★%YELLOW%☆☆%GOLD%★★>>%RED%>>>>  %GOLD%Jah  %PURPLE%[#31] %RED%<<<<%GOLD%<<★★%YELLOW%☆☆%PURPLE%★★%RED%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r32]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Cham  %PURPLE%[#32] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r33]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Zod   %PURPLE%[#33] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-//╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
-//║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
-//╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
 //║█║                                  ▬▬▬▬▬ 物品额外信息 ▬▬▬▬▬                                 ║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
@@ -374,6 +170,23 @@ ItemDisplay[SET ID ucl]: %NAME%{%WHITE%天生孔数:%TAN%(%WHITE%1-3孔%TAN%)}%C
 ItemDisplay[UNI ID uh9 STR>24 STAT136>9]: %NAME%{%WHITE%天生孔数:%TAN%(%WHITE%1-2孔%TAN%)}%CONTINUE%
 ItemDisplay[UNI ID upk STAT238>0 STAT36>14]: %NAME%{%WHITE%天生孔数:%TAN%(%WHITE%1孔%TAN%)}%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
+//║                                  ▬▬▬▬▬ 装备升级公式提示 ▬▬▬▬▬                                 ║
+//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
+// ARMOR'S UPGRADING RECIPE
+ItemDisplay[UNI ID NORM ARMOR]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#7]+[#13]+%WHITE%P●}%CONTINUE%
+ItemDisplay[UNI ID EXC ARMOR]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#18]+[#20]+%WHITE%P●}%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID NORM ARMOR]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#8]+[#10]+%PURPLE%P●}%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID EXC ARMOR]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#18]+[#21]+%PURPLE%P●}%CONTINUE%
+ItemDisplay[SET ID NORM ARMOR]: %NAME%{%NAME%%WHITE%升级:%GREEN% [#2]+[#6]+%YELLOW%P●}%CONTINUE%
+ItemDisplay[SET ID EXC ARMOR]: %NAME%{%NAME%%WHITE%升级:%GREEN% [#15]+[#16]+%YELLOW%P●}%CONTINUE%
+// WEAPON'S UPGRADING RECIPE
+ItemDisplay[UNI ID NORM WEAPON]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#8]+[#12]+%GREEN%P●}%CONTINUE%
+ItemDisplay[UNI ID EXC WEAPON]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#17]+[#21]+%GREEN%P●}%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID NORM WEAPON]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#9]+[#11]+%BLUE%P●}%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID EXC WEAPON]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#19]+[#22]+%BLUE%P●}%CONTINUE%
+ItemDisplay[SET ID NORM WEAPON]: %NAME%{%NAME%%WHITE%升级:%GREEN% [#1]+[#5]+%RED%P●}%CONTINUE%
+ItemDisplay[SET ID EXC WEAPON]: %NAME%{%NAME%%WHITE%升级:%GREEN% [#14]+[#23]+%RED%P●}%CONTINUE%
+//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                  ▬▬▬▬▬ 职业专用物品提示 ▬▬▬▬▬                                 ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[(CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7)]: [%CL%] %NAME%%CONTINUE%
@@ -397,20 +210,20 @@ ItemDisplay[STAT360>0]: %NAME%%RED%[已腐化]%CONTINUE%
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) (CLSK0>0 OR TABSK0>0 OR TABSK1>0 OR TABSK2>0)]: %NAME%%NL%%GOLD%[%CONTINUE%
 --  CLSK0  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) CLSK0=1]: %NAME%%PURPLE%+1亚马逊技能%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) CLSK0=2]: %NAME%%PURPLE%+2亚马逊技能%CONTINUE%
---  弓弩技能:AMA  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK0=1]: %NAME%%PURPLE%+1弓弩技能:AMA%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK0=2]: %NAME%%PURPLE%+2弓弩技能:AMA%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK0=3]: %NAME%%PURPLE%+3弓弩技能:AMA%CONTINUE%
---  被动技能:AMA  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK1=1]: %NAME%%PURPLE%+1被动技能:AMA%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK1=2]: %NAME%%PURPLE%+2被动技能:AMA%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK1=3]: %NAME%%PURPLE%+3被动技能:AMA%CONTINUE%
---  标枪技能:AMA  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK2=1]: %NAME%%PURPLE%+1标枪技能:AMA%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK2=2]: %NAME%%PURPLE%+2标枪技能:AMA%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK2=3]: %NAME%%PURPLE%+3标枪技能:AMA%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) CLSK0=1]: %NAME%%GOLD%+1亚马逊技能%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) CLSK0=2]: %NAME%%GOLD%+2亚马逊技能%CONTINUE%
+--  AMA（弓弩技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK0=1]: %NAME%%GOLD%+1AMA%RED%（弓弩技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK0=2]: %NAME%%GOLD%+2AMA%RED%（弓弩技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK0=3]: %NAME%%GOLD%+3AMA%RED%（弓弩技能）%CONTINUE%
+--  AMA（被动技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK1=1]: %NAME%%GOLD%+1AMA%DGREEN%（被动技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK1=2]: %NAME%%GOLD%+2AMA%PURPLE%（被动技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK1=3]: %NAME%%GOLD%+3AMA%PURPLE%（被动技能）%CONTINUE%
+--  AMA（标枪技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK2=1]: %NAME%%GOLD%+1AMA%PURPLE%（标枪技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK2=2]: %NAME%%GOLD%+2AMA%PURPLE%（标枪技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK2=3]: %NAME%%GOLD%+3AMA%PURPLE%（标枪技能）%CONTINUE%
 // AMA Skill END
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) (CLSK0>0 OR TABSK0>0 OR TABSK1>0 OR TABSK2>0)]: %NAME%%GOLD%]%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -418,20 +231,20 @@ ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) (CLSK0>0 O
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK1>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR SK50>0 OR SK60>0 OR SK59>0 OR SK64>0 OR SK65>0 OR SK49>0 OR SK54>0 OR SK58>0 OR SK48>0 OR SK57>0 OR SK63>0 OR SK47>0 OR SK56>0 OR SK52>0 OR SK62>0 OR SK61>0)]: %NAME%%NL%%GOLD%[%CONTINUE%
 --  CLSK1  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK1=1]: %NAME%%PURPLE%+1法师技能%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK1=2]: %NAME%%PURPLE%+2法师技能%CONTINUE%
---  火焰技能:SOR  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK8=1]: %NAME%%PURPLE%+1火焰技能:SOR%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK8=2]: %NAME%%PURPLE%+2火焰技能:SOR%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK8=3]: %NAME%%PURPLE%+3火焰技能:SOR%CONTINUE%
---  闪电技能:SOR  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK9=1]: %NAME%%PURPLE%+1闪电技能:SOR%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK9=2]: %NAME%%PURPLE%+2闪电技能:SOR%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK9=3]: %NAME%%PURPLE%+3闪电技能:SOR%CONTINUE%
---  冰霜技能:SOR  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK10=1]: %NAME%%PURPLE%+1冰霜技能:SOR%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK10=2]: %NAME%%PURPLE%+2冰霜技能:SOR%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK10=3]: %NAME%%PURPLE%+3冰霜技能:SOR%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK1=1]: %NAME%%GOLD%+1法师技能%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK1=2]: %NAME%%GOLD%+2法师技能%CONTINUE%
+--  SOR（火焰技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK8=1]: %NAME%%GOLD%+1SOR%RED%（火焰技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK8=2]: %NAME%%GOLD%+2SOR%RED%（火焰技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK8=3]: %NAME%%GOLD%+3SOR%RED%（火焰技能）%CONTINUE%
+--  SOR（闪电技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK9=1]: %NAME%%GOLD%+1SOR%DGREEN%（闪电技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK9=2]: %NAME%%GOLD%+2SOR%DGREEN%（闪电技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK9=3]: %NAME%%GOLD%+3SOR%DGREEN%（闪电技能）%CONTINUE%
+--  SOR（冰霜技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK10=1]: %NAME%%GOLD%+1SOR%PURPLE%（冰霜技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK10=2]: %NAME%%GOLD%+2SOR%PURPLE%（冰霜技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK10=3]: %NAME%%GOLD%+3SOR%PURPLE%（冰霜技能）%CONTINUE%
 --  碎冰甲  --
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK50=1]: %NAME%%WHITE%+1%DGREEN%碎冰甲%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK50=2]: %NAME%%WHITE%+2%DGREEN%碎冰甲%CONTINUE%
@@ -503,20 +316,20 @@ ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK1>0 OR TABSK8>0 OR 
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK2>0 OR TABSK18>0 OR TABSK17>0 OR TABSK16>0 OR SK79>0 OR SK94>0 OR SK95>0 OR SK74>0 OR SK67>0 OR SK84>0 OR SK93>0 OR SK83>0 OR SK92>0 OR SK66>0 OR SK87>0 OR SK91>0)]: %NAME%%NL%%GOLD%[%CONTINUE%
 --  CLSK2  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK2=1]: %NAME%%PURPLE%+1死灵技能%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK2=2]: %NAME%%PURPLE%+2死灵技能%CONTINUE%
---  召唤技能:NEC  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK18=1]: %NAME%%PURPLE%+1召唤技能:NEC%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK18=2]: %NAME%%PURPLE%+2召唤技能:NEC%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK18=3]: %NAME%%PURPLE%+3召唤技能:NEC%CONTINUE%
---  毒骨技能:NEC  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK17=1]: %NAME%%PURPLE%+1毒骨技能:NEC%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK17=2]: %NAME%%PURPLE%+2毒骨技能:NEC%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK17=3]: %NAME%%PURPLE%+3毒骨技能:NEC%CONTINUE%
---  诅咒技能:NEC  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK16=1]: %NAME%%PURPLE%+1诅咒技能:NEC%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK16=2]: %NAME%%PURPLE%+2诅咒技能:NEC%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK16=3]: %NAME%%PURPLE%+3诅咒技能:NEC%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK2=1]: %NAME%%GOLD%+1死灵技能%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK2=2]: %NAME%%GOLD%+2死灵技能%CONTINUE%
+--  NEC（召唤技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK18=1]: %NAME%%GOLD%+1NEC%RED%（召唤技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK18=2]: %NAME%%GOLD%+2NEC%RED%（召唤技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK18=3]: %NAME%%GOLD%+3NEC%RED%（召唤技能）%CONTINUE%
+--  NEC（毒骨技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK17=1]: %NAME%%GOLD%+1NEC%DGREEN%（毒骨技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK17=2]: %NAME%%GOLD%+2NEC%DGREEN%（毒骨技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK17=3]: %NAME%%GOLD%+3NEC%DGREEN%（毒骨技能）%CONTINUE%
+--  NEC（诅咒技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK16=1]: %NAME%%GOLD%+1NEC%PURPLE%（诅咒技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK16=2]: %NAME%%GOLD%+2NEC%PURPLE%（诅咒技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK16=3]: %NAME%%GOLD%+3NEC%PURPLE%（诅咒技能）%CONTINUE%
 --  号召  --
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK79=1]: %NAME%%WHITE%+1%DGREEN%号召%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK79=2]: %NAME%%WHITE%+2%DGREEN%号召%CONTINUE%
@@ -572,20 +385,20 @@ ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK2>0 OR TABSK18>0 OR
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK3>0 OR TABSK24>0 OR TABSK25>0 OR TABSK26>0 OR SK124>0 OR SK125>0 OR SK113>0 OR SK122>0 OR SK102>0 OR SK114>0 OR SK118>0 OR SK119>0 OR SK123>0 OR SK101>0 OR SK112>0 OR SK121>0)]: %NAME%%NL%%GOLD%[%CONTINUE%
 --  CLSK3  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK3=1]: %NAME%%PURPLE%+1骑士技能%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK3=2]: %NAME%%PURPLE%+2骑士技能%CONTINUE%
---  战斗技能:PAL  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK24=1]: %NAME%%PURPLE%+1战斗技能:PAL%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK24=2]: %NAME%%PURPLE%+2战斗技能:PAL%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK24=3]: %NAME%%PURPLE%+3战斗技能:PAL%CONTINUE%
---  进攻光环:PAL  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK25=1]: %NAME%%PURPLE%+1进攻光环:PAL%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK25=2]: %NAME%%PURPLE%+2进攻光环:PAL%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK25=3]: %NAME%%PURPLE%+3进攻光环:PAL%CONTINUE%
---  防御光环:PAL  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK26=1]: %NAME%%PURPLE%+1防御光环:PAL%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK26=2]: %NAME%%PURPLE%+2防御光环:PAL%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK26=3]: %NAME%%PURPLE%+3防御光环:PAL%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK3=1]: %NAME%%GOLD%+1骑士技能%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK3=2]: %NAME%%GOLD%+2骑士技能%CONTINUE%
+--  PAL（战斗技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK24=1]: %NAME%%GOLD%+1PAL%RED%（战斗技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK24=2]: %NAME%%GOLD%+2PAL%RED%（战斗技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK24=3]: %NAME%%GOLD%+3PAL%RED%（战斗技能）%CONTINUE%
+--  PAL（进攻光环） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK25=1]: %NAME%%GOLD%+1PAL%DGREEN%（进攻光环）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK25=2]: %NAME%%GOLD%+2PAL%DGREEN%（进攻光环）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK25=3]: %NAME%%GOLD%+3PAL%DGREEN%（进攻光环）%CONTINUE%
+--  PAL（防御光环） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK26=1]: %NAME%%GOLD%+1PAL%PURPLE%（防御光环）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK26=2]: %NAME%%GOLD%+2PAL%PURPLE%（防御光环）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK26=3]: %NAME%%GOLD%+3PAL%PURPLE%（防御光环）L%CONTINUE%
 --  救赎  --
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK124=1]: %NAME%%WHITE%+1%DGREEN%救赎%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK124=2]: %NAME%%WHITE%+2%DGREEN%救赎%CONTINUE%
@@ -641,20 +454,20 @@ ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK3>0 OR TABSK24>0 OR
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK4>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR SK149>0 OR SK155>0 OR SK154>0 OR SK138>0 OR SK142>0)]: %NAME%%NL%%GOLD%[%CONTINUE%
 --  CLSK4  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK4=1]: %NAME%%PURPLE%+1野蛮人技能%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK4=2]: %NAME%%PURPLE%+2野蛮人技能%CONTINUE%
---  战斗技能:BAR  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK32=1]: %NAME%%PURPLE%+1战斗技能:BAR%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK32=2]: %NAME%%PURPLE%+2战斗技能:BAR%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK32=3]: %NAME%%PURPLE%+3战斗技能:BAR%CONTINUE%
---  支配技能:BAR  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK33=1]: %NAME%%PURPLE%+1支配技能:BAR%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK33=2]: %NAME%%PURPLE%+2支配技能:BAR%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK33=3]: %NAME%%PURPLE%+3支配技能:BAR%CONTINUE%
---  战吼技能:BAR  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK34=1]: %NAME%%PURPLE%+1战吼技能:BAR%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK34=2]: %NAME%%PURPLE%+2战吼技能:BAR%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK34=3]: %NAME%%PURPLE%+3战吼技能:BAR%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK4=1]: %NAME%%GOLD%+1野蛮人技能%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK4=2]: %NAME%%GOLD%+2野蛮人技能%CONTINUE%
+--  BAR（战斗技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK32=1]: %NAME%%GOLD%+1BAR%RED%（战斗技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK32=2]: %NAME%%GOLD%+2BAR%RED%（战斗技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK32=3]: %NAME%%GOLD%+3BAR%RED%（战斗技能）%CONTINUE%
+--  BAR（支配技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK33=1]: %NAME%%GOLD%+1BAR%DGREEN%（支配技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK33=2]: %NAME%%GOLD%+2BAR%DGREEN%（支配技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK33=3]: %NAME%%GOLD%+3BAR%DGREEN%（支配技能）%CONTINUE%
+--  BAR（战吼技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK34=1]: %NAME%%GOLD%+1BAR%PURPLE%（战吼技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK34=2]: %NAME%%GOLD%+2BAR%PURPLE%（战吼技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK34=3]: %NAME%%GOLD%+3BAR%PURPLE%（战吼技能）%CONTINUE%
 --  战斗体质  --
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK149=1]: %NAME%%WHITE%+1%DGREEN%战斗体质%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK149=2]: %NAME%%WHITE%+2%DGREEN%战斗体质%CONTINUE%
@@ -682,20 +495,20 @@ ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK4>0 OR TABSK32>0 OR
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK5>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR SK240>0 OR SK245>0 OR SK250>0 OR SK249>0 OR SK238>0 OR SK243>0 OR SK236>0 OR SK226>0 OR SK237>0 OR SK247>0 OR SK221>0)]: %NAME%%NL%%GOLD%[%CONTINUE%
 --  CLSK5  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK5=1]: %NAME%%PURPLE%+1德鲁伊技能%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK5=2]: %NAME%%PURPLE%+2德鲁伊技能%CONTINUE%
---  召唤技能:DRU  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK40=1]: %NAME%%PURPLE%+1召唤技能:DRU%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK40=2]: %NAME%%PURPLE%+2召唤技能:DRU%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK40=3]: %NAME%%PURPLE%+3召唤技能:DRU%CONTINUE%
---  变形技能:DRU  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK41=1]: %NAME%%PURPLE%+1变形技能:DRU%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK41=2]: %NAME%%PURPLE%+2变形技能:DRU%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK41=3]: %NAME%%PURPLE%+3变形技能:DRU%CONTINUE%
---  元素技能:DRU  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK42=1]: %NAME%%PURPLE%+1元素技能:DRU%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK42=2]: %NAME%%PURPLE%+2元素技能:DRU%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK42=3]: %NAME%%PURPLE%+3元素技能:DRU%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK5=1]: %NAME%%GOLD%+1德鲁伊技能%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK5=2]: %NAME%%GOLD%+2德鲁伊技能%CONTINUE%
+--  DRU（召唤技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK40=1]: %NAME%%GOLD%+1DRU%RED%（召唤技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK40=2]: %NAME%%GOLD%+2DRU%RED%（召唤技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK40=3]: %NAME%%GOLD%+3DRU%RED%（召唤技能）%CONTINUE%
+--  DRU（召唤技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK41=1]: %NAME%%GOLD%+1DRU%DGREEN%（变形技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK41=2]: %NAME%%GOLD%+2DRU%DGREEN%（变形技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK41=3]: %NAME%%GOLD%+3DRU%DGREEN%（变形技能）%CONTINUE%
+--  DRU（元素技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK42=1]: %NAME%%GOLD%+1DRU%PURPLE%（元素技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK42=2]: %NAME%%GOLD%+2DRU%PURPLE%（元素技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK42=3]: %NAME%%GOLD%+3DRU%PURPLE%（元素技能）%CONTINUE%
 --  旋风  --
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK240=1]: %NAME%%WHITE%+1%DGREEN%旋风%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK240=2]: %NAME%%WHITE%+2%DGREEN%旋风%CONTINUE%
@@ -747,20 +560,20 @@ ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK5>0 OR TABSK40>0 OR
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK6>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0 OR SK274>0 OR SK267>0 OR SK278>0 OR SK273>0 OR SK258>0 OR SK262>0 OR SK272>0 OR SK271>0 OR SK276>0 OR SK277>0)]: %NAME%%NL%%GOLD%[%CONTINUE%
 --  CLSK6  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK6=1]: %NAME%%PURPLE%+1刺客技能%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK6=2]: %NAME%%PURPLE%+2刺客技能%CONTINUE%
---  陷阱技能:ASN  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK48=1]: %NAME%%PURPLE%+1陷阱技能:ASN%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK48=2]: %NAME%%PURPLE%+2陷阱技能:ASN%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK48=3]: %NAME%%PURPLE%+3陷阱技能:ASN%CONTINUE%
---  影子训练:ASN  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK49=1]: %NAME%%PURPLE%+1影子训练:ASN%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK49=2]: %NAME%%PURPLE%+2影子训练:ASN%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK49=3]: %NAME%%PURPLE%+3影子训练:ASN%CONTINUE%
---  武学艺术:ASN  --
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK50=1]: %NAME%%PURPLE%+1武学艺术:ASN%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK50=2]: %NAME%%PURPLE%+2武学艺术:ASN%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK50=3]: %NAME%%PURPLE%+3武学艺术:ASN%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK6=1]: %NAME%%GOLD%+1刺客技能%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK6=2]: %NAME%%GOLD%+2刺客技能%CONTINUE%
+--  ASN（陷阱技能） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK48=1]: %NAME%%GOLD%+1ASN%RED%（陷阱技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK48=2]: %NAME%%GOLD%+2ASN%RED%（陷阱技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK48=3]: %NAME%%GOLD%+3ASN%RED%（陷阱技能）%CONTINUE%
+--  ASN（影子训练） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK49=1]: %NAME%%GOLD%+1ASN%DGREEN%（影子训练）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK49=2]: %NAME%%GOLD%+2ASN%DGREEN%（影子训练）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK49=3]: %NAME%%GOLD%+3ASN%DGREEN%（影子训练）%CONTINUE%
+--  ASN（武学艺术） --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK50=1]: %NAME%%GOLD%+1ASN%PURPLE%（武学艺术）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK50=2]: %NAME%%GOLD%+2ASN%PURPLE%（武学艺术）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) TABSK50=3]: %NAME%%GOLD%+3ASN%PURPLE%（武学艺术）%CONTINUE%
 --  寒冰刃  --
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK274=1]: %NAME%%WHITE%+1%DGREEN%寒冰刃%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK274=2]: %NAME%%WHITE%+2%DGREEN%寒冰刃%CONTINUE%
@@ -803,6 +616,210 @@ ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK277=2]: %NAME%%WHITE%+
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK277=3]: %NAME%%WHITE%+3%DGREEN%刀刃之盾%CONTINUE%
 // ASN Skill END
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK6>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0 OR SK274>0 OR SK267>0 OR SK278>0 OR SK273>0 OR SK258>0 OR SK262>0 OR SK272>0 OR SK271>0 OR SK276>0 OR SK277>0)]: %NAME%%GOLD%]%CONTINUE%
+//╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
+//║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
+//╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
+//║█║                                          任务物品                                         ║█║
+//╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
+//║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
+//╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
+// QUEST ITEMS (ACT 1)
+ItemDisplay[bks]: %NAME%{%TAN%现在是树头木拳的住所%NL%源远流长，被荒野所保护%NL%圣树之皮的碎片}
+ItemDisplay[bkd]: %NAME%{%TAN%寻找先知迪卡凯恩%NL%沉沦魔半神拉卡尼休的遗嘱%NL%去往崔斯特瑞姆的传送门}
+ItemDisplay[hdm]: %NAME%{%TAN%带回给盲眼姐妹会%NL%被古老的赫拉迪克法师强化%NL%因原罪之战的需要而制作}
+// QUEST ITEMS (ACT 2)
+ItemDisplay[ass]: %NAME%{%GOLD%右击阅读%NL%%GRAY%(使用后可以永久增加1个技能点数)%NL%%NL%%TAN%那些留下来倾听的人是有学问的人.}
+ItemDisplay[tr1]: %NAME%{%TAN%进入塔拉夏古墓%NL%寻找捆缚巴尔的线索%NL%战胜堕落的罗达门特，赫拉迪姆木乃伊}
+ItemDisplay[box]: %NAME%{%RED%不要怂，就是瓦！%NL%搏一搏，单车变摩托！%NL%Slam Ur God Damn Items！}
+ItemDisplay[msf]: %NAME%{%TAN%皇室的遗物，尘世的凋零%NL%在节肢动物编织的隧道下面}
+ItemDisplay[vip]: %NAME%{%TAN%巨蛇牙皮栖息在此%NL%无尽的日蚀，埋藏在鳞片下%NL%在黑暗中，一个未佩戴的护身符}
+ItemDisplay[hst]: %NAME%{%TAN%团结法师部落%NL%泰瑞尔的嘱托%NL%黑暗流放者出现}
+// QUEST ITEMS (ACT 3)
+ItemDisplay[j34]: %NAME%{%TAN%团结法师部落%NL%泰瑞尔的嘱托%NL%黑暗流放者出现}
+ItemDisplay[g34]: %NAME%{%TAN%死后的生命%NL%库亚的骨灰%NL%不朽的骨灰盒}
+ItemDisplay[xyz]: %NAME%{%GOLD%右击饮用%NL%%GRAY%(永久增加20生命上限)%NL%%NL%%TAN%永远由现在组成.}
+ItemDisplay[g33]: %NAME%{%TAN%迷失在撒卡兰姆的狂热中%NL%斯卡西姆所制造%NL%魔法的巅峰}
+ItemDisplay[qey]: %NAME%{%TAN%概念通过眼睛唤起.}
+ItemDisplay[qbr]: %NAME%{%TAN%大脑用来滋养思想.}
+ItemDisplay[qhr]: %NAME%{%TAN%心有其原因，而原因一无所知.}
+ItemDisplay[qf1]: %NAME%{%TAN%萨卡兰姆的魁黑钢%NL%不曾堕落的克林姆}
+ItemDisplay[qf2]: %NAME%{%TAN%意志之于优雅就像马之于骑手.}
+ItemDisplay[bbb]: %NAME%{%TAN%地狱魔头的影响%NL%古老库拉斯特的秘密%NL%书中记载了:}
+ItemDisplay[mss]: %NAME%{%TAN%黑暗深渊的诅咒%NL%仇恨无尽的释放}
+// QUEST ITEMS (ACT 4)
+ItemDisplay[hfh]: %NAME%{%TAN%影牙的锻造者%NL%燃烧地狱的传奇}
+// QUEST ITEMS (ACT 5)
+ItemDisplay[ice]: %NAME%{%TAN%喝下它，哪怕你有钢铁般的心肠也能被融化...}
+ItemDisplay[tr2]: %NAME%{%GOLD%右击阅读%NL%%GRAY%(永久增加10所有抗性)%NL%%NL%%TAN%哪里有强权，哪里就有反抗.}
+//╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
+//║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
+//╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
+//║█║                                          特殊物品                                         ║█║                                                                  
+//╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
+//║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
+//╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
+//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
+//║                                      ▬▬▬▬▬ 特殊物品 ▬▬▬▬▬                                     ║ 
+//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
+ItemDisplay[pk1]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%ORANGE%%NAME% (女伯爵) %WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //恐惧之钥
+ItemDisplay[pk2]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%ORANGE%%NAME% (召喚者) %WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //憎恨之钥
+ItemDisplay[pk3]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%ORANGE%%NAME% (尼拉塞克) %WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //毁灭之钥
+ItemDisplay[dhn]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%DGREEN%%NAME%%WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //暗黑破坏神之角
+ItemDisplay[bey]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%DGREEN%%NAME%%WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //巴尔之眼
+ItemDisplay[mbr]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%DGREEN%%NAME%%WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //墨菲斯托之脑
+ItemDisplay[toa]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%———{%GOLD%右键点击洗点%NL%%NL%%TAN%Token of Absolution} //赦免徽章
+ItemDisplay[tes]: %NL%%NAME% (A1.A2)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%4种不同精华合成洗点徽章} //扭曲的苦痛精华
+ItemDisplay[ceh]: %NL%%NAME% (A3)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%4种不同精华合成洗点徽章} //充盈的憎恨精华
+ItemDisplay[bet]: %NL%%NAME% (A4)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%4种不同精华合成洗点徽章} //燃烧的恐惧精华
+ItemDisplay[fed]: %NL%%NAME% (A5)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%4种不同精华合成洗点徽章} //溃烂的毁灭精华
+ItemDisplay[std]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%BORDER(85,1)%%BGCOLOR(60)% //英雄旗帜
+ItemDisplay[leg]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(15)% //维特之腿
+ItemDisplay[cx5]: %NL%%GOLD%★★%WHITE%☆%NAME% (ooc)%WHITE%☆%GOLD%★★%NOTIFY(ITEM)%%MAPICON(5,11)%%BORDER(85,1)%%BGCOLOR(15)%%NL%{%ORANGE%地图:%GREEN%3%变成心悦农场/%PURPLE%22%新增词缀/%WHITE%25%无变化/%DGREEN%50%重新洗牌%NL%%ORANGE%可打孔装备:%RED%25%出随机孔数/%PURPLE%25%新增词缀/%WHITE%25%无变化/%DGREEN%25%报废%NL%%ORANGE%不可打孔装备:%PURPLE%25%新增词缀/%WHITE%50%无变化/%DGREEN%25%报废%NL%%RED%腐化机率:} //腐化宝珠
+ItemDisplay[cx6]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%GOLD%★★%DGREEN%%NAME%%GOLD%★★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //暗黑破坏神的灵魂石
+ItemDisplay[cx7]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%☆☆%DGREEN%%NAME%%WHITE%☆☆%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //混沌之钥
+ItemDisplay[ear]: %ORANGE%%NAME%
+//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
+//║                                  ▬▬▬▬▬ 遗物地图(Relic) ▬▬▬▬▬                                  ║ 
+//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
+ItemDisplay[ma10 !ID]: >>  Relics  <<%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //寒霜洞窟 (Icy Cavern)  BUG無法顯示
+ItemDisplay[ma2 !ID]: >>  Relics  <<%NL%蜃景荒漠%NL%%RED%<T3-Lv88>{%RED%(Forgotten Desert)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //蜃景荒漠 (Forgotten Desert)
+ItemDisplay[ma3 !ID]: >>  Relics  <<%NL%遺棄之地%NL%%DGREEN%<T?-Lv??>{%DGREEN%(Abandoned Precinct)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //遺棄之地 (Abandoned Precinct)
+ItemDisplay[ma4 !ID]: >>  Relics  <<%NL%亵渎教堂%%NL%%GREEN%<T2-Lv87>{%GREEN%(Desecrated Temple)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //亵渎教堂 (Desecrated Temple)
+ItemDisplay[ma5 !ID]: >>  Relics  <<%NL%凜冬高原%NL%%WHITE%<T1-Lv86>{%WHITE%(Frigid Plateau)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //凜冬高原 (Frigid Plateau)
+ItemDisplay[ma6 !ID]: >>  Relics  <<%NL%崩壞堡壘%NL%%RED%<T3-Lv88>{%RED%(Ruined Citadel)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //崩壞堡壘 (Ruined Citadel)
+ItemDisplay[ma7 !ID]: >>  Relics  <<%NL%焚燒森林%NL%%RED%<T3-Lv88>{%RED%(Burnt Forest)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //焚燒森林 (Burnt Forest)
+ItemDisplay[ma8 !ID]: >>  Relics  <<%NL%發霉地穴%NL%%GREEN%<T2-Lv87>{%GREEN%(Musty Crypt)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //發霉地穴 (Musty Crypt)
+ItemDisplay[ma9 !ID]: >>  Relics  <<%NL%昏暗地窖%NL%%GREEN%<T2-Lv87>{%GREEN%(Dim Cellar)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //昏暗地窖 (Dim Cellar)
+ItemDisplay[ma11 !ID]: >>  Relics  <<%NL%悅心農場%NL%%DGREEN%<T0-Lv86>{%DGREEN%(Pleasant Pasture)}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%  //悅心農場 (Pleasant Pasture) BUG無法顯示
+ItemDisplay[MAP !ID]: >>  Relics  <<%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //暂时用这种方式显示寒霜洞窟 (Icy Cavern)
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //寒霜洞窟 (Icy Cavern)  BUG無法顯示
+ItemDisplay[ma2]: (Forgotten Desert)%NL%蜃景荒漠%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{免疫:%BLUE%*冰:160,%RED%***火:130,%YELLOW%**电:100,%GOLD%*物理:100,%DGREEN%***毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //蜃景荒漠 (Forgotten Desert)
+ItemDisplay[ma3]: (Abandoned Precinct)%NL%遺棄之地%NL%%DGREEN%<T?-Lv??>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{免疫:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%WHITE%高抗性:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%ORANGE%地图怪物基础抗性:} //遺棄之地 (Abandoned Precinct)
+ItemDisplay[ma4]: (Desecrated Temple)%NL%亵渎教堂%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{免疫:%BLUE%***冰:190,%RED%***火:140,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:60,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //亵渎教堂 (Desecrated Temple)
+ItemDisplay[ma5]: (Frigid Plateau)%NL%凜冬高原%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{免疫:%BLUE%*冰:150,%RED%*火:140,%YELLOW%*****电:100,%DGREEN%**毒:140%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //凜冬高原 (Frigid Plateau)
+ItemDisplay[ma6]: (Ruined Citadel)%NL%崩壞堡壘%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{免疫:%BLUE%****冰:160,%YELLOW%***电:120,%GOLD%*物理:100,%DGREEN%**毒:120%NL%%WHITE%高抗性:%BLUE%冰:80,%RED%火:66,%YELLOW%电:50,%ORANGE%魔法:70,%GOLD%物理:50,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //崩壞堡壘 (Ruined Citadel)
+ItemDisplay[ma7]: (Burnt Forest)%NL%焚燒森林%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{免疫:%BLUE%***冰:140,%RED%*火:145,%YELLOW%*****电:120,%ORANGE%**魔法:100,%DGREEN%**毒:145%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:20,%GOLD%物理:80,%DGREEN%毒:50%NL%%ORANGE%地图怪物基础抗性:} //焚燒森林 (Burnt Forest)
+ItemDisplay[ma8]: (Musty Crypt)%NL%發霉地穴%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{免疫:%BLUE%****冰:190,%RED%***火:120,%YELLOW%****电:120,%ORANGE%%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:60,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //發霉地穴 (Musty Crypt)
+ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{免疫:%BLUE%**冰:150,%RED%**火:120,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:33,%ORANGE%魔法:0,%GOLD%物理:75,%DGREEN%毒:65%NL%%ORANGE%地图怪物基础抗性:} //昏暗地窖 (Dim Cellar)
+ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心農場%NL%%DGREEN%<T0-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //悅心農場 (Pleasant Pasture) BUG無法顯示
+ItemDisplay[MAP ID]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:}  //暂时用这种方式显示寒霜洞窟 (Icy Cavern) 
+ItemDisplay[maz]: %NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%祝君好运！%NL%你只有一次机会%NL%进入后无法开启传送门，死亡后无法返回}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%//地獄審判
+//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
+//║                                        ▬▬▬▬▬ 卷轴 ▬▬▬▬▬                                       ║
+//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
+ItemDisplay[tsc DIFF=0]: %BLUE%传送
+ItemDisplay[isc DIFF=0]: %GREEN%鉴定
+ItemDisplay[tbk]: %GOLD%%NAME%
+ItemDisplay[ibk]: %GOLD%%NAME%
+//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
+//║                                        ▬▬▬▬▬ 金币 ▬▬▬▬▬                                       ║
+//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
+ItemDisplay[CLVL>89 GOLD>7999]: %NAME% //90级後只顯示8000元以上
+ItemDisplay[(CLVL>79 AND CLVL<90) GOLD>4999]: %NAME% //80~89级只顯示5000元以上
+ItemDisplay[(CLVL>59 AND CLVL<80) GOLD>2499]: %NAME% //60~79级只顯示2500元以上
+ItemDisplay[(CLVL>44 AND CLVL<60) GOLD>999]: %NAME% //45~59级只顯示1000元以上
+ItemDisplay[(CLVL>24 AND CLVL<45) GOLD>499]: %NAME% //25~44级只顯示500元以上
+ItemDisplay[CLVL<25 GOLD>100]: %NAME% //1~24级只顯示100元以上
+ItemDisplay[GOLD>0]:
+//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
+//║                                        ▬▬▬▬▬ 药水 ▬▬▬▬▬                                       ║
+//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
+ItemDisplay[hp1 CLVL<15]: %RED%! %GRAY%H%WHITE%
+ItemDisplay[hp2 CLVL<15]: %RED%! %WHITE%H%WHITE%
+ItemDisplay[mp1 CLVL<15]: %BLUE%! %GRAY%M%WHITE%
+ItemDisplay[mp2 CLVL<15]: %BLUE%! %WHITE%M%WHITE%
+ItemDisplay[hp1 OR mp1]:
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+ItemDisplay[hp2 CLVL<25]: %RED%! %GRAY%H%WHITE%
+ItemDisplay[hp3 CLVL<25]: %RED%! %WHITE%H%WHITE%
+ItemDisplay[mp2 CLVL<25]: %BLUE%! %GRAY%M%WHITE%
+ItemDisplay[mp3 CLVL<25]: %BLUE%! %WHITE%M%WHITE%
+ItemDisplay[hp2 OR mp2]:
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+ItemDisplay[hp3 CLVL<40]: %RED%! %GRAY%H%WHITE%
+ItemDisplay[hp4 CLVL<40]: %RED%! %WHITE%H%WHITE%
+ItemDisplay[mp3 CLVL<40]: %BLUE%! %GRAY%M%WHITE%
+ItemDisplay[mp4 CLVL<40]: %BLUE%! %WHITE%M%WHITE%
+ItemDisplay[hp3 OR mp3]:
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+ItemDisplay[hp4 CLVL<60]: %RED%! %GRAY%H%WHITE%
+ItemDisplay[hp5 (FILTERLVL=1 OR FILTERLVL=3 OR FILTERLVL=5 OR FILTERLVL=7)]: %RED%! %WHITE%H%WHITE%
+ItemDisplay[mp4 CLVL<60]: %BLUE%! %GRAY%M%WHITE%
+ItemDisplay[mp5 (FILTERLVL=1 OR FILTERLVL=3 OR FILTERLVL=5 OR FILTERLVL=7)]: %BLUE%! %WHITE%M%WHITE%
+ItemDisplay[hp4 OR mp4]:
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+ItemDisplay[rvs]: %PURPLE%r %GRAY%35%%BGCOLOR(15)%%BORDER(4,1)%
+ItemDisplay[rvl]: %NL%%PURPLE%R %WHITE%70%%NL%%BGCOLOR(15)%%BORDER(4,1)%
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+// 10级後刪除没用的各类投掷瓶
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>9]:
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+// 钥匙
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+ItemDisplay[key]: {%WHITE%我的昵称是 %RED%沐红衣%NL%%WHITE%请加入 %ORANGE%QQ群:921724765%NL%%WHITE%有任何 %ORANGE%意见%WHITE%/%ORANGE%建议 %WHITE%或者发现 %ORANGE%Bugs}%CONTINUE%
+ItemDisplay[key FILTERLVL=1]: k
+//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
+//║                                        ▬▬▬▬▬ 宝石 ▬▬▬▬▬                                       ║
+//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
+ItemDisplay[gzv FILTERLVL<6]: %WHITE%紫 %GRAY%[%PURPLE%●%GRAY%]%BORDER(4,1)%
+ItemDisplay[glw FILTERLVL<4]: %WHITE%钻 %GRAY%[%WHITE%●%GRAY%]%BORDER(4,1)%
+ItemDisplay[glg FILTERLVL<4]: %WHITE%绿 %GRAY%[%GREEN%●%GRAY%]%BORDER(4,1)%
+ItemDisplay[glr FILTERLVL<6]: %WHITE%红 %GRAY%[%RED%●%GRAY%]%BORDER(4,1)%
+ItemDisplay[glb FILTERLVL<4]: %WHITE%蓝 %GRAY%[%BLUE%●%GRAY%]%BORDER(4,1)%
+ItemDisplay[gly FILTERLVL<4]: %WHITE%黄 %GRAY%[%YELLOW%●%GRAY%]%BORDER(4,1)%
+ItemDisplay[skl]: %GOLD%骷髅 %GRAY%[%GRAY%●%GRAY%]%BORDER(4,1)%%BGCOLOR(15)%
+ItemDisplay[gpv]: %ORANGE%[P] %WHITE%紫 %GRAY%[%PURPLE%●%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
+ItemDisplay[gpw]: %ORANGE%[P] %WHITE%钻 %GRAY%[%WHITE%●%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
+ItemDisplay[gpg]: %ORANGE%[P] %WHITE%绿 %GRAY%[%GREEN%●%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
+ItemDisplay[gpr]: %ORANGE%[P] %WHITE%红 %GRAY%[%RED%●%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
+ItemDisplay[gpb]: %ORANGE%[P] %WHITE%蓝 %GRAY%[%BLUE%●%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
+ItemDisplay[gpy]: %ORANGE%[P] %WHITE%黄 %GRAY%[%YELLOW%●%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
+ItemDisplay[skz]: %ORANGE%[P] %GOLD%骷髅 %GRAY%[%GRAY%●%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku)]: ★%NAME%★%CONTINUE% // 一般
+ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf)]: ★%NAME%★%CONTINUE% // 缺陷
+ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc)]: ★%NAME%★%CONTINUE% // 碎裂
+ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku) DIFF>0]: // 一般
+ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf) DIFF>0]: // 缺陷
+ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) DIFF>0]: // 碎裂
+//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
+//║                                      ▬▬▬▬▬ # RUNES ▬▬▬▬▬                                      ║
+//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
+ItemDisplay[r01 FILTERLVL=1]: %NOTIFY(WHITE)%%WHITE%El %WHITE%[#1]
+ItemDisplay[r02 FILTERLVL=1]: %NOTIFY(WHITE)%%WHITE%Eld %WHITE%[#2]
+ItemDisplay[r03 FILTERLVL=1]: %NOTIFY(WHITE)%%WHITE%Tir %WHITE%[#3]
+ItemDisplay[r04 FILTERLVL<4]: %NOTIFY(ORANGE)%%ORANGE%Nef %WHITE%[#4]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:Blood Glove]}
+ItemDisplay[r05 FILTERLVL=1]: %NOTIFY(WHITE)%%WHITE%Eth %WHITE%[#5]
+ItemDisplay[r06 FILTERLVL<4]: %NOTIFY(ORANGE)%%ORANGE%Ith %WHITE%[#6]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:Caster Belt]}
+ItemDisplay[r07 FILTERLVL<4]: %NOTIFY(ORANGE)%%WHITE%Tal %WHITE%[#7]
+ItemDisplay[r08 FILTERLVL<6]: %NOTIFY(ORANGE)%%ORANGE%Ral %WHITE%[#8]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:Caster Amu]}
+ItemDisplay[r09 FILTERLVL<4]: %NOTIFY(ORANGE)%%ORANGE%Ort %WHITE%[#9]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:Hit Gloves]}
+ItemDisplay[r10 FILTERLVL<4]: %NOTIFY(ORANGE)%%ORANGE%Thul %WHITE%[#10]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:Caster Boot]}
+ItemDisplay[r11 FILTERLVL<6]: %NOTIFY(ORANGE)%%ORANGE%Amn %WHITE%[#11]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:Blood Amu]}
+ItemDisplay[r12 FILTERLVL<6]: %NOTIFY(ORANGE)%%ORANGE%Sol %WHITE%[#12]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:HP Ring]}
+ItemDisplay[r13 FILTERLVL<4]: %NOTIFY(WHITE)%%WHITE%Shael %GREEN%[#13]
+ItemDisplay[r14]: %NOTIFY(GREEN)%%NL%%GREEN%Dol %RED%[#14]%NL%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[↑武器↑]}
+ItemDisplay[r15]: %NOTIFY(GREEN)%%NL%%GREEN%Hel %RED%[#15]%NL%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[↑防具↑]}
+ItemDisplay[r16]: %NOTIFY(GREEN)%%NL%%GREEN%Io %RED%[#16]%NL%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[↑防具↑]}
+ItemDisplay[r17]: %NOTIFY(GREEN)%%NL%%GREEN%Lum %RED%[#17]%NL%%BORDER(85,1)%%BGCOLOR(15)%{%GOLD%[↑武器↑]}
+ItemDisplay[r18]: %NOTIFY(GREEN)%%NL%%GREEN%Ko %RED%[#18]%NL%%BORDER(85,1)%%BGCOLOR(15)%{%GOLD%[↑防%YELLOW%具↑]}
+ItemDisplay[r19]: %NOTIFY(GREEN)%%NL%%GREEN%Fal %RED%[#19]%NL%%BORDER(85,1)%%BGCOLOR(15)%{%YELLOW%[↑武器↑]}
+ItemDisplay[r20]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Lem  %YELLOW%[#20] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r21]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Pul  %YELLOW%[#21] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(66)%
+ItemDisplay[r22]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Um  %YELLOW%[#22] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r23]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Mal  %YELLOW%[#23] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r24]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%>>  Ist %YELLOW%[#24] %ORANGE%<<%RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r25]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%>>  Gul %YELLOW%[#25] %ORANGE%<<%RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r26]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%☆☆%RED%>>>>%GOLD%>>  Vex %YELLOW%[#26] %GOLD%<<%RED%<<<<%PURPLE%☆☆%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r27]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%☆☆%RED%>>>>%GOLD%>>  Ohm %YELLOW%[#27] %GOLD%<<%RED%<<<<%PURPLE%☆☆%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r28]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Lo  %PURPLE%[#28] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r29]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Sur  %PURPLE%[#29] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r30]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%★★%PURPLE%★★%YELLOW%☆☆%GOLD%★★>>%RED%>>>>  %GOLD%Ber  %PURPLE%[#30] %RED%<<<<%GOLD%<<★★%YELLOW%☆☆%PURPLE%★★%RED%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r31]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%★★%PURPLE%★★%YELLOW%☆☆%GOLD%★★>>%RED%>>>>  %GOLD%Jah  %PURPLE%[#31] %RED%<<<<%GOLD%<<★★%YELLOW%☆☆%PURPLE%★★%RED%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r32]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Cham  %PURPLE%[#32] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r33]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Zod   %PURPLE%[#33] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -878,34 +895,34 @@ ItemDisplay[UNI cm3]: %NAME%%NOTIFY(GOLD)%%BORDER(85,1)%%MAPICON(31,18)%{%BLUE%+
 //──── Grand Charm ────(MAG)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //  前缀 
-ItemDisplay[cm3 TABSK0=1]: %NAME%%NL%%GOLD%AMA%RED%（弓弩技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK1=1]: %NAME%%NL%%GOLD%AMA%DGREEN%（被动技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK2=1]: %NAME%%NL%%GOLD%AMA%PURPLE%（标枪技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK8=1]: %NAME%%NL%%GOLD%SOR%RED%（火焰技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK9=1]: %NAME%%NL%%GOLD%SOR%DGREEN%（闪电技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK10=1]: %NAME%%NL%%GOLD%SOR%PURPLE%（冰霜技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK16=1]: %NAME%%NL%%GOLD%NEC%RED%（诅咒技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK17=1]: %NAME%%NL%%GOLD%NEC%DGREEN%（毒骨技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK18=1]: %NAME%%NL%%GOLD%NEC%PURPLE%（召唤技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK24=1]: %NAME%%NL%%GOLD%PAL%RED%（战斗技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK25=1]: %NAME%%NL%%GOLD%PAL%DGREEN%（进攻光环）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK26=1]: %NAME%%NL%%GOLD%PAL%PURPLE%（防御光环）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK32=1]: %NAME%%NL%%GOLD%BAR%RED%（战斗技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK33=1]: %NAME%%NL%%GOLD%BAR%DGREEN%（支配技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK34=1]: %NAME%%NL%%GOLD%BAR%PURPLE%（战吼技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK40=1]: %NAME%%NL%%GOLD%DRU%RED%（召唤技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK41=1]: %NAME%%NL%%GOLD%DRU%DGREEN%（变形技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK42=1]: %NAME%%NL%%GOLD%DRU%PURPLE%（元素技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK48=1]: %NAME%%NL%%GOLD%ASN%RED%（陷阱技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK49=1]: %NAME%%NL%%GOLD%ASN%DGREEN%（影子训练）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
-ItemDisplay[cm3 TABSK50=1]: %NAME%%NL%%GOLD%ASN%PURPLE%（武学艺术）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK0=1]: %NAME%%NL%%GOLD%+1AMA%RED%（弓弩技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK1=1]: %NAME%%NL%%GOLD%+1AMA%DGREEN%（被动技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK2=1]: %NAME%%NL%%GOLD%+1AMA%PURPLE%（标枪技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK8=1]: %NAME%%NL%%GOLD%+1SOR%RED%（火焰技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK9=1]: %NAME%%NL%%GOLD%+1SOR%DGREEN%（闪电技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK10=1]: %NAME%%NL%%GOLD%+1SOR%PURPLE%（冰霜技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK16=1]: %NAME%%NL%%GOLD%+1NEC%RED%（诅咒技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK17=1]: %NAME%%NL%%GOLD%+1NEC%DGREEN%（毒骨技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK18=1]: %NAME%%NL%%GOLD%+1NEC%PURPLE%（召唤技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK24=1]: %NAME%%NL%%GOLD%+1PAL%RED%（战斗技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK25=1]: %NAME%%NL%%GOLD%+1PAL%DGREEN%（进攻光环）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK26=1]: %NAME%%NL%%GOLD%+1PAL%PURPLE%（防御光环）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK32=1]: %NAME%%NL%%GOLD%+1BAR%RED%（战斗技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK33=1]: %NAME%%NL%%GOLD%+1BAR%DGREEN%（支配技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK34=1]: %NAME%%NL%%GOLD%+1BAR%PURPLE%（战吼技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK40=1]: %NAME%%NL%%GOLD%+1DRU%RED%（召唤技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK41=1]: %NAME%%NL%%GOLD%+1DRU%DGREEN%（变形技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK42=1]: %NAME%%NL%%GOLD%+1DRU%PURPLE%（元素技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK48=1]: %NAME%%NL%%GOLD%+1ASN%RED%（陷阱技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK49=1]: %NAME%%NL%%GOLD%+1ASN%DGREEN%（影子训练）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
+ItemDisplay[cm3 TABSK50=1]: %NAME%%NL%%GOLD%+1ASN%PURPLE%（武学艺术）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%
 ItemDisplay[cm3 STAT22>8 STAT22<11]: %NAME%%NL%%GOLD%+%STAT(22,0)%MAX%CONTINUE%
 ItemDisplay[cm3 FRES>27]: %NAME%%NL%%RED%+%STAT(39,0)%%火炕%CONTINUE%
 ItemDisplay[cm3 LRES>27]: %NAME%%NL%%YELLOW%+%STAT(41,0)%%电抗%CONTINUE%
 ItemDisplay[cm3 CRES>27]: %NAME%%NL%%BLUE%+%STAT(43,0)%%冰抗%CONTINUE%
 ItemDisplay[cm3 PRES>27]: %NAME%%NL%%GREEN%+%STAT(45,0)%%毒抗%CONTINUE%
 ItemDisplay[cm3 RES>12]: %NAME%%NL%%GOLD%+%STAT(39,0)%%%RED%所%PURPLE%有%ORANGE%抗%DGREEN%性%CONTINUE%
-ItemDisplay[cm3 MANA>39]: %NAME%%NL%%BLUE%+%STAT(9,0)%法力%CONTINUE%
+ItemDisplay[cm3 MANA>39 (LIFE>0 OR FHR>0)]: %NAME%%NL%%BLUE%+%STAT(9,0)%法力%CONTINUE%
 ItemDisplay[cm3 STAT22>11]: %NAME%%NL%%GOLD%+%STAT(22,0)%MAX%NOTIFY(ITEM)%%CONTINUE%
 ItemDisplay[cm3 AR>48 LIFE>0 !(TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR STAT22>8 OR FRES>27 OR LRES>27 OR CRES>27 OR PRES>27 OR RES>12 OR MANA>39)]: %NAME%%NL%%GOLD%+%STAT(19,0)%AR%CONTINUE%
 ItemDisplay[cm3 AR>48 (TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR STAT22>8 OR FRES>27 OR LRES>27 OR CRES>27 OR PRES>27 OR RES>12 OR MANA>39)]: %NAME%%GOLD%+%STAT(19,0)%AR%CONTINUE%
@@ -963,7 +980,7 @@ ItemDisplay[cm1 MFIND>5 !(MAXDMG>2 OR STAT49>19 OR STAT51>43 OR STAT55>14 OR STA
 ItemDisplay[MAG cm1 !ID FILTERLVL<6]: %NL%%NAME%%NOTIFY(ITEM)%%MAPICON(31,11)%%NL%%BORDER(4,1)%%BGCOLOR(15)%
 ItemDisplay[MAG cm2 !ID FILTERLVL=1]: %NAME%
 ItemDisplay[MAG cm3 !ID]: %NL%%NAME%%NOTIFY(ITEM)%%MAPICON(31,11)%%NL%%BORDER(4,1)%%BGCOLOR(15)%
-ItemDisplay[(cm1 OR cm2 OR cm3) ID]: %NAME%%BORDER(4,1)%
+ItemDisplay[(cm1 OR cm2 OR cm3) ID]: %NAME%
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
