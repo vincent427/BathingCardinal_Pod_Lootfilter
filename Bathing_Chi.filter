@@ -5,8 +5,8 @@
 //║█║ 版本:V-PTR                                                                                ║█║
 //║█║ 過濾器說明 http://pathofdiablo.com/wiki/index.php/Loot_Filtration                         ║█║
 //║█║ 過濾器代碼 https://pathofdiablo.com/wiki/index.php?title=Talk:Loot_Filtration_Codes#Edit_Permissions            
-//║█║ 重要提醒:                                                                                 ║█║
-//║█║            发现任何BUG可以联系QQ:33752753 或者在群内(921724765)直接@我                    ║█║
+//║█║ 过滤器地址 https://raw.githubusercontent.com/vincent427/BathingCardinal_Pod_Lootfilter/main/Bathing_Chi.filter                                                                              
+//║█║ 发现任何BUG可以联系QQ:33752753 或者在群内(921724765)直接@我                               ║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
@@ -17,18 +17,18 @@
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
-FilterLevel[1]: L1:显示大部分物品(开荒或者常规用)
-FilterLevel[2]: L2:屏蔽低价值符文/底材(刷高级图用)
+FilterLevel[1]: L1:开荒或者常规用
+FilterLevel[2]: L2:刷高级图用
 FilterLevel[3]: L2的基础上显示药水+DIY区
-FilterLevel[4]: L3:屏蔽低价值亮金/套装(超大后期用)
+FilterLevel[4]: L3:超大后期用
 FilterLevel[5]: L3的基础上显示药水+DIY区
-FilterLevel[6]: L4:只显示极少量高价值物品(慎用!)
+FilterLevel[6]: L4:慎用!
 FilterLevel[7]: L4的基础上显示药水+DIY区
 //说明：────────────────────────────────────────────────────────────────────────────────────────────
-L1：（1）   常规用
-L2：（2~3）屏蔽部分底材、屏蔽#1#2#3#5、屏蔽蓝色项链戒指、屏蔽亮金手套、鞋子、腰带、职业头等
-L3：（4~5）屏蔽更多底材、屏蔽#4#6#7#9#10#13、屏蔽黄、蓝、绿、钻、屏蔽所有亮金只剩下头环/戒指/项链/箭袋/爪/AMA标枪、屏蔽所有非中、高价值暗金、套装
-L4：（6~7）屏蔽绝大部分底材、屏蔽#8#11#12、屏蔽所有亮金、屏蔽紫、红、屏蔽未鉴定SC/JEW（留GC）、屏蔽中价值暗金、套装（留高价值）
+L1：（1）   适合常规使用，仅屏蔽掉无用杂物
+L2：（2~3）刷高级图用，屏蔽部分底材，屏蔽#1#2#3#5符文，屏蔽蓝色项链、戒指、BAR头、AMA标枪，屏蔽亮金手套、鞋子、腰带、职业头等
+L3：（4~5）超级大后期用，屏蔽更多底材，额外屏蔽#4#6#7#9#10#13符文，屏蔽无瑕疵的黄、蓝、绿、钻，屏蔽所有亮金只剩下头环/戒指/项链/箭袋/爪/AMA标枪，屏蔽所有非中，高价值暗金、套装
+L4：（6~7）慎用！屏蔽绝大部分底材，额外屏蔽#8#11#12符文，屏蔽所有亮金，屏蔽无瑕疵紫、红宝石，屏蔽未鉴定SC/JEW（留GC），屏蔽中价值暗金、套装（留高价值）
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -173,12 +173,18 @@ ItemDisplay[UNI ID upk STAT238>0 STAT36>14]: %NAME%{%WHITE%天生孔数:%TAN%(%W
 //║                                  ▬▬▬▬▬ 装备升级公式提示 ▬▬▬▬▬                                 ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 // ARMOR'S UPGRADING RECIPE
-ItemDisplay[UNI ID NORM ARMOR]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#7]+[#13]+%WHITE%P●}%CONTINUE%
-ItemDisplay[UNI ID EXC ARMOR]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#18]+[#20]+%WHITE%P●}%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID NORM ARMOR]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#8]+[#10]+%PURPLE%P●}%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID EXC ARMOR]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#18]+[#21]+%PURPLE%P●}%CONTINUE%
-ItemDisplay[SET ID NORM ARMOR]: %NAME%{%NAME%%WHITE%升级:%GREEN% [#2]+[#6]+%YELLOW%P●}%CONTINUE%
-ItemDisplay[SET ID EXC ARMOR]: %NAME%{%NAME%%WHITE%升级:%GREEN% [#15]+[#16]+%YELLOW%P●}%CONTINUE%
+ItemDisplay[UNI ID NORM ARMOR !(EQ4 OR EQ5 OR EQ6)]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#7]+[#13]+%WHITE%P●}%CONTINUE%
+ItemDisplay[UNI ID EXC ARMOR !(EQ4 OR EQ5 OR EQ6)]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#18]+[#20]+%WHITE%P●}%CONTINUE%
+ItemDisplay[UNI ID NORM ARMOR (EQ4 OR EQ5 OR EQ6)]: %NAME%{%WHITE%升级:%GREEN% [#7]+[#13]+%WHITE%P●}%CONTINUE%
+ItemDisplay[UNI ID EXC ARMOR (EQ4 OR EQ5 OR EQ6)]: %NAME%{%WHITE%升级:%GREEN% [#18]+[#20]+%WHITE%P●}%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID NORM ARMOR !(EQ4 OR EQ5 OR EQ6)]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#8]+[#10]+%PURPLE%P●}%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID EXC ARMOR !(EQ4 OR EQ5 OR EQ6)]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#18]+[#21]+%PURPLE%P●}%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID NORM ARMOR (EQ4 OR EQ5 OR EQ6)]: %NAME%{%WHITE%升级:%GREEN% [#8]+[#10]+%PURPLE%P●}%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID EXC ARMOR (EQ4 OR EQ5 OR EQ6)]: %NAME%{%WHITE%升级:%GREEN% [#18]+[#21]+%PURPLE%P●}%CONTINUE%
+ItemDisplay[SET ID NORM ARMOR !(EQ4 OR EQ5 OR EQ6)]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#2]+[#6]+%YELLOW%P●}%CONTINUE%
+ItemDisplay[SET ID EXC ARMOR !(EQ4 OR EQ5 OR EQ6)]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#15]+[#16]+%YELLOW%P●}%CONTINUE%
+ItemDisplay[SET ID NORM ARMOR (EQ4 OR EQ5 OR EQ6)]: %NAME%{%WHITE%升级:%GREEN% [#2]+[#6]+%YELLOW%P●}%CONTINUE%
+ItemDisplay[SET ID EXC ARMOR (EQ4 OR EQ5 OR EQ6)]: %NAME%{%WHITE%升级:%GREEN% [#15]+[#16]+%YELLOW%P●}%CONTINUE%
 // WEAPON'S UPGRADING RECIPE
 ItemDisplay[UNI ID NORM WEAPON]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#8]+[#12]+%GREEN%P●}%CONTINUE%
 ItemDisplay[UNI ID EXC WEAPON]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#17]+[#21]+%GREEN%P●}%CONTINUE%
@@ -693,17 +699,17 @@ ItemDisplay[ma9 !ID]: >>  Relics  <<%NL%昏暗地窖%NL%%GREEN%<T2-Lv87>{%GREEN%
 ItemDisplay[ma11 !ID]: >>  Relics  <<%NL%悅心農場%NL%%DGREEN%<T0-Lv86>{%DGREEN%(Pleasant Pasture)}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%  //悅心農場 (Pleasant Pasture) BUG無法顯示
 ItemDisplay[MAP !ID]: >>  Relics  <<%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //暂时用这种方式显示寒霜洞窟 (Icy Cavern)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //寒霜洞窟 (Icy Cavern)  BUG無法顯示
-ItemDisplay[ma2]: (Forgotten Desert)%NL%蜃景荒漠%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{免疫:%BLUE%*冰:160,%RED%***火:130,%YELLOW%**电:100,%GOLD%*物理:100,%DGREEN%***毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma3]: (Abandoned Precinct)%NL%遺棄之地%NL%%DGREEN%<T?-Lv??>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{免疫:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%WHITE%高抗性:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%ORANGE%地图怪物基础抗性:} //遺棄之地 (Abandoned Precinct)
-ItemDisplay[ma4]: (Desecrated Temple)%NL%亵渎教堂%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{免疫:%BLUE%***冰:190,%RED%***火:140,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:60,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //亵渎教堂 (Desecrated Temple)
-ItemDisplay[ma5]: (Frigid Plateau)%NL%凜冬高原%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{免疫:%BLUE%*冰:150,%RED%*火:140,%YELLOW%*****电:100,%DGREEN%**毒:140%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma6]: (Ruined Citadel)%NL%崩壞堡壘%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{免疫:%BLUE%****冰:160,%YELLOW%***电:120,%GOLD%*物理:100,%DGREEN%**毒:120%NL%%WHITE%高抗性:%BLUE%冰:80,%RED%火:66,%YELLOW%电:50,%ORANGE%魔法:70,%GOLD%物理:50,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7]: (Burnt Forest)%NL%焚燒森林%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{免疫:%BLUE%***冰:140,%RED%*火:145,%YELLOW%*****电:120,%ORANGE%**魔法:100,%DGREEN%**毒:145%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:20,%GOLD%物理:80,%DGREEN%毒:50%NL%%ORANGE%地图怪物基础抗性:} //焚燒森林 (Burnt Forest)
-ItemDisplay[ma8]: (Musty Crypt)%NL%發霉地穴%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{免疫:%BLUE%****冰:190,%RED%***火:120,%YELLOW%****电:120,%ORANGE%%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:60,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //發霉地穴 (Musty Crypt)
-ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{免疫:%BLUE%**冰:150,%RED%**火:120,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:33,%ORANGE%魔法:0,%GOLD%物理:75,%DGREEN%毒:65%NL%%ORANGE%地图怪物基础抗性:} //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心農場%NL%%DGREEN%<T0-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //悅心農場 (Pleasant Pasture) BUG無法顯示
-ItemDisplay[MAP ID]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:}  //暂时用这种方式显示寒霜洞窟 (Icy Cavern) 
+ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //寒霜洞窟 (Icy Cavern)  BUG無法顯示
+ItemDisplay[ma2]: (Forgotten Desert)%NL%蜃景荒漠%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%*冰:160,%RED%***火:130,%YELLOW%**电:100,%GOLD%*物理:100,%DGREEN%***毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //蜃景荒漠 (Forgotten Desert)
+ItemDisplay[ma3]: (Abandoned Precinct)%NL%遺棄之地%NL%%DGREEN%<T?-Lv??>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%WHITE%高抗性:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%ORANGE%地图怪物基础抗性:} //遺棄之地 (Abandoned Precinct)
+ItemDisplay[ma4]: (Desecrated Temple)%NL%亵渎教堂%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%***冰:190,%RED%***火:140,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:60,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //亵渎教堂 (Desecrated Temple)
+ItemDisplay[ma5]: (Frigid Plateau)%NL%凜冬高原%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%免疫:%BLUE%*冰:150,%RED%*火:140,%YELLOW%*****电:100,%DGREEN%**毒:140%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //凜冬高原 (Frigid Plateau)
+ItemDisplay[ma6]: (Ruined Citadel)%NL%崩壞堡壘%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%****冰:160,%YELLOW%***电:120,%GOLD%*物理:100,%DGREEN%**毒:120%NL%%WHITE%高抗性:%BLUE%冰:80,%RED%火:66,%YELLOW%电:50,%ORANGE%魔法:70,%GOLD%物理:50,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //崩壞堡壘 (Ruined Citadel)
+ItemDisplay[ma7]: (Burnt Forest)%NL%焚燒森林%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%***冰:140,%RED%*火:145,%YELLOW%*****电:120,%ORANGE%**魔法:100,%DGREEN%**毒:145%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:20,%GOLD%物理:80,%DGREEN%毒:50%NL%%ORANGE%地图怪物基础抗性:} //焚燒森林 (Burnt Forest)
+ItemDisplay[ma8]: (Musty Crypt)%NL%發霉地穴%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%****冰:190,%RED%***火:120,%YELLOW%****电:120,%ORANGE%%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:60,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //發霉地穴 (Musty Crypt)
+ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%**冰:150,%RED%**火:120,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:33,%ORANGE%魔法:0,%GOLD%物理:75,%DGREEN%毒:65%NL%%ORANGE%地图怪物基础抗性:} //昏暗地窖 (Dim Cellar)
+ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心農場%NL%%DGREEN%<T0-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //悅心農場 (Pleasant Pasture) BUG無法顯示
+ItemDisplay[MAP ID]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:}  //暂时用这种方式显示寒霜洞窟 (Icy Cavern) 
 ItemDisplay[maz]: %NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%祝君好运！%NL%你只有一次机会%NL%进入后无法开启传送门，死亡后无法返回}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%//地獄審判
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                        ▬▬▬▬▬ 卷轴 ▬▬▬▬▬                                       ║
@@ -1292,10 +1298,14 @@ ItemDisplay[(amb OR amc) NMAG !INF !RW TABSK0=3 SOCK=0 !SUP FILTERLVL=1]: %DGREE
 //║                               ▬▬▬▬▬ !NMAG装备重要属性提示 ▬▬▬▬▬                               ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 //──── 手工物品提示 ────
-ItemDisplay[CRAFT ((rin STR>0 STAT60>0 LIFE>9) OR (amu FRW>4 STAT60>0 LIFE>9) OR (GLOVES STAT136>4 STAT60>0 LIFE>9) OR (BELT STAT135>4 STAT60>0 LIFE>9) OR (BOOTS REPLIFE>4 STAT60>0 LIFE>9) OR (HELM STAT141>4 STAT60>0 LIFE>9) OR (WEAPON ED>34 STAT60>0 LIFE>9) OR (SHIELD STAT78>3 STAT60>0 LIFE>9) OR (EQ2 STAT139>0 STAT60>0 LIFE>9))]: %NAME%{%RED%>%GREEN%>%ORANGE%>   %RED%Blood Type   %ORANGE%<%GREEN%<%RED%<}%CONTINUE%
-ItemDisplay[CRAFT ((rin STAT1>0 STAT27>3 MANA>9) OR (amu FCR>4 STAT27>3 MANA>9) OR (GLOVES MAEK>0 STAT27>3 MANA>9) OR (BELT FCR>4 STAT27>3 MANA>9) OR (BOOTS STAT77>1 STAT27>3 MANA>9) OR (HELM STAT62>0 STAT27>3 MANA>9) OR (WEAPON STAT77>0 STAT27>3 MANA>9) OR (SHIELD STAT20>4 STAT27>3 MANA>9) OR (EQ2 MAEK>1 STAT27>3 MANA>9))]: %NAME%{%RED%>%GREEN%>%ORANGE%>   %PURPLE%Caster Type   %ORANGE%<%GREEN%<%RED%<}%CONTINUE%
-ItemDisplay[CRAFT ((rin STAT3>0 STAT34>0 STAT35>0) OR (amu STAT20>0 STAT34>0 STAT35>0) OR (GLOVES CRES>4 STAT34>0 STAT35>0) OR (BELT PRES>4 STAT34>0 STAT35>0) OR (BOOTS FRES>4 STAT34>0 STAT35>0) OR (HELM LRES>4 STAT34>0 STAT35>0) OR (WEAPON STAT34>0 STAT35>0) OR (SHIELD STAT37>4 STAT34>0 STAT35>0) OR (EQ2 STAT34>0 STAT35>0))]: %NAME%{%RED%>%GREEN%>%ORANGE%>   %GREEN%Safety Type   %ORANGE%<%GREEN%<%RED%<}%CONTINUE%
-ItemDisplay[CRAFT ((rin STAT78>2) OR (amu STAT78>2) OR (GLOVES STAT78>2) OR (BELT STAT114>4 STAT78>2) OR (BOOTS STAT78>2) OR (HELM STAT78>2) OR (WEAPON ED>34 STAT78>2) OR (SHIELD STAT20>4 STAT78>2) OR (EQ2 FHR>9 STAT78>2))]: %NAME%{%RED%>%GREEN%>%ORANGE%>   %YELLOW%Hitpower Type   %ORANGE%<%GREEN%<%RED%<}%CONTINUE%
+ItemDisplay[CRAFT ((rin STR>0 STAT60>0 LIFE>9) OR (amu FRW>4 STAT60>0 LIFE>9) OR (GLOVES ELT STAT136>4 STAT60>0 LIFE>9) OR (BELT ELT STAT135>4 STAT60>0 LIFE>9) OR (BOOTS ELT REPLIFE>4 STAT60>0 LIFE>9))]: %NAME%{%RED%>%GREEN%>%ORANGE%>   %RED%Blood Type   %ORANGE%<%GREEN%<%RED%<}%CONTINUE%
+ItemDisplay[CRAFT ((rin STAT1>0 STAT27>3 MANA>9) OR (amu FCR>4 STAT27>3 MANA>9) OR (GLOVES ELT MAEK>0 STAT27>3 MANA>9) OR (BELT ELT FCR>4 STAT27>3 MANA>9) OR (BOOTS ELT STAT77>1 STAT27>3 MANA>9))]: %NAME%{%RED%>%GREEN%>%ORANGE%>   %PURPLE%Caster Type   %ORANGE%<%GREEN%<%RED%<}%CONTINUE%
+ItemDisplay[CRAFT ((rin STAT3>0 STAT34>0 STAT35>0) OR (amu STAT20>0 STAT34>0 STAT35>0) OR (GLOVES ELT CRES>4 STAT34>0 STAT35>0) OR (BELT ELT PRES>4 STAT34>0 STAT35>0) OR (BOOTS ELT FRES>4 STAT34>0 STAT35>0))]: %NAME%{%RED%>%GREEN%>%ORANGE%>   %GREEN%Safety Type   %ORANGE%<%GREEN%<%RED%<}%CONTINUE%
+ItemDisplay[CRAFT ((rin STAT78>2) OR (amu STAT78>2) OR (GLOVES ELT STAT78>2) OR (BELT ELT STAT114>4 STAT78>2) OR (BOOTS ELT STAT78>2))]: %NAME%{%RED%>%GREEN%>%ORANGE%>   %YELLOW%Hitpower Type   %ORANGE%<%GREEN%<%RED%<}%CONTINUE%
+ItemDisplay[CRAFT ((GLOVES !ELT STAT136>4 STAT60>0 LIFE>9) OR (BELT !ELT STAT135>4 STAT60>0 LIFE>9) OR (BOOTS !ELT REPLIFE>4 STAT60>0 LIFE>9) OR (HELM STAT141>4 STAT60>0 LIFE>9) OR (WEAPON ED>34 STAT60>0 LIFE>9) OR (SHIELD STAT78>3 STAT60>0 LIFE>9) OR (EQ2 STAT139>0 STAT60>0 LIFE>9))]: %NAME%{%NAME%%NL%%RED%>%GREEN%>%ORANGE%>   %RED%Blood Type   %ORANGE%<%GREEN%<%RED%<}%CONTINUE%
+ItemDisplay[CRAFT ((GLOVES !ELT MAEK>0 STAT27>3 MANA>9) OR (BELT !ELT FCR>4 STAT27>3 MANA>9) OR (BOOTS !ELT STAT77>1 STAT27>3 MANA>9) OR (HELM STAT62>0 STAT27>3 MANA>9) OR (WEAPON STAT77>0 STAT27>3 MANA>9) OR (SHIELD STAT20>4 STAT27>3 MANA>9) OR (EQ2 MAEK>1 STAT27>3 MANA>9))]: %NAME%{%NAME%%NL%%RED%>%GREEN%>%ORANGE%>   %PURPLE%Caster Type   %ORANGE%<%GREEN%<%RED%<}%CONTINUE%
+ItemDisplay[CRAFT ((GLOVES !ELT CRES>4 STAT34>0 STAT35>0) OR (BELT !ELT PRES>4 STAT34>0 STAT35>0) OR (BOOTS !ELT FRES>4 STAT34>0 STAT35>0) OR (HELM LRES>4 STAT34>0 STAT35>0) OR (WEAPON STAT34>0 STAT35>0) OR (SHIELD STAT37>4 STAT34>0 STAT35>0) OR (EQ2 STAT34>0 STAT35>0))]: %NAME%{%NAME%%NL%%RED%>%GREEN%>%ORANGE%>   %GREEN%Safety Type   %ORANGE%<%GREEN%<%RED%<}%CONTINUE%
+ItemDisplay[CRAFT ((GLOVES !ELT STAT78>2) OR (BELT !ELT STAT114>4 STAT78>2) OR (BOOTS !ELT STAT78>2) OR (HELM STAT78>2) OR (WEAPON ED>34 STAT78>2) OR (SHIELD STAT20>4 STAT78>2) OR (EQ2 FHR>9 STAT78>2))]: %NAME%{%NAME%%NL%%RED%>%GREEN%>%ORANGE%>   %YELLOW%Hitpower Type   %ORANGE%<%GREEN%<%RED%<}%CONTINUE%
 //──── 项链 ────
 ItemDisplay[amu !UNI !SET (FCR>0 OR FRW>0 OR STAT110>0 OR RES>9) (CLSK0>0 OR CLSK1>0 OR CLSK2>0 OR CLSK3>0 OR CLSK4>0 OR CLSK5>0 OR CLSK6>0 OR TABSK0>0 OR TABSK1>0 OR TABSK2>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK24>0 OR TABSK25>0 OR TABSK26>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0)]: %NAME%%GOLD%[%CONTINUE%  
 ItemDisplay[amu UNI ((ALLSK=1 !((STAT32>0 STAT60>0) OR (IAS>10 LRES>0))) OR (ALLSK=2 !(RES>19 OR TABSK26>0)) OR ALLSK=3)]: %NAME%%NL%%GOLD%[%CONTINUE%
@@ -1504,5 +1514,4 @@ ItemDisplay[(vps OR wms OR yps OR key OR tsc OR isc) DIFF>0]:
 			 加入过滤器等级，可随时切换屏蔽程度
 			 加入DIY区域，用于客制DIY，且可随等级切换DIY显示与否
 	下一步  ：纠错，查BUG
-	         
 //─────────────────────────────────────────────────────────────────────────────────────────────────
