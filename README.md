@@ -26,3 +26,6 @@
 下载[**Bathing_CN.filter**](https://github.com/vincent427/BathingCardinal_Pod_Lootfilter/blob/main/Bathing_CN.filter)至*Diablo II\Path of Diablo\filters*，或者右键点击[**Raw**](https://raw.githubusercontent.com/vincent427/BathingCardinal_Pod_Lootfilter/main/Bathing_CN.filter)复制链接，并粘贴填入PoD登录器内
 
 然后打开游戏内设置菜单（默认按键是H），下拉选择本过滤器，选择需要的过滤器等级，然后点击过滤器文件名旁边的箭头按钮即可
+
+# 更新计划
+现阶段主要是针对新赛季添加过滤器功能为主，以后会考虑添加英文版本的**Bathing_EN.filter**
