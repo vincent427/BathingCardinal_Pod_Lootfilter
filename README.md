@@ -22,4 +22,5 @@
 | 7 | L4+ | L4的基础上显示药水+DIY区
 
 ### 使用方法:
-下载Bathing_CN.filter至*Diablo II\Path of Diablo\filters*，打开游戏内设置菜单（默认按键是H），下拉选择本过滤器，选择需要的过滤器等级，然后点击过滤器文件名旁边的箭头按钮即可
+下载Bathing_CN.filter至*Diablo II\Path of Diablo\filters*，或者右键点击[**raw**]（https://raw.githubusercontent.com/vincent427/BathingCardinal_Pod_Lootfilter/main/Bathing_CN.filter）
+然后打开游戏内设置菜单（默认按键是H），下拉选择本过滤器，选择需要的过滤器等级，然后点击过滤器文件名旁边的箭头按钮即可
