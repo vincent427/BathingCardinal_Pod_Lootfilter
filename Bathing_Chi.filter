@@ -1,7 +1,7 @@
 ﻿//╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
-//║█║ 更新日期:2023/05/15                                                                       ║█║
+//║█║ 更新日期:2023/05/18(14:48)                                                                ║█║
 //║█║ 版本:V-PTR                                                                                ║█║
 //║█║ 過濾器說明 http://pathofdiablo.com/wiki/index.php/Loot_Filtration                         ║█║
 //║█║ 過濾器代碼 https://pathofdiablo.com/wiki/index.php?title=Talk:Loot_Filtration_Codes#Edit_Permissions            
@@ -22,7 +22,7 @@ FilterLevel[2]: L2:刷高级图用
 FilterLevel[3]: L2的基础上显示药水+DIY区
 FilterLevel[4]: L3:超大后期用
 FilterLevel[5]: L3的基础上显示药水+DIY区
-FilterLevel[6]: L4:慎用!
+FilterLevel[6]: L4:慎用！！！
 FilterLevel[7]: L4的基础上显示药水+DIY区
 //说明：────────────────────────────────────────────────────────────────────────────────────────────
 L1：（1）   适合常规使用，仅屏蔽掉无用杂物
@@ -206,8 +206,8 @@ ItemDisplay[(WEAPON OR ARMOR) RW]: %NAME% %RED% (%SOCKETS%) %BGCOLOR(138)%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                             ▬▬▬▬▬ 其他带颜色的醒目类物品信息 ▬▬▬▬▬                            ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[MAG cm1 (!ID OR MAXDMG>2 OR STAT49>19 OR STAT51>43 OR STAT55>14 OR STAT57>291 OR MANA>10 OR FRES>8 OR LRES>8 OR CRES>8 OR PRES>8 OR RES>2 OR STAT31>25 OR AR>9 OR MFIND>5 OR FHR>0 OR LIFE>16)]: %NAME%%ORANGE%[SC]%CONTINUE%
-ItemDisplay[MAG cm3 (!ID OR TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR STAT22>8 OR FRES>27 OR LRES>27 OR CRES>27 OR PRES>27 OR RES>12 OR MANA>39 OR AR>117 OR ILVL>90)]: %NAME%%ORANGE%[GC]%CONTINUE%
+ItemDisplay[MAG cm1 (!ID OR MAXDMG>2 OR STAT49>19 OR STAT51>43 OR STAT55>14 OR STAT57>291 OR FRES>8 OR LRES>8 OR CRES>8 OR PRES>8 OR RES>2 OR MFIND>5 OR FHR>0 OR LIFE>16 OR (MANA>10 (LIFE>16 OR FHR>0 OR FRW>0 OR GFIND>9)) OR (STAT31>25 (STR>0 OR DEX>0 OR LIFE>16 OR FHR>0 OR FRW>0 OR MFIND>5 OR GFIND>8)))]: %NAME%%ORANGE%[SC]%CONTINUE%
+ItemDisplay[MAG cm3 (!ID OR TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR STAT22>8 OR FRES>27 OR LRES>27 OR CRES>27 OR PRES>27 OR RES>12 OR (MANA>39 (LIFE>0 OR FHR>0)) OR ILVL>90)]: %NAME%%ORANGE%[GC]%CONTINUE%
 ItemDisplay[MAG cm3 ILVL>90]: %ORANGE%★[i]%BLUE%%NAME%%CONTINUE%{%ORANGE%可洗出45Life skiller}
 ItemDisplay[EQ7 (MAG OR RARE OR CRAFT) !RW]: %NAME%%ORANGE%[头环]%CONTINUE%
 ItemDisplay[STAT360>0]: %NAME%%RED%[已腐化]%CONTINUE%
@@ -636,7 +636,7 @@ ItemDisplay[hdm]: %NAME%{%TAN%带回给盲眼姐妹会%NL%被古老的赫拉迪�
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %NAME%{%GOLD%右击阅读%NL%%GRAY%(使用后可以永久增加1个技能点数)%NL%%NL%%TAN%那些留下来倾听的人是有学问的人.}
 ItemDisplay[tr1]: %NAME%{%TAN%进入塔拉夏古墓%NL%寻找捆缚巴尔的线索%NL%战胜堕落的罗达门特，赫拉迪姆木乃伊}
-ItemDisplay[box]: %NAME%{%RED%不要怂，就是瓦！%NL%搏一搏，单车变摩托！%NL%Slam Ur God Damn Items！}
+ItemDisplay[box]: %NAME%{%RED%不要怂，就是瓦！%NL%搏一搏，单车变摩托！%NL%Slam Ur God Damn Items！%NL%Don't Be A Pussy！}
 ItemDisplay[msf]: %NAME%{%TAN%皇室的遗物，尘世的凋零%NL%在节肢动物编织的隧道下面}
 ItemDisplay[vip]: %NAME%{%TAN%巨蛇牙皮栖息在此%NL%无尽的日蚀，埋藏在鳞片下%NL%在黑暗中，一个未佩戴的护身符}
 ItemDisplay[hst]: %NAME%{%TAN%团结法师部落%NL%泰瑞尔的嘱托%NL%黑暗流放者出现}
@@ -682,7 +682,7 @@ ItemDisplay[std]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YE
 ItemDisplay[leg]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(15)% //维特之腿
 ItemDisplay[cx5]: %NL%%GOLD%★★%WHITE%☆%NAME% (ooc)%WHITE%☆%GOLD%★★%NOTIFY(ITEM)%%MAPICON(5,11)%%BORDER(85,1)%%BGCOLOR(15)%%NL%{%ORANGE%地图:%GREEN%3%变成心悦农场/%PURPLE%22%新增词缀/%WHITE%25%无变化/%DGREEN%50%重新洗牌%NL%%ORANGE%可打孔装备:%RED%25%出随机孔数/%PURPLE%25%新增词缀/%WHITE%25%无变化/%DGREEN%25%报废%NL%%ORANGE%不可打孔装备:%PURPLE%25%新增词缀/%WHITE%50%无变化/%DGREEN%25%报废%NL%%RED%腐化机率:} //腐化宝珠
 ItemDisplay[cx6]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%GOLD%★★%DGREEN%%NAME%%GOLD%★★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //暗黑破坏神的灵魂石
-ItemDisplay[cx7]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%☆☆%DGREEN%%NAME%%WHITE%☆☆%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //混沌之钥
+ItemDisplay[cx7]: %NL%%WHITE%☆☆%DGREEN%%NAME%%WHITE%☆☆%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL% //混沌之钥
 ItemDisplay[ear]: %ORANGE%%NAME%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                  ▬▬▬▬▬ 遗物地图(Relic) ▬▬▬▬▬                                  ║ 
@@ -930,7 +930,7 @@ ItemDisplay[cm3 TABSK42=1]: %NAME%%NL%%GOLD%+1DRU%PURPLE%（元素技能）%CONT
 ItemDisplay[cm3 TABSK48=1]: %NAME%%NL%%GOLD%+1ASN%RED%（陷阱技能）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%%BORDER(4,1)%%BGCOLOR(138)%
 ItemDisplay[cm3 TABSK49=1]: %NAME%%NL%%GOLD%+1ASN%DGREEN%（影子训练）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%%BORDER(4,1)%%BGCOLOR(138)%
 ItemDisplay[cm3 TABSK50=1]: %NAME%%NL%%GOLD%+1ASN%PURPLE%（武学艺术）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%%BORDER(4,1)%%BGCOLOR(138)%
-ItemDisplay[cm3 STAT22>8 STAT22<11]: %NAME%%NL%%GOLD%+%STAT(22,0)%MAX%CONTINUE%%BORDER(4,1)%%BGCOLOR(138)%
+ItemDisplay[cm3 STAT22>8 STAT22<11]: %NAME%%NL%%GOLD%+%STAT(22,0)%MAX%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm3 FRES>27]: %NAME%%NL%%RED%+%STAT(39,0)%%火炕%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm3 LRES>27]: %NAME%%NL%%YELLOW%+%STAT(41,0)%%电抗%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm3 CRES>27]: %NAME%%NL%%BLUE%+%STAT(43,0)%%冰抗%CONTINUE%%BORDER(4,1)%
@@ -1356,9 +1356,9 @@ ItemDisplay[(aq2 OR cq2) !UNI STAT218=4]: %NAME%%GOLD% +0.5MAX/每级%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI STAT218=5]: %NAME%%GOLD% +0.625MAX/每级%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI STAT21>0]: %NAME%%GOLD% +%STAT(21,0)%-%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI STAT21>0]: %NAME%%GOLD%%STAT(22,0)%DMG%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI ALLSK>0]: %NAME%%PURPLE% +1技能%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI TABSK0=1]: %NAME%%PURPLE% +1弓弩技能%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI TABSK0=2]: %NAME%%PURPLE% +2弓弩技能%CONTINUE%
+ItemDisplay[(aq2 OR cq2) !UNI ALLSK>0]: %NAME%%GOLD% +1所有技能%CONTINUE%
+ItemDisplay[(aq2 OR cq2) !UNI TABSK0=1]: %NAME%%PURPLE% +1AMA（弓弩技能）%CONTINUE%
+ItemDisplay[(aq2 OR cq2) !UNI TABSK0=2]: %NAME%%PURPLE% +2AMA（弓弩技能）%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI STAT156>0]: %NAME%%ORANGE% +%STAT(156,0)%%穿透%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI STAT62>0]: %NAME%%BLUE% +%STAT(62,0)%%吸蓝%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI STAT141>0]: %NAME%%RED% +%STAT(141,0)%%DS%CONTINUE%
@@ -1445,8 +1445,8 @@ ItemDisplay[(ama OR 7pa OR uvb OR 7s8) UNI ETH !ID]: %NL%%YELLOW%>>%TAN%>>%GRAY%
 //──── 其他高价值:戒指、项链、吸血鬼的凝視、諧角之冠、鋼影、安達利爾的面貌、年紀之冠、格利風之眼、阿凱尼的榮耀、泰瑞爾的力量、暴風之盾、戰爭旅者、蜘蛛之網、風之力、死亡之網、撒卡蘭姆使者
 ItemDisplay[(rin OR amu OR xh9 OR uap OR ulm OR usk OR urn OR ci3 OR upl OR uar OR uit OR xtb OR ulc OR 6lw OR 7gw OR pa9) UNI !ID]: %NL%%PURPLE%>>%RED%>>%ORANGE%>>%YELLOW%>>%GOLD%%NAME%%YELLOW%<<%ORANGE%<<%RED%<<%PURPLE%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%BORDER(85,1)%%BGCOLOR(138)%
 //──── 还可以的暗金:物免甲、守护天使、阿凯尼的荣耀、海蛇皮、魁黑刚的智慧、卓古拉之握、齐拉的守护、BB face、加尔的长发、腐肉骑士、沙暴、影舞者、纱织、侏儒、安戴尔的智慧
-ItemDisplay[(xhn OR xlt OR upl OR xea OR xtp OR uvg OR ci2 OR baa OR dra OR xhb OR uvb OR uhb OR xmb OR nea OR 6cs OR obc) UNI !ID FILTERLVL<6]: %NL%%RED%>>%GOLD%%NAME%%RED%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[(xhn OR xea OR baa OR uvb OR nea OR 6cs) UNI !ID]: %NL%%RED%>>%GOLD%%NAME%%RED%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[(xhn OR xlt OR upl OR xea OR xtp OR uvg OR ci2 OR baa OR dra OR xhb OR uvb OR uhb OR xmb OR nea OR 6cs OR obc OR ama) UNI !ID FILTERLVL<6]: %NL%%RED%>>%GOLD%%NAME%%RED%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[(xhn OR xea OR baa OR uvb OR nea OR 6cs OR ama) UNI !ID]: %NL%%RED%>>%GOLD%%NAME%%RED%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%BORDER(85,1)%%BGCOLOR(60)%
 ItemDisplay[UNI !ID FILTERLVL<4]: %NAME%  //显示其他所有暗金
 ItemDisplay[UNI ID]: %NAME%  //显示所有已鉴定暗金
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -1468,11 +1468,11 @@ ItemDisplay[CHSK53>0 MAG !RW]: %DGREEN% [聚气-传送]
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║                                      ▬▬▬▬▬ 缺钱 ▬▬▬▬▬                                     ║█║
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
-ItemDisplay[CL6 MAG !RW ID ILVL>50 PRICE>24999 FILTERLVL<4]: $$$(%PRICE%) // 显示法师orb卖钱
-ItemDisplay[WP12 MAG !RW ID ILVL>50 PRICE>24999 FILTERLVL<4]: $$$(%PRICE%) // 显示死灵wand卖钱
-ItemDisplay[(7tk OR 7ta OR 7bk) (NMAG OR MAG OR RARE) !RW !ETH FILTERLVL<4]: $$$(%PRICE%) // 显示飞刀卖钱
-ItemDisplay[CL6 NMAG !RW ILVL>40 PRICE>24999 FILTERLVL<4]: $$$(%PRICE%) // 显示法师orb卖钱
-ItemDisplay[WP12 NMAG !RW ILVL>40 PRICE>24999 FILTERLVL<4]: $$$(%PRICE%) // 显示死灵wand卖钱
+ItemDisplay[CL6 !(ob5 OR oba OR obf) MAG !RW ID ILVL>50 PRICE>24999 FILTERLVL<4]: $$$%DGREEN%(%PRICE%) // 显示法师orb卖钱
+ItemDisplay[WP12 MAG !RW ID ILVL>50 PRICE>24999 FILTERLVL<4]: $$$%DGREEN%(%PRICE%) // 显示死灵wand卖钱
+ItemDisplay[(7tk OR 7ta OR 7bk) (NMAG OR MAG OR RARE) !RW !ETH FILTERLVL<4]: $$$%DGREEN%(%PRICE%) // 显示飞刀卖钱
+ItemDisplay[CL6 NMAG !RW ILVL>40 PRICE>24999 FILTERLVL<4]: $$$%DGREEN%(%PRICE%) // 显示法师orb卖钱
+ItemDisplay[WP12 NMAG !RW ILVL>40 PRICE>24999 FILTERLVL<4]: $$$%DGREEN%(%PRICE%) // 显示死灵wand卖钱
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //──── 赌博时高亮需要赌的物品（我这里暂时只有头环）────
 //─────────────────────────────────────────────────────────────────────────────────────────────────
