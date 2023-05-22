@@ -60,6 +60,10 @@ At present, the main focus is on adding filter functions for the new season, and
 现阶段主要是针对新赛季添加过滤器功能为主，以后会考虑添加英文版本的**Bathing_Eng.filter**
 
 ## Changelog:
+### 2023/05/22
+fix some bugs
+
+修复天生带孔装备描述覆盖掉武器攻速描述，修复-60攻速bow的攻速被%WPNSPD%覆盖掉的问题。
 ### 2023/05/19
 modify some item's filter level
 
