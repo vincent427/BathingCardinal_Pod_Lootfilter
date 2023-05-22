@@ -680,7 +680,7 @@ ItemDisplay[bet]: %NL%%NAME% (A4)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%
 ItemDisplay[fed]: %NL%%NAME% (A5)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%4种不同精华合成洗点徽章} //溃烂的毁灭精华
 ItemDisplay[std]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%BORDER(85,1)%%BGCOLOR(60)% //英雄旗帜
 ItemDisplay[leg]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(15)% //维特之腿
-ItemDisplay[cx5]: %NL%%GOLD%★★%WHITE%☆%NAME% (ooc)%WHITE%☆%GOLD%★★%NOTIFY(ITEM)%%MAPICON(5,11)%%BORDER(85,1)%%BGCOLOR(15)%%NL%{%ORANGE%地图:%GREEN%3%变成心悦农场/%PURPLE%22%新增词缀/%WHITE%25%无变化/%DGREEN%50%重新洗牌%NL%%ORANGE%可打孔装备:%RED%25%出随机孔数/%PURPLE%25%新增词缀/%WHITE%25%无变化/%DGREEN%25%报废%NL%%ORANGE%不可打孔装备:%PURPLE%25%新增词缀/%WHITE%50%无变化/%DGREEN%25%报废%NL%%RED%腐化机率:} //腐化宝珠
+ItemDisplay[cx5]: %NL%%GOLD%★★%WHITE%☆%NAME% (ooc)%WHITE%☆%GOLD%★★%NOTIFY(ITEM)%%MAPICON(5,11)%%BORDER(85,1)%%BGCOLOR(15)%%NL%{%ORANGE%地图:%GREEN%3.4%变成心悦农场/%PURPLE%23.6%新增词缀/%WHITE%25%无变化/%DGREEN%48%重新洗牌%NL%%ORANGE%可打孔装备:%RED%25%出随机孔数/%PURPLE%25%新增词缀/%WHITE%25%无变化/%DGREEN%25%报废%NL%%ORANGE%不可打孔装备:%PURPLE%25%新增词缀/%WHITE%50%无变化/%DGREEN%25%报废%NL%%RED%腐化机率:} //腐化宝珠
 ItemDisplay[cx6]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%GOLD%★★%DGREEN%%NAME%%GOLD%★★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //暗黑破坏神的灵魂石
 ItemDisplay[cx7]: %NL%%WHITE%☆☆%DGREEN%%NAME%%WHITE%☆☆%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL% //混沌之钥
 ItemDisplay[ear]: %ORANGE%%NAME%
