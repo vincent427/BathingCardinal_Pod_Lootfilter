@@ -61,6 +61,10 @@ At present, the main focus is on adding filter functions for the new season, and
 
 ## Changelog:
 ### 2023/05/22
+Add fools mod to the weapon name 
+
+添加武器愚人词缀提醒
+### 2023/05/22
 fix some bugs
 
 修复天生带孔装备描述覆盖掉武器攻速描述，修复-60攻速bow的攻速被%WPNSPD%覆盖掉的问题。
