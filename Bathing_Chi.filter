@@ -1497,8 +1497,7 @@ ItemDisplay[NMAG !ID EQ7]: %NAME%
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
-//ItemDisplay[(WP11 OR WP7 OR WP8) NMAG !RW SOCK=4]: %DGREEN%眼光铁魔底材{%GOLD%眼光:%ORANGE%[#8]+[#3]+[#7]+[#12]%NL%%NAME%}
-ItemDisplay[WP11 !wst !8ws !6ws NMAG !RW SOCK=4 FILTERLVL<4]: %DGREEN%眼光铁魔底材
+ItemDisplay[(WP7 OR WP8) NMAG !RW SOCK=4 (FILTERLVL=1 OR FILTERLVL=3 OR FILTERLVL=5 OR FILTERLVL=7)]: %DGREEN%眼光铁魔底材{%GOLD%眼光:%ORANGE%[#8]+[#3]+[#7]+[#12]%NL%%NAME%}
 //ItemDisplay[(CL4 OR CL1 OR CL2) RARE !ID]: %NAME%
 //ItemDisplay[WP9 !CL7 NMAG !RW SOCK=4 NORM]: %NAME%  //和谐
 //ItemDisplay[yps MAPID>0]: %DGREEN%! A%WHITE%  //等待新增代码
