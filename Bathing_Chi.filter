@@ -12,7 +12,7 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: 沐红衣 
 Attribute[Name]: Bathing_Blood_Filter
-Attribute[Version]: PTR
+Attribute[Version]: PTR-1.7
 Attribute[Date]: 2023/12/29 9:37 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
@@ -847,14 +847,14 @@ ItemDisplay[r33]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★
 ItemDisplay[jew STAT17>24]: %NAME%%NL%%GOLD%+%STAT(17,0)%%ED%CONTINUE%
 ItemDisplay[jew RES>5 !STAT17>24]: %NAME%%NL%%GOLD%+%STAT(39,0)%%%RED%所%PURPLE%有%ORANGE%抗%DGREEN%性%CONTINUE%
 ItemDisplay[jew MAEK>0 !(STAT17>24 OR RES>5)]: %NAME%%NL%%GOLD%+%STAT(138,0)%%BLUE%EK%CONTINUE%
-ItemDisplay[jew STAT39>15 !(STAT17>24 OR RES>5 OR MAEK>0)]: %NAME%%NL%%RED%+%STAT(39,0)%%火炕%CONTINUE%
+ItemDisplay[jew STAT39>15 !(STAT17>24 OR RES>5 OR MAEK>0)]: %NAME%%NL%%RED%+%STAT(39,0)%%火抗%CONTINUE%
 ItemDisplay[jew STAT41>15 !(STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15)]: %NAME%%NL%%YELLOW%+%STAT(41,0)%%电抗%CONTINUE%
 ItemDisplay[jew STAT43>15 !(STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 OR STAT41>15)]: %NAME%%NL%%BLUE%+%STAT(43,0)%%冰抗%CONTINUE%
 ItemDisplay[jew STAT45>15 !(STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 OR STAT41>15 OR STAT43>15)]: %NAME%%NL%%GREEN%+%STAT(45,0)%%毒抗%CONTINUE%
 //  前缀!NL 
 ItemDisplay[jew RES>5 STAT17>24]: %NAME%%GOLD%+%STAT(39,0)%%%RED%所%PURPLE%有%ORANGE%抗%DGREEN%性%CONTINUE%
 ItemDisplay[jew MAEK>0 (STAT17>24 OR RES>5)]: %NAME%%GOLD%+%STAT(138,0)%%BLUE%EK %CONTINUE%
-ItemDisplay[jew STAT39>15 (STAT17>24 OR RES>5 OR MAEK>0)]: %NAME%%GOLD%%RED%+%STAT(39,0)%%火炕%CONTINUE%
+ItemDisplay[jew STAT39>15 (STAT17>24 OR RES>5 OR MAEK>0)]: %NAME%%GOLD%%RED%+%STAT(39,0)%%火抗%CONTINUE%
 ItemDisplay[jew STAT41>15 (STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15)]: %NAME%%GOLD%%YELLOW%+%STAT(41,0)%%电抗%CONTINUE%
 ItemDisplay[jew STAT43>15 (STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 OR STAT41>15)]: %NAME%%BLUE%+%STAT(43,0)%%冰抗%CONTINUE%
 ItemDisplay[jew STAT45>15 (STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 OR STAT41>15 OR STAT43>15)]: %NAME%%GREEN%+%STAT(45,0)%%毒抗%CONTINUE%
@@ -935,7 +935,7 @@ ItemDisplay[cm3 TABSK48=1]: %NAME%%NL%%GOLD%+1ASN%RED%（陷阱技能）%CONTINU
 ItemDisplay[cm3 TABSK49=1]: %NAME%%NL%%GOLD%+1ASN%DGREEN%（影子训练）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%%BORDER(4,1)%%BGCOLOR(138)%
 ItemDisplay[cm3 TABSK50=1]: %NAME%%NL%%GOLD%+1ASN%PURPLE%（武学艺术）%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%%BORDER(4,1)%%BGCOLOR(138)%
 ItemDisplay[cm3 STAT22>8 STAT22<11]: %NAME%%NL%%GOLD%+%STAT(22,0)%MAX%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm3 FRES>27]: %NAME%%NL%%RED%+%STAT(39,0)%%火炕%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm3 FRES>27]: %NAME%%NL%%RED%+%STAT(39,0)%%火抗%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm3 LRES>27]: %NAME%%NL%%YELLOW%+%STAT(41,0)%%电抗%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm3 CRES>27]: %NAME%%NL%%BLUE%+%STAT(43,0)%%冰抗%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm3 PRES>27]: %NAME%%NL%%GREEN%+%STAT(45,0)%%毒抗%CONTINUE%%BORDER(4,1)%
@@ -967,7 +967,7 @@ ItemDisplay[cm1 STAT51>43]: %NAME%%NL%%YELLOW%+%STAT(51,0)%闪电伤害%CONTINUE
 ItemDisplay[cm1 STAT55>14]: %NAME%%NL%%BLUE%+%STAT(55,0)%冰霜伤害%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm1 STAT57>291]: %NAME%%NL%%GREEN%+毒素伤害%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm1 MANA>10 (LIFE>16 OR FHR>0 OR FRW>0 OR GFIND>9 OR STR>0 OR DEX>0 OR MFIND>5)]: %NAME%%NL%%BLUE%+%STAT(9,0)%法力%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm1 FRES>8]: %NAME%%NL%%RED%+%STAT(39,0)%%火炕%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm1 FRES>8]: %NAME%%NL%%RED%+%STAT(39,0)%%火抗%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm1 LRES>8]: %NAME%%NL%%YELLOW%+%STAT(41,0)%%电抗%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm1 CRES>8]: %NAME%%NL%%BLUE%+%STAT(43,0)%%冰抗%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm1 PRES>8]: %NAME%%NL%%GREEN%+%STAT(45,0)%%毒抗%CONTINUE%%BORDER(4,1)%
