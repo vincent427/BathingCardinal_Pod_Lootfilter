@@ -60,6 +60,11 @@ At present, the main focus is on adding filter functions for the new season, and
 现阶段主要是针对新赛季添加过滤器功能为主，以后会考虑添加英文版本的**Bathing_Eng.filter**
 
 ## Changelog:
+### 2023/12/29
+Fix some issue of game crashes caused by Relics Map's code
+
+修复地图代码报错引起游戏崩溃的问题
+
 ### 2023/05/25
 Add fools mod to the weapon name 
 
