@@ -1,8 +1,8 @@
 ﻿//╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
-//║█║ 更新日期:2023/05/29(15:07)                                                                ║█║
-//║█║ 版本:V-PTR                                                                                ║█║
+//║█║ 更新日期:-----------------                                                                ║█║
+//║█║ 版本:-----                                                                                ║█║
 //║█║ 過濾器說明 http://pathofdiablo.com/wiki/index.php/Loot_Filtration                         ║█║
 //║█║ 過濾器代碼 https://pathofdiablo.com/wiki/index.php?title=Talk:Loot_Filtration_Codes#Edit_Permissions            
 //║█║ 过滤器地址 https://raw.githubusercontent.com/vincent427/BathingCardinal_Pod_Lootfilter/main/Bathing_Chi.filter                                                                              
@@ -10,6 +10,10 @@
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
+Attribute[Author]: 沐红衣 
+Attribute[Name]: Bathing_Blood_Filter
+Attribute[Version]: PTR
+Attribute[Date]: 2023/12/29 9:37 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -687,29 +691,29 @@ ItemDisplay[ear]: %ORANGE%%NAME%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                  ▬▬▬▬▬ 遗物地图(Relic) ▬▬▬▬▬                                  ║ 
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[ma10 !ID]: >>  Relics  <<%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //寒霜洞窟 (Icy Cavern)  BUG無法顯示
-ItemDisplay[ma2 !ID]: >>  Relics  <<%NL%蜃景荒漠%NL%%RED%<T3-Lv88>{%RED%(Forgotten Desert)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma3 !ID]: >>  Relics  <<%NL%遺棄之地%NL%%DGREEN%<T?-Lv??>{%DGREEN%(Abandoned Precinct)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //遺棄之地 (Abandoned Precinct)
-ItemDisplay[ma4 !ID]: >>  Relics  <<%NL%亵渎教堂%%NL%%GREEN%<T2-Lv87>{%GREEN%(Desecrated Temple)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //亵渎教堂 (Desecrated Temple)
-ItemDisplay[ma5 !ID]: >>  Relics  <<%NL%凜冬高原%NL%%WHITE%<T1-Lv86>{%WHITE%(Frigid Plateau)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma6 !ID]: >>  Relics  <<%NL%崩壞堡壘%NL%%RED%<T3-Lv88>{%RED%(Ruined Citadel)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7 !ID]: >>  Relics  <<%NL%焚燒森林%NL%%RED%<T3-Lv88>{%RED%(Burnt Forest)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //焚燒森林 (Burnt Forest)
-ItemDisplay[ma8 !ID]: >>  Relics  <<%NL%發霉地穴%NL%%GREEN%<T2-Lv87>{%GREEN%(Musty Crypt)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //發霉地穴 (Musty Crypt)
-ItemDisplay[ma9 !ID]: >>  Relics  <<%NL%昏暗地窖%NL%%GREEN%<T2-Lv87>{%GREEN%(Dim Cellar)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma11 !ID]: >>  Relics  <<%NL%悅心農場%NL%%DGREEN%<T0-Lv86>{%DGREEN%(Pleasant Pasture)}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%  //悅心農場 (Pleasant Pasture) BUG無法顯示
-ItemDisplay[MAP !ID]: >>  Relics  <<%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //暂时用这种方式显示寒霜洞窟 (Icy Cavern)
+ItemDisplay[ma10 !ID]: >>  Relics  <<%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //寒霜洞窟 (Icy Cavern)  BUG無法顯示
+ItemDisplay[ma2 !ID]: >>  Relics  <<%NL%蜃景荒漠%NL%%RED%【T3-Lv88】{%RED%(Forgotten Desert)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //蜃景荒漠 (Forgotten Desert)
+ItemDisplay[ma3 !ID]: >>  Relics  <<%NL%遺棄之地%NL%%DGREEN%【T?-Lv??】{%DGREEN%(Abandoned Precinct)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //遺棄之地 (Abandoned Precinct)
+ItemDisplay[ma4 !ID]: >>  Relics  <<%NL%亵渎教堂%NL%%GREEN%【T2-Lv87】{%GREEN%(Desecrated Temple)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //亵渎教堂 (Desecrated Temple)
+ItemDisplay[ma5 !ID]: >>  Relics  <<%NL%凜冬高原%NL%%WHITE%【T1-Lv86】{%WHITE%(Frigid Plateau)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //凜冬高原 (Frigid Plateau)
+ItemDisplay[ma6 !ID]: >>  Relics  <<%NL%崩壞堡壘%NL%%RED%【T3-Lv88】{%RED%(Ruined Citadel)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //崩壞堡壘 (Ruined Citadel)
+ItemDisplay[ma7 !ID]: >>  Relics  <<%NL%焚燒森林%NL%%RED%【T3-Lv88】{%RED%(Burnt Forest)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //焚燒森林 (Burnt Forest)
+ItemDisplay[ma8 !ID]: >>  Relics  <<%NL%發霉地穴%NL%%GREEN%【T2-Lv87】{%GREEN%(Musty Crypt)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //發霉地穴 (Musty Crypt)
+ItemDisplay[ma9 !ID]: >>  Relics  <<%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】{%GREEN%(Dim Cellar)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //昏暗地窖 (Dim Cellar)
+ItemDisplay[ma11 !ID]: >>  Relics  <<%NL%悅心農場%NL%%DGREEN%【T0-Lv86】{%DGREEN%(Pleasant Pasture)}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%  //悅心農場 (Pleasant Pasture) BUG無法顯示
+ItemDisplay[MAP !ID]: >>  Relics  <<%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //暂时用这种方式显示寒霜洞窟 (Icy Cavern)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //寒霜洞窟 (Icy Cavern)  BUG無法顯示
-ItemDisplay[ma2]: (Forgotten Desert)%NL%蜃景荒漠%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%*冰:160,%RED%***火:130,%YELLOW%**电:100,%GOLD%*物理:100,%DGREEN%***毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma3]: (Abandoned Precinct)%NL%遺棄之地%NL%%DGREEN%<T?-Lv??>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%WHITE%高抗性:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%ORANGE%地图怪物基础抗性:} //遺棄之地 (Abandoned Precinct)
-ItemDisplay[ma4]: (Desecrated Temple)%NL%亵渎教堂%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%***冰:190,%RED%***火:140,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:60,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //亵渎教堂 (Desecrated Temple)
-ItemDisplay[ma5]: (Frigid Plateau)%NL%凜冬高原%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%免疫:%BLUE%*冰:150,%RED%*火:140,%YELLOW%*****电:100,%DGREEN%**毒:140%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma6]: (Ruined Citadel)%NL%崩壞堡壘%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%****冰:160,%YELLOW%***电:120,%GOLD%*物理:100,%DGREEN%**毒:120%NL%%WHITE%高抗性:%BLUE%冰:80,%RED%火:66,%YELLOW%电:50,%ORANGE%魔法:70,%GOLD%物理:50,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7]: (Burnt Forest)%NL%焚燒森林%NL%%RED%<T3-Lv88>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%***冰:140,%RED%*火:145,%YELLOW%*****电:120,%ORANGE%**魔法:100,%DGREEN%**毒:145%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:20,%GOLD%物理:80,%DGREEN%毒:50%NL%%ORANGE%地图怪物基础抗性:} //焚燒森林 (Burnt Forest)
-ItemDisplay[ma8]: (Musty Crypt)%NL%發霉地穴%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%****冰:190,%RED%***火:120,%YELLOW%****电:120,%ORANGE%%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:60,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //發霉地穴 (Musty Crypt)
-ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%<T2-Lv87>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%**冰:150,%RED%**火:120,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:33,%ORANGE%魔法:0,%GOLD%物理:75,%DGREEN%毒:65%NL%%ORANGE%地图怪物基础抗性:} //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心農場%NL%%DGREEN%<T0-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //悅心農場 (Pleasant Pasture) BUG無法顯示
-ItemDisplay[MAP ID]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%<T1-Lv86>%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:}  //暂时用这种方式显示寒霜洞窟 (Icy Cavern) 
+ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //寒霜洞窟 (Icy Cavern)  BUG無法顯示
+ItemDisplay[ma2]: (Forgotten Desert)%NL%蜃景荒漠%NL%%RED%【T3-Lv88】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%*冰:160,%RED%***火:130,%YELLOW%**电:100,%GOLD%*物理:100,%DGREEN%***毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //蜃景荒漠 (Forgotten Desert)
+ItemDisplay[ma3]: (Abandoned Precinct)%NL%遺棄之地%NL%%DGREEN%【T?-Lv??】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%WHITE%高抗性:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%ORANGE%地图怪物基础抗性:} //遺棄之地 (Abandoned Precinct)
+ItemDisplay[ma4]: (Desecrated Temple)%NL%亵渎教堂%NL%%GREEN%【T2-Lv87】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%***冰:190,%RED%***火:140,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:60,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //亵渎教堂 (Desecrated Temple)
+ItemDisplay[ma5]: (Frigid Plateau)%NL%凜冬高原%NL%%WHITE%【T1-Lv86】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%免疫:%BLUE%*冰:150,%RED%*火:140,%YELLOW%*****电:100,%DGREEN%**毒:140%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //凜冬高原 (Frigid Plateau)
+ItemDisplay[ma6]: (Ruined Citadel)%NL%崩壞堡壘%NL%%RED%【T3-Lv88】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%****冰:160,%YELLOW%***电:120,%GOLD%*物理:100,%DGREEN%**毒:120%NL%%WHITE%高抗性:%BLUE%冰:80,%RED%火:66,%YELLOW%电:50,%ORANGE%魔法:70,%GOLD%物理:50,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //崩壞堡壘 (Ruined Citadel)
+ItemDisplay[ma7]: (Burnt Forest)%NL%焚燒森林%NL%%RED%【T3-Lv88】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%***冰:140,%RED%*火:145,%YELLOW%*****电:120,%ORANGE%**魔法:100,%DGREEN%**毒:145%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:20,%GOLD%物理:80,%DGREEN%毒:50%NL%%ORANGE%地图怪物基础抗性:} //焚燒森林 (Burnt Forest)
+ItemDisplay[ma8]: (Musty Crypt)%NL%發霉地穴%NL%%GREEN%【T2-Lv87】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%****冰:190,%RED%***火:120,%YELLOW%****电:120,%ORANGE%%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:60,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //發霉地穴 (Musty Crypt)
+ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%**冰:150,%RED%**火:120,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:33,%ORANGE%魔法:0,%GOLD%物理:75,%DGREEN%毒:65%NL%%ORANGE%地图怪物基础抗性:} //昏暗地窖 (Dim Cellar)
+ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心農場%NL%%DGREEN%【T0-Lv86】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //悅心農場 (Pleasant Pasture) BUG無法顯示
+ItemDisplay[MAP ID]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:}  //暂时用这种方式显示寒霜洞窟 (Icy Cavern) 
 ItemDisplay[maz]: %NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%祝君好运！%NL%你只有一次机会%NL%进入后无法开启传送门，死亡后无法返回}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%//地獄審判
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                        ▬▬▬▬▬ 卷轴 ▬▬▬▬▬                                       ║
