@@ -61,10 +61,10 @@ At present, the main focus is on adding filter functions for the new season, and
 
 ## Changelog:
 ### 2024/1/2
-Add Engilsh vesion
+Add Engilsh vesion &
 Fix some bugs
 
-加入英文版本
+加入英文版本 + 
 修复部分小错误
 
 ### 2023/12/29
