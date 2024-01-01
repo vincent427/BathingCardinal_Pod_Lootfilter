@@ -1,8 +1,6 @@
 ﻿//╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
-//║█║ 更新日期:-----------------                                                                ║█║
-//║█║ 版本:-----                                                                                ║█║
 //║█║ 過濾器說明 http://pathofdiablo.com/wiki/index.php/Loot_Filtration                         ║█║
 //║█║ 過濾器代碼 https://pathofdiablo.com/wiki/index.php?title=Talk:Loot_Filtration_Codes#Edit_Permissions            
 //║█║ 过滤器地址 https://raw.githubusercontent.com/vincent427/BathingCardinal_Pod_Lootfilter/main/Bathing_Chi.filter                                                                              
@@ -12,8 +10,8 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: 沐红衣 
 Attribute[Name]: Bathing_Blood_Filter
-Attribute[Version]: PTR-1.7
-Attribute[Date]: 2023/12/29 9:37 UTC8
+Attribute[Version]: PTR-1.8 Chi
+Attribute[Date]: 2023/1/2 3:44 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -194,8 +192,8 @@ ItemDisplay[UNI ID NORM WEAPON]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#8]+[#1
 ItemDisplay[UNI ID EXC WEAPON]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#17]+[#21]+%GREEN%P●}%CONTINUE%
 ItemDisplay[RARE ID NORM WEAPON]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#9]+[#11]+%BLUE%P●}%CONTINUE%
 ItemDisplay[RARE ID EXC WEAPON]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#19]+[#22]+%BLUE%P●}%CONTINUE%
-ItemDisplay[SET ID NORM WEAPON]: %NAME%{%NAME%%WHITE%升级:%GREEN% [#1]+[#5]+%RED%P●}%CONTINUE%
-ItemDisplay[SET ID EXC WEAPON]: %NAME%{%NAME%%WHITE%升级:%GREEN% [#14]+[#23]+%RED%P●}%CONTINUE%
+ItemDisplay[SET ID NORM WEAPON]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#1]+[#5]+%RED%P●}%CONTINUE%
+ItemDisplay[SET ID EXC WEAPON]: %NAME%{%NAME%%NL%%WHITE%升级:%GREEN% [#14]+[#23]+%RED%P●}%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                  ▬▬▬▬▬ 职业专用物品提示 ▬▬▬▬▬                                 ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -203,9 +201,9 @@ ItemDisplay[(CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7)]: [%CL%] %NAME%%CONT
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                  ▬▬▬▬▬ 符文之语（美化） ▬▬▬▬▬                                 ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[(WEAPON OR ARMOR) RW ETH SUP]: %GRAY%[%WHITE%e, s%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[(WEAPON OR ARMOR) RW ETH !SUP]: %GRAY%[%WHITE%e%GRAY%] %NAME%%CONTINUE%
-ItemDisplay[(WEAPON OR ARMOR) RW !ETH SUP]: %GRAY%[%WHITE%s%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[(WEAPON OR ARMOR) RW ETH SUP]: %GRAY%[%WHITE%e, s%GRAY%] %GOLD%%NAME%%CONTINUE%
+ItemDisplay[(WEAPON OR ARMOR) RW ETH !SUP]: %GRAY%[%WHITE%e%GRAY%] %GOLD%%NAME%%CONTINUE%
+ItemDisplay[(WEAPON OR ARMOR) RW !ETH SUP]: %GRAY%[%WHITE%s%GRAY%] %GOLD%%NAME%%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) RW]: %NAME% %RED% (%SOCKETS%) %BGCOLOR(138)%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                             ▬▬▬▬▬ 其他带颜色的醒目类物品信息 ▬▬▬▬▬                            ║
@@ -684,7 +682,7 @@ ItemDisplay[bet]: %NL%%NAME% (A4)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%
 ItemDisplay[fed]: %NL%%NAME% (A5)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%4种不同精华合成洗点徽章} //溃烂的毁灭精华
 ItemDisplay[std]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%BORDER(85,1)%%BGCOLOR(60)% //英雄旗帜
 ItemDisplay[leg]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(15)% //维特之腿
-ItemDisplay[cx5]: %NL%%GOLD%★★%WHITE%☆%NAME% (ooc)%WHITE%☆%GOLD%★★%NOTIFY(ITEM)%%MAPICON(5,11)%%BORDER(85,1)%%BGCOLOR(15)%%NL%{%ORANGE%地图:%GREEN%3.4%变成心悦农场/%PURPLE%23.6%新增词缀/%WHITE%25%无变化/%DGREEN%48%重新洗牌%NL%%ORANGE%可打孔装备:%RED%25%出随机孔数/%PURPLE%25%新增词缀/%WHITE%25%无变化/%DGREEN%25%报废%NL%%ORANGE%不可打孔装备:%PURPLE%25%新增词缀/%WHITE%50%无变化/%DGREEN%25%报废%NL%%RED%腐化机率:} //腐化宝珠
+ItemDisplay[cx5]: %NL%%GOLD%★★%WHITE%☆%NAME% (ooc)%WHITE%☆%GOLD%★★%NOTIFY(ITEM)%%MAPICON(5,11)%%BORDER(85,1)%%BGCOLOR(15)%%NL%{%NL%%ORANGE%地图:%GREEN%3.4%变成心悦农场/%PURPLE%23.6%新增词缀/%WHITE%25%无变化/%DGREEN%48%重新洗牌%NL%%ORANGE%可打孔装备:%RED%25%出随机孔数/%PURPLE%25%新增词缀/%WHITE%25%无变化/%DGREEN%25%报废%NL%%ORANGE%不可打孔装备:%PURPLE%25%新增词缀/%WHITE%50%无变化/%DGREEN%25%报废%NL%%RED%腐化机率:} //腐化宝珠
 ItemDisplay[cx6]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%GOLD%★★%DGREEN%%NAME%%GOLD%★★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //暗黑破坏神的灵魂石
 ItemDisplay[cx7]: %NL%%WHITE%☆☆%DGREEN%%NAME%%WHITE%☆☆%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL% //混沌之钥
 ItemDisplay[ear]: %ORANGE%%NAME%
@@ -879,13 +877,13 @@ ItemDisplay[jew STAT1>0 (STAT17>24 OR STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 
 //───────────────────────────────────────────────────────────────────────────────────────────────── 
 ItemDisplay[jew UNI !ID]: %NL%%PURPLE%>>%RED%>>%ORANGE%>>%YELLOW%>>%GOLD%彩虹刻面%YELLOW%<<%ORANGE%<<%RED%<<%PURPLE%<<%NOTIFY(GOLD)%%NOTIFYSOUND(35)%%NL%%MAPICON(5,18)%%BORDER(85,1)%%BGCOLOR(138)%
 ItemDisplay[jew UNI ID STAT333>0]: %GOLD%+%STAT(329,0)%]%RED%火%GOLD%%NL%%NAME%%CONTINUE%
-ItemDisplay[jew UNI ID STAT333>0]: %GOLD%[-%STAT(333.0)%/%NAME%%CONTINUE%
+ItemDisplay[jew UNI ID STAT333>0]: %GOLD%[-%STAT(333,0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT334>0]: %GOLD%+%STAT(330,0)%]%YELLOW%电%GOLD%%NL%%NAME%%CONTINUE%
-ItemDisplay[jew UNI ID STAT334>0]: %GOLD%[-%STAT(334.0)%/%NAME%%CONTINUE%
+ItemDisplay[jew UNI ID STAT334>0]: %GOLD%[-%STAT(334,0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT335>0]: %GOLD%+%STAT(331,0)%]%BLUE%冰%GOLD%%NL%%NAME%%CONTINUE%
-ItemDisplay[jew UNI ID STAT335>0]: %GOLD%[-%STAT(335.0)%/%NAME%%CONTINUE%
+ItemDisplay[jew UNI ID STAT335>0]: %GOLD%[-%STAT(335,0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT336>0]: %GOLD%+%STAT(332,0)%]%GREEN%毒%GOLD%%NL%%NAME%%CONTINUE%
-ItemDisplay[jew UNI ID STAT336>0]: %GOLD%[-%STAT(336.0)%/%NAME%%CONTINUE%
+ItemDisplay[jew UNI ID STAT336>0]: %GOLD%[-%STAT(336,0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID]: %NAME%%NOTIFY(GOLD)%%NOTIFYSOUND(35)%%MAPICON(5,18)%%BORDER(85,1)%%NL%%PURPLE%>>%RED%>>%ORANGE%>>%YELLOW%>>%GOLD%彩虹刻面%YELLOW%<<%ORANGE%<<%RED%<<%PURPLE%<<%BGCOLOR(138)%
 ItemDisplay[jew MAG !ID FILTERLVL<6]: %ORANGE%●%BLUE%%NAME%%ORANGE%●%NOTIFY(ITEM)%%MAPICON(5,3)%%BORDER(4,1)%%BGCOLOR(15)%
 ItemDisplay[jew RARE !ID]: %NL%%ORANGE%●%YELLOW%%NAME%%ORANGE%●%NOTIFY(ITEM)%%MAPICON(5,18)%%NL%%BORDER(85,1)%%BGCOLOR(60)%
