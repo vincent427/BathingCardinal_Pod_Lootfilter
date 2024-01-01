@@ -46,7 +46,7 @@ If you find any bugs when using my filter,please open a issue and let me know
 | 7 | L4+ | L4的基础上显示药水+DIY区
 
 ### Installation:
-Download[**Bathing_Eng.filter**](https://github.com/vincent427/BathingCardinal_Pod_Lootfilter/blob/main/Bathing_Chi.filter)to*Diablo II\Path of Diablo\filters*，or right click on[**Raw**](https://raw.githubusercontent.com/vincent427/BathingCardinal_Pod_Lootfilter/main/Bathing_Eng.filter)select Save link as，then fill the link into the PoD launcher.
+Download[**Bathing_Eng.filter**](https://github.com/vincent427/BathingCardinal_Pod_Lootfilter/blob/main/Bathing_Eng.filter)to*Diablo II\Path of Diablo\filters*，or right click on[**Raw**](https://raw.githubusercontent.com/vincent427/BathingCardinal_Pod_Lootfilter/main/Bathing_Eng.filter)select Save link as，then fill the link into the PoD launcher.
 
 Start the game, open the in-game settings menu (default hotkey is H), select this filter from the drop-down menu, select the desired filter level, and then click the arrow button next to the filter file name to reload the filter
 
