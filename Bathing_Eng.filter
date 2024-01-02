@@ -669,12 +669,12 @@ ItemDisplay[tr2]: %NAME%{%GOLD%Right Click to Read%NL%%GRAY%(Grants +10 to All R
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                ▬▬▬▬▬ Uber Keys & Essence ▬▬▬▬▬                                ║ 
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[pk1]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%ORANGE%%NAME% (Countess) %WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
-ItemDisplay[pk2]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%ORANGE%%NAME% (Summoner) %WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
-ItemDisplay[pk3]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%ORANGE%%NAME% (Nihlathak) %WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
-ItemDisplay[dhn]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%DGREEN%%NAME%%WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
-ItemDisplay[bey]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%DGREEN%%NAME%%WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
-ItemDisplay[mbr]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%DGREEN%%NAME%%WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
+ItemDisplay[pk1]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%>>>>%ORANGE%%NAME% (Countess) %WHITE%<<<<%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
+ItemDisplay[pk2]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%>>>>%ORANGE%%NAME% (Summoner) %WHITE%<<<<%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
+ItemDisplay[pk3]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%>>>>%ORANGE%%NAME% (Nihlathak) %WHITE%<<<<%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
+ItemDisplay[dhn]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%>>>>%DGREEN%%NAME%%WHITE%<<<<%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
+ItemDisplay[bey]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%>>>>%DGREEN%%NAME%%WHITE%<<<<%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
+ItemDisplay[mbr]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%>>>>%DGREEN%%NAME%%WHITE%<<<<%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
 ItemDisplay[toa]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%———{%GOLD%Right Click to Unlearn your skills%NL%%NL%%TAN%Token of Absolution} 
 ItemDisplay[tes]: %NL%%NAME% (A1.A2)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%Synthesize 4 different essence into a token} 
 ItemDisplay[ceh]: %NL%%NAME% (A3)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%Synthesize 4 different essence into a token} 
@@ -682,41 +682,39 @@ ItemDisplay[bet]: %NL%%NAME% (A4)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%
 ItemDisplay[fed]: %NL%%NAME% (A5)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%Synthesize 4 different essence into a token} 
 ItemDisplay[std]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%BORDER(85,1)%%BGCOLOR(60)% 
 ItemDisplay[leg]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(15)% 
-ItemDisplay[cx5]: %NL%%GOLD%★★%WHITE%☆%NAME% (ooc)%WHITE%☆%GOLD%★★%NOTIFY(ITEM)%%MAPICON(5,11)%%BORDER(85,1)%%BGCOLOR(15)%%NL%{%ORANGE%Relic:%GREEN%[3.4%]Pleasant Pasture%PURPLE%[23.6%]Gains a new Affix%WHITE%[25%]CNC%DGREEN%[48%]Random new Rare Relic%NL%%ORANGE%Socketable Item:%RED%[25%]Gains Sockets(*)%PURPLE%[25%]Gains a new Affix%WHITE%[25%]CNC/%DGREEN%[25%]Wasted%NL%%ORANGE%Unsocketable Item:%PURPLE%[25%]Gains a new Affix%WHITE%[50%]CNC%DGREEN%[25%]Wasted%NL%%RED%Corruption probability:} 
-ItemDisplay[cx6]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%GOLD%★★%DGREEN%%NAME%%GOLD%★★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
-ItemDisplay[cx7]: %NL%%WHITE%☆☆%DGREEN%%NAME%%WHITE%☆☆%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL% 
+ItemDisplay[cx5]: %NL%%GOLD%>>>>%WHITE%>>%NAME% (ooc)%WHITE%<<%GOLD%<<<<%NOTIFY(ITEM)%%MAPICON(5,11)%%BORDER(85,1)%%BGCOLOR(15)%%NL%{%ORANGE%Relic:%GREEN%[3.4%]Pleasant Pasture%PURPLE%[23.6%]Gains a new Affix%WHITE%[25%]CNC%DGREEN%[48%]Random new Rare Relic%NL%%ORANGE%Socketable Item:%RED%[25%]Gains Sockets(*)%PURPLE%[25%]Gains a new Affix%WHITE%[25%]CNC/%DGREEN%[25%]Wasted%NL%%ORANGE%Unsocketable Item:%PURPLE%[25%]Gains a new Affix%WHITE%[50%]CNC%DGREEN%[25%]Wasted%NL%%RED%Corruption probability:} 
+ItemDisplay[cx6]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%GOLD%>>>>%DGREEN%%NAME%%GOLD%<<<<%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
+ItemDisplay[cx7]: %NL%%WHITE%>>>>%DGREEN%%NAME%%WHITE%<<<<%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL% 
 ItemDisplay[ear]: %ORANGE%%NAME%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                      ▬▬▬▬▬ (Relic) ▬▬▬▬▬                                      ║ 
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[ma10 !ID]: >>  Relics  <<%NL%%NAME%%NL%%WHITE%** T1-Lv86 **{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //寒霜洞窟 (Icy Cavern)  BUG無法顯示
-ItemDisplay[ma2 !ID]: >>  Relics  <<%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Forgotten Desert)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma3 !ID]: >>  Relics  <<%NL%%NAME%%NL%%DGREEN%** T?-Lv?? **{%DGREEN%(Abandoned Precinct)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //遺棄之地 (Abandoned Precinct)
-ItemDisplay[ma4 !ID]: >>  Relics  <<%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Desecrated Temple)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //亵渎教堂 (Desecrated Temple)
-ItemDisplay[ma5 !ID]: >>  Relics  <<%NL%%NAME%%NL%%WHITE%** T1-Lv86 **{%WHITE%(Frigid Plateau)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma6 !ID]: >>  Relics  <<%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Ruined Citadel)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7 !ID]: >>  Relics  <<%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Burnt Forest)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //焚燒森林 (Burnt Forest)
-ItemDisplay[ma8 !ID]: >>  Relics  <<%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Musty Crypt)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //發霉地穴 (Musty Crypt)
-ItemDisplay[ma9 !ID]: >>  Relics  <<%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Dim Cellar)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma11 !ID]: >>  Relics  <<%NL%%NAME%%NL%%DGREEN%** T0-Lv86 **{%DGREEN%(Pleasant Pasture)}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%  //悅心農場 (Pleasant Pasture) BUG無法顯示
-//ItemDisplay[MAP !ID]: >>  Relics  <<%NL%%NAME%%NL%%WHITE%** T1-Lv86 **{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //暂时用这种方式显示寒霜洞窟 (Icy Cavern)
+ItemDisplay[ma10 !ID]: >>  Relics  <<%NL%%NAME%%NL%%WHITE%** T1-Lv86 **{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% 
+ItemDisplay[ma2 !ID]: >>  Relics  <<%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Forgotten Desert)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% 
+ItemDisplay[ma3 !ID]: >>  Relics  <<%NL%%NAME%%NL%%DGREEN%** T?-Lv?? **{%DGREEN%(Abandoned Precinct)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% 
+ItemDisplay[ma4 !ID]: >>  Relics  <<%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Desecrated Temple)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% 
+ItemDisplay[ma5 !ID]: >>  Relics  <<%NL%%NAME%%NL%%WHITE%** T1-Lv86 **{%WHITE%(Frigid Plateau)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% 
+ItemDisplay[ma6 !ID]: >>  Relics  <<%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Ruined Citadel)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% 
+ItemDisplay[ma7 !ID]: >>  Relics  <<%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Burnt Forest)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% 
+ItemDisplay[ma8 !ID]: >>  Relics  <<%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Musty Crypt)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% 
+ItemDisplay[ma9 !ID]: >>  Relics  <<%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Dim Cellar)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% 
+ItemDisplay[ma11 !ID]: >>  Relics  <<%NL%%NAME%%NL%%DGREEN%** T0-Lv86 **{%DGREEN%(Pleasant Pasture)}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%  
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[ma10]: (Icy Cavern)%NL%%WHITE%** T1-Lv86 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%Immunities:%RED%*F:120,%YELLOW%*L:100,%GOLD%*Phy:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:33,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} //寒霜洞窟 (Icy Cavern)  BUG無法顯示
-ItemDisplay[ma2]: (Forgotten Desert)%NL%%RED%** T3-Lv88 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%Immunities:%BLUE%*C:160,%RED%***F:130,%YELLOW%**L:100,%GOLD%*Phy:100,%DGREEN%***P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:66,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma3]: (Abandoned Precinct)%NL%%DGREEN%** T?-Lv?? **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%Immunities:%BLUE%C:,%RED%F:,%YELLOW%L:,%ORANGE%M:,%GOLD%Phy:,%DGREEN%P:%NL%%WHITE%Hige Res:%BLUE%C:,%RED%F:,%YELLOW%L:,%ORANGE%M:,%GOLD%Phy:,%DGREEN%P:%NL%%ORANGE%Monster Base Resistances and Immunities:} //遺棄之地 (Abandoned Precinct)
-ItemDisplay[ma4]: (Desecrated Temple)%NL%%GREEN%** T2-Lv87 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%Immunities:%BLUE%***C:190,%RED%***F:140,%YELLOW%*L:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:66,%YELLOW%L:60,%ORANGE%M:50,%GOLD%Phy:75,%DGREEN%P:75%NL%%ORANGE%Monster Base Resistances and Immunities:} //亵渎教堂 (Desecrated Temple)
-ItemDisplay[ma5]: (Frigid Plateau)%NL%%WHITE%** T1-Lv86 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%Immunities:%BLUE%*C:150,%RED%*F:140,%YELLOW%*****L:100,%DGREEN%**P:140%NL%%WHITE%Hige Res:%BLUE%C:66,%RED%F:66,%YELLOW%L:66,%ORANGE%M:50,%GOLD%Phy:75,%DGREEN%P:75%NL%%ORANGE%Monster Base Resistances and Immunities:} //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma6]: (Ruined Citadel)%NL%%RED%** T3-Lv88 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%Immunities:%BLUE%****C:160,%YELLOW%***L:120,%GOLD%*Phy:100,%DGREEN%**P:120%NL%%WHITE%Hige Res:%BLUE%C:80,%RED%F:66,%YELLOW%L:50,%ORANGE%M:70,%GOLD%Phy:50,%DGREEN%P:75%NL%%ORANGE%Monster Base Resistances and Immunities:} //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7]: (Burnt Forest)%NL%%RED%** T3-Lv88 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%Immunities:%BLUE%***C:140,%RED%*F:145,%YELLOW%*****L:120,%ORANGE%**M:100,%DGREEN%**P:145%NL%%WHITE%Hige Res:%BLUE%C:66,%RED%F:66,%YELLOW%L:66,%ORANGE%M:20,%GOLD%Phy:80,%DGREEN%P:50%NL%%ORANGE%Monster Base Resistances and Immunities:} //焚燒森林 (Burnt Forest)
-ItemDisplay[ma8]: (Musty Crypt)%NL%%GREEN%** T2-Lv87 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%Immunities:%BLUE%****C:190,%RED%***F:120,%YELLOW%****L:120,%ORANGE%%GOLD%*Phy:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:60,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} //發霉地穴 (Musty Crypt)
-ItemDisplay[ma9]: (Dim Cellar)%NL%%GREEN%** T2-Lv87 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%Immunities:%BLUE%**C:150,%RED%**F:120,%YELLOW%*L:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:50,%YELLOW%L:33,%ORANGE%M:0,%GOLD%Phy:75,%DGREEN%P:65%NL%%ORANGE%Monster Base Resistances and Immunities:} //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma11]: (Pleasant Pasture)%NL%%DGREEN%** T0-Lv86 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%Hige Res:%BLUE%C:50,%RED%F:50,%YELLOW%L:50,%ORANGE%M:33,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} //悅心農場 (Pleasant Pasture) BUG無法顯示
-//ItemDisplay[MAP ID]: (Icy Cavern)%NL%%WHITE%** T1-Lv86 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%Immunities:%RED%*F:120,%YELLOW%*L:100,%GOLD%*Phy:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:33,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:}  //暂时用这种方式显示寒霜洞窟 (Icy Cavern) 
-ItemDisplay[maz]: %NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%Good Luck!%NL%You only have one chance%NL%Unable to open the portal upon entry, unable to return after death}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%//地獄審判
+ItemDisplay[ma10]: (Icy Cavern)%NL%%WHITE%** T1-Lv86 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%Immunities:%RED%*F:120,%YELLOW%*L:100,%GOLD%*Phy:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:33,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
+ItemDisplay[ma2]: (Forgotten Desert)%NL%%RED%** T3-Lv88 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%Immunities:%BLUE%*C:160,%RED%***F:130,%YELLOW%**L:100,%GOLD%*Phy:100,%DGREEN%***P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:66,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
+ItemDisplay[ma3]: (Abandoned Precinct)%NL%%DGREEN%** T?-Lv?? **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%Immunities:%BLUE%C:,%RED%F:,%YELLOW%L:,%ORANGE%M:,%GOLD%Phy:,%DGREEN%P:%NL%%WHITE%Hige Res:%BLUE%C:,%RED%F:,%YELLOW%L:,%ORANGE%M:,%GOLD%Phy:,%DGREEN%P:%NL%%ORANGE%Monster Base Resistances and Immunities:} 
+ItemDisplay[ma4]: (Desecrated Temple)%NL%%GREEN%** T2-Lv87 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%Immunities:%BLUE%***C:190,%RED%***F:140,%YELLOW%*L:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:66,%YELLOW%L:60,%ORANGE%M:50,%GOLD%Phy:75,%DGREEN%P:75%NL%%ORANGE%Monster Base Resistances and Immunities:} 
+ItemDisplay[ma5]: (Frigid Plateau)%NL%%WHITE%** T1-Lv86 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%Immunities:%BLUE%*C:150,%RED%*F:140,%YELLOW%*****L:100,%DGREEN%**P:140%NL%%WHITE%Hige Res:%BLUE%C:66,%RED%F:66,%YELLOW%L:66,%ORANGE%M:50,%GOLD%Phy:75,%DGREEN%P:75%NL%%ORANGE%Monster Base Resistances and Immunities:} 
+ItemDisplay[ma6]: (Ruined Citadel)%NL%%RED%** T3-Lv88 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%Immunities:%BLUE%****C:160,%YELLOW%***L:120,%GOLD%*Phy:100,%DGREEN%**P:120%NL%%WHITE%Hige Res:%BLUE%C:80,%RED%F:66,%YELLOW%L:50,%ORANGE%M:70,%GOLD%Phy:50,%DGREEN%P:75%NL%%ORANGE%Monster Base Resistances and Immunities:} 
+ItemDisplay[ma7]: (Burnt Forest)%NL%%RED%** T3-Lv88 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%Immunities:%BLUE%***C:140,%RED%*F:145,%YELLOW%*****L:120,%ORANGE%**M:100,%DGREEN%**P:145%NL%%WHITE%Hige Res:%BLUE%C:66,%RED%F:66,%YELLOW%L:66,%ORANGE%M:20,%GOLD%Phy:80,%DGREEN%P:50%NL%%ORANGE%Monster Base Resistances and Immunities:} 
+ItemDisplay[ma8]: (Musty Crypt)%NL%%GREEN%** T2-Lv87 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%Immunities:%BLUE%****C:190,%RED%***F:120,%YELLOW%****L:120,%ORANGE%%GOLD%*Phy:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:60,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
+ItemDisplay[ma9]: (Dim Cellar)%NL%%GREEN%** T2-Lv87 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%Immunities:%BLUE%**C:150,%RED%**F:120,%YELLOW%*L:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:50,%YELLOW%L:33,%ORANGE%M:0,%GOLD%Phy:75,%DGREEN%P:65%NL%%ORANGE%Monster Base Resistances and Immunities:} 
+ItemDisplay[ma11]: (Pleasant Pasture)%NL%%DGREEN%** T0-Lv86 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%Hige Res:%BLUE%C:50,%RED%F:50,%YELLOW%L:50,%ORANGE%M:33,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
+ItemDisplay[maz]: %NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%Good Luck!%NL%You only have one chance%NL%Unable to open the portal upon entry, unable to return after death}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                       ▬▬▬▬▬ Scroll ▬▬▬▬▬                                      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[tsc DIFF=0]: %BLUE%Potal
+ItemDisplay[tsc DIFF=0]: %BLUE%Portal
 ItemDisplay[isc DIFF=0]: %GREEN%ID
 ItemDisplay[tbk]: %GOLD%%NAME%
 ItemDisplay[ibk]: %GOLD%%NAME%
@@ -782,9 +780,9 @@ ItemDisplay[gpb]: %ORANGE%[P] %GRAY%[%BLUE%O%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NO
 ItemDisplay[gpy]: %ORANGE%[P] %GRAY%[%YELLOW%O%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
 ItemDisplay[skz]: %ORANGE%[P] %GRAY%[%GRAY%O%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NOTIFY(ITEM)%
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku)]: ★%NAME%★%CONTINUE% 
-ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf)]: ★%NAME%★%CONTINUE% 
-ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc)]: ★%NAME%★%CONTINUE% 
+ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku)]: *%NAME%*%CONTINUE% 
+ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf)]: *%NAME%*%CONTINUE% 
+ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc)]: *%NAME%*%CONTINUE% 
 ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku) DIFF>0]: 
 ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf) DIFF>0]: 
 ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) DIFF>0]: 
@@ -816,14 +814,14 @@ ItemDisplay[r22]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%O
 ItemDisplay[r23]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Mal  %YELLOW%[#23] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
 ItemDisplay[r24]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%>>  Ist %YELLOW%[#24] %ORANGE%<<%RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
 ItemDisplay[r25]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%>>  Gul %YELLOW%[#25] %ORANGE%<<%RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r26]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%☆☆%RED%>>>>%GOLD%>>  Vex %YELLOW%[#26] %GOLD%<<%RED%<<<<%PURPLE%☆☆%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r27]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%☆☆%RED%>>>>%GOLD%>>  Ohm %YELLOW%[#27] %GOLD%<<%RED%<<<<%PURPLE%☆☆%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r28]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Lo  %PURPLE%[#28] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r29]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Sur  %PURPLE%[#29] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r30]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%★★%PURPLE%★★%YELLOW%☆☆%GOLD%★★>>%RED%>>>>  %GOLD%Ber  %PURPLE%[#30] %RED%<<<<%GOLD%<<★★%YELLOW%☆☆%PURPLE%★★%RED%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r31]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%★★%PURPLE%★★%YELLOW%☆☆%GOLD%★★>>%RED%>>>>  %GOLD%Jah  %PURPLE%[#31] %RED%<<<<%GOLD%<<★★%YELLOW%☆☆%PURPLE%★★%RED%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r32]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Cham  %PURPLE%[#32] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r33]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Zod   %PURPLE%[#33] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r26]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%##%RED%>>>>%GOLD%>>  Vex %YELLOW%[#26] %GOLD%<<%RED%<<<<%PURPLE%##%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r27]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%##%RED%>>>>%GOLD%>>  Ohm %YELLOW%[#27] %GOLD%<<%RED%<<<<%PURPLE%##%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r28]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%##%PURPLE%##%RED%>>>>%GOLD%>>  Lo  %PURPLE%[#28] %GOLD%<<%RED%<<<<%PURPLE%##%GOLD%##%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r29]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%##%PURPLE%##%RED%>>>>%GOLD%>>  Sur  %PURPLE%[#29] %GOLD%<<%RED%<<<<%PURPLE%##%GOLD%##%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r30]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%##%PURPLE%##%YELLOW%##%GOLD%##>>%RED%>>>>  %GOLD%Ber  %PURPLE%[#30] %RED%<<<<%GOLD%<<##%YELLOW%☆☆%PURPLE%##%RED%##%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r31]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%##%PURPLE%##%YELLOW%##%GOLD%##>>%RED%>>>>  %GOLD%Jah  %PURPLE%[#31] %RED%<<<<%GOLD%<<##%YELLOW%☆☆%PURPLE%##%RED%##%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r32]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%##%PURPLE%##%RED%>>>>%GOLD%>>  Cham  %PURPLE%[#32] %GOLD%<<%RED%<<<<%PURPLE%##%GOLD%##%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r33]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%##%PURPLE%##%RED%>>>>%GOLD%>>  Zod   %PURPLE%[#33] %GOLD%<<%RED%<<<<%PURPLE%##%GOLD%##%NL%%BORDER(85,1)%%BGCOLOR(138)%
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -891,7 +889,7 @@ ItemDisplay[jew RARE]: %NAME%%BORDER(85,1)%%BGCOLOR(60)%
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //──── UNIQUE CHARMS ────
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %NL%★%NAME%★%NL%%NOTIFY(GOLD)%%BORDER(85,1)%%MAPICON(31,18)%%BGCOLOR(138)%
+ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %NL%>> %NAME% <<%NL%%NOTIFY(GOLD)%%BORDER(85,1)%%MAPICON(31,18)%%BGCOLOR(138)%
 ItemDisplay[UNI cm2]: [%STAT(0,0)%/%RES%]%NL%%NAME%%CONTINUE%
 ItemDisplay[UNI cm1]: [%STAT(0,0)%/%RES%/%STAT(85,0)%]%NL%%NAME%%CONTINUE%
 ItemDisplay[UNI cm2 CLSK0=3]: AMA Torch %NAME%%CONTINUE%
@@ -974,7 +972,7 @@ ItemDisplay[cm1 AR>9 (LIFE>16 OR FHR>0) !(MAXDMG>2 OR STAT49>19 OR STAT51>43 OR 
 ItemDisplay[cm1 STR>0 (MAXDMG>2 OR STAT49>19 OR STAT51>43 OR STAT55>14 OR STAT57>291 OR MANA>10 OR FRES>8 OR LRES>8 OR CRES>8 OR PRES>8 OR RES>2 OR STAT31>25)]: %NAME%%PURPLE%+%STAT(0,0)%STR%NOTIFY(ITEM)%%CONTINUE%
 ItemDisplay[cm1 DEX>0 (MAXDMG>2 OR STAT49>19 OR STAT51>43 OR STAT55>14 OR STAT57>291 OR MANA>10 OR FRES>8 OR LRES>8 OR CRES>8 OR PRES>8 OR RES>2 OR STAT31>25)]: %NAME%%PURPLE%+%STAT(2,0)%DEX%NOTIFY(ITEM)%%CONTINUE%
 ItemDisplay[cm1 LIFE>16 (MAXDMG>2 OR STAT49>19 OR STAT51>43 OR STAT55>14 OR STAT57>291 OR MANA>10 OR FRES>8 OR LRES>8 OR CRES>8 OR PRES>8 OR RES>2 OR STAT31>25 OR AR>9)]: %NAME%%RED%+%STAT(7,0)%LIFE%NOTIFY(ITEM)%%CONTINUE%
-ItemDisplay[cm1 LIFE>9 LIFE<17 MAXDMG>2]: %NAME%%RED%+%STAT(7,0)%生命%NOTIFY(ITEM)%%CONTINUE%
+ItemDisplay[cm1 LIFE>9 LIFE<17 MAXDMG>2]: %NAME%%RED%+%STAT(7,0)%Life%NOTIFY(ITEM)%%CONTINUE%
 ItemDisplay[cm1 FHR>0 (MAXDMG>2 OR STAT49>19 OR STAT51>43 OR STAT55>14 OR STAT57>291 OR MANA>10 OR FRES>8 OR LRES>8 OR CRES>8 OR PRES>8 OR RES>2 OR STAT31>25 OR AR>9)]: %NAME%%GOLD%+5%FHR%NOTIFY(ITEM)%%CONTINUE%
 ItemDisplay[cm1 FRW>0 (MAXDMG>2 OR STAT49>19 OR STAT51>43 OR STAT55>14 OR STAT57>291 OR MANA>10 OR FRES>8 OR LRES>8 OR CRES>8 OR PRES>8 OR RES>2 OR STAT31>25)]: %NAME%%GOLD%+3%RUN%NOTIFY(ITEM)%%CONTINUE%
 ItemDisplay[cm1 MFIND>5 (MAXDMG>2 OR STAT49>19 OR STAT51>43 OR STAT55>14 OR STAT57>291 OR MANA>10 OR FRES>8 OR LRES>8 OR CRES>8 OR PRES>8 OR RES>2 OR STAT31>25)]: %NAME%%GOLD%+%STAT(80,0)%MF%NOTIFY(ITEM)%%CONTINUE%
@@ -1083,7 +1081,7 @@ ItemDisplay[ci3 !ETH NMAG SOCK=0 ILVL>84 FILTERLVL=1]: %NAME%%TAN%-> Try inject%
 //  RW
 ItemDisplay[(EQ3 OR CL4) NMAG !RW SOCK=2]: %NAME%{%GOLD%Splendor:%ORANGE%[#5]+[#17]}%CONTINUE%
 ItemDisplay[EQ3 NMAG !RW SOCK=3]: %NAME%{%GOLD%Sanctuary:%ORANGE%Ko[#18]+Ko[#18]+Mal[#23]%NL%Dream:Io[#16]+Jah[#31]+Pul[#21]}%CONTINUE%
-ItemDisplay[(EQ3 OR CL3) !ETH NMAG !RW SOCK=4]: %NAME%{%GOLD%Spirit:%ORANGE%Tal[#7]+Thul[#10]+Ort[#9]+Amn[#11]%NL%%GOLD%凤凰:%ORANGE%Vex[#26]+Vex[#26]+Lo[#28]+Jah[#31]}%CONTINUE%
+ItemDisplay[(EQ3 OR CL3) !ETH NMAG !RW SOCK=4]: %NAME%{%GOLD%Spirit:%ORANGE%Tal[#7]+Thul[#10]+Ort[#9]+Amn[#11]%NL%%GOLD%Phoenix:%ORANGE%Vex[#26]+Vex[#26]+Lo[#28]+Jah[#31]}%CONTINUE%
 ItemDisplay[(EQ3 OR CL3) ETH NMAG !RW SOCK=4]: %NAME%{%GOLD%Exile:%ORANGE%Vex[#26]+Ohm[#27]+Ist[#24]+Dol[#14]}%CONTINUE%
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[uit !ETH NMAG !INF !RW (SOCK=0 OR SOCK=4) ED=15]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL% 
@@ -1131,7 +1129,7 @@ ItemDisplay[7cr NMAG !RW !INF SOCK=4]: %NAME%{%GOLD%Passion:%ORANGE%[#14]+[#9]+[
 ItemDisplay[7cr NMAG !RW !INF SOCK=5]: %NAME%{%GOLD%Grief:%ORANGE%[#5]+[#3]+[#28]+[#23]+[#8]%NL%%NAME%}%CONTINUE%  
 ItemDisplay[7cr NMAG !RW !INF SOCK=6]: %NAME%{%GOLD%Silence:%ORANGE%[#14]+[#2]+[#15]+[#24]+[#3]+[#26]%NL%%GOLD%Last Wish:%ORANGE%[#31]+[#23]+[#31]+[#29]+[#31]+[#30]%NL%%NAME%}%CONTINUE%  
 ItemDisplay[(7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd) NMAG !RW !INF SOCK=4]: %NAME%{%GOLD%Oath:%ORANGE%[#13]+[#21]+[#23]+[#17]%NL%%NAME%}%CONTINUE%  
-ItemDisplay[(7gd OR 7fb) NMAG !RW !INF SOCK=5]: %NAME%{%GOLD%死神:%ORANGE%[#15]+[#1]+[#26]+[#9]+[#25]%NL%%GOLD%Honor:%ORANGE%[#11]+[#1]+[#6]+[#3]+[#12]%NL%%NAME%}%CONTINUE%  
+ItemDisplay[(7gd OR 7fb) NMAG !RW !INF SOCK=5]: %NAME%{%GOLD%Death:%ORANGE%[#15]+[#1]+[#26]+[#9]+[#25]%NL%%GOLD%Honor:%ORANGE%[#11]+[#1]+[#6]+[#3]+[#12]%NL%%NAME%}%CONTINUE%  
 ItemDisplay[7gd NMAG !RW !INF SOCK=6]: %NAME%{%GOLD%Silence:%ORANGE%[#14]+[#2]+[#15]+[#24]+[#3]+[#26]%NL%%GOLD%Breath of the Dying:%ORANGE%[#26]+[#15]+[#1]+[#2]+[#33]+[#5]%NL%%GOLD%Last Wish:%ORANGE%[#31]+[#23]+[#31]+[#29]+[#31]+[#30]%NL%%NAME%}%CONTINUE%
 //──── SHOW THESE SWORD ────
 ItemDisplay[crs NMAG !RW !INF SOCK=0 ILVL>25 ILVL<41 CLVL<60 FILTERLVL=1]: %NAME% [Spirit Sword]{%NAME%} 
@@ -1160,7 +1158,7 @@ ItemDisplay[7wa !ETH NMAG !RW !INF SOCK=4]: %NAME%{%GOLD%Passion:%ORANGE%[#14]+[
 ItemDisplay[7wa !ETH NMAG !RW !INF SOCK=5]: %NAME%{%GOLD%Beast:%ORANGE%[#30]+[#3]+[#22]+[#23]+[#17]%NL%%GOLD%Grief:[#5]+[#3]+[#28]+[#23]+[#8]%NL%%GOLD%Doom%ORANGE%[#15]+[#27]+[#22]+[#28]+[#32]%NL%%NAME%}%CONTINUE%  
 ItemDisplay[7wa !ETH NMAG !RW !INF SOCK=6]: %NAME%{%GOLD%Last Wish:%ORANGE%[#31]+[#23]+[#31]+[#29]+[#31]+[#30]%NL%%NAME%}%CONTINUE%  
 ItemDisplay[7wa ETH NMAG !RW !INF SOCK=4]: %NAME%{%GOLD%Oath:%ORANGE%[#13]+[#21]+[#23]+[#17]%NL%%NAME%}%CONTINUE%  
-ItemDisplay[7wa ETH NMAG !RW !INF SOCK=5]: %NAME%{%GOLD%Eternity:%ORANGE%[#11]+[#30]+[#24]+[#12]+[#29]%NL%%GOLD%死神:%ORANGE%[#15]+[#1]+[#26]+[#9]+[#25]%NL%%NAME%}%CONTINUE%  
+ItemDisplay[7wa ETH NMAG !RW !INF SOCK=5]: %NAME%{%GOLD%Eternity:%ORANGE%[#11]+[#30]+[#24]+[#12]+[#29]%NL%%GOLD%Death:%ORANGE%[#15]+[#1]+[#26]+[#9]+[#25]%NL%%NAME%}%CONTINUE%  
 ItemDisplay[7wa ETH NMAG !RW !INF SOCK=6]: %NAME%{%GOLD%Breath of the Dying:%ORANGE%[#26]+[#15]+[#1]+[#2]+[#33]+[#5]%NL%%NAME%}%CONTINUE%  
 ItemDisplay[wax NMAG !RW !INF SOCK=5]: %NAME%{%GOLD%Beast:%ORANGE%[#30]+[#3]+[#22]+[#23]+[#17]%NL%%GOLD%Doom:%ORANGE%[#15]+[#27]+[#22]+[#28]+[#32]%NL%%ORANGE%RW:Beast / Doom%NL%%NAME%}%CONTINUE% 
 //──── other aex ────
@@ -1413,13 +1411,13 @@ ItemDisplay[(CL4 OR WP12) !UNI ((CLSK2=2 AND (SK66=3 OR SK74=3 OR SK79=3 OR SK83
 //──── SOR(nothing) ────
 //──── AMA ────
 ItemDisplay[(am5 OR ama OR amf) MAG !ID FILTERLVL<4]: %NAME%
-ItemDisplay[(am5 OR ama OR amf) !UNI (TABSK2>4 OR (TABSK2>2 AND CLSK0=2))]: %NAME%%NOTIFY(ITEM)%  // 5~6 AMA
+ItemDisplay[(am5 OR ama OR amf) !UNI (TABSK2>4 OR (TABSK2>2 AND CLSK0=2))]: %NAME%%NOTIFY(ITEM)%  // 5~6 AMA jav
 //──── AMU & RING ────
 ItemDisplay[(rin OR amu) MAG !ID FILTERLVL=1]: %NAME% 
 ItemDisplay[(rin OR amu) MAG !ID ILVL>89 FILTERLVL<4]: %NAME% 
 ItemDisplay[amu MAG (TABSK0=3 OR TABSK1=3 OR TABSK2=3 OR TABSK8=3 OR TABSK9=3 OR TABSK10=3 OR TABSK16=3 OR TABSK17=3 OR TABSK18=3 OR TABSK24=3 OR TABSK25=3 OR TABSK26=3 OR TABSK32=3 OR TABSK33=3 OR TABSK34=3 OR TABSK40=3 OR TABSK41=3 OR TABSK42=3 OR TABSK48=3 OR TABSK49=3 OR TABSK50=3)]: %NAME%%BORDER(4,1)%   
 ItemDisplay[rin OR amu MAG ID]: %NAME%  
-//──── SHOPPING ────
+//──── Cube base ────
 ItemDisplay[(vgl OR xvg OR uvg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [Blood] {%ORANGE%CRAFT:[#4]+Ruby+Jew} 
 ItemDisplay[(mgl OR xmg OR umg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [Hitpower] {%ORANGE%CRAFT:[#9]+Sapphire+Jew} 
 ItemDisplay[(lgl OR xlg OR ulg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#9]+Amethyst+Jew} 
@@ -1429,7 +1427,7 @@ ItemDisplay[(lgl OR xlg OR ulg) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE
 ItemDisplay[(lbt OR xlb OR ulb) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#10]+Amethyst+Jew%NL%early ladder} 
 ItemDisplay[(zvb OR uvc) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#6]+Amethyst+Jew%NL%early ladder} 
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
-//║                                        ▬▬▬▬▬ RARA ▬▬▬▬▬                                       ║  
+//║                                        ▬▬▬▬▬ Rare ▬▬▬▬▬                                       ║  
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[(WEAPON OR ARMOR) RARE CLVL<60 !ID FILTERLVL=1]: %NAME%   
 ItemDisplay[(WEAPON OR ARMOR) ELT RARE CLVL<80 !ID FILTERLVL=1]: %NAME%   
@@ -1524,12 +1522,4 @@ ItemDisplay[(vps OR wms OR yps OR key OR tsc OR isc) DIFF>0]:
 //60 --MED RPICE
 //138--HIGH RPICE
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//─────────────────────────────────────────────────────────────────────────────────────────────────
-    更新笔记:V-PTR                                                                        
-    超大更新：加入物品孔数、Max Sockets、腐化孔数、升级后孔数提醒
-             加入物品+技能+重要属性提醒
-             加入[已腐化]提醒（地图除外）
-			 加入过滤器等级，可随时切换屏蔽程度
-			 加入DIY区域，用于客制DIY，且可随等级切换DIY显示与否
-	下一步  ：纠错，查BUG
-//─────────────────────────────────────────────────────────────────────────────────────────────────
+
