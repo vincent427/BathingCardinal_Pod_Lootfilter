@@ -63,7 +63,6 @@ At present, the main focus is on adding filter functions for the new season, and
 ### 2024/2/2
 Fix some bugs
 
-## Changelog:
 ### 2024/1/2
 Add Engilsh version &
 Fix some bugs
