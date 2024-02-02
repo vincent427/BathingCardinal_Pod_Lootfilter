@@ -60,6 +60,10 @@ At present, the main focus is on adding filter functions for the new season, and
 现阶段主要是针对新赛季添加过滤器功能为主，以后会考虑添加英文版本的**Bathing_Eng.filter**
 
 ## Changelog:
+### 2024/2/2
+Fix some bugs
+
+## Changelog:
 ### 2024/1/2
 Add Engilsh version &
 Fix some bugs
