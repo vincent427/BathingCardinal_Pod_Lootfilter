@@ -210,7 +210,7 @@ ItemDisplay[(WEAPON OR ARMOR) RW]: %NAME% %RED% (%SOCKETS%) %BGCOLOR(138)%
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[MAG cm1 (!ID OR MAXDMG>2 OR STAT49>19 OR STAT51>43 OR STAT55>14 OR STAT57>291 OR FRES>8 OR LRES>8 OR CRES>8 OR PRES>8 OR RES>2 OR MFIND>5 OR FHR>0 OR LIFE>16 OR (MANA>10 (LIFE>16 OR FHR>0 OR FRW>0 OR GFIND>9)) OR (STAT31>25 (STR>0 OR DEX>0 OR LIFE>16 OR FHR>0 OR FRW>0 OR MFIND>5 OR GFIND>8)))]: %NAME%%ORANGE%[SC]%CONTINUE%
 ItemDisplay[MAG cm3 (!ID OR TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR STAT22>8 OR FRES>27 OR LRES>27 OR CRES>27 OR PRES>27 OR RES>12 OR (MANA>39 (LIFE>0 OR FHR>0)) OR ILVL>90)]: %NAME%%ORANGE%[GC]%CONTINUE%
-ItemDisplay[MAG cm3 ILVL>90]: %ORANGE%*i%BLUE%%NAME%%CONTINUE%{%ORANGE%Cube for 45Life skiller}
+ItemDisplay[MAG cm3 ILVL>90]: %ORANGE%★[i]%BLUE%%NAME%%CONTINUE%{%ORANGE%Cube for 45Life skiller}
 ItemDisplay[EQ7 (MAG OR RARE OR CRAFT) !RW (!ID OR CLSK0>0 OR CLSK1>0 OR CLSK2>0 OR CLSK3>0 OR CLSK4>0 OR CLSK5>0 OR CLSK6>0 OR TABSK0>0 OR TABSK1>0 OR TABSK2>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK24>0 OR TABSK25>0 OR TABSK26>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0)]: %NAME%%ORANGE%[Circlet]%CONTINUE%
 ItemDisplay[STAT360>0]: %NAME%%RED%[SLAMMED]%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -676,13 +676,13 @@ ItemDisplay[dhn]: %RED%———%YELLOW%———%GREEN%———%BLUE%———
 ItemDisplay[bey]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%>>>>%DGREEN%%NAME%%WHITE%<<<<%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
 ItemDisplay[mbr]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%>>>>%DGREEN%%NAME%%WHITE%<<<<%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
 ItemDisplay[toa]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%———{%GOLD%Right Click to Unlearn your skills%NL%%NL%%TAN%Token of Absolution} 
-ItemDisplay[tes]: %NL%%NAME% (A1.A2)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%Synthesize 4 different essence into a token} 
-ItemDisplay[ceh]: %NL%%NAME% (A3)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%Synthesize 4 different essence into a token} 
-ItemDisplay[bet]: %NL%%NAME% (A4)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%Synthesize 4 different essence into a token} 
-ItemDisplay[fed]: %NL%%NAME% (A5)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%Synthesize 4 different essence into a token} 
+ItemDisplay[tes]: %NL%%NAME% (A1.A2)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%SPACE%{%ORANGE%Synthesize 4 different essence into a token} 
+ItemDisplay[ceh]: %NL%%NAME% (A3)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%SPACE%{%ORANGE%Synthesize 4 different essence into a token} 
+ItemDisplay[bet]: %NL%%NAME% (A4)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%SPACE%{%ORANGE%Synthesize 4 different essence into a token} 
+ItemDisplay[fed]: %NL%%NAME% (A5)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%SPACE%{%ORANGE%Synthesize 4 different essence into a token} 
 ItemDisplay[std]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%BORDER(85,1)%%BGCOLOR(60)% 
 ItemDisplay[leg]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(15)% 
-ItemDisplay[cx5]: %NL%%GOLD%>>>>%WHITE%>>%NAME% (ooc)%WHITE%<<%GOLD%<<<<%NOTIFY(ITEM)%%MAPICON(5,11)%%BORDER(85,1)%%BGCOLOR(15)%%NL%{%ORANGE%Relic:%GREEN%[3.4%]Pleasant Pasture%PURPLE%[23.6%]Gains a new Affix%WHITE%[25%]CNC%DGREEN%[48%]Random new Rare Relic%NL%%ORANGE%Socketable Item:%RED%[25%]Gains Sockets(*)%PURPLE%[25%]Gains a new Affix%WHITE%[25%]CNC%DGREEN%[25%]Wasted%NL%%ORANGE%Unsocketable Item:%PURPLE%[25%]Gains a new Affix%WHITE%[50%]CNC%DGREEN%[25%]Wasted%NL%%RED%Corruption probability:} 
+ItemDisplay[cx5]: %NL%%GOLD%>>>>%WHITE%>>%NAME% (ooc)%WHITE%<<%GOLD%<<<<%NOTIFY(ITEM)%%MAPICON(5,11)%%BORDER(85,1)%%BGCOLOR(15)%%NL%%SPACE%{%ORANGE%Relic:%GREEN%[3.4%]Pleasant Pasture%PURPLE%[23.6%]Gains a new Affix%WHITE%[25%]CNC%DGREEN%[48%]Random new Rare Relic%NL%%ORANGE%Socketable Item:%RED%[25%]Gains Sockets(*)%PURPLE%[25%]Gains a new Affix%WHITE%[25%]CNC/%DGREEN%[25%]Wasted%NL%%ORANGE%Unsocketable Item:%PURPLE%[25%]Gains a new Affix%WHITE%[50%]CNC%DGREEN%[25%]Wasted%NL%%RED%Corruption probability:} 
 ItemDisplay[cx6]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%GOLD%>>>>%DGREEN%%NAME%%GOLD%<<<<%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— 
 ItemDisplay[cx7]: %NL%%WHITE%>>>>%DGREEN%%NAME%%WHITE%<<<<%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL% 
 ItemDisplay[ear]: %ORANGE%%NAME%
@@ -714,8 +714,8 @@ ItemDisplay[maz]: %NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%Good Luck!%NL%You only 
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                       ▬▬▬▬▬ Scroll ▬▬▬▬▬                                      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[tsc DIFF=0]: %BLUE%Portal
-ItemDisplay[isc DIFF=0]: %GREEN%ID
+ItemDisplay[tsc DIFFICULTY=0]: %BLUE%Portal
+ItemDisplay[isc DIFFICULTY=0]: %GREEN%ID
 ItemDisplay[tbk]: %GOLD%%NAME%
 ItemDisplay[ibk]: %GOLD%%NAME%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -756,7 +756,7 @@ ItemDisplay[mp5 (FILTERLVL=1 OR FILTERLVL=3 OR FILTERLVL=5 OR FILTERLVL=7)]: %BL
 ItemDisplay[hp4 OR mp4]:
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[rvs]: %PURPLE%r %GRAY%35%%BGCOLOR(15)%%BORDER(4,1)%
-ItemDisplay[rvl]: %NL%%PURPLE%R %WHITE%70%%NL%%BGCOLOR(15)%%BORDER(4,1)%
+ItemDisplay[rvl]: %NL%%PURPLE%R %WHITE%70%%NL%%SPACE%%BGCOLOR(15)%%BORDER(4,1)%
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>9]:
 //─────────────────────────────────────────────────────────────────────────────────────────────────
@@ -783,9 +783,9 @@ ItemDisplay[skz]: %ORANGE%[P] %GRAY%[%GRAY%O%GRAY%]%BORDER(4,1)%%BGCOLOR(60)%%NO
 ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku)]: *%NAME%*%CONTINUE% 
 ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf)]: *%NAME%*%CONTINUE% 
 ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc)]: *%NAME%*%CONTINUE% 
-ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku) DIFF>0]: 
-ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf) DIFF>0]: 
-ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) DIFF>0]: 
+ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku) DIFFICULTY>0]: 
+ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf) DIFFICULTY>0]: 
+ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) DIFFICULTY>0]: 
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                      ▬▬▬▬▬ # RUNES ▬▬▬▬▬                                      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -802,26 +802,26 @@ ItemDisplay[r10 FILTERLVL<4]: %NOTIFY(ORANGE)%%ORANGE%Thul %WHITE%[#10]%BORDER(4
 ItemDisplay[r11 FILTERLVL<6]: %NOTIFY(ORANGE)%%ORANGE%Amn %WHITE%[#11]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:Blood Amu]}
 ItemDisplay[r12 FILTERLVL<6]: %NOTIFY(ORANGE)%%ORANGE%Sol %WHITE%[#12]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:HP Ring]}
 ItemDisplay[r13 FILTERLVL<4]: %NOTIFY(WHITE)%%WHITE%Shael %GREEN%[#13]
-ItemDisplay[r14]: %NOTIFY(GREEN)%%NL%%GREEN%Dol %RED%[#14]%NL%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[Upgrade Weapon]}
-ItemDisplay[r15]: %NOTIFY(GREEN)%%NL%%GREEN%Hel %RED%[#15]%NL%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[Upgrade Armor]}
-ItemDisplay[r16]: %NOTIFY(GREEN)%%NL%%GREEN%Io %RED%[#16]%NL%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[Upgrade Armor]}
-ItemDisplay[r17]: %NOTIFY(GREEN)%%NL%%GREEN%Lum %RED%[#17]%NL%%BORDER(85,1)%%BGCOLOR(15)%{%GOLD%[Upgrade Weapon]}
-ItemDisplay[r18]: %NOTIFY(GREEN)%%NL%%GREEN%Ko %RED%[#18]%NL%%BORDER(85,1)%%BGCOLOR(15)%{%GOLD%[Upgrade %YELLOW%Armor]}
-ItemDisplay[r19]: %NOTIFY(GREEN)%%NL%%GREEN%Fal %RED%[#19]%NL%%BORDER(85,1)%%BGCOLOR(15)%{%YELLOW%[Upgrade Weapon]}
-ItemDisplay[r20]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Lem  %YELLOW%[#20] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r21]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Pul  %YELLOW%[#21] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(66)%
-ItemDisplay[r22]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Um  %YELLOW%[#22] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r23]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Mal  %YELLOW%[#23] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r24]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%>>  Ist %YELLOW%[#24] %ORANGE%<<%RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r25]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%>>  Gul %YELLOW%[#25] %ORANGE%<<%RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r26]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%##%RED%>>>>%GOLD%>>  Vex %YELLOW%[#26] %GOLD%<<%RED%<<<<%PURPLE%##%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r27]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%##%RED%>>>>%GOLD%>>  Ohm %YELLOW%[#27] %GOLD%<<%RED%<<<<%PURPLE%##%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r28]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%##%PURPLE%##%RED%>>>>%GOLD%>>  Lo  %PURPLE%[#28] %GOLD%<<%RED%<<<<%PURPLE%##%GOLD%##%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r29]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%##%PURPLE%##%RED%>>>>%GOLD%>>  Sur  %PURPLE%[#29] %GOLD%<<%RED%<<<<%PURPLE%##%GOLD%##%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r30]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%##%PURPLE%##%YELLOW%##%GOLD%##>>%RED%>>>>  %GOLD%Ber  %PURPLE%[#30] %RED%<<<<%GOLD%<<##%YELLOW%##%PURPLE%##%RED%##%NL%———%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r31]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%##%PURPLE%##%YELLOW%##%GOLD%##>>%RED%>>>>  %GOLD%Jah  %PURPLE%[#31] %RED%<<<<%GOLD%<<##%YELLOW%##%PURPLE%##%RED%##%NL%———%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r32]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%##%PURPLE%##%RED%>>>>%GOLD%>>  Cham  %PURPLE%[#32] %GOLD%<<%RED%<<<<%PURPLE%##%GOLD%##%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r33]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%##%PURPLE%##%RED%>>>>%GOLD%>>  Zod   %PURPLE%[#33] %GOLD%<<%RED%<<<<%PURPLE%##%GOLD%##%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r14]: %NOTIFY(GREEN)%%NL%%GREEN%Dol %RED%[#14]%NL%%SPACE%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[Upgrade Weapon]}
+ItemDisplay[r15]: %NOTIFY(GREEN)%%NL%%GREEN%Hel %RED%[#15]%NL%%SPACE%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[Upgrade Armor]}
+ItemDisplay[r16]: %NOTIFY(GREEN)%%NL%%GREEN%Io %RED%[#16]%NL%%SPACE%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[Upgrade Armor]}
+ItemDisplay[r17]: %NOTIFY(GREEN)%%NL%%GREEN%Lum %RED%[#17]%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(15)%{%GOLD%[Upgrade Weapon]}
+ItemDisplay[r18]: %NOTIFY(GREEN)%%NL%%GREEN%Ko %RED%[#18]%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(15)%{%GOLD%[Upgrade %YELLOW%Armor]}
+ItemDisplay[r19]: %NOTIFY(GREEN)%%NL%%GREEN%Fal %RED%[#19]%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(15)%{%YELLOW%[Upgrade Weapon]}
+ItemDisplay[r20]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Lem  %YELLOW%[#20] %RED%<<<<%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r21]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Pul  %YELLOW%[#21] %RED%<<<<%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(66)%
+ItemDisplay[r22]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Um  %YELLOW%[#22] %RED%<<<<%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r23]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Mal  %YELLOW%[#23] %RED%<<<<%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r24]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%>>  Ist %YELLOW%[#24] %ORANGE%<<%RED%<<<<%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r25]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%>>  Gul %YELLOW%[#25] %ORANGE%<<%RED%<<<<%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r26]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%##%RED%>>>>%GOLD%>>  Vex %YELLOW%[#26] %GOLD%<<%RED%<<<<%PURPLE%##%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r27]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%##%RED%>>>>%GOLD%>>  Ohm %YELLOW%[#27] %GOLD%<<%RED%<<<<%PURPLE%##%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r28]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%##%PURPLE%##%RED%>>>>%GOLD%>>  Lo  %PURPLE%[#28] %GOLD%<<%RED%<<<<%PURPLE%##%GOLD%##%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r29]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%##%PURPLE%##%RED%>>>>%GOLD%>>  Sur  %PURPLE%[#29] %GOLD%<<%RED%<<<<%PURPLE%##%GOLD%##%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r30]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%##%PURPLE%##%YELLOW%##%GOLD%##>>%RED%>>>>  %GOLD%Ber  %PURPLE%[#30] %RED%<<<<%GOLD%<<##%YELLOW%☆☆%PURPLE%##%RED%##%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r31]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%##%PURPLE%##%YELLOW%##%GOLD%##>>%RED%>>>>  %GOLD%Jah  %PURPLE%[#31] %RED%<<<<%GOLD%<<##%YELLOW%☆☆%PURPLE%##%RED%##%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r32]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%##%PURPLE%##%RED%>>>>%GOLD%>>  Cham  %PURPLE%[#32] %GOLD%<<%RED%<<<<%PURPLE%##%GOLD%##%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r33]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%##%PURPLE%##%RED%>>>>%GOLD%>>  Zod   %PURPLE%[#33] %GOLD%<<%RED%<<<<%PURPLE%##%GOLD%##%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -837,19 +837,19 @@ ItemDisplay[r33]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%##%PUR
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //  prefix NL 
 ItemDisplay[jew STAT17>24]: %NAME%%NL%%GOLD%+%STAT(17,0)%%ED%CONTINUE%
-ItemDisplay[jew RES>5 !STAT17>24]: %NAME%%NL%%GOLD%+%STAT(39,0)%%%RED%A%PURPLE%L%ORANGE%L%DGREEN%R%YELLOW%E%BLUE%S%CONTINUE%
+ItemDisplay[jew RES>5 !STAT17>24]: %NAME%%NL%%GOLD%+%STAT(39,0)%%%RED%A%PURPLE%L%ORANGE%L%DGREEN%RES%CONTINUE%
 ItemDisplay[jew MAEK>0 !(STAT17>24 OR RES>5)]: %NAME%%NL%%GOLD%+%STAT(138,0)%%BLUE%EK%CONTINUE%
-ItemDisplay[jew STAT39>15 !(STAT17>24 OR RES>5 OR MAEK>0)]: %NAME%%NL%%RED%+%STAT(39,0)%%F.Res%CONTINUE%
-ItemDisplay[jew STAT41>15 !(STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15)]: %NAME%%NL%%YELLOW%+%STAT(41,0)%%L.Res%CONTINUE%
-ItemDisplay[jew STAT43>15 !(STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 OR STAT41>15)]: %NAME%%NL%%BLUE%+%STAT(43,0)%%C.Res%CONTINUE%
-ItemDisplay[jew STAT45>15 !(STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 OR STAT41>15 OR STAT43>15)]: %NAME%%NL%%GREEN%+%STAT(45,0)%%P.Res%CONTINUE%
+ItemDisplay[jew STAT39>15 !(STAT17>24 OR RES>5 OR MAEK>0)]: %NAME%%NL%%RED%+%STAT(39,0)%%F Res%CONTINUE%
+ItemDisplay[jew STAT41>15 !(STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15)]: %NAME%%NL%%YELLOW%+%STAT(41,0)%%L Res%CONTINUE%
+ItemDisplay[jew STAT43>15 !(STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 OR STAT41>15)]: %NAME%%NL%%BLUE%+%STAT(43,0)%%C Res%CONTINUE%
+ItemDisplay[jew STAT45>15 !(STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 OR STAT41>15 OR STAT43>15)]: %NAME%%NL%%GREEN%+%STAT(45,0)%%P Res%CONTINUE%
 //  prefix !NL 
-ItemDisplay[jew RES>5 STAT17>24]: %NAME%%GOLD%+%STAT(39,0)%%%RED%A%PURPLE%L%ORANGE%L%DGREEN%R%YELLOW%E%BLUE%S%CONTINUE%
+ItemDisplay[jew RES>5 STAT17>24]: %NAME%%GOLD%+%STAT(39,0)%%%RED%A%PURPLE%L%ORANGE%L%DGREEN%RES%CONTINUE%
 ItemDisplay[jew MAEK>0 (STAT17>24 OR RES>5)]: %NAME%%GOLD%+%STAT(138,0)%%BLUE%EK %CONTINUE%
-ItemDisplay[jew STAT39>15 (STAT17>24 OR RES>5 OR MAEK>0)]: %NAME%%GOLD%%RED%+%STAT(39,0)%%F.Res%CONTINUE%
-ItemDisplay[jew STAT41>15 (STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15)]: %NAME%%GOLD%%YELLOW%+%STAT(41,0)%%L.Res%CONTINUE%
-ItemDisplay[jew STAT43>15 (STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 OR STAT41>15)]: %NAME%%BLUE%+%STAT(43,0)%%C.Res%CONTINUE%
-ItemDisplay[jew STAT45>15 (STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 OR STAT41>15 OR STAT43>15)]: %NAME%%GREEN%+%STAT(45,0)%%P.Res%CONTINUE%
+ItemDisplay[jew STAT39>15 (STAT17>24 OR RES>5 OR MAEK>0)]: %NAME%%GOLD%%RED%+%STAT(39,0)%%F Res%CONTINUE%
+ItemDisplay[jew STAT41>15 (STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15)]: %NAME%%GOLD%%YELLOW%+%STAT(41,0)%%L Res%CONTINUE%
+ItemDisplay[jew STAT43>15 (STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 OR STAT41>15)]: %NAME%%BLUE%+%STAT(43,0)%%C Res%CONTINUE%
+ItemDisplay[jew STAT45>15 (STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 OR STAT41>15 OR STAT43>15)]: %NAME%%GREEN%+%STAT(45,0)%%P Res%CONTINUE%
 //  suffix NL
 ItemDisplay[jew STAT91>0 !(STAT17>24 OR STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 OR STAT41>15 OR STAT43>15 OR STAT45>15)]: %NAME%%NL%%GOLD%-15%Req%CONTINUE%
 ItemDisplay[jew IAS>0 !(STAT17>24 OR STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 OR STAT41>15 OR STAT43>15 OR STAT45>15 OR  STAT91>0)]: %NAME%%NL%%GOLD%+15%IAS%CONTINUE%
@@ -871,16 +871,16 @@ ItemDisplay[jew STAT1>0 (STAT17>24 OR STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 
 //───────────────────────────────────────────────────────────────────────────────────────────────── 
 ItemDisplay[jew UNI !ID]: %NL%%PURPLE%>>%RED%>>%ORANGE%>>%YELLOW%>>%GOLD%Rainbow Facet%YELLOW%<<%ORANGE%<<%RED%<<%PURPLE%<<%NOTIFY(GOLD)%%NOTIFYSOUND(35)%%NL%%MAPICON(5,18)%%BORDER(85,1)%%BGCOLOR(138)%
 ItemDisplay[jew UNI ID STAT333>0]: %GOLD%+%STAT(329,0)%]%RED%Fire%GOLD%%NL%%NAME%%CONTINUE%
-ItemDisplay[jew UNI ID STAT333>0]: %GOLD%[-%STAT(333,0)%/%NAME%%CONTINUE%
+ItemDisplay[jew UNI ID STAT333>0]: %GOLD%[-%STAT(333.0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT334>0]: %GOLD%+%STAT(330,0)%]%YELLOW%Lightling%GOLD%%NL%%NAME%%CONTINUE%
-ItemDisplay[jew UNI ID STAT334>0]: %GOLD%[-%STAT(334,0)%/%NAME%%CONTINUE%
+ItemDisplay[jew UNI ID STAT334>0]: %GOLD%[-%STAT(334.0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT335>0]: %GOLD%+%STAT(331,0)%]%BLUE%Cold%GOLD%%NL%%NAME%%CONTINUE%
-ItemDisplay[jew UNI ID STAT335>0]: %GOLD%[-%STAT(335,0)%/%NAME%%CONTINUE%
+ItemDisplay[jew UNI ID STAT335>0]: %GOLD%[-%STAT(335.0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT336>0]: %GOLD%+%STAT(332,0)%]%GREEN%Poison%GOLD%%NL%%NAME%%CONTINUE%
-ItemDisplay[jew UNI ID STAT336>0]: %GOLD%[-%STAT(336,0)%/%NAME%%CONTINUE%
+ItemDisplay[jew UNI ID STAT336>0]: %GOLD%[-%STAT(336.0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID]: %NAME%%NOTIFY(GOLD)%%NOTIFYSOUND(35)%%MAPICON(5,18)%%BORDER(85,1)%%NL%%PURPLE%>>%RED%>>%ORANGE%>>%YELLOW%>>%GOLD%Rainbow Facet%YELLOW%<<%ORANGE%<<%RED%<<%PURPLE%<<%BGCOLOR(138)%
-ItemDisplay[jew MAG !ID FILTERLVL<6]: %ORANGE%*%BLUE%%NAME%%ORANGE%*%NOTIFY(ITEM)%%MAPICON(5,3)%%BORDER(4,1)%%BGCOLOR(15)%
-ItemDisplay[jew RARE !ID]: %NL%%ORANGE%*%YELLOW%%NAME%%ORANGE%*%NOTIFY(ITEM)%%MAPICON(5,18)%%NL%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[jew MAG !ID FILTERLVL<6]: %ORANGE%[O]%BLUE%%NAME%%ORANGE%[O]%NOTIFY(ITEM)%%MAPICON(5,3)%%BORDER(4,1)%%BGCOLOR(15)%
+ItemDisplay[jew RARE !ID]: %NL%%ORANGE%[O]%YELLOW%%NAME%%ORANGE%[O]%NOTIFY(ITEM)%%MAPICON(5,18)%%NL%%BORDER(85,1)%%BGCOLOR(60)%
 ItemDisplay[jew MAG]: %NAME%%BORDER(4,1)%%BGCOLOR(15)%
 ItemDisplay[jew RARE]: %NAME%%BORDER(85,1)%%BGCOLOR(60)%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -927,11 +927,11 @@ ItemDisplay[cm3 TABSK48=1]: %NAME%%NL%%GOLD%+1ASN%RED%(Traps)%CONTINUE%%NOTIFY(I
 ItemDisplay[cm3 TABSK49=1]: %NAME%%NL%%GOLD%+1ASN%DGREEN%(Shadow Disciplines)%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%%BORDER(4,1)%%BGCOLOR(138)%
 ItemDisplay[cm3 TABSK50=1]: %NAME%%NL%%GOLD%+1ASN%PURPLE%(Martial Arts)%CONTINUE%%NOTIFY(ITEM)%%MAPICON(31,11)%%BORDER(4,1)%%BGCOLOR(138)%
 ItemDisplay[cm3 STAT22>8 STAT22<11]: %NAME%%NL%%GOLD%+%STAT(22,0)%MAX%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm3 FRES>27]: %NAME%%NL%%RED%+%STAT(39,0)%%F.Res%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm3 LRES>27]: %NAME%%NL%%YELLOW%+%STAT(41,0)%%L.Res%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm3 CRES>27]: %NAME%%NL%%BLUE%+%STAT(43,0)%%C.Res%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm3 PRES>27]: %NAME%%NL%%GREEN%+%STAT(45,0)%%P.Res%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm3 RES>12]: %NAME%%NL%%GOLD%+%STAT(39,0)%%%RED%A%PURPLE%L%ORANGE%L%DGREEN%R%YELLOW%E%BLUE%S%CONTINUE%%BORDER(4,1)%%BGCOLOR(138)%
+ItemDisplay[cm3 FRES>27]: %NAME%%NL%%RED%+%STAT(39,0)%%F Res%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm3 LRES>27]: %NAME%%NL%%YELLOW%+%STAT(41,0)%%L Res%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm3 CRES>27]: %NAME%%NL%%BLUE%+%STAT(43,0)%%C Res%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm3 PRES>27]: %NAME%%NL%%GREEN%+%STAT(45,0)%%P Res%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm3 RES>12]: %NAME%%NL%%GOLD%+%STAT(39,0)%%%RED%A%PURPLE%L%ORANGE%L%DGREEN%RES%CONTINUE%%BORDER(4,1)%%BGCOLOR(138)%
 ItemDisplay[cm3 MANA>39 (LIFE>0 OR FHR>0)]: %NAME%%NL%%BLUE%+%STAT(9,0)%Mana%CONTINUE%%BORDER(4,1)%%BGCOLOR(138)%
 ItemDisplay[cm3 STAT22>11]: %NAME%%NL%%GOLD%+%STAT(22,0)%MAX%NOTIFY(ITEM)%%CONTINUE%%BORDER(4,1)%%BGCOLOR(138)%
 ItemDisplay[cm3 AR>117 LIFE>0 !(TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR STAT22>8 OR FRES>27 OR LRES>27 OR CRES>27 OR PRES>27 OR RES>12 OR MANA>39)]: %NAME%%NL%%GOLD%+%STAT(19,0)%AR%CONTINUE%%BORDER(4,1)%
@@ -954,16 +954,16 @@ ItemDisplay[cm3 GFIND>34 (TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR TABSK8=1 OR TABSK9
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //  prefix
 ItemDisplay[cm1 MAXDMG=3]: %NAME%%NL%%GOLD%+%STAT(22,0)%MAX%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm1 STAT49>19]: %NAME%%NL%%RED%+%STAT(49,0)%F.Dam%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm1 STAT51>43]: %NAME%%NL%%YELLOW%+%STAT(51,0)%L.Dam%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm1 STAT55>14]: %NAME%%NL%%BLUE%+%STAT(55,0)%C.Dam%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm1 STAT57>291]: %NAME%%NL%%GREEN%+P.Dam%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm1 STAT49>19]: %NAME%%NL%%RED%+%STAT(49,0)%F Dam%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm1 STAT51>43]: %NAME%%NL%%YELLOW%+%STAT(51,0)%L Dam%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm1 STAT55>14]: %NAME%%NL%%BLUE%+%STAT(55,0)%C Dam%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm1 STAT57>291]: %NAME%%NL%%GREEN%+P Dam%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm1 MANA>10 (LIFE>16 OR FHR>0 OR FRW>0 OR GFIND>9 OR STR>0 OR DEX>0 OR MFIND>5)]: %NAME%%NL%%BLUE%+%STAT(9,0)%Mana%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm1 FRES>8]: %NAME%%NL%%RED%+%STAT(39,0)%%F.Res%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm1 LRES>8]: %NAME%%NL%%YELLOW%+%STAT(41,0)%%L.Res%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm1 CRES>8]: %NAME%%NL%%BLUE%+%STAT(43,0)%%C.Res%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm1 PRES>8]: %NAME%%NL%%GREEN%+%STAT(45,0)%%P.Res%CONTINUE%%BORDER(4,1)%
-ItemDisplay[cm1 RES>2]: %NAME%%NL%%GOLD%+%RES%%%RED%A%PURPLE%L%ORANGE%L%DGREEN%R%YELLOW%E%BLUE%S%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm1 FRES>8]: %NAME%%NL%%RED%+%STAT(39,0)%%F Res%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm1 LRES>8]: %NAME%%NL%%YELLOW%+%STAT(41,0)%%L Res%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm1 CRES>8]: %NAME%%NL%%BLUE%+%STAT(43,0)%%C Res%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm1 PRES>8]: %NAME%%NL%%GREEN%+%STAT(45,0)%%P Res%CONTINUE%%BORDER(4,1)%
+ItemDisplay[cm1 RES>2]: %NAME%%NL%%GOLD%+%RES%%%RED%A%PURPLE%L%ORANGE%L%DGREEN%RES%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm1 STAT31>25 (STR>0 OR DEX>0 OR LIFE>16 OR FHR>0 OR FRW>0 OR MFIND>5 OR GFIND>8)]: %NAME%%NL%%GOLD%+%STAT(31,0)%DEF%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm1 MAXDMG>3]: %NAME%%NL%%GOLD%+%STAT(22,0)%MAX%NOTIFY(ITEM)%%CONTINUE%%BORDER(4,1)%
 ItemDisplay[cm1 AR>9 (MAXDMG>2 OR STAT49>19 OR STAT51>43 OR STAT55>14 OR STAT57>291 OR MANA>10 OR FRES>8 OR LRES>8 OR CRES>8 OR PRES>8 OR RES>2 OR STAT31>25)]: %NAME%%GOLD%+%STAT(19,0)%AR%CONTINUE%	
@@ -1198,7 +1198,7 @@ ItemDisplay[(7tr OR 7vo OR 7s8 OR 7pa OR 7br OR 7h7 OR 7wc OR 7st OR 7p7 OR 7sr 
 // RW--
 ItemDisplay[fla NMAG !INF !RW SOCK=4]: %NAME%{%GOLD%Heart of Oak:%ORANGE%[#18]+[#26]+[#21]+[#10]%NL%%NAME%}%CONTINUE% 
 ItemDisplay[fla NMAG !INF !RW SOCK=5]: %NAME%{%GOLD%Call to Arms:%ORANGE%[#11]+[#8]+[#23]+[#24]+[#27]%NL%%NAME%}%CONTINUE% 
-ItemDisplay[7gm ETH NMAG !INF !RW SOCK=6]: %NAME%{%GOLD%Breath of the Dying:%ORANGE%[#26]+[#15]+[#1]+[#2]+[#33]+[#5]%NL%%NAME%}%CONTINUE%  
+ItemDisplay[7gm ETH NMAG !INF !RW SOCK=6]: %NAME%{%GOLD%Breath of the Dying:%ORANGE%Vex[#26]+Hel[#15]+El[#1]+Eld[#2]+Zod[#33]+Eth[#5]%NL%%NAME%}%CONTINUE%  
 //-------------
 ItemDisplay[fla NMAG !INF !RW SOCK=4 FILTERLVL=1]: %NAME%{%NAME%} 
 ItemDisplay[7gm ETH NMAG !INF !RW SOCK=6 ED=15]: %NL%%RED%[E]%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL% 
@@ -1321,7 +1321,7 @@ ItemDisplay[amu UNI ((ALLSK=1 !((STAT32>0 STAT60>0) OR (IAS>10 LRES>0))) OR (ALL
 ItemDisplay[amu SET ALLSK=1 !(CRES>0 PRES>0 STAT78>0)]: %NAME%%NL%%GOLD%[%CONTINUE%
 ItemDisplay[amu !UNI !SET FCR>0 (CLSK0>0 OR CLSK1>0 OR CLSK2>0 OR CLSK3>0 OR CLSK4>0 OR CLSK5>0 OR CLSK6>0 OR TABSK0>0 OR TABSK1>0 OR TABSK2>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK24>0 OR TABSK25>0 OR TABSK26>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0)]: %NAME%%PURPLE%+%STAT(105,0)%%FCR%CONTINUE%
 ItemDisplay[amu !UNI !SET FRW>0 (CLSK0>0 OR CLSK1>0 OR CLSK2>0 OR CLSK3>0 OR CLSK4>0 OR CLSK5>0 OR CLSK6>0 OR TABSK0>0 OR TABSK1>0 OR TABSK2>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK24>0 OR TABSK25>0 OR TABSK26>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0)]: %NAME%%GOLD%+%STAT(96,0)%%FRW%CONTINUE%
-ItemDisplay[amu !UNI !SET RES>9 (CLSK0>0 OR CLSK1>0 OR CLSK2>0 OR CLSK3>0 OR CLSK4>0 OR CLSK5>0 OR CLSK6>0 OR TABSK0>0 OR TABSK1>0 OR TABSK2>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK24>0 OR TABSK25>0 OR TABSK26>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0)]: %NAME%%GOLD%+%RES%%%RED%A%PURPLE%L%ORANGE%L%DGREEN%R%YELLOW%E%BLUE%S%CONTINUE%
+ItemDisplay[amu !UNI !SET RES>9 (CLSK0>0 OR CLSK1>0 OR CLSK2>0 OR CLSK3>0 OR CLSK4>0 OR CLSK5>0 OR CLSK6>0 OR TABSK0>0 OR TABSK1>0 OR TABSK2>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK24>0 OR TABSK25>0 OR TABSK26>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0)]: %NAME%%GOLD%+%RES%%%RED%A%PURPLE%L%ORANGE%L%DGREEN%RES%CONTINUE%
 ItemDisplay[amu !UNI !SET STAT110>0 (CLSK0>0 OR CLSK1>0 OR CLSK2>0 OR CLSK3>0 OR CLSK4>0 OR CLSK5>0 OR CLSK6>0 OR TABSK0>0 OR TABSK1>0 OR TABSK2>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK24>0 OR TABSK25>0 OR TABSK26>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0)]: %NAME%%GREEN%+%STAT(110,0)%%PLR%CONTINUE%
 ItemDisplay[amu !UNI !SET ALLSK>0]: %NAME%%RED%+1SKILL*%NOTIFY(ITEM)%%CONTINUE%
 ItemDisplay[amu UNI ((ALLSK=1 !((STAT32>0 STAT60>0) OR (IAS>10 LRES>0))) OR (ALLSK=2 !(RES>19 OR TABSK26>0)) OR ALLSK=3)]: %NAME%%RED%+1SKILL*%NOTIFY(ITEM)%%CONTINUE%
@@ -1367,7 +1367,7 @@ ItemDisplay[(aq2 OR cq2) !UNI STAT21>0]: %NAME%%GOLD%%STAT(22,0)%DMG%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI STAT156>0]: %NAME%%ORANGE% +%STAT(156,0)%%Pierce%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI STAT62>0]: %NAME%%BLUE% +%STAT(62,0)%%LM%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI STAT141>0]: %NAME%%RED% +%STAT(141,0)%%DS%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI RES>0]: %NAME%%GOLD% +%RES%%%RED%A%PURPLE%L%ORANGE%L%DGREEN%R%YELLOW%E%BLUE%S%CONTINUE%
+ItemDisplay[(aq2 OR cq2) !UNI RES>0]: %NAME%%GOLD% +%RES%%%RED%A%PURPLE%L%ORANGE%L%DGREEN%RES%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI IAS>0]: %NAME%%GREEN% +%STAT(68,0)%%IAS%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI STAT136>0]: %NAME%%RED% +%STAT(136,0)%%CB%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI FRW>0]: %NAME%%DGREEN% +%STAT(96,0)%%RUN%CONTINUE%
@@ -1502,7 +1502,7 @@ ItemDisplay[yps (FILTERLVL=1 OR FILTERLVL=3 OR FILTERLVL=5 OR FILTERLVL=7)]: %DG
 //║█║                                ▬▬▬▬▬ HIDE EVERYTHING ▬▬▬▬▬                                ║█║
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 ItemDisplay[(WEAPON OR ARMOR OR aq2 OR cq2 OR aqv OR cqv) OR (!NMAG OR MAG OR RARE OR UNI OR SET)]:
-ItemDisplay[(vps OR wms OR yps OR key OR tsc OR isc) DIFF>0]: 
+ItemDisplay[(vps OR wms OR yps OR key OR tsc OR isc) DIFFICULTY>0]: 
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣

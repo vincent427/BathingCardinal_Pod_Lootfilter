@@ -676,20 +676,20 @@ ItemDisplay[dhn]: %RED%———%YELLOW%———%GREEN%———%BLUE%———
 ItemDisplay[bey]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%DGREEN%%NAME%%WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //巴尔之眼
 ItemDisplay[mbr]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%WHITE%★☆%DGREEN%%NAME%%WHITE%☆★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //墨菲斯托之脑
 ItemDisplay[toa]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%———{%GOLD%右键点击洗点%NL%%NL%%TAN%Token of Absolution} //赦免徽章
-ItemDisplay[tes]: %NL%%NAME% (A1.A2)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%4种不同精华合成洗点徽章} //扭曲的苦痛精华
-ItemDisplay[ceh]: %NL%%NAME% (A3)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%4种不同精华合成洗点徽章} //充盈的憎恨精华
-ItemDisplay[bet]: %NL%%NAME% (A4)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%4种不同精华合成洗点徽章} //燃烧的恐惧精华
-ItemDisplay[fed]: %NL%%NAME% (A5)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%{%ORANGE%4种不同精华合成洗点徽章} //溃烂的毁灭精华
+ItemDisplay[tes]: %NL%%NAME% (A1.A2)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%SPACE%{%ORANGE%4种不同精华合成洗点徽章} //扭曲的苦痛精华
+ItemDisplay[ceh]: %NL%%NAME% (A3)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%SPACE%{%ORANGE%4种不同精华合成洗点徽章} //充盈的憎恨精华
+ItemDisplay[bet]: %NL%%NAME% (A4)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%SPACE%{%ORANGE%4种不同精华合成洗点徽章} //燃烧的恐惧精华
+ItemDisplay[fed]: %NL%%NAME% (A5)%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%SPACE%{%ORANGE%4种不同精华合成洗点徽章} //溃烂的毁灭精华
 ItemDisplay[std]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%BORDER(85,1)%%BGCOLOR(60)% //英雄旗帜
 ItemDisplay[leg]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(15)% //维特之腿
-ItemDisplay[cx5]: %NL%%GOLD%★★%WHITE%☆%NAME% (ooc)%WHITE%☆%GOLD%★★%NOTIFY(ITEM)%%MAPICON(5,11)%%BORDER(85,1)%%BGCOLOR(15)%%NL%{%NL%%ORANGE%地图:%GREEN%[3.4%]变成心悦农场%PURPLE%[23.6%]新增词缀%WHITE%[25%]无变化%DGREEN%[48%]重新洗牌%NL%%ORANGE%可打孔装备:%RED%[25%]出随机孔数%PURPLE%[25%]新增词缀%WHITE%[25%]无变化%DGREEN%[25%]报废%NL%%ORANGE%不可打孔装备:%PURPLE%[25%]新增词缀%WHITE%[50%]无变化%DGREEN%[25%]报废%NL%%RED%腐化机率:} //腐化宝珠
+ItemDisplay[cx5]: %NL%%GOLD%★★%WHITE%☆%NAME% (ooc)%WHITE%☆%GOLD%★★%NOTIFY(ITEM)%%MAPICON(5,11)%%BORDER(85,1)%%BGCOLOR(15)%%NL%%SPACE%{%NL%%ORANGE%地图:%GREEN%[3.4%]变成心悦农场%PURPLE%[23.6%]新增词缀%WHITE%[25%]无变化%DGREEN%[48%]重新洗牌%NL%%ORANGE%可打孔装备:%RED%[25%]出随机孔数%PURPLE%[25%]新增词缀%WHITE%[25%]无变化%DGREEN%[25%]报废%NL%%ORANGE%不可打孔装备:%PURPLE%[25%]新增词缀%WHITE%[50%]无变化%DGREEN%[25%]报废%NL%%RED%腐化机率:} //腐化宝珠
 ItemDisplay[cx6]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%GOLD%★★%DGREEN%%NAME%%GOLD%★★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //暗黑破坏神的灵魂石
 ItemDisplay[cx7]: %NL%%WHITE%☆☆%DGREEN%%NAME%%WHITE%☆☆%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL% //混沌之钥
 ItemDisplay[ear]: %ORANGE%%NAME%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                  ▬▬▬▬▬ 遗物地图(Relic) ▬▬▬▬▬                                  ║ 
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[ma10 !ID]: >>  Relics  <<%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //寒霜洞窟 (Icy Cavern)  BUG無法顯示
+ItemDisplay[ma10 !ID]: >>  Relics  <<%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //寒霜洞窟 (Icy Cavern)  
 ItemDisplay[ma2 !ID]: >>  Relics  <<%NL%蜃景荒漠%NL%%RED%【T3-Lv88】{%RED%(Forgotten Desert)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //蜃景荒漠 (Forgotten Desert)
 ItemDisplay[ma3 !ID]: >>  Relics  <<%NL%遺棄之地%NL%%DGREEN%【T?-Lv??】{%DGREEN%(Abandoned Precinct)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //遺棄之地 (Abandoned Precinct)
 ItemDisplay[ma4 !ID]: >>  Relics  <<%NL%亵渎教堂%NL%%GREEN%【T2-Lv87】{%GREEN%(Desecrated Temple)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //亵渎教堂 (Desecrated Temple)
@@ -698,9 +698,9 @@ ItemDisplay[ma6 !ID]: >>  Relics  <<%NL%崩壞堡壘%NL%%RED%【T3-Lv88】{%RED%
 ItemDisplay[ma7 !ID]: >>  Relics  <<%NL%焚燒森林%NL%%RED%【T3-Lv88】{%RED%(Burnt Forest)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //焚燒森林 (Burnt Forest)
 ItemDisplay[ma8 !ID]: >>  Relics  <<%NL%發霉地穴%NL%%GREEN%【T2-Lv87】{%GREEN%(Musty Crypt)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //發霉地穴 (Musty Crypt)
 ItemDisplay[ma9 !ID]: >>  Relics  <<%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】{%GREEN%(Dim Cellar)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma11 !ID]: >>  Relics  <<%NL%悅心農場%NL%%DGREEN%【T0-Lv86】{%DGREEN%(Pleasant Pasture)}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%  //悅心農場 (Pleasant Pasture) BUG無法顯示
+ItemDisplay[ma11 !ID]: >>  Relics  <<%NL%悅心農場%NL%%DGREEN%【T0-Lv86】{%DGREEN%(Pleasant Pasture)}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%  //悅心農場 (Pleasant Pasture) 
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //寒霜洞窟 (Icy Cavern)  BUG無法顯示
+ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //寒霜洞窟 (Icy Cavern)  
 ItemDisplay[ma2]: (Forgotten Desert)%NL%蜃景荒漠%NL%%RED%【T3-Lv88】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%*冰:160,%RED%***火:130,%YELLOW%**电:100,%GOLD%*物理:100,%DGREEN%***毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //蜃景荒漠 (Forgotten Desert)
 ItemDisplay[ma3]: (Abandoned Precinct)%NL%遺棄之地%NL%%DGREEN%【T?-Lv??】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%WHITE%高抗性:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%ORANGE%地图怪物基础抗性:} //遺棄之地 (Abandoned Precinct)
 ItemDisplay[ma4]: (Desecrated Temple)%NL%亵渎教堂%NL%%GREEN%【T2-Lv87】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%***冰:190,%RED%***火:140,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:60,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //亵渎教堂 (Desecrated Temple)
@@ -709,13 +709,13 @@ ItemDisplay[ma6]: (Ruined Citadel)%NL%崩壞堡壘%NL%%RED%【T3-Lv88】%MAPICON
 ItemDisplay[ma7]: (Burnt Forest)%NL%焚燒森林%NL%%RED%【T3-Lv88】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%***冰:140,%RED%*火:145,%YELLOW%*****电:120,%ORANGE%**魔法:100,%DGREEN%**毒:145%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:20,%GOLD%物理:80,%DGREEN%毒:50%NL%%ORANGE%地图怪物基础抗性:} //焚燒森林 (Burnt Forest)
 ItemDisplay[ma8]: (Musty Crypt)%NL%發霉地穴%NL%%GREEN%【T2-Lv87】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%****冰:190,%RED%***火:120,%YELLOW%****电:120,%ORANGE%%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:60,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //發霉地穴 (Musty Crypt)
 ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%**冰:150,%RED%**火:120,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:33,%ORANGE%魔法:0,%GOLD%物理:75,%DGREEN%毒:65%NL%%ORANGE%地图怪物基础抗性:} //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心農場%NL%%DGREEN%【T0-Lv86】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //悅心農場 (Pleasant Pasture) BUG無法顯示
+ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心農場%NL%%DGREEN%【T0-Lv86】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //悅心農場 (Pleasant Pasture) 
 ItemDisplay[maz]: %NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%祝君好运！%NL%你只有一次机会%NL%进入后无法开启传送门，死亡后无法返回}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%//地獄審判
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                        ▬▬▬▬▬ 卷轴 ▬▬▬▬▬                                       ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[tsc DIFF=0]: %BLUE%传送
-ItemDisplay[isc DIFF=0]: %GREEN%鉴定
+ItemDisplay[tsc DIFFICULTY=0]: %BLUE%传送
+ItemDisplay[isc DIFFICULTY=0]: %GREEN%鉴定
 ItemDisplay[tbk]: %GOLD%%NAME%
 ItemDisplay[ibk]: %GOLD%%NAME%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -756,7 +756,7 @@ ItemDisplay[mp5 (FILTERLVL=1 OR FILTERLVL=3 OR FILTERLVL=5 OR FILTERLVL=7)]: %BL
 ItemDisplay[hp4 OR mp4]:
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[rvs]: %PURPLE%r %GRAY%35%%BGCOLOR(15)%%BORDER(4,1)%
-ItemDisplay[rvl]: %NL%%PURPLE%R %WHITE%70%%NL%%BGCOLOR(15)%%BORDER(4,1)%
+ItemDisplay[rvl]: %NL%%PURPLE%R %WHITE%70%%NL%%SPACE%%BGCOLOR(15)%%BORDER(4,1)%
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // 10级後刪除没用的各类投掷瓶
 //─────────────────────────────────────────────────────────────────────────────────────────────────
@@ -787,9 +787,9 @@ ItemDisplay[skz]: %ORANGE%[P] %GOLD%骷髅 %GRAY%[%GRAY%●%GRAY%]%BORDER(4,1)%%
 ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku)]: ★%NAME%★%CONTINUE% // 一般
 ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf)]: ★%NAME%★%CONTINUE% // 缺陷
 ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc)]: ★%NAME%★%CONTINUE% // 碎裂
-ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku) DIFF>0]: // 一般
-ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf) DIFF>0]: // 缺陷
-ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) DIFF>0]: // 碎裂
+ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku) DIFFICULTY>0]: // 一般
+ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf) DIFFICULTY>0]: // 缺陷
+ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) DIFFICULTY>0]: // 碎裂
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                      ▬▬▬▬▬ # RUNES ▬▬▬▬▬                                      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -806,26 +806,26 @@ ItemDisplay[r10 FILTERLVL<4]: %NOTIFY(ORANGE)%%ORANGE%Thul %WHITE%[#10]%BORDER(4
 ItemDisplay[r11 FILTERLVL<6]: %NOTIFY(ORANGE)%%ORANGE%Amn %WHITE%[#11]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:Blood Amu]}
 ItemDisplay[r12 FILTERLVL<6]: %NOTIFY(ORANGE)%%ORANGE%Sol %WHITE%[#12]%BORDER(4,1)%%BGCOLOR(15)%{%ORANGE%[Cube:HP Ring]}
 ItemDisplay[r13 FILTERLVL<4]: %NOTIFY(WHITE)%%WHITE%Shael %GREEN%[#13]
-ItemDisplay[r14]: %NOTIFY(GREEN)%%NL%%GREEN%Dol %RED%[#14]%NL%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[↑武器↑]}
-ItemDisplay[r15]: %NOTIFY(GREEN)%%NL%%GREEN%Hel %RED%[#15]%NL%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[↑防具↑]}
-ItemDisplay[r16]: %NOTIFY(GREEN)%%NL%%GREEN%Io %RED%[#16]%NL%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[↑防具↑]}
-ItemDisplay[r17]: %NOTIFY(GREEN)%%NL%%GREEN%Lum %RED%[#17]%NL%%BORDER(85,1)%%BGCOLOR(15)%{%GOLD%[↑武器↑]}
-ItemDisplay[r18]: %NOTIFY(GREEN)%%NL%%GREEN%Ko %RED%[#18]%NL%%BORDER(85,1)%%BGCOLOR(15)%{%GOLD%[↑防%YELLOW%具↑]}
-ItemDisplay[r19]: %NOTIFY(GREEN)%%NL%%GREEN%Fal %RED%[#19]%NL%%BORDER(85,1)%%BGCOLOR(15)%{%YELLOW%[↑武器↑]}
-ItemDisplay[r20]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Lem  %YELLOW%[#20] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r21]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Pul  %YELLOW%[#21] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(66)%
-ItemDisplay[r22]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Um  %YELLOW%[#22] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r23]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Mal  %YELLOW%[#23] %RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r24]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%>>  Ist %YELLOW%[#24] %ORANGE%<<%RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r25]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%>>  Gul %YELLOW%[#25] %ORANGE%<<%RED%<<<<%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[r26]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%☆☆%RED%>>>>%GOLD%>>  Vex %YELLOW%[#26] %GOLD%<<%RED%<<<<%PURPLE%☆☆%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r27]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%☆☆%RED%>>>>%GOLD%>>  Ohm %YELLOW%[#27] %GOLD%<<%RED%<<<<%PURPLE%☆☆%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r28]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Lo  %PURPLE%[#28] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r29]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Sur  %PURPLE%[#29] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r30]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%★★%PURPLE%★★%YELLOW%☆☆%GOLD%★★>>%RED%>>>>  %GOLD%Ber  %PURPLE%[#30] %RED%<<<<%GOLD%<<★★%YELLOW%☆☆%PURPLE%★★%RED%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r31]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%★★%PURPLE%★★%YELLOW%☆☆%GOLD%★★>>%RED%>>>>  %GOLD%Jah  %PURPLE%[#31] %RED%<<<<%GOLD%<<★★%YELLOW%☆☆%PURPLE%★★%RED%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r32]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Cham  %PURPLE%[#32] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[r33]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Zod   %PURPLE%[#33] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r14]: %NOTIFY(GREEN)%%NL%%GREEN%Dol %RED%[#14]%NL%%SPACE%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[↑武器↑]}
+ItemDisplay[r15]: %NOTIFY(GREEN)%%NL%%GREEN%Hel %RED%[#15]%NL%%SPACE%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[↑防具↑]}
+ItemDisplay[r16]: %NOTIFY(GREEN)%%NL%%GREEN%Io %RED%[#16]%NL%%SPACE%%BORDER(4,1)%%BGCOLOR(15)%{%GREEN%[↑防具↑]}
+ItemDisplay[r17]: %NOTIFY(GREEN)%%NL%%GREEN%Lum %RED%[#17]%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(15)%{%GOLD%[↑武器↑]}
+ItemDisplay[r18]: %NOTIFY(GREEN)%%NL%%GREEN%Ko %RED%[#18]%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(15)%{%GOLD%[↑防%YELLOW%具↑]}
+ItemDisplay[r19]: %NOTIFY(GREEN)%%NL%%GREEN%Fal %RED%[#19]%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(15)%{%YELLOW%[↑武器↑]}
+ItemDisplay[r20]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Lem  %YELLOW%[#20] %RED%<<<<%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r21]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Pul  %YELLOW%[#21] %RED%<<<<%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(66)%
+ItemDisplay[r22]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Um  %YELLOW%[#22] %RED%<<<<%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r23]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%  Mal  %YELLOW%[#23] %RED%<<<<%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r24]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%>>  Ist %YELLOW%[#24] %ORANGE%<<%RED%<<<<%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r25]: %NOTIFY(RED)%%NOTIFYSOUND(418)%%MAPICON(15,11)%%NL%%RED%>>>>%ORANGE%>>  Gul %YELLOW%[#25] %ORANGE%<<%RED%<<<<%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[r26]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%☆☆%RED%>>>>%GOLD%>>  Vex %YELLOW%[#26] %GOLD%<<%RED%<<<<%PURPLE%☆☆%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r27]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%PURPLE%☆☆%RED%>>>>%GOLD%>>  Ohm %YELLOW%[#27] %GOLD%<<%RED%<<<<%PURPLE%☆☆%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r28]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Lo  %PURPLE%[#28] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r29]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Sur  %PURPLE%[#29] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r30]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%★★%PURPLE%★★%YELLOW%☆☆%GOLD%★★>>%RED%>>>>  %GOLD%Ber  %PURPLE%[#30] %RED%<<<<%GOLD%<<★★%YELLOW%☆☆%PURPLE%★★%RED%★★%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r31]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%RED%★★%PURPLE%★★%YELLOW%☆☆%GOLD%★★>>%RED%>>>>  %GOLD%Jah  %PURPLE%[#31] %RED%<<<<%GOLD%<<★★%YELLOW%☆☆%PURPLE%★★%RED%★★%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r32]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Cham  %PURPLE%[#32] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[r33]: %NOTIFY(GOLD)%%NOTIFYSOUND(34)%%MAPICON(15,1)%%NL%%GOLD%★★%PURPLE%☆☆%RED%>>>>%GOLD%>>  Zod   %PURPLE%[#33] %GOLD%<<%RED%<<<<%PURPLE%☆☆%GOLD%★★%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -1506,7 +1506,7 @@ ItemDisplay[yps (FILTERLVL=1 OR FILTERLVL=3 OR FILTERLVL=5 OR FILTERLVL=7)]: %DG
 //║█║                                  ▬▬▬▬▬ 隐藏所有物品 ▬▬▬▬▬                                 ║█║
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 ItemDisplay[(WEAPON OR ARMOR OR aq2 OR cq2 OR aqv OR cqv) OR (!NMAG OR MAG OR RARE OR UNI OR SET)]:
-ItemDisplay[(vps OR wms OR yps OR key OR tsc OR isc) DIFF>0]: 
+ItemDisplay[(vps OR wms OR yps OR key OR tsc OR isc) DIFFICULTY>0]: 
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
