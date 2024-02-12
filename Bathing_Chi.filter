@@ -10,8 +10,8 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: 沐红衣 
 Attribute[Name]: BathingCardinal Pod Loot filter
-Attribute[Version]: PTR-1.9 Chi
-Attribute[Date]: 2024/2/2 13:13 UTC8
+Attribute[Version]: PTR-1.91 Chi
+Attribute[Date]: 2024/2/12 22:21 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -43,8 +43,8 @@ L4：（6~7）慎用！屏蔽绝大部分底材，额外屏蔽#8#11#12符文，�
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 // CHARM NAME (BASE)
 ItemDisplay[MAG cm1]: 小护身符%CONTINUE%
-ItemDisplay[MAG cm2]: 大型护身符%CONTINUE%
-ItemDisplay[MAG cm3]: 超大型护身符%CONTINUE%
+ItemDisplay[MAG cm2]: 中护身符%CONTINUE%
+ItemDisplay[MAG cm3]: 大护身符%CONTINUE%
 // JEWELRY'S NAME (BASE)
 ItemDisplay[jew]: 宝珠 Jew%CONTINUE%
 ItemDisplay[!SET !UNI !RW amu]: 项链 Amulet%CONTINUE%
@@ -684,32 +684,32 @@ ItemDisplay[std]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YE
 ItemDisplay[leg]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YELLOW%*%RED%*%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(15)% //维特之腿
 ItemDisplay[cx5]: %NL%%GOLD%★★%WHITE%☆%NAME% (ooc)%WHITE%☆%GOLD%★★%NOTIFY(ITEM)%%MAPICON(5,11)%%BORDER(85,1)%%BGCOLOR(15)%%NL%%SPACE%{%NL%%ORANGE%地图:%GREEN%[3.4%]变成心悦农场%PURPLE%[23.6%]新增词缀%WHITE%[25%]无变化%DGREEN%[48%]重新洗牌%NL%%ORANGE%可打孔装备:%RED%[25%]出随机孔数%PURPLE%[25%]新增词缀%WHITE%[25%]无变化%DGREEN%[25%]报废%NL%%ORANGE%不可打孔装备:%PURPLE%[25%]新增词缀%WHITE%[50%]无变化%DGREEN%[25%]报废%NL%%RED%腐化机率:} //腐化宝珠
 ItemDisplay[cx6]: %RED%———%YELLOW%———%GREEN%———%BLUE%———%NL%%GOLD%★★%DGREEN%%NAME%%GOLD%★★%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%BLUE%———%GREEN%———%YELLOW%———%RED%——— //暗黑破坏神的灵魂石
-ItemDisplay[cx7]: %NL%%WHITE%☆☆%DGREEN%%NAME%%WHITE%☆☆%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL% //混沌之钥
+ItemDisplay[cx7]: %NL%%WHITE%☆☆%DGREEN%%NAME%%WHITE%☆☆%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%%NL%%SPACE% //混沌之钥
 ItemDisplay[ear]: %ORANGE%%NAME%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                  ▬▬▬▬▬ 遗物地图(Relic) ▬▬▬▬▬                                  ║ 
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[ma10 !ID]: >>  Relics  <<%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】{%WHITE%(Icy Cavern)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //寒霜洞窟 (Icy Cavern)  
 ItemDisplay[ma2 !ID]: >>  Relics  <<%NL%蜃景荒漠%NL%%RED%【T3-Lv88】{%RED%(Forgotten Desert)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma3 !ID]: >>  Relics  <<%NL%遺棄之地%NL%%DGREEN%【T?-Lv??】{%DGREEN%(Abandoned Precinct)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //遺棄之地 (Abandoned Precinct)
+ItemDisplay[ma3 !ID]: >>  Relics  <<%NL%遗弃之地%NL%%DGREEN%【T?-Lv??】{%DGREEN%(Abandoned Precinct)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //遺棄之地 (Abandoned Precinct)
 ItemDisplay[ma4 !ID]: >>  Relics  <<%NL%亵渎教堂%NL%%GREEN%【T2-Lv87】{%GREEN%(Desecrated Temple)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //亵渎教堂 (Desecrated Temple)
-ItemDisplay[ma5 !ID]: >>  Relics  <<%NL%凜冬高原%NL%%WHITE%【T1-Lv86】{%WHITE%(Frigid Plateau)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma6 !ID]: >>  Relics  <<%NL%崩壞堡壘%NL%%RED%【T3-Lv88】{%RED%(Ruined Citadel)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7 !ID]: >>  Relics  <<%NL%焚燒森林%NL%%RED%【T3-Lv88】{%RED%(Burnt Forest)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //焚燒森林 (Burnt Forest)
-ItemDisplay[ma8 !ID]: >>  Relics  <<%NL%發霉地穴%NL%%GREEN%【T2-Lv87】{%GREEN%(Musty Crypt)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //發霉地穴 (Musty Crypt)
+ItemDisplay[ma5 !ID]: >>  Relics  <<%NL%凛冬高原%NL%%WHITE%【T1-Lv86】{%WHITE%(Frigid Plateau)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)% //凜冬高原 (Frigid Plateau)
+ItemDisplay[ma6 !ID]: >>  Relics  <<%NL%崩坏堡垒%NL%%RED%【T3-Lv88】{%RED%(Ruined Citadel)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //崩壞堡壘 (Ruined Citadel)
+ItemDisplay[ma7 !ID]: >>  Relics  <<%NL%焚烧森林%NL%%RED%【T3-Lv88】{%RED%(Burnt Forest)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)% //焚燒森林 (Burnt Forest)
+ItemDisplay[ma8 !ID]: >>  Relics  <<%NL%发霉地穴%NL%%GREEN%【T2-Lv87】{%GREEN%(Musty Crypt)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //發霉地穴 (Musty Crypt)
 ItemDisplay[ma9 !ID]: >>  Relics  <<%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】{%GREEN%(Dim Cellar)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma11 !ID]: >>  Relics  <<%NL%悅心農場%NL%%DGREEN%【T0-Lv86】{%DGREEN%(Pleasant Pasture)}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%  //悅心農場 (Pleasant Pasture) 
+ItemDisplay[ma11 !ID]: >>  Relics  <<%NL%悅心农场%NL%%DGREEN%【T0-Lv86】{%DGREEN%(Pleasant Pasture)}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%  //悅心農場 (Pleasant Pasture) 
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //寒霜洞窟 (Icy Cavern)  
 ItemDisplay[ma2]: (Forgotten Desert)%NL%蜃景荒漠%NL%%RED%【T3-Lv88】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%*冰:160,%RED%***火:130,%YELLOW%**电:100,%GOLD%*物理:100,%DGREEN%***毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma3]: (Abandoned Precinct)%NL%遺棄之地%NL%%DGREEN%【T?-Lv??】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%WHITE%高抗性:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%ORANGE%地图怪物基础抗性:} //遺棄之地 (Abandoned Precinct)
+ItemDisplay[ma3]: (Abandoned Precinct)%NL%遗弃之地%NL%%DGREEN%【T?-Lv??】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%WHITE%高抗性:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%ORANGE%地图怪物基础抗性:} //遺棄之地 (Abandoned Precinct)
 ItemDisplay[ma4]: (Desecrated Temple)%NL%亵渎教堂%NL%%GREEN%【T2-Lv87】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%***冰:190,%RED%***火:140,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:60,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //亵渎教堂 (Desecrated Temple)
-ItemDisplay[ma5]: (Frigid Plateau)%NL%凜冬高原%NL%%WHITE%【T1-Lv86】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%免疫:%BLUE%*冰:150,%RED%*火:140,%YELLOW%*****电:100,%DGREEN%**毒:140%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma6]: (Ruined Citadel)%NL%崩壞堡壘%NL%%RED%【T3-Lv88】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%****冰:160,%YELLOW%***电:120,%GOLD%*物理:100,%DGREEN%**毒:120%NL%%WHITE%高抗性:%BLUE%冰:80,%RED%火:66,%YELLOW%电:50,%ORANGE%魔法:70,%GOLD%物理:50,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7]: (Burnt Forest)%NL%焚燒森林%NL%%RED%【T3-Lv88】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%***冰:140,%RED%*火:145,%YELLOW%*****电:120,%ORANGE%**魔法:100,%DGREEN%**毒:145%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:20,%GOLD%物理:80,%DGREEN%毒:50%NL%%ORANGE%地图怪物基础抗性:} //焚燒森林 (Burnt Forest)
-ItemDisplay[ma8]: (Musty Crypt)%NL%發霉地穴%NL%%GREEN%【T2-Lv87】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%****冰:190,%RED%***火:120,%YELLOW%****电:120,%ORANGE%%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:60,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //發霉地穴 (Musty Crypt)
+ItemDisplay[ma5]: (Frigid Plateau)%NL%凛冬高原%NL%%WHITE%【T1-Lv86】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%免疫:%BLUE%*冰:150,%RED%*火:140,%YELLOW%*****电:100,%DGREEN%**毒:140%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //凜冬高原 (Frigid Plateau)
+ItemDisplay[ma6]: (Ruined Citadel)%NL%崩坏堡垒%NL%%RED%【T3-Lv88】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%****冰:160,%YELLOW%***电:120,%GOLD%*物理:100,%DGREEN%**毒:120%NL%%WHITE%高抗性:%BLUE%冰:80,%RED%火:66,%YELLOW%电:50,%ORANGE%魔法:70,%GOLD%物理:50,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //崩壞堡壘 (Ruined Citadel)
+ItemDisplay[ma7]: (Burnt Forest)%NL%焚烧森林%NL%%RED%【T3-Lv88】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%免疫:%BLUE%***冰:140,%RED%*火:145,%YELLOW%*****电:120,%ORANGE%**魔法:100,%DGREEN%**毒:145%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:20,%GOLD%物理:80,%DGREEN%毒:50%NL%%ORANGE%地图怪物基础抗性:} //焚燒森林 (Burnt Forest)
+ItemDisplay[ma8]: (Musty Crypt)%NL%发霉地穴%NL%%GREEN%【T2-Lv87】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%****冰:190,%RED%***火:120,%YELLOW%****电:120,%ORANGE%%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:60,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //發霉地穴 (Musty Crypt)
 ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%免疫:%BLUE%**冰:150,%RED%**火:120,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:33,%ORANGE%魔法:0,%GOLD%物理:75,%DGREEN%毒:65%NL%%ORANGE%地图怪物基础抗性:} //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心農場%NL%%DGREEN%【T0-Lv86】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //悅心農場 (Pleasant Pasture) 
+ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心农场%NL%%DGREEN%【T0-Lv86】%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //悅心農場 (Pleasant Pasture) 
 ItemDisplay[maz]: %NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%祝君好运！%NL%你只有一次机会%NL%进入后无法开启传送门，死亡后无法返回}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%//地獄審判
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                        ▬▬▬▬▬ 卷轴 ▬▬▬▬▬                                       ║
@@ -873,7 +873,7 @@ ItemDisplay[jew STAT1>0 (STAT17>24 OR STAT17>24 OR RES>5 OR MAEK>0 OR STAT39>15 
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //──── JEW类其他 ────
 //───────────────────────────────────────────────────────────────────────────────────────────────── 
-ItemDisplay[jew UNI !ID]: %NL%%PURPLE%>>%RED%>>%ORANGE%>>%YELLOW%>>%GOLD%彩虹刻面%YELLOW%<<%ORANGE%<<%RED%<<%PURPLE%<<%NOTIFY(GOLD)%%NOTIFYSOUND(35)%%NL%%MAPICON(5,18)%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[jew UNI !ID]: %NL%%PURPLE%>>%RED%>>%ORANGE%>>%YELLOW%>>%GOLD%彩虹刻面%YELLOW%<<%ORANGE%<<%RED%<<%PURPLE%<<%NOTIFY(GOLD)%%NOTIFYSOUND(35)%%NL%%SPACE%%MAPICON(5,18)%%BORDER(85,1)%%BGCOLOR(138)%
 ItemDisplay[jew UNI ID STAT333>0]: %GOLD%+%STAT(329,0)%]%RED%火%GOLD%%NL%%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT333>0]: %GOLD%[-%STAT(333,0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT334>0]: %GOLD%+%STAT(330,0)%]%YELLOW%电%GOLD%%NL%%NAME%%CONTINUE%
@@ -884,7 +884,7 @@ ItemDisplay[jew UNI ID STAT336>0]: %GOLD%+%STAT(332,0)%]%GREEN%毒%GOLD%%NL%%NAM
 ItemDisplay[jew UNI ID STAT336>0]: %GOLD%[-%STAT(336,0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID]: %NAME%%NOTIFY(GOLD)%%NOTIFYSOUND(35)%%MAPICON(5,18)%%BORDER(85,1)%%NL%%PURPLE%>>%RED%>>%ORANGE%>>%YELLOW%>>%GOLD%彩虹刻面%YELLOW%<<%ORANGE%<<%RED%<<%PURPLE%<<%BGCOLOR(138)%
 ItemDisplay[jew MAG !ID FILTERLVL<6]: %ORANGE%●%BLUE%%NAME%%ORANGE%●%NOTIFY(ITEM)%%MAPICON(5,3)%%BORDER(4,1)%%BGCOLOR(15)%
-ItemDisplay[jew RARE !ID]: %NL%%ORANGE%●%YELLOW%%NAME%%ORANGE%●%NOTIFY(ITEM)%%MAPICON(5,18)%%NL%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[jew RARE !ID]: %NL%%ORANGE%●%YELLOW%%NAME%%ORANGE%●%NOTIFY(ITEM)%%MAPICON(5,18)%%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(60)%
 ItemDisplay[jew MAG]: %NAME%%BORDER(4,1)%%BGCOLOR(15)%
 ItemDisplay[jew RARE]: %NAME%%BORDER(85,1)%%BGCOLOR(60)%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -893,7 +893,7 @@ ItemDisplay[jew RARE]: %NAME%%BORDER(85,1)%%BGCOLOR(60)%
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //──── UNIQUE CHARMS ────
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %NL%★%NAME%★%NL%%NOTIFY(GOLD)%%BORDER(85,1)%%MAPICON(31,18)%%BGCOLOR(138)%
+ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %NL%★%NAME%★%NL%%SPACE%%NOTIFY(GOLD)%%BORDER(85,1)%%MAPICON(31,18)%%BGCOLOR(138)%
 ItemDisplay[UNI cm2]: [%STAT(0,0)%/%RES%]%NL%%NAME%%CONTINUE%
 ItemDisplay[UNI cm1]: [%STAT(0,0)%/%RES%/%STAT(85,0)%]%NL%%NAME%%CONTINUE%
 ItemDisplay[UNI cm2 CLSK0=3]: 亚马逊 火炬 %NAME%%CONTINUE%
@@ -991,9 +991,9 @@ ItemDisplay[cm1 MFIND>5 !(MAXDMG>2 OR STAT49>19 OR STAT51>43 OR STAT55>14 OR STA
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //──── Charm类其他 ────
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[MAG cm1 !ID FILTERLVL<6]: %NL%%NAME%%NOTIFY(ITEM)%%MAPICON(31,11)%%NL%%BORDER(4,1)%%BGCOLOR(15)%
+ItemDisplay[MAG cm1 !ID FILTERLVL<6]: %NL%%NAME%%NOTIFY(ITEM)%%MAPICON(31,11)%%NL%%SPACE%%BORDER(4,1)%%BGCOLOR(15)%
 ItemDisplay[MAG cm2 !ID FILTERLVL=1]: %NAME%
-ItemDisplay[MAG cm3 !ID]: %NL%%NAME%%NOTIFY(ITEM)%%MAPICON(31,11)%%NL%%BORDER(4,1)%%BGCOLOR(15)%
+ItemDisplay[MAG cm3 !ID]: %NL%%NAME%%NOTIFY(ITEM)%%MAPICON(31,11)%%NL%%SPACE%%BORDER(4,1)%%BGCOLOR(15)%
 ItemDisplay[(cm1 OR cm2 OR cm3) ID]: %NAME%
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
@@ -1076,7 +1076,7 @@ ItemDisplay[(EQ1 OR EQ2 OR EQ3 OR CL3) NMAG !INF !RW STAT91>0]: %NAME%%RED% [-RE
 ItemDisplay[EQ1 NMAG !RW SOCK=2]: %NAME%{%GOLD%知识:%ORANGE%[#9]+[#12]}%CONTINUE%
 ItemDisplay[EQ1 NMAG !RW SOCK=3]: %NAME%{%GOLD%梦境:%ORANGE%[#16]+[#31]+[#21]}%CONTINUE%
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[ci3 !ETH NMAG !RW ED=15 SOCK=3 FILTERLVL<4]: %NL%%DGREEN%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NAME%{%NAME%}%NL% //15ED權冠3 - 梦境
+ItemDisplay[ci3 !ETH NMAG !RW ED=15 SOCK=3 FILTERLVL<4]: %NL%%DGREEN%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NAME%{%NAME%}%NL%%SPACE% //15ED權冠3 - 梦境
 ItemDisplay[(uh9 OR usk OR ci3) !ETH NMAG !RW SOCK=3 FILTERLVL=1]: %NAME% //骸骨面罩、惡魔頭蓋骨面具、權冠3 - 梦境
 ItemDisplay[ci3 !ETH NMAG SOCK=0 ILVL>84 FILTERLVL=1]: %NAME%%TAN%-> 注入试试%WHITE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -1088,8 +1088,8 @@ ItemDisplay[EQ3 NMAG !RW SOCK=3]: %NAME%{%GOLD%圣堂:%ORANGE%Ko[#18]+Ko[#18]+Ma
 ItemDisplay[(EQ3 OR CL3) !ETH NMAG !RW SOCK=4]: %NAME%{%GOLD%精神:%ORANGE%Tal[#7]+Thul[#10]+Ort[#9]+Amn[#11]%NL%%GOLD%凤凰:%ORANGE%Vex[#26]+Vex[#26]+Lo[#28]+Jah[#31]}%CONTINUE%
 ItemDisplay[(EQ3 OR CL3) ETH NMAG !RW SOCK=4]: %NAME%{%GOLD%流亡:%ORANGE%Vex[#26]+Ohm[#27]+Ist[#24]+Dol[#14]}%CONTINUE%
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[uit !ETH NMAG !INF !RW (SOCK=0 OR SOCK=4) ED=15]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL% //統治者大盾15ED - 精神/凤凰
-ItemDisplay[ush !ETH NMAG !INF !RW SOCK=3 ED=15 FILTERLVL<4]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%  //洞穴巨魔巢穴骨盾3 - 圣堂/梦境
+ItemDisplay[uit !ETH NMAG !INF !RW (SOCK=0 OR SOCK=4) ED=15]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE% //統治者大盾15ED - 精神/凤凰
+ItemDisplay[ush !ETH NMAG !INF !RW SOCK=3 ED=15 FILTERLVL<4]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE%  //洞穴巨魔巢穴骨盾3 - 圣堂/梦境
 ItemDisplay[ush !ETH NMAG !INF !RW SOCK=3 FILTERLVL=1]: %NAME%{%NAME%}  //洞穴巨魔巢穴骨盾3 - 圣堂/梦境
 ItemDisplay[uit !ETH NMAG !INF !RW SOCK=0 CLVL<90 FILTERLVL=1]: %NAME%{%NAME%}  //0s統治者大盾（仅90级之前显示）
 ItemDisplay[uit !ETH NMAG !INF !RW SOCK=4 FILTERLVL=1]: %NAME%{%NAME%}  //4s統治者大盾
@@ -1105,8 +1105,8 @@ ItemDisplay[EQ2 !RW NMAG !INF SOCK=3 !ETH]: %NAME%{%GOLD%谜团:%ORANGE%[#31]+[#
 ItemDisplay[EQ2 !RW NMAG !INF SOCK=3 ETH]: %NAME%{%GOLD%强制:%ORANGE%[#13]+[#22]+[#10]%NL%%GOLD%狮子心:%ORANGE%[#15]+[#17]+[#19]%NL%%GOLD%背信:%ORANGE%[#13]+[#10]+[#20]}%CONTINUE%
 ItemDisplay[EQ2 !RW NMAG !INF SOCK=4]: %NAME%{%GOLD%刚毅:%ORANGE%[#1]+[#12]+[#14]+[#28]%NL%%GOLD%荣耀之链:%ORANGE%[#14]+[#22]+[#30]+[#24]}%CONTINUE%
 //──── 显示以下盔甲 ────
-ItemDisplay[(utp OR uar) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=3 OR SOCK=4) ED=15]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL% //显示0、3、4孔15ED的无形AP甲跟SA甲
-ItemDisplay[EQ2 ELT ETH NMAG !INF !RW (SOCK=3 OR SOCK=4) ED=15]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL% //15ED无形甲（3、4孔）
+ItemDisplay[(utp OR uar) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=3 OR SOCK=4) ED=15]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE% //显示0、3、4孔15ED的有形AP甲跟SA甲
+ItemDisplay[EQ2 ELT ETH NMAG !INF !RW (SOCK=3 OR SOCK=4) ED=15]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE% //15ED无形甲（3、4孔）
 ItemDisplay[EQ2 ELT ETH NMAG !INF !RW SOCK=0 ED=15 FILTERLVL<6]: %NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)% //15ED无形甲（3、4孔）
 ItemDisplay[(utp OR uar) !ETH NMAG !INF !RW (SOCK=0 OR SOCK=3 OR SOCK=4) ED>9 FILTERLVL<6]: %NAME%{%NAME%}  //0、3、4孔10ED+的AP甲跟SA甲
 ItemDisplay[(uui OR uea OR ula OR utu OR urs OR utp OR uar) !ETH NMAG !INF !RW (SOCK=3 OR SOCK=4) ED>9 FILTERLVL<4]: %NAME%{%NAME%}  //显示3、4孔ED大于10%的轻甲跟SA甲
@@ -1141,15 +1141,15 @@ ItemDisplay[bsd NMAG !RW !INF SOCK=0 ILVL>25 ILVL<41 CLVL<50 FILTERLVL=1]: %NAME
 ItemDisplay[bsd NMAG !RW !INF SOCK=4 ILVL>25 ILVL<41 CLVL<50 FILTERLVL=1]: %NAME% [精神-剑]{%NAME%} //50等前顯示 4s闊剑
 ItemDisplay[crs NMAG !RW !INF (SOCK=3 OR SOCK=4 OR SOCK=5) FILTERLVL=1]: %NAME%{%NAME%} //90级前显示（新月、精神、CTA）水晶剑
 ItemDisplay[crs NMAG !RW !INF (SOCK=3 OR SOCK=4 OR SOCK=5) ED=15 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} //15ED%（新月、精神、CTA）水晶剑
-ItemDisplay[7cr NMAG !RW !INF SOCK=5 ED=15]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL% //(5s)15ed幻化（悔恨JP材料）
+ItemDisplay[7cr NMAG !RW !INF SOCK=5 ED=15]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE% //(5s)15ed幻化（悔恨JP材料）
 ItemDisplay[7cr NMAG !RW !INF SOCK=0 ED=15 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} //显示ED=15的幻化之刃（0孔）
 ItemDisplay[7cr NMAG !RW !INF (SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) ED>9 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} //显示ED大于10的（执法者、热情、悔恨、寂静、最后希望）幻化之刃（3~6孔）
 ItemDisplay[7cr NMAG !RW !INF (SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) FILTERLVL=1]: %NAME%{%NAME%} //90级前显示（执法者、热情、悔恨、寂静、最后希望）幻化之刃
 ItemDisplay[7gd !ETH NMAG !RW !INF (SOCK=0 OR SOCK=6) ED=15 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} //显示ED=15的有形巨神之刃（0 or 6孔）
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[(7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd) ETH NMAG !RW !INF SOCK=4 ED=15]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%  //(4S)15ED无形神秘、双手剑（誓约JP材料）
-ItemDisplay[(7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd) ETH NMAG !RW !INF (SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) ED>9 FILTERLVL<4]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%  //显示ED大于9的无形剑（3~6孔）
-ItemDisplay[(7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd) ETH NMAG !RW !INF SOCK=0 ED=15 FILTERLVL<4]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%  //显示ED=15的无形剑（0孔）
+ItemDisplay[(7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd) ETH NMAG !RW !INF SOCK=4 ED=15]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE%  //(4S)15ED无形神秘、双手剑（誓约JP材料）
+ItemDisplay[(7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd) ETH NMAG !RW !INF (SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) ED>9 FILTERLVL<4]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE%  //显示ED大于9的无形剑（3~6孔）
+ItemDisplay[(7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd) ETH NMAG !RW !INF SOCK=0 ED=15 FILTERLVL<4]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE%  //显示ED=15的无形剑（0孔）
 ItemDisplay[7gd ETH NMAG !RW !INF (SOCK=6 OR SOCK=0) ED=15]: %NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%  //(0 or 6S)15ED无形巨神之刃（死亡呼吸材料）
 ItemDisplay[(7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd) ETH NMAG !RW !INF (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) FILTERLVL=1]: %NAME%{%NAME%} //90级前显示无形剑
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -1166,15 +1166,15 @@ ItemDisplay[7wa ETH NMAG !RW !INF SOCK=5]: %NAME%{%GOLD%永恒:%ORANGE%[#11]+[#3
 ItemDisplay[7wa ETH NMAG !RW !INF SOCK=6]: %NAME%{%GOLD%死亡呼吸:%ORANGE%[#26]+[#15]+[#1]+[#2]+[#33]+[#5]%NL%%NAME%}%CONTINUE%  //无形6S
 ItemDisplay[wax NMAG !RW !INF SOCK=5]: %NAME%{%GOLD%野兽:%ORANGE%[#30]+[#3]+[#22]+[#23]+[#17]%NL%%GOLD%末日:%ORANGE%[#15]+[#27]+[#22]+[#28]+[#32]%NL%%ORANGE%RW推荐:手持野兽, 末日%NL%%NAME%}%CONTINUE% //巨戰斧5 - 末日
 //──── 显示以下斧 ────
-ItemDisplay[7wa !ETH NMAG !RW !INF SOCK=5 ED=15]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%  //(5S)15ED BA（悔恨、末日材料JP材料）
-ItemDisplay[7wa !ETH NMAG !RW !INF SOCK=5 ED>9 FILTERLVL<6]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%  //(5S)有形BA（悔恨、末日材料）
+ItemDisplay[7wa !ETH NMAG !RW !INF SOCK=5 ED=15]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE%  //(5S)15ED BA（悔恨、末日材料JP材料）
+ItemDisplay[7wa !ETH NMAG !RW !INF SOCK=5 ED>9 FILTERLVL<6]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE%  //(5S)有形BA（悔恨、末日材料）
 ItemDisplay[7wa !ETH NMAG !RW !INF SOCK=0 ED=15 FILTERLVL<4]: %DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%  //显示ED=15的有形狂战士斧（0孔）
 ItemDisplay[7wa !ETH NMAG !RW !INF (SOCK=4 OR SOCK=6) ED>9 FILTERLVL=1]: %NAME%%BORDER(85,1)%{%NAME%}  //显示ED>10的有形狂战士斧（4 or 6孔）
 ItemDisplay[7wa !ETH NMAG !RW !INF (SOCK=4 OR SOCK=5 OR SOCK=6) CLVL<90 FILTERLVL=1]: %NAME%{%NAME%}  //90级前显示有形狂战士斧（4~6孔）
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[7wa ETH NMAG !RW !INF SOCK=5 ED>9]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%  //显示10ED+无形狂战士斧（5孔）（死神JP材料）
-ItemDisplay[7wa ETH NMAG !RW !INF SOCK=5 FILTERLVL<6]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%  //显示所有无形狂战士斧（5孔）（死神好材料）
-ItemDisplay[7wa ETH NMAG !RW !INF (SOCK=0 OR SOCK=4 OR SOCK=6) ED>9 FILTERLVL<4]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%  //显示ED>10的无形狂战士斧（0、4、6孔）
+ItemDisplay[7wa ETH NMAG !RW !INF SOCK=5 ED>9]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE%  //显示10ED+无形狂战士斧（5孔）（死神JP材料）
+ItemDisplay[7wa ETH NMAG !RW !INF SOCK=5 FILTERLVL<6]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE%  //显示所有无形狂战士斧（5孔）（死神好材料）
+ItemDisplay[7wa ETH NMAG !RW !INF (SOCK=0 OR SOCK=4 OR SOCK=6) ED>9 FILTERLVL<4]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE%  //显示ED>10的无形狂战士斧（0、4、6孔）
 ItemDisplay[7wa ETH NMAG !RW !INF (SOCK=0 OR SOCK=4 OR SOCK=6) FILTERLVL=1]: %NAME%{%NAME%}  //90级前显示无形狂战士斧（0、4、6孔）
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[wax NMAG !RW !INF SOCK=5 FILTERLVL=1]: %NAME%{%NAME%} //巨戰斧5 - 手持野兽、末日（90级前）
@@ -1189,8 +1189,8 @@ ItemDisplay[(WP7 OR WP8) !(7ja OR 7pi OR 7s7 OR 7gl OR 7ts) !CL7 ELT NMAG !RW SO
 ItemDisplay[(WP7 OR WP8) !(7ja OR 7pi OR 7s7 OR 7gl OR 7ts) !CL7 ELT NMAG !RW SOCK=5]: %NAME%{%GOLD%遵从:%ORANGE%[#15]+[#18]+[#10]+[#5]+[#19]%NL%%GOLD%末日:%ORANGE%[#15]+[#27]+[#22]+[#28]+[#32]%NL%%NAME%}%CONTINUE%
 ItemDisplay[(WP7 OR WP8) !(7ja OR 7pi OR 7s7 OR 7gl OR 7ts) !CL7 ELT NMAG !RW SOCK=6]: %NAME%{%GOLD%寂静:%ORANGE%[#14]+[#2]+[#15]+[#24]+[#3]+[#26]%NL%%GOLD%死亡呼吸:%ORANGE%[#26]+[#15]+[#1]+[#2]+[#33]+[#5]%NL%%GOLD%最后希望:%ORANGE%[#31]+[#23]+[#31]+[#29]+[#31]+[#30]%NL%%NAME%}%CONTINUE%
 //──── 显示以下长柄、长枪 ────
-ItemDisplay[(7tr OR 7vo OR 7s8 OR 7pa OR 7br OR 7h7 OR 7wc OR 7st OR 7p7 OR 7sr OR 7o7) ETH NMAG !RW !INF (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) ED>9]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL% //显示10ED+的无形长柄、长枪（0孔、3~6孔）
-ItemDisplay[(7tr OR 7vo OR 7s8 OR 7pa OR 7br OR 7h7 OR 7wc OR 7st OR 7p7 OR 7sr OR 7o7) ETH NMAG !RW !INF (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) ED>0 FILTERLVL<6]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL% //显示带ED%的无形长柄、长枪（0孔、3~6孔）
+ItemDisplay[(7tr OR 7vo OR 7s8 OR 7pa OR 7br OR 7h7 OR 7wc OR 7st OR 7p7 OR 7sr OR 7o7) ETH NMAG !RW !INF (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) ED>9]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE% //显示10ED+的无形长柄、长枪（0孔、3~6孔）
+ItemDisplay[(7tr OR 7vo OR 7s8 OR 7pa OR 7br OR 7h7 OR 7wc OR 7st OR 7p7 OR 7sr OR 7o7) ETH NMAG !RW !INF (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) ED>0 FILTERLVL<6]: %NL%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE% //显示带ED%的无形长柄、长枪（0孔、3~6孔）
 ItemDisplay[(7tr OR 7vo OR 7s8 OR 7pa OR 7br OR 7h7 OR 7wc OR 7st OR 7p7 OR 7sr OR 7o7) ETH NMAG !RW !INF (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) FILTERLVL<4]: %NAME%{%NAME%} //显示所有精华级无形长柄、长枪（0孔、3~6孔）
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[(7tr OR 7vo OR 7s8 OR 7pa OR 7br OR 7h7 OR 7wc OR 7st OR 7p7 OR 7sr OR 7o7) !ETH NMAG !RW !INF (SOCK=4 OR SOCK=5 OR SOCK=6) CLVL<75 FILTERLVL=1]: %NAME%{%NAME%} //75级前显示所有精华级有形长柄、长枪（4~6孔）
@@ -1205,9 +1205,9 @@ ItemDisplay[fla NMAG !INF !RW SOCK=5]: %NAME%{%GOLD%战争召唤:%ORANGE%[#11]+[
 ItemDisplay[7gm ETH NMAG !INF !RW SOCK=6]: %NAME%{%GOLD%死亡呼吸:%ORANGE%Vex[#26]+Hel[#15]+El[#1]+Eld[#2]+Zod[#33]+Eth[#5]%NL%%NAME%}%CONTINUE%  //雷锤 死亡呼吸
 //-------------
 ItemDisplay[fla NMAG !INF !RW SOCK=4 FILTERLVL=1]: %NAME%{%NAME%} //連枷4 - 橡树之心
-ItemDisplay[7gm ETH NMAG !INF !RW SOCK=6 ED=15]: %NL%%RED%[E]%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL% //雷鎚(無)6 - 死亡呼吸
+ItemDisplay[7gm ETH NMAG !INF !RW SOCK=6 ED=15]: %NL%%RED%[E]%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE% //雷鎚(無)6 - 死亡呼吸
 ItemDisplay[7gm ETH NMAG !INF !RW SOCK=6 ED>9 FILTERLVL<6]: %RED%[E]%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)% //雷鎚(無)6 - 死亡呼吸
-ItemDisplay[7gm ETH NMAG !INF !RW SOCK=0 ED=15 FILTERLVL<6]: %NL%%RED%[E]%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%
+ItemDisplay[7gm ETH NMAG !INF !RW SOCK=0 ED=15 FILTERLVL<6]: %NL%%RED%[E]%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE%
 ItemDisplay[7gm ETH NMAG !INF !RW SOCK=0 ED>9 FILTERLVL<4]: %RED%[E]%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%
 ItemDisplay[7gm ETH NMAG !INF !RW (SOCK=0 OR SOCK=6) FILTERLVL<4]: %RED%[E]%GRAY%%NAME%%BORDER(85,1)%{%NAME%} //雷鎚(無)6 - 死亡呼吸
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -1217,7 +1217,7 @@ ItemDisplay[7gm ETH NMAG !INF !RW (SOCK=0 OR SOCK=6) FILTERLVL<4]: %RED%[E]%GRAY
 ItemDisplay[(8cs OR 8bs OR cst OR bst OR 6cs OR 6bs OR wst OR 8ws OR 6ws) NMAG !RW SOCK=4]: %NAME%{%GOLD%记忆:%ORANGE%Lum[#17]+Io[#16]+Sol[#12]+Eth[#5]%NL%%GOLD%眼光:%ORANGE%[#8]+[#3]+[#7]+[#12]%NL%%NAME%}%CONTINUE%
 //-------------
 ItemDisplay[(8cs OR 8bs OR cst OR bst OR 6cs OR 6bs OR wst OR 8ws OR 6ws) NMAG !RW SK58=3 (SOCK=0 OR SOCK=4) FILTERLVL<4]: %DGREEN%%NAME%{%NAME%}
-ItemDisplay[(8cs OR 8bs OR cst OR bst OR 6cs OR 6bs OR wst OR 8ws OR 6ws) NMAG !RW SK58=3 (SK50>0 OR SK60>0) (SOCK=0 OR SOCK=4)]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%
+ItemDisplay[(8cs OR 8bs OR cst OR bst OR 6cs OR 6bs OR wst OR 8ws OR 6ws) NMAG !RW SK58=3 (SK50>0 OR SK60>0) (SOCK=0 OR SOCK=4)]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                      ▬▬▬▬▬ 武器:弓 ▬▬▬▬▬                                      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -1226,7 +1226,7 @@ ItemDisplay[WP9 NMAG !RW SOCK=4]: %NAME%{%GOLD%信心:%ORANGE%[#27]+[#31]+[#20]+
 ItemDisplay[WP9 NORM NMAG !RW SOCK=4]: %NAME%{%GOLD%和谐:%ORANGE%[#3]+[#6]+[#12]+[#18]%NL%%NAME%}%CONTINUE%
 ItemDisplay[(6l7 OR 6lw) NMAG !RW SOCK=6]: %NAME%{%GOLD%寂静:%ORANGE%[#14]+[#2]+[#15]+[#24]+[#3]+[#26]%NL%%GOLD%死亡呼吸:%ORANGE%[#26]+[#15]+[#1]+[#2]+[#33]+[#5]%NL%%NAME%}%CONTINUE%
 //-------------
-ItemDisplay[6lb NMAG !RW SOCK=4 ED=15]: %NL%%DGREEN%%NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%}%NL% //阴影弓(15ED) PET信心JP材料
+ItemDisplay[6lb NMAG !RW SOCK=4 ED=15]: %NL%%DGREEN%%NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%}%NL%%SPACE% //阴影弓(15ED) PET信心JP材料
 ItemDisplay[(6hb OR 6cb OR 6s7 OR 6lb) NMAG !RW SOCK=4 ED>12 FILTERLVL<4]: %NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%} //刀鋒弓、巨弓、鑽石弓、阴影弓(13%ED以上) 信心
 ItemDisplay[(6l7 OR 6lw) NMAG !RW (SOCK=0 OR SOCK=6) ED=15 FILTERLVL<4]: %NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%} //十字軍之弓、九頭蛇弓(15%ED) 寂静/死亡呼吸
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -1258,9 +1258,9 @@ ItemDisplay[CL3 ETH NMAG !INF !RW SOCK=4]: %NAME%{%GOLD%流亡:%ORANGE%Vex[#26]+
 ItemDisplay[CL3 !ETH NMAG !INF !RW SOCK=3]: %NAME%{%GOLD%圣堂:%ORANGE%[#18]+[#18]+[#23]%NL%%GOLD%梦境:%ORANGE%[#16]+[#31]+[#21]%NL%%GOLD%飞龙:%ORANGE%[#29]+[#28]+[#12]}%CONTINUE%  //圣堂/梦境/飛龍
 ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !RW SOCK=4]: %NAME%{%GOLD%神圣雷击:%ORANGE%[#5]+[#8]+[#9]+[#7]%NL%%ORANGE%单手TP杖%NL%%NAME%}%CONTINUE%  //TP权杖
 //──── 显示以下骑士专属 ────
-ItemDisplay[CL3 ELT ETH NMAG !INF !RW (RES>39 OR ED>59) (SOCK=0 OR SOCK=4)]: %NL%%DGREEN%%NAME%%NL%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%} //圣骑盾(40抗以上)4(無) - 流亡
-ItemDisplay[CL3 ELT ETH NMAG !INF !RW (RES>39 OR ED>59) (SOCK=0 OR SOCK=4)]: %NL%%DGREEN%%NAME%%NL%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%} //圣骑盾(40抗以上)4(無) - 流亡
-ItemDisplay[(pab OR pac) !ETH NMAG !INF !RW RES=45 (SOCK=0 OR SOCK=3 OR SOCK=4) ED>0]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%  //有形小盾轻圆盾(45抗带ED)
+ItemDisplay[CL3 ELT ETH NMAG !INF !RW (RES>39 OR ED>59) (SOCK=0 OR SOCK=4)]: %NL%%DGREEN%%NAME%%NL%%SPACE%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%} //圣骑盾(40抗以上)4(無) - 流亡
+ItemDisplay[CL3 ELT ETH NMAG !INF !RW (RES>39 OR ED>59) (SOCK=0 OR SOCK=4)]: %NL%%DGREEN%%NAME%%NL%%SPACE%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%} //圣骑盾(40抗以上)4(無) - 流亡
+ItemDisplay[(pab OR pac) !ETH NMAG !INF !RW RES=45 (SOCK=0 OR SOCK=3 OR SOCK=4) ED>0]: %NL%%DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%%NL%%SPACE%  //有形小盾轻圆盾(45抗带ED)
 ItemDisplay[(pab OR pac) !ETH NMAG !INF !RW RES>43 (SOCK=0 OR SOCK=3 OR SOCK=4) FILTERLVL<6]: %DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%  //有形小盾轻圆盾(44~45抗)
 ItemDisplay[CL3 !ETH NMAG !INF !RW RES>40 (SOCK=0 OR SOCK=3 OR SOCK=4) CLVL<85 FILTERLVL=1]: %NAME%{%NAME%}  //有形圣骑盾(40抗以上)
 ItemDisplay[CL3 !ETH ELT NMAG !INF !RW RES>40 (SOCK=0 OR SOCK=3 OR SOCK=4) FILTERLVL<4]: %NAME%{%NAME%}  //有形精英级圣骑盾(40抗以上)
@@ -1296,8 +1296,8 @@ ItemDisplay[(ob5 OR oba OR obf) NMAG !RW (SOCK=0 OR SOCK=3) (SK50>2 OR SK60>2 OR
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //──── 亚马逊 ────
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[(amb OR amc) NMAG !INF !RW TABSK0=3 SOCK=4 ED=15]: %NL%%DGREEN%%NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%}%NL% //15ED女族長之弓、大院長之弓(+3技)4S - 信心
-ItemDisplay[(amb OR amc) NMAG !INF !RW TABSK0=3 SOCK=4 ED>9 FILTERLVL<6]: %NL%%DGREEN%%NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%}%NL% //10ED+女族長之弓、大院長之弓(+3技)4S - 信心
+ItemDisplay[(amb OR amc) NMAG !INF !RW TABSK0=3 SOCK=4 ED=15]: %NL%%DGREEN%%NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%}%NL%%SPACE% //15ED女族長之弓、大院長之弓(+3技)4S - 信心
+ItemDisplay[(amb OR amc) NMAG !INF !RW TABSK0=3 SOCK=4 ED>9 FILTERLVL<6]: %NL%%DGREEN%%NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%}%NL%%SPACE% //10ED+女族長之弓、大院長之弓(+3技)4S - 信心
 ItemDisplay[(amb OR amc) NMAG !INF !RW TABSK0=3 SOCK=4 FILTERLVL<4]: %DGREEN%%NAME%{%NAME%} //女族長之弓、大院長之弓(+3技)4S - 信心
 ItemDisplay[(amb OR amc) NMAG !INF !RW TABSK0=3 SOCK=0 !SUP FILTERLVL=1]: %DGREEN%%NAME%{%NAME%} //女族長之弓、大院長之弓(+3技) - 信心
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
@@ -1435,8 +1435,8 @@ ItemDisplay[(zvb OR uvc) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [cast
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[(WEAPON OR ARMOR) RARE CLVL<60 !ID FILTERLVL=1]: %NAME%   //60级前显示所有RARE武器跟防具
 ItemDisplay[(WEAPON OR ARMOR) ELT RARE CLVL<80 !ID FILTERLVL=1]: %NAME%   //80级前显示精英RARE武器跟防具
-ItemDisplay[EQ7 RARE !ID FILTERLVL<6]: %NL%%NAME%%NL%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%   //头环提醒
-ItemDisplay[(rin OR amu) RARE !ID FILTERLVL<6]: %NL%%NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%NL%%BORDER(85,1)%%BGCOLOR(60)%// 戒指+项链提醒
+ItemDisplay[EQ7 RARE !ID FILTERLVL<6]: %NL%%NAME%%NL%%SPACE%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(60)%   //头环提醒
+ItemDisplay[(rin OR amu) RARE !ID FILTERLVL<6]: %NL%%NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(60)%// 戒指+项链提醒
 ItemDisplay[(crs OR 9cr OR 7cr OR mpi OR wax OR 9mp OR 9wa OR 7mp OR 7wa OR WP12 OR CL6) RARE !ID FILTERLVL<4]: %NAME%   //显示部分RARE（水晶剑类、军用锹类，狂战士斧类、手杖、ORB）
 ItemDisplay[(CL5 OR am5 OR ama OR amf) RARE !ID FILTERLVL<4]: %NAME%%BORDER(85,1)%%BGCOLOR(60)%  //刺客爪、AMA标枪
 ItemDisplay[(aq2 OR cq2) RARE !ID FILTERLVL<4]: %NAME%%BORDER(85,1)%%BGCOLOR(60)%   //箭袋
@@ -1446,7 +1446,7 @@ ItemDisplay[(WEAPON OR ARMOR OR aq2 OR cq2 OR rin OR amu) (RARE OR CRAFT) ID]: %
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                    ▬▬▬▬▬ 套装（绿装）▬▬▬▬▬                                    ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[SET !ID (7qr OR xtb OR uar OR xmg OR uth OR amu)]: %NL%%NAME%%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%BORDER(85,1)%%BGCOLOR(138)%   //高价值绿色套装
+ItemDisplay[SET !ID (7qr OR xtb OR uar OR xmg OR uth OR amu)]: %NL%%NAME%%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%   //高价值绿色套装
 ItemDisplay[(uh9 OR utc OR ne9 OR ulg OR oba OR ucl OR 7gd OR 7wd OR xul OR rin) SET !ID FILTERLVL<6]: %NAME%%NOTIFY(ITEM)%%BORDER(85,1)%%BGCOLOR(60)%   //中价值绿色套装
 ItemDisplay[SET !ID FILTERLVL<4]: %NAME% //显示其他所有套装
 ItemDisplay[SET ID]: %NAME% //显示所有已鉴定套装
@@ -1454,12 +1454,12 @@ ItemDisplay[SET ID]: %NAME% //显示所有已鉴定套装
 //║                                      ▬▬▬▬▬ 暗金装备 ▬▬▬▬▬                                     ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 //──── 无形高价值:泰坦、盗墓者、沙暴、丧钟: ────
-ItemDisplay[(ama OR 7pa OR uvb OR 7s8) UNI ETH !ID]: %NL%%YELLOW%>>%TAN%>>%GRAY%>> %RED%[E] %GOLD%%NAME%%GRAY%<<%TAN%<<%YELLOW%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[(ama OR 7pa OR uvb OR 7s8) UNI ETH !ID]: %NL%%YELLOW%>>%TAN%>>%GRAY%>> %RED%[E] %GOLD%%NAME%%GRAY%<<%TAN%<<%YELLOW%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
 //──── 其他高价值:戒指、项链、吸血鬼的凝視、諧角之冠、鋼影、安達利爾的面貌、年紀之冠、格利風之眼、阿凱尼的榮耀、泰瑞爾的力量、暴風之盾、戰爭旅者、蜘蛛之網、風之力、死亡之網、撒卡蘭姆使者
-ItemDisplay[(rin OR amu OR xh9 OR uap OR ulm OR usk OR urn OR ci3 OR upl OR uar OR uit OR xtb OR ulc OR 6lw OR 7gw OR pa9) UNI !ID]: %NL%%PURPLE%>>%RED%>>%ORANGE%>>%YELLOW%>>%GOLD%%NAME%%YELLOW%<<%ORANGE%<<%RED%<<%PURPLE%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[(rin OR amu OR xh9 OR uap OR ulm OR usk OR urn OR ci3 OR upl OR uar OR uit OR xtb OR ulc OR 6lw OR 7gw OR pa9) UNI !ID]: %NL%%PURPLE%>>%RED%>>%ORANGE%>>%YELLOW%>>%GOLD%%NAME%%YELLOW%<<%ORANGE%<<%RED%<<%PURPLE%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
 //──── 还可以的暗金:物免甲、守护天使、阿凯尼的荣耀、海蛇皮、魁黑刚的智慧、卓古拉之握、齐拉的守护、BB face、加尔的长发、腐肉骑士、沙暴、影舞者、纱织、侏儒、安戴尔的智慧
-ItemDisplay[(xhn OR xlt OR upl OR xea OR xtp OR uvg OR ci2 OR baa OR dra OR xhb OR uvb OR uhb OR xmb OR nea OR 6cs OR obc OR ama) UNI !ID FILTERLVL<6]: %NL%%RED%>>%GOLD%%NAME%%RED%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%BORDER(85,1)%%BGCOLOR(60)%
-ItemDisplay[(xhn OR xea OR baa OR uvb OR nea OR 6cs OR ama) UNI !ID]: %NL%%RED%>>%GOLD%%NAME%%RED%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[(xhn OR xlt OR upl OR xea OR xtp OR uvg OR ci2 OR baa OR dra OR xhb OR uvb OR uhb OR xmb OR nea OR 6cs OR obc OR ama) UNI !ID FILTERLVL<6]: %NL%%RED%>>%GOLD%%NAME%%RED%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(60)%
+ItemDisplay[(xhn OR xea OR baa OR uvb OR nea OR 6cs OR ama) UNI !ID]: %NL%%RED%>>%GOLD%%NAME%%RED%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(60)%
 ItemDisplay[UNI !ID FILTERLVL<6]: %NAME%  //显示其他所有暗金
 ItemDisplay[UNI ID]: %NAME%  //显示所有已鉴定暗金
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
