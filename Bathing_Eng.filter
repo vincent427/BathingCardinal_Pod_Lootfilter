@@ -699,6 +699,7 @@ ItemDisplay[ma7 !ID]: >>  Relics  <<%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Burnt
 ItemDisplay[ma8 !ID]: >>  Relics  <<%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Musty Crypt)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% 
 ItemDisplay[ma9 !ID]: >>  Relics  <<%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Dim Cellar)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% 
 ItemDisplay[ma11 !ID]: >>  Relics  <<%NL%%NAME%%NL%%DGREEN%** T0-Lv86 **{%DGREEN%(Pleasant Pasture)}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%  
+ItemDisplay[MAP !ID]: >>  Relics  <<%NL%NEW RELIC%NL%%WHITE%** T?-Lv?? **%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[ma10]: (Icy Cavern)%NL%%WHITE%** T1-Lv86 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%Immunities:%RED%*F:120,%YELLOW%*L:100,%GOLD%*Phy:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:33,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
 ItemDisplay[ma2]: (Forgotten Desert)%NL%%RED%** T3-Lv88 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%Immunities:%BLUE%*C:160,%RED%***F:130,%YELLOW%**L:100,%GOLD%*Phy:100,%DGREEN%***P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:66,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
@@ -710,6 +711,7 @@ ItemDisplay[ma7]: (Burnt Forest)%NL%%RED%** T3-Lv88 **%MAPICON(20,18)%%BORDER(85
 ItemDisplay[ma8]: (Musty Crypt)%NL%%GREEN%** T2-Lv87 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%Immunities:%BLUE%****C:190,%RED%***F:120,%YELLOW%****L:120,%ORANGE%%GOLD%*Phy:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:60,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
 ItemDisplay[ma9]: (Dim Cellar)%NL%%GREEN%** T2-Lv87 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%Immunities:%BLUE%**C:150,%RED%**F:120,%YELLOW%*L:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:50,%YELLOW%L:33,%ORANGE%M:0,%GOLD%Phy:75,%DGREEN%P:65%NL%%ORANGE%Monster Base Resistances and Immunities:} 
 ItemDisplay[ma11]: (Pleasant Pasture)%NL%%DGREEN%** T0-Lv86 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%Hige Res:%BLUE%C:50,%RED%F:50,%YELLOW%L:50,%ORANGE%M:33,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
+ItemDisplay[MAP ID]: (new relics)%NL%NEW RELIC%NL%%WHITE%** T?-Lv?? **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%
 ItemDisplay[maz]: %NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%Good Luck!%NL%You only have one chance%NL%Unable to open the portal upon entry, unable to return after death}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                       ▬▬▬▬▬ Scroll ▬▬▬▬▬                                      ║
