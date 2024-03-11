@@ -10,8 +10,8 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: Vincent 
 Attribute[Name]: BathingCardinal Pod Loot filter
-Attribute[Version]: PTR-1.91 Eng
-Attribute[Date]: 2024/2/12 22:21 UTC8
+Attribute[Version]: #21-1.01 Eng
+Attribute[Date]: 2024/3/11 23:03 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -1221,9 +1221,11 @@ ItemDisplay[(8cs OR 8bs OR cst OR bst OR 6cs OR 6bs OR wst OR 8ws OR 6ws) NMAG !
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 //  RW--
 ItemDisplay[WP9 NMAG !RW SOCK=4]: %NAME%{%GOLD%Faith:%ORANGE%[#27]+[#31]+[#20]+[#2]%NL%%NAME%}%CONTINUE%
+ItemDisplay[(6hb OR 6cb OR 6s7 OR 6lb OR 8hb OR 8cb OR 8s8 OR 8lb OR hbw OR lbw OR cbw OR sbb) NMAG !RW SOCK=4]: %NAME%{%GOLD%Insight:%ORANGE%[#8]+[#3]+[#7]+[#12]%NL%%NAME%}%CONTINUE%
 ItemDisplay[WP9 NORM NMAG !RW SOCK=4]: %NAME%{%GOLD%Harmony:%ORANGE%[#3]+[#6]+[#12]+[#18]%NL%%NAME%}%CONTINUE%
 ItemDisplay[(6l7 OR 6lw) NMAG !RW SOCK=6]: %NAME%{%GOLD%Silence:%ORANGE%[#14]+[#2]+[#15]+[#24]+[#3]+[#26]%NL%%GOLD%Breath of the Dying:%ORANGE%[#26]+[#15]+[#1]+[#2]+[#33]+[#5]%NL%%NAME%}%CONTINUE%
 //-------------
+ItemDisplay[(6hb OR 6cb OR 6s7 OR 6lb OR 8hb OR 8cb OR 8s8 OR 8lb OR hbw OR lbw OR cbw OR sbb) NMAG !INF !RW SOCK=4 CLVL<60 FILTERLVL=1]: %NAME%%GRAY% [early ladder Insight Base(bow)]{%NAME%} //60级前显示过渡用4S弓（眼光）
 ItemDisplay[6lb NMAG !RW SOCK=4 ED=15]: %NL%%DGREEN%%NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%}%NL%%SPACE% 
 ItemDisplay[(6hb OR 6cb OR 6s7 OR 6lb) NMAG !RW SOCK=4 ED>12 FILTERLVL<4]: %NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%} 
 ItemDisplay[(6l7 OR 6lw) NMAG !RW (SOCK=0 OR SOCK=6) ED=15 FILTERLVL<4]: %NAME%%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%{%NAME%} 
