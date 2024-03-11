@@ -55,11 +55,15 @@ Start the game, open the in-game settings menu (default hotkey is H), select thi
 启动游戏，打开游戏内设置菜单（默认按键是H），下拉选择本过滤器，选择需要的过滤器等级，然后点击过滤器文件名旁边的箭头按钮即可
 
 # Plans:
-At present, the main focus is on adding filter functions for the new season, and in the future, I will consider adding an English version of **Bathing_Eng.filter**
+Add new D2R runewords notification，Add new （phy/magic）rainbowfacet description
 
-现阶段主要是针对新赛季添加过滤器功能为主，以后会考虑添加英文版本的**Bathing_Eng.filter**
+添加新赛季符文之语提示，添加新暗金彩虹刻面提示
 
 ## Changelog:
+### 2024/3/11
+适用于#21赛季，添加弓系眼光符文之语，添加新遗物地图临时显示方案
+Available to Season #21, add Insight runeword for bows ，add a temporary display method for new relic maps
+
 ### 2024/2/12
 add %SPACE% to the top of the empty %NL% makes it work like befor
 
