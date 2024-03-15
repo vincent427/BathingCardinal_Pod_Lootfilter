@@ -10,8 +10,8 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: Vincent 
 Attribute[Name]: BathingCardinal Pod Loot filter
-Attribute[Version]: #21-1.02 Eng
-Attribute[Date]: 2024/3/14 17:21 UTC8
+Attribute[Version]: #21-1.03 Eng
+Attribute[Date]: 2024/3/15 16:48 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -171,6 +171,8 @@ ItemDisplay[SET ID 7m7]: %NAME%{%WHITE%[Base Speed: %WPNSPD%, Range: %RANGE%]%NL
 ItemDisplay[SET ID ucl]: %NAME%{%WHITE%Fixed Sockets:%TAN%(%WHITE%1-3S%TAN%)}%CONTINUE%
 ItemDisplay[UNI ID uh9 STR>24 STAT136>9]: %NAME%{%WHITE%Fixed Sockets:%TAN%(%WHITE%1-2S%TAN%)}%CONTINUE%
 ItemDisplay[UNI ID upk STAT238>0 STAT36>14]: %NAME%{%WHITE%Fixed Sockets:%TAN%(%WHITE%1S%TAN%)}%CONTINUE%
+ItemDisplay[SET ID lbb]: %NAME%{%WHITE%[Base Speed: %WPNSPD%]%NL%%WHITE%Fixed Sockets:%TAN%(%WHITE%4S%TAN%)}%CONTINUE%
+ItemDisplay[UNI ID wsd]: %NAME%{%WHITE%[Base Speed: %WPNSPD%, Range: %RANGE%]%NL%%WHITE%Fixed Sockets:%TAN%(%WHITE%3S%TAN%)}%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                   ▬▬▬▬▬ Upgrade Recipe ▬▬▬▬▬                                  ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -322,7 +324,7 @@ ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK1>0 OR TABSK8>0 OR 
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                     ▬▬▬▬▬ NEC SKILL▬▬▬▬▬                                      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK2>0 OR TABSK18>0 OR TABSK17>0 OR TABSK16>0 OR SK79>0 OR SK94>0 OR SK95>0 OR SK74>0 OR SK67>0 OR SK84>0 OR SK93>0 OR SK83>0 OR SK92>0 OR SK66>0 OR SK87>0 OR SK91>0)]: %NAME%%NL%%GOLD%[%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK2>0 OR TABSK18>0 OR TABSK17>0 OR TABSK16>0 OR SK79>0 OR SK94>0 OR SK95>0 OR SK74>0 OR SK67>0 OR SK84>0 OR SK93>0 OR SK83>0 OR SK92>0 OR SK66>0 OR SK87>0 OR SK91>0 OR SK69>0 OR SKILL("Hemorrhage")>0)]: %NAME%%NL%%GOLD%[%CONTINUE%
 --  CLSK2  --
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK2=1]: %NAME%%GOLD%+1NEC(ALL)%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK2=2]: %NAME%%GOLD%+2NEC(ALL)%CONTINUE%
@@ -386,8 +388,16 @@ ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK87=3]: %NAME%%WHITE%+3
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK91=1]: %NAME%%WHITE%+1%DGREEN%Lower Resist%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK91=2]: %NAME%%WHITE%+2%DGREEN%Lower Resist%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK91=3]: %NAME%%WHITE%+3%DGREEN%Lower Resist%CONTINUE%
+--  Summon Mastery  --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK69=1]: %NAME%%WHITE%+1%DGREEN%Summon Mastery%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK69=2]: %NAME%%WHITE%+2%DGREEN%Summon Mastery%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK69=3]: %NAME%%WHITE%+3%DGREEN%Summon Mastery%CONTINUE%
+--  Hemorrhage  --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SKILL("Hemorrhage")=1]: %NAME%%WHITE%+1%DGREEN%Hemorrhage%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SKILL("Hemorrhage")=2]: %NAME%%WHITE%+2%DGREEN%Hemorrhage%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SKILL("Hemorrhage")=3]: %NAME%%WHITE%+3%DGREEN%Hemorrhage%CONTINUE%
 // NEC Skill END
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK2>0 OR TABSK18>0 OR TABSK17>0 OR TABSK16>0 OR SK79>0 OR SK94>0 OR SK95>0 OR SK74>0 OR SK67>0 OR SK84>0 OR SK93>0 OR SK83>0 OR SK92>0 OR SK66>0 OR SK87>0 OR SK91>0)]: %NAME%%GOLD%]%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK2>0 OR TABSK18>0 OR TABSK17>0 OR TABSK16>0 OR SK79>0 OR SK94>0 OR SK95>0 OR SK74>0 OR SK67>0 OR SK84>0 OR SK93>0 OR SK83>0 OR SK92>0 OR SK66>0 OR SK87>0 OR SK91>0 SK69>0 OR SKILL("Hemorrhage")>0)]: %NAME%%GOLD%]%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                     ▬▬▬▬▬ PAL SKILL▬▬▬▬▬                                      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -699,6 +709,7 @@ ItemDisplay[ma7 !ID]: >>  Relics  <<%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Burnt
 ItemDisplay[ma8 !ID]: >>  Relics  <<%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Musty Crypt)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% 
 ItemDisplay[ma9 !ID]: >>  Relics  <<%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Dim Cellar)} %NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)% 
 ItemDisplay[ma11 !ID]: >>  Relics  <<%NL%%NAME%%NL%%DGREEN%** T0-Lv86 **{%DGREEN%(Pleasant Pasture)}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%  
+ItemDisplay[ma12 !ID]: >>  Relics  <<%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Baleful Alcazar)}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%  
 ItemDisplay[MAP !ID]: >>  Relics  <<%NL%NEW RELIC%NL%%WHITE%** T?-Lv?? **%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[ma10]: (Icy Cavern)%NL%%WHITE%** T1-Lv86 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%{%NL%Immunities:%RED%*F:120,%YELLOW%*L:100,%GOLD%*Phy:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:33,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
@@ -711,6 +722,7 @@ ItemDisplay[ma7]: (Burnt Forest)%NL%%RED%** T3-Lv88 **%MAPICON(20,18)%%BORDER(85
 ItemDisplay[ma8]: (Musty Crypt)%NL%%GREEN%** T2-Lv87 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%Immunities:%BLUE%****C:190,%RED%***F:120,%YELLOW%****L:120,%ORANGE%%GOLD%*Phy:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:60,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
 ItemDisplay[ma9]: (Dim Cellar)%NL%%GREEN%** T2-Lv87 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(60)%{%NL%Immunities:%BLUE%**C:150,%RED%**F:120,%YELLOW%*L:100,%DGREEN%*P:120%NL%%WHITE%Hige Res:%BLUE%C:50,%RED%F:50,%YELLOW%L:33,%ORANGE%M:0,%GOLD%Phy:75,%DGREEN%P:65%NL%%ORANGE%Monster Base Resistances and Immunities:} 
 ItemDisplay[ma11]: (Pleasant Pasture)%NL%%DGREEN%** T0-Lv86 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%Hige Res:%BLUE%C:50,%RED%F:50,%YELLOW%L:50,%ORANGE%M:33,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
+ItemDisplay[ma12]: (Baleful Alcazar)%NL%%DGREEN%** T3-Lv88 **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%{%NL%UNKNOWN%NL%%ORANGE%Monster Base Resistances and Immunities:} 
 ItemDisplay[MAP ID]: (new relics)%NL%NEW RELIC%NL%%WHITE%** T?-Lv?? **%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(15)%
 ItemDisplay[maz]: %NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%Good Luck!%NL%You only have one chance%NL%Unable to open the portal upon entry, unable to return after death}%NOTIFY(ITEM)%%MAPICON(20,18)%%BORDER(85,1)%%BGCOLOR(138)%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -1270,16 +1282,16 @@ ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !RW SOCK=4 FILTERLVL=1]:%NAME%{%NAME%} //#5
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //──── WAND ────
 ItemDisplay[WP12 NMAG !RW SOCK=2]: %NAME%{%GOLD%WHITE:%ORANGE%[#14]+[#16]%NL%%NAME%}%CONTINUE%
-ItemDisplay[WP12 NMAG !RW !SOCK=1 !wnd !ywn !9wn ((SK84=3 AND (SK67=3 OR SK93=3 OR SK79=3)) OR (SK93=3 AND (SK84>1 OR SK67>1)) OR (SK83=3 AND (SK92=3 OR SK79=3 OR SK91=3)) OR (SK92=3 AND (SK83=3 OR SK79=3 OR SK91=3)))]: %DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[WP12 NMAG !RW !SOCK=1 !wnd !ywn !9wn ((SK84=3 AND (SK67>0 OR SK93>0 OR SK79>0)) OR (SK93=3 AND (SK84>1 OR SK67>1)) OR (SK83=3 AND (SK92>0 OR SK79>0 OR SK91>0)) OR (SK92=3 AND (SK83>0 OR SK79>0 OR SK91>0))) FILTERLVL<6]: %DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[WP12 NMAG !RW !SOCK=1 !wnd !ywn !9wn (SK84=3 OR SK92=3) FILTERLVL<4]: %NAME%{%NAME%}
+ItemDisplay[WP12 NMAG !RW !SOCK=1 !wnd !ywn !9wn ((SK84=3 AND (SK67=3 OR SK93=3 OR SK79=3)) OR (SK93=3 AND (SK84>1 OR SK67>1)) OR (SK83=3 AND (SK92=3 OR SK79=3 OR SK91=3)) OR (SK92=3 AND (SK83=3 OR SK79=3 OR SK91=3)) OR (SK74=3 AND (SK79=3 OR SK91=3 OR SK83=3)))]: %DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[WP12 NMAG !RW !SOCK=1 !wnd !ywn !9wn ((SK84=3 AND (SK67>0 OR SK93>0 OR SK79>0)) OR (SK93=3 AND (SK84>1 OR SK67>1)) OR (SK83=3 AND (SK92>0 OR SK79>0 OR SK91>0)) OR (SK92=3 AND (SK83>0 OR SK79>0 OR SK91>0)) OR (SK74=3 AND (SK79=3 OR SK91=3 OR SK83=3))) FILTERLVL<6]: %DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[WP12 NMAG !RW !SOCK=1 !wnd !ywn !9wn (SK84=3 OR SK92=3 OR SK74=3) FILTERLVL<4]: %NAME%{%NAME%}
 ItemDisplay[WP12 NMAG !RW (SK79>2 OR SK94>2 OR SK95>2 OR SK74>2 OR SK84>2 OR SK93>2 OR SK83>2 OR SK92>2 OR SK66>2 OR SK87>2 OR SK91>2) !SOCK=1 !wnd !ywn !9wn FILTERLVL=1]: %NAME%{%NAME%}
 //──── HEAD ────
 ItemDisplay[CL4 !RW NMAG SOCK=2]: %NAME%{%GOLD%Splendor:%ORANGE%[#5]+[#17]}%CONTINUE%
-ItemDisplay[CL4 !ETH !RW NMAG ((SK84=3 AND (SK67=3 OR SK93=3 OR SK79=3)) OR (SK93=3 AND (SK84>1 OR SK67>1)) OR (SK83=3 AND (SK92=3 OR SK79=3 OR SK91=3)) OR (SK92=3 AND (SK83=3 OR SK79=3 OR SK91=3))) !SOCK=1]: %DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[CL4 !ETH !RW NMAG ((SK84=3 AND (SK67>0 OR SK93>0 OR SK79>0)) OR (SK93=3 AND (SK84>1 OR SK67>1)) OR (SK83=3 AND (SK92>0 OR SK79>0 OR SK91>0)) OR (SK92=3 AND (SK83>0 OR SK79>0 OR SK91>0))) !SOCK=1 FILTERLVL<6]: %DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%
-ItemDisplay[CL4 !ETH !RW NMAG !SOCK=1 (SK84=3 OR SK92=3) FILTERLVL<4]: %NAME%{%NAME%}
-ItemDisplay[CL4 !ETH !RW NMAG (SK79>2 OR SK94>2 OR SK95>2 OR SK74>2 OR SK84>2 OR SK93>2 OR SK83>2 OR SK92>2 OR SK66>2 OR SK87>2 OR SK91>2) !SOCK=1 FILTERLVL=1]: %NAME%{%NAME%}
+ItemDisplay[CL4 !ETH !RW NMAG ((SK84=3 AND (SK67=3 OR SK93=3 OR SK79=3)) OR (SK93=3 AND (SK84>1 OR SK67>1)) OR (SK83=3 AND (SK92=3 OR SK79=3 OR SK91=3)) OR (SK92=3 AND (SK83=3 OR SK79=3 OR SK91=3)) OR (SK74=3 AND (SK79=3 OR SK91=3 OR SK83=3)) OR (SKILL("Hemorrhage")=3 AND (SK71=3 OR SK87=3 OR SK95=3))) !SOCK=1]: %DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[CL4 !ETH !RW NMAG ((SK84=3 AND (SK67>0 OR SK93>0 OR SK79>0)) OR (SK93=3 AND (SK84>1 OR SK67>1)) OR (SK83=3 AND (SK92>0 OR SK79>0 OR SK91>0)) OR (SK92=3 AND (SK83>0 OR SK79>0 OR SK91>0)) OR (SK74=3 AND (SK79=3 OR SK91=3 OR SK83=3)) OR (SKILL("Hemorrhage")=3 AND (SK71=3 OR SK87=3 OR SK95=3))) !SOCK=1 FILTERLVL<6]: %DGREEN%%NAME%{%NAME%}%NOTIFY(ITEM)%%MAPICON(24,1)%%BORDER(85,1)%%BGCOLOR(138)%
+ItemDisplay[CL4 !ETH !RW NMAG !SOCK=1 (SK84=3 OR SK92=3 OR SK74=3 OR SKILL("Hemorrhage")=3) FILTERLVL<4]: %NAME%{%NAME%}
+ItemDisplay[CL4 !ETH !RW NMAG (SK79>2 OR SK94>2 OR SK95>2 OR SK74>2 OR SK84>2 OR SK93>2 OR SK83>2 OR SK92>2 OR SK66>2 OR SK87>2 OR SK91>2 OR SKILL("Hemorrhage")>2) !SOCK=1 FILTERLVL=1]: %NAME%{%NAME%}
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //──── ASN ────
 //─────────────────────────────────────────────────────────────────────────────────────────────────
@@ -1412,8 +1424,8 @@ ItemDisplay[CL2 !UNI SK149>2 (TABSK34>2 OR CLSK4>1)]: %NAME%%NOTIFY(ITEM)%  //  
 ItemDisplay[CL1 !UNI ((CLSK5=2 AND (SK221=3 OR SK226=3 OR SK236=3 OR SK237=3 OR SK238=3 OR SK240=3 OR SK243=3 OR SK245=3 OR SK247=3 OR SK249=3 OR SK250=3)) OR (TABSK40=3 AND (SK221>1 OR SK226>1 OR SK236>1 OR SK237>1 OR SK247>1)) OR (TABSK40=2 AND (SK221>2 OR SK226>2 OR SK236>2 OR SK237>2 OR SK247>2)) OR (TABSK41=3 AND (SK238>1 OR SK243>1)) OR (TABSK41=2 AND (SK238>2 OR SK243>2)) OR (TABSK42=3 AND (SK240>1 OR SK245>1 OR SK249>1 OR SK250>1)) OR (TABSK42=2 AND (SK240>2 OR SK245>2 OR SK249>2 OR SK250>2)))]: %NAME%%NOTIFY(ITEM)%  
 //──── NEC ────
 ItemDisplay[CL2 MAG !ID FILTERLVL=1]: %NAME%
-ItemDisplay[(CL4 OR WP12) !UNI ((CLSK2=2 AND (SK66=3 OR SK74=3 OR SK79=3 OR SK83=3 OR SK84=3 OR SK87=3 OR SK87=3 OR SK91=3 OR SK92=3 OR SK93=3 OR SK94=3 OR SK95=3)) OR (TABSK16=3 AND (SK66>1 OR SK87>1 OR SK91>1)) OR (TABSK16=2 AND (SK66>2 OR SK87>2 OR SK91>2)) OR (TABSK17=3 AND (SK74>1 OR SK83>1 OR SK84>1 OR SK92>1 OR SK93>1)) OR (TABSK17=2 AND (SK74>2 OR SK83>2 OR SK84>2 OR SK92>2 OR SK93>2)) OR (TABSK18=3 AND (SK79>1 OR SK94>1 OR SK95>1)) OR (TABSK18=2 AND (SK79>2 OR SK94>2 OR SK95>2)))]: %NAME%%NOTIFY(ITEM)%  
-//──── SOR(nothing) ────
+ItemDisplay[(CL4 OR WP12) !UNI ((CLSK2=2 AND (SK79=3 OR SK94=3 OR SK95=3 OR SK74=3 OR SK67=3 OR SK84=3 OR SK93=3 OR SK83=3 OR SK92=3 OR SK66=3 OR SK87=3 OR SK91=3 OR SK69=3 OR SKILL("Hemorrhage")=3)) OR (TABSK16=3 AND (SK66>1 OR SK87>1 OR SK91>1 OR SKILL("Hemorrhage")>1)) OR (TABSK16=2 AND (SK66>2 OR SK87>2 OR SK91>2 OR SKILL("Hemorrhage")>2)) OR (TABSK17=3 AND (SK79>1 OR SK74>1 OR SK83>1 OR SK84>1 OR SK92>1 OR SK93>1)) OR (TABSK17=2 AND (SK79>2 OR SK74>2 OR SK83>2 OR SK84>2 OR SK92>2 OR SK93>2)) OR (TABSK18=3 AND (SK69>1 OR SK79>1 OR SK94>1 OR SK95>1)) OR (TABSK18=2 AND (SK69>2 OR SK79>2 OR SK94>2 OR SK95>2)))]: %NAME%%NOTIFY(ITEM)% 
+//──── SOR(nothing yet) ────
 //──── AMA ────
 ItemDisplay[(am5 OR ama OR amf) MAG !ID FILTERLVL<4]: %NAME%
 ItemDisplay[(am5 OR ama OR amf) !UNI (TABSK2>4 OR (TABSK2>2 AND CLSK0=2))]: %NAME%%NOTIFY(ITEM)%  // 5~6 AMA jav
