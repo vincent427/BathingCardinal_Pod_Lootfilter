@@ -60,6 +60,19 @@ Add new D2R runewords notification，Add new （phy/magic）rainbowfacet descrip
 添加新赛季符文之语提示，添加新暗金彩虹刻面提示
 
 ## Changelog:
+### 2024/3/15
+添加死灵渗血诅咒相关武器/副手特殊提示
+
+添加新地图（恶意城堡）
+
+修改两个新赛季自带孔的新装备孔数提示
+
+Add notification for Hemorrhage（on nec wand/head）
+
+Add new relic(Baleful Alcazar Relic)
+
+fix the natural sockets number description for 2 new items(Culwen’s Point+3sockets/Vidala’s Barb (bow)+4sockets)
+
 ### 2024/3/11
 适用于#21赛季，添加弓系眼光符文之语，添加新遗物地图临时显示方案
 Available to Season #21, add Insight runeword for bows ，add a temporary display method for new relic maps
