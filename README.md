@@ -76,6 +76,7 @@ fix the natural sockets number description for 2 new items(Culwen’s Point+3soc
 
 ### 2024/3/11
 适用于#21赛季，添加弓系眼光符文之语，添加新遗物地图临时显示方案
+
 Available to Season #21, add Insight runeword for bows ，add a temporary display method for new relic maps
 
 ### 2024/2/12
