@@ -56,10 +56,15 @@ Start the game, open the in-game settings menu (default hotkey is H), select thi
 
 # Plans:
 Add new D2R runewords notification，Add new （phy/magic）rainbowfacet description
+HOPE someone could help me find out what STAT code is for the new -Physical Res% -Magic Res%
 
 添加新赛季符文之语提示，添加新暗金彩虹刻面提示
+希望有人能帮我找到-物抗%-魔法抗%的STAT代码
 
 ## Changelog:
+### 2024/3/15
+fix IAS issue
+
 ### 2024/3/15
 添加死灵渗血诅咒相关武器/副手特殊提示， 
 添加新地图（恶意城堡） ，
