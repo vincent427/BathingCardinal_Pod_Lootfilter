@@ -62,7 +62,10 @@ HOPE someone could help me find out what STAT code is for the new -Physical Res%
 希望有人能帮我找到-物抗%-魔法抗%的STAT代码
 
 ## Changelog:
-### 2024/3/15
+### 2024/3/18
+Add 2 new relic
+
+### 2024/3/16
 fix IAS issue
 
 ### 2024/3/15
