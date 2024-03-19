@@ -10,8 +10,8 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: Vincent 
 Attribute[Name]: BathingCardinal Pod Loot filter
-Attribute[Version]: #21-1.05 Eng
-Attribute[Date]: 2024/3/18 20:18 UTC8
+Attribute[Version]: #21-1.06 Eng
+Attribute[Date]: 2024/3/19 12:15 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -1468,6 +1468,8 @@ ItemDisplay[SET ID]: %NAME%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                       ▬▬▬▬▬ Unique ▬▬▬▬▬                                      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
+//──── Seasonal Mechanic  ────
+ItemDisplay[SPECIAL OR SYNTH]: %NL%%PURPLE%>>%RED%>>%ORANGE%>>%YELLOW%>>%GOLD%%NAME%%YELLOW%<<%ORANGE%<<%RED%<<%PURPLE%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
 //──── ETH High price  ────
 ItemDisplay[(ama OR 7pa OR uvb OR 7s8) UNI ETH !ID]: %NL%%YELLOW%>>%TAN%>>%GRAY%>> %RED%[E] %GOLD%%NAME%%GRAY%<<%TAN%<<%YELLOW%<<%NOTIFY(ITEM)%%NOTIFYSOUND(35)%%MAPICON(24,1)%%NL%%SPACE%%BORDER(85,1)%%BGCOLOR(138)%
 //──── High price ────
