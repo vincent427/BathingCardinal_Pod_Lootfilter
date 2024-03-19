@@ -63,6 +63,9 @@ HOPE someone could help me find out what STAT code is for the new -Physical Res%
 
 ## Changelog:
 ### 2024/3/18
+Add Seasonal Mechanic: Synthesis items notification
+
+### 2024/3/18
 Add 2 new relic
 
 ### 2024/3/16
