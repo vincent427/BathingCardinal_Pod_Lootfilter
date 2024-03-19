@@ -63,7 +63,7 @@ HOPE someone could help me find out what STAT code is for the new -Physical Res%
 
 ## Changelog:
 ### 2024/3/19
-加入新代码ItemStyle[]来统筹管理物品提示功能，由于之前用的符号<<和>>与新代码ItemStyle[GG]+<<GG>>冲突，所以统一更换了HD新图标，新图标现在只能支持D2GL HD字体，非HD字体将显示为问号或者圈圈，不过只影响美观不影响实际使用
+加入新代码ItemStyle[]来统筹管理物品提示功能，由于之前用的符号<<和>>与新代码ItemStyle[GG]+<< GG >>冲突，所以统一更换了HD新图标，新图标现在只能支持D2GL HD字体，非HD字体将显示为问号或者圈圈，不过只影响美观不影响实际使用
 
 Add new HD symbols，now，support for HD only（D2GL）,Because the old symbol "<< or >>" conflicts with the new code: "ItemStyle[GG] Displayed with:<< GG >>"
 
