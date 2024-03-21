@@ -10,8 +10,8 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: 沐红衣 
 Attribute[Name]: BathingCardinal Pod Loot filter
-Attribute[Version]: #21-1.1 Chi
-Attribute[Date]: 2024/3/19 21:55 UTC8
+Attribute[Version]: #21-1.11 Chi
+Attribute[Date]: 2024/3/21 16:05 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -28,6 +28,7 @@ FilterLevel[6]: L4:慎用！！！
 FilterLevel[7]: L4的基础上显示药水+DIY区
 Option[DefaultFilterLevel]: 1
 Option[DefaultNotifyLevel]: HIGH
+Option[IgnoreMissingSounds]: True
 //说明：────────────────────────────────────────────────────────────────────────────────────────────
 L1：（1）   适合常规使用，仅屏蔽掉无用杂物
 L2：（2~3）刷高级图用，屏蔽部分底材，屏蔽#1#2#3#5符文，屏蔽蓝色项链、戒指、BAR头、AMA标枪，屏蔽亮金手套、鞋子、腰带、职业头等
@@ -236,6 +237,9 @@ ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) CLSK0=2]: 
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK0=1]: %NAME%%GOLD%+1AMA%RED%（弓弩技能）%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK0=2]: %NAME%%GOLD%+2AMA%RED%（弓弩技能）%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK0=3]: %NAME%%GOLD%+3AMA%RED%（弓弩技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK0=4]: %NAME%%GOLD%+4AMA%RED%（弓弩技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK0=5]: %NAME%%GOLD%+5AMA%RED%（弓弩技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK0=6]: %NAME%%GOLD%+6AMA%RED%（弓弩技能）%CONTINUE%
 --  AMA（被动技能） --
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK1=1]: %NAME%%GOLD%+1AMA%DGREEN%（被动技能）%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK1=2]: %NAME%%GOLD%+2AMA%PURPLE%（被动技能）%CONTINUE%
@@ -244,6 +248,9 @@ ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK1=3]:
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK2=1]: %NAME%%GOLD%+1AMA%PURPLE%（标枪技能）%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK2=2]: %NAME%%GOLD%+2AMA%PURPLE%（标枪技能）%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK2=3]: %NAME%%GOLD%+3AMA%PURPLE%（标枪技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK2=4]: %NAME%%GOLD%+4AMA%PURPLE%（标枪技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK2=5]: %NAME%%GOLD%+5AMA%PURPLE%（标枪技能）%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) TABSK2=6]: %NAME%%GOLD%+6AMA%PURPLE%（标枪技能）%CONTINUE%
 // AMA Skill END
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW OR aq2 OR cq2) (CLSK0>0 OR TABSK0>0 OR TABSK1>0 OR TABSK2>0)]: %NAME%%GOLD%]%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -407,7 +414,7 @@ ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SKILL("Hemorrhage")=1]: 
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SKILL("Hemorrhage")=2]: %NAME%%WHITE%+2%DGREEN%渗血%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SKILL("Hemorrhage")=3]: %NAME%%WHITE%+3%DGREEN%渗血%CONTINUE%
 // NEC Skill END
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK2>0 OR TABSK18>0 OR TABSK17>0 OR TABSK16>0 OR SK79>0 OR SK94>0 OR SK95>0 OR SK74>0 OR SK67>0 OR SK84>0 OR SK93>0 OR SK83>0 OR SK92>0 OR SK66>0 OR SK87>0 OR SK91>0 SK69>0 OR SKILL("Hemorrhage")>0)]: %NAME%%GOLD%]%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK2>0 OR TABSK18>0 OR TABSK17>0 OR TABSK16>0 OR SK79>0 OR SK94>0 OR SK95>0 OR SK74>0 OR SK67>0 OR SK84>0 OR SK93>0 OR SK83>0 OR SK92>0 OR SK66>0 OR SK87>0 OR SK91>0 OR SK69>0 OR SKILL("Hemorrhage")>0)]: %NAME%%GOLD%]%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                     ▬▬▬▬▬ 职业技能属性提醒:圣骑士（仅部分热门技能）▬▬▬▬▬                      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -521,7 +528,7 @@ ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK4>0 OR TABSK32>0 OR
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                     ▬▬▬▬▬ 职业技能属性提醒:德鲁伊（仅部分热门技能）▬▬▬▬▬                      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK5>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR SK240>0 OR SK245>0 OR SK250>0 OR SK249>0 OR SK238>0 OR SK243>0 OR SK236>0 OR SK226>0 OR SK237>0 OR SK247>0 OR SK221>0)]: %NAME%%NL%%GOLD%[%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK5>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR SK240>0 OR SK245>0 OR SK250>0 OR SK249>0 OR SK238>0 OR SK243>0 OR SK236>0 OR SK226>0 OR SK237>0 OR SK247>0 OR SK221>0 OR SK233>0)]: %NAME%%NL%%GOLD%[%CONTINUE%
 --  CLSK5  --
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK5=1]: %NAME%%GOLD%+1德鲁伊技能%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) CLSK5=2]: %NAME%%GOLD%+2德鲁伊技能%CONTINUE%
@@ -581,8 +588,12 @@ ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK247=3]: %NAME%%WHITE%+
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK221=1]: %NAME%%WHITE%+1%DGREEN%乌鸦%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK221=2]: %NAME%%WHITE%+2%DGREEN%乌鸦%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK221=3]: %NAME%%WHITE%+3%DGREEN%乌鸦%CONTINUE%
+--  撞锤  --
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK233=1]: %NAME%%WHITE%+1%DGREEN%撞锤%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK233=2]: %NAME%%WHITE%+2%DGREEN%撞锤%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) SK233=3]: %NAME%%WHITE%+3%DGREEN%撞锤%CONTINUE%
 // DRU Skill END
-ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK5>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR SK240>0 OR SK245>0 OR SK250>0 OR SK249>0 OR SK238>0 OR SK243>0 OR SK236>0 OR SK226>0 OR SK237>0 OR SK247>0 OR SK221>0)]: %NAME%%GOLD%]%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW) (CLSK5>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR SK240>0 OR SK245>0 OR SK250>0 OR SK249>0 OR SK238>0 OR SK243>0 OR SK236>0 OR SK226>0 OR SK237>0 OR SK247>0 OR SK221>0 OR SK233>0)]: %NAME%%GOLD%]%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                      ▬▬▬▬▬ 职业技能属性提醒:刺客（仅部分热门技能）▬▬▬▬▬                       ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -1262,10 +1273,10 @@ ItemDisplay[(6l7 OR 6lw) NMAG !RW (SOCK=0 OR SOCK=6) ED=15 FILTERLVL<4]: %NAME%{
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //──── 德鲁伊 ────  
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[CL1 !ETH NMAG !RW !SOCK=1 ILVL>25 ((SK247=3 AND (SK237=3 OR SK226=3 OR SK236=3 OR SK237=3)) OR (SK250=3 AND SK249=3) OR (SK245=3 AND SK250=3) OR (SK250=3 AND SK240=3) OR (SK237=3 AND SK247=3 AND (SK226=3 OR SK236=3)) OR (SK236=3 AND SK226=3))]: %DGREEN%%NAME%{%NAME%}}<<MID>>
-ItemDisplay[CL1 !ETH NMAG !RW !SOCK=1 ILVL>25 ((SK247=3 AND (SK237>0 OR SK226>0 OR SK236>0 OR SK237>0)) OR (SK250=3 AND SK249=3) OR (SK245=3 AND SK250=3) OR (SK250=3 AND SK240=3) OR (SK237=3 AND SK247>0 AND (SK226>0 OR SK236>0)) OR (SK236=3 AND SK226=3)) FILTERLVL<6]: %DGREEN%%NAME%{%NAME%}<<MID>>
+ItemDisplay[CL1 !ETH NMAG !RW !SOCK=1 ILVL>25 ((SK247=3 AND (SK237=3 OR SK226=3 OR SK236=3 OR SK237=3  OR SK233=3)) OR (SK250=3 AND SK249=3) OR (SK245=3 AND SK250=3) OR (SK250=3 AND SK240=3) OR (SK237=3 AND SK247=3 AND (SK226=3 OR SK236=3  OR SK233=3)) OR (SK236=3 AND SK226=3))]: %DGREEN%%NAME%{%NAME%}}<<MID>>
+ItemDisplay[CL1 !ETH NMAG !RW !SOCK=1 ILVL>25 ((SK247=3 AND (SK237>0 OR SK226>0 OR SK236>0 OR SK237>0  OR SK233>0)) OR (SK250=3 AND SK249=3) OR (SK245=3 AND SK250=3) OR (SK250=3 AND SK240=3) OR (SK237=3 AND SK247>0 AND (SK226>0 OR SK236>0  OR SK233>0)) OR (SK236=3 AND SK226=3)) FILTERLVL<6]: %DGREEN%%NAME%{%NAME%}<<MID>>
 ItemDisplay[CL1 !ETH NMAG !RW !SOCK=1 ILVL>25 (SK245=3 OR SK247=3 OR SK250=3) FILTERLVL<4]: %NAME%{%NAME%}
-ItemDisplay[CL1 !ETH NMAG !RW (SK240>2 OR SK245>2 OR SK250>2 OR SK249>2 OR SK238>2 OR SK243>2 OR SK236>2 OR SK226>2 OR SK237>2 OR SK247>2 OR SK221>2) !SOCK=1 ILVL>25 FILTERLVL=1]: %NAME%{%NAME%}
+ItemDisplay[CL1 !ETH NMAG !RW (SK240>2 OR SK245>2 OR SK250>2 OR SK249>2 OR SK238>2 OR SK243>2 OR SK236>2 OR SK226>2 OR SK237>2 OR SK247>2 OR SK221>2 OR SK233>2) !SOCK=1 ILVL>25 FILTERLVL=1]: %NAME%{%NAME%}
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //──── 野蛮人 ────
 //─────────────────────────────────────────────────────────────────────────────────────────────────
