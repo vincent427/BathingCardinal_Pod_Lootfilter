@@ -1,0 +1,76 @@
+## Changelog:
+
+### 2024/3/21
+修复几个小BUG，加入撞锤技能提醒（德鲁伊头底材）
+Fix some bugs，Add Mual skill for Dru helm base
+
+### 2024/3/19
+加入新代码ItemStyle[]来统筹管理物品提示功能
+由于之前用的符号<<和>>与新代码ItemStyle[GG]+<<GG>>冲突
+所以统一更换了HD新图标，新图标现在只能支持D2GL HD字体
+非HD字体将显示为问号或者圈圈，不过只影响美观不影响实际使用
+
+Add new HD symbols，now，support for HD only（D2GL）
+Because the old symbol "<<" or ">>" conflicts with the new code: "ItemStyle[GG] Displayed with:<<GG>>"
+
+### 2024/3/18
+Add Seasonal Mechanic: Synthesis items notification
+
+### 2024/3/18
+Add 2 new relic
+
+### 2024/3/16
+fix IAS issue
+
+### 2024/3/15
+添加死灵渗血诅咒相关武器/副手特殊提示， 
+添加新地图（恶意城堡） ，
+修改两个新赛季自带孔的新装备孔数提示，
+Add notification for Hemorrhage（on nec wand/head） ,
+Add new relic(Baleful Alcazar Relic)  ,
+fix the natural sockets number description for 2 new items(Culwen’s Point+3sockets/Vidala’s Barb (bow)+4sockets)
+
+### 2024/3/11
+适用于#21赛季，添加弓系眼光符文之语，添加新遗物地图临时显示方案
+Available to Season #21, add Insight runeword for bows ，add a temporary display method for new relic maps
+
+### 2024/2/12
+add %SPACE% to the top of the empty %NL% makes it work like befor
+
+### 2024/1/2
+Add Engilsh version &
+Fix some bugs
+加入英文版本 + 
+修复部分小错误
+
+### 2023/12/29
+Fix some issue of game crashes caused by Relics Map's code
+修复地图代码报错引起游戏崩溃的问题
+
+### 2023/05/25
+Add fools mod to the weapon name 
+添加武器愚人词缀提醒
+
+### 2023/05/22
+fix some bugs
+修复天生带孔装备描述覆盖掉武器攻速描述，修复-60攻速bow的攻速被%WPNSPD%覆盖掉的问题。
+
+### 2023/05/19
+modify some item's filter level
+调整部分装备的过滤等级
+
+### 2023/05/18
+modify some GC/SC naming rules
+调整部分GC/SC名称提示规则
+
+### 2023/05/17
+add description for unique Jews like：Rainbow Facet[-5/+5] Fire (code temporarily not allowed, will be added description like live or die in the future)
+新增暗金珠宝彩虹刻面的属性描述：【-5/+5】电 （代码暂时不允许，以后会加入死电/活电区分）
+
+### 2023/05/16-2
+add a description of monster's basic resistance and immunes on the relic map, where the * in front of the immunes indicates how many types of monsters are immune to this attribute. For example, "* * * cold 160" indicates that there are three types of monsters with cold immune,and the highest cold res is 160.
+新增遗物地图怪物基础抗性及免疫情况描述，其中免疫属性前面的星号表示有多少种怪物免疫此属性，例如“＊＊＊冰160”表示有3种怪物带有冰系免疫
+
+### 2023/05/16-1
+Updated PTR version, no longer applicable to # 20 perlite
+更新PTR版本，将不再适用#20珍珠岩赛季
