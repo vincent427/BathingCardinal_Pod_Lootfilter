@@ -10,8 +10,8 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: Vincent 
 Attribute[Name]: BathingCardinal Pod Loot filter
-Attribute[Version]: #21-1.11 Eng
-Attribute[Date]: 2024/3/21 16:05 UTC8
+Attribute[Version]: #21-1.12 Eng
+Attribute[Date]: 2024/3/22 13:59 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -1479,7 +1479,7 @@ ItemDisplay[SET ID]: %NAME%
 //║                                       ▬▬▬▬▬ Unique ▬▬▬▬▬                                      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 //──── Seasonal Mechanic  ────
-ItemDisplay[SPECIAL OR SYNTH]: %NL%%PURPLE%✠✠%RED%✠✠%ORANGE%✠✠%YELLOW%✠✠  %GOLD%%NAME%  %YELLOW%✠✠%ORANGE%✠✠%RED%✠✠%PURPLE%✠✠%NL%%SPACE%<<HIGH>>
+ItemDisplay[SPECIAL OR SYNTH]: %NL%%RED%✡%GOLD%%NAME%%NL%%SPACE%<<HIGH>>
 //──── ETH High price  ────
 ItemDisplay[(ama OR 7pa OR uvb OR 7s8) UNI ETH !ID]: %NL%%YELLOW%✠✠%TAN%✠✠%GRAY%✠✠ %RED%[E] %GOLD%%NAME%  %GRAY%✠✠%TAN%✠✠%YELLOW%✠✠%NL%%SPACE%<<HIGH>>
 //──── High price ────
@@ -1528,7 +1528,7 @@ ItemDisplay[(WP7 OR WP8) NMAG !RW SOCK=4 (FILTERLVL=1 OR FILTERLVL=3 OR FILTERLV
 //ItemDisplay[(CL4 OR CL1 OR CL2) RARE !ID]: %NAME%
 //ItemDisplay[WP9 !CL7 NMAG !RW SOCK=4 NORM]: %NAME%  //Harmony
 //ItemDisplay[yps MAPID>0]: %DGREEN%! A%WHITE%  
-ItemDisplay[yps (FILTERLVL=1 OR FILTERLVL=3 OR FILTERLVL=5 OR FILTERLVL=7)]: %DGREEN%! A%WHITE%  //antidote
+ItemDisplay[yps (FILTERLVL=1 OR FILTERLVL=3 OR FILTERLVL=5 OR FILTERLVL=7)]: %DGREEN%⛾ A%WHITE%  //antidote
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║                                ▬▬▬▬▬ HIDE EVERYTHING ▬▬▬▬▬                                ║█║
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
