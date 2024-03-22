@@ -1,5 +1,9 @@
 ## Changelog:
 
+### 2024/3/22
+small changes for Synthesis item's symbol
+
+
 ### 2024/3/21
 修复几个小BUG，加入撞锤技能提醒（德鲁伊头底材）
 Fix some bugs，Add Mual skill for Dru helm base
