@@ -10,8 +10,8 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: 沐红衣 
 Attribute[Name]: BathingCardinal Pod Loot filter
-Attribute[Version]: #21-1.12 Chi
-Attribute[Date]: 2024/3/22 13:59 UTC8
+Attribute[Version]: #21-1.13 Chi
+Attribute[Date]: 2024/3/27 18:27 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -61,13 +61,15 @@ ItemDisplay[jew]: 宝珠 Jew%CONTINUE%
 ItemDisplay[!SET !UNI !RW amu]: 项链 Amulet%CONTINUE%
 ItemDisplay[!SET !UNI !RW rin]: 指环 Ring%CONTINUE%
 // QUIVER'S NAME (BASE)
-ItemDisplay[aq2]: 箭矢 Arrows[箭袋]%CONTINUE%
-ItemDisplay[cq2]: 十字弓弹 Bolts[箭袋]%CONTINUE%
+ItemDisplay[(MAG OR RARE OR CRAFT) aq2]: 箭矢 Arrows[*]%CONTINUE%
+ItemDisplay[(MAG OR RARE OR CRAFT) cq2]: 十字弓弹 Bolts[*]%CONTINUE%
 // CIRCLET'S NAME (BASE)
 ItemDisplay[(MAG OR RARE OR CRAFT) !RW ci0]: 头环 Circlet%CONTINUE%
 ItemDisplay[(MAG OR RARE OR CRAFT) !RW ci1]: 宝冠 Coronet%CONTINUE%
 ItemDisplay[(MAG OR RARE OR CRAFT) !RW ci2]: 三重冠 Tiara%CONTINUE%
 ItemDisplay[(MAG OR RARE OR CRAFT) !RW ci3]: 权冠 Diadem%CONTINUE%
+// SYNTH (BASE)
+ItemDisplay[SYNTH]: %BASENAME%%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                            ▬▬▬▬▬ 物品等級、装备品级、甲盾轻重 ▬▬▬▬▬                           ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -919,6 +921,10 @@ ItemDisplay[jew UNI ID STAT335>0]: %GOLD%+%STAT(331,0)%]%BLUE%冰%GOLD%%NL%%NAME
 ItemDisplay[jew UNI ID STAT335>0]: %GOLD%[-%STAT(335,0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT336>0]: %GOLD%+%STAT(332,0)%]%GREEN%毒%GOLD%%NL%%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT336>0]: %GOLD%[-%STAT(336,0)%/%NAME%%CONTINUE%
+ItemDisplay[jew UNI ID STAT357>0]: %GOLD%+%STAT(358,0)%]%WHITE%魔法%GOLD%%NL%%NAME%%CONTINUE%
+ItemDisplay[jew UNI ID STAT357>0]: %GOLD%[-%STAT(357,0)%/%NAME%%CONTINUE%
+ItemDisplay[jew UNI ID STAT399>0]: %GOLD%+%STAT(399,0)%] %LIGHT_GRAY%物理%GOLD%%NL%%NAME%%CONTINUE%
+ItemDisplay[jew UNI ID STAT399>0]: %GOLD%[-%STAT(400,0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID]: %NAME%%NL%%PURPLE%✠%RED%✠%ORANGE%✠%YELLOW%✠%GOLD%  彩虹刻面  %YELLOW%✠%ORANGE%✠%RED%✠%PURPLE%✠<<HIGH>>
 ItemDisplay[jew MAG !ID FILTERLVL<6]: %ORANGE%●%BLUE%%NAME%%ORANGE%●<<JEW>>
 ItemDisplay[jew RARE !ID]: %NL%%ORANGE%●%YELLOW%%NAME%%ORANGE%●%NL%%SPACE%<<JEW>>
@@ -1397,10 +1403,14 @@ ItemDisplay[(MAG OR RARE) CL5 !IAS>0 STAT218=4 STAT224=33 (CLSK6>0 OR TABSK48>0 
 ItemDisplay[(MAG OR RARE) CL5 IAS>0 STAT218=4 STAT224=33 !(CLSK6>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0 OR SK274>0 OR SK267>0 OR SK278>0 OR SK273>0 OR SK258>0 OR SK262>0 OR SK272>0 OR SK271>0 OR SK276>0 OR SK277>0)]: %NAME%%NL%%GOLD%[%RED%愚人MOD%GOLD%+%STAT(93,0)%%IAS]%CONTINUE%
 ItemDisplay[(MAG OR RARE) CL5 !IAS>0 STAT218=4 STAT224=33 !(CLSK6>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0 OR SK274>0 OR SK267>0 OR SK278>0 OR SK273>0 OR SK258>0 OR SK262>0 OR SK272>0 OR SK271>0 OR SK276>0 OR SK277>0)]: %NAME%%NL%%GOLD%[%RED%愚人MOD%GOLD%]%CONTINUE%
 //──── 箭袋 ────
-ItemDisplay[(aq2 OR cq2) !UNI (STAT218>0 OR STAT21>0 OR ALLSK>0 OR TABSK0>0 OR STAT156>0 OR STAT62>0 OR STAT141>0 OR RES>0 OR IAS>0 OR STAT136>0 OR FRW>0)]: %NAME%%NL%%RED%*%ORANGE%* %CONTINUE%  //  Arrows&Bolts Begin
-ItemDisplay[(aq2 OR cq2) !UNI ALLSK>0]: %NAME%%GOLD% +1所有技能%CONTINUE%
+ItemDisplay[(aq2 OR cq2) !UNI (STAT218>0 OR STAT21>0 OR ALLSK>0 OR TABSK0>0 OR STAT156>0 OR STAT62>0 OR STAT141>0 OR RES>0 OR IAS>0 OR STAT136>0 OR FRW>0 OR STAT495>0)]: %NAME%%NL%%RED%*%ORANGE%* %CONTINUE%  //  Arrows&Bolts Begin
+ItemDisplay[(aq2 OR cq2) !UNI ALLSK=1]: %NAME%%GOLD% +1所有技能%CONTINUE%
+ItemDisplay[(aq2 OR cq2) !UNI ALLSK=2]: %NAME%%GOLD% +2所有技能%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI TABSK0=1]: %NAME%%PURPLE% +1AMA（弓弩技能）%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI TABSK0=2]: %NAME%%PURPLE% +2AMA（弓弩技能）%CONTINUE%
+ItemDisplay[(aq2 OR cq2) !UNI TABSK0=3]: %NAME%%PURPLE% +3AMA（弓弩技能）%CONTINUE%
+ItemDisplay[(aq2 OR cq2) !UNI STAT495=1]: %NAME%%GREEN% +1元素&毒素技能%CONTINUE%
+ItemDisplay[(aq2 OR cq2) !UNI STAT495=2]: %NAME%%GREEN% +2元素&毒素技能%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI STAT218=3]: %NAME%%GOLD% +0.375MAX/每级%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI STAT218=4]: %NAME%%GOLD% +0.5MAX/每级%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI STAT218=5]: %NAME%%GOLD% +0.625MAX/每级%CONTINUE%
@@ -1413,7 +1423,7 @@ ItemDisplay[(aq2 OR cq2) !UNI RES>0]: %NAME%%GOLD% +%RES%%%RED%所%PURPLE%有%OR
 ItemDisplay[(aq2 OR cq2) !UNI IAS>0]: %NAME%%GREEN% +%STAT(93,0)%%IAS%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI STAT136>0]: %NAME%%RED% +%STAT(136,0)%%CB%CONTINUE%
 ItemDisplay[(aq2 OR cq2) !UNI FRW>0]: %NAME%%DGREEN% +%STAT(96,0)%%高跑%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI (STAT218>0 OR STAT21>0 OR ALLSK>0 OR TABSK0>0 OR STAT156>0 OR STAT62>0 OR STAT141>0 OR RES>0 OR IAS>0 OR STAT136>0 OR FRW>0)]: %NAME%%ORANGE% *%RED%*%CONTINUE%  //  Arrows&Bolts END
+ItemDisplay[(aq2 OR cq2) !UNI (STAT218>0 OR STAT21>0 OR ALLSK>0 OR TABSK0>0 OR STAT156>0 OR STAT62>0 OR STAT141>0 OR RES>0 OR IAS>0 OR STAT136>0 OR FRW>0 OR STAT495>0)]: %NAME%%ORANGE% *%RED%*%CONTINUE%  //  Arrows&Bolts END
 //──── 其他武器 ────
 ItemDisplay[(MAG OR RARE) WEAPON !CL5 IAS>0 STAT218=4 STAT224=33]: %NAME%%NL%%GOLD%[%RED%愚人MOD%GOLD%+%STAT(93,0)%%IAS]%CONTINUE%
 ItemDisplay[(MAG OR RARE) WEAPON !CL5 !IAS>0 STAT218=4 STAT224=33]: %NAME%%NL%%GOLD%[%RED%愚人MOD%GOLD%]%CONTINUE%
@@ -1493,11 +1503,11 @@ ItemDisplay[SET ID]: %NAME% //显示所有已鉴定套装
 //║                                      ▬▬▬▬▬ 暗金装备 ▬▬▬▬▬                                     ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 //──── 赛季机制 ────
-ItemDisplay[SPECIAL OR SYNTH]: %NL%%RED%✡%GOLD%%NAME%%NL%%SPACE%<<HIGH>>
+ItemDisplay[SPECIAL OR SYNTH]: %NL%%NAME%%NL%%PURPLE%✠✠%RED%✠✠%ORANGE%✠✠%YELLOW%✠✠ %GOLD%%ITEMNAME% %YELLOW%✠✠%ORANGE%✠✠%RED%✠✠%PURPLE%✠✠%NL%%SPACE%<<HIGH>>
 //──── 无形高价值:泰坦、盗墓者、沙暴、丧钟: ────
 ItemDisplay[(ama OR 7pa OR uvb OR 7s8) UNI ETH !ID]: %NL%%YELLOW%✠✠%TAN%✠✠%GRAY%✠✠ %RED%[E] %GOLD%%NAME%  %GRAY%✠✠%TAN%✠✠%YELLOW%✠✠%NL%%SPACE%<<HIGH>>
 //──── 其他高价值:戒指、项链、吸血鬼的凝視、諧角之冠、鋼影、安達利爾的面貌、年紀之冠、格利風之眼、阿凱尼的榮耀、泰瑞爾的力量、暴風之盾、戰爭旅者、蜘蛛之網、風之力、死亡之網、撒卡蘭姆使者
-ItemDisplay[(rin OR amu OR xh9 OR uap OR ulm OR usk OR urn OR ci3 OR upl OR uar OR uit OR xtb OR ulc OR 6lw OR 7gw OR pa9) UNI !ID]: %NL%%PURPLE%✠✠%RED%✠✠%ORANGE%✠✠%YELLOW%✠✠%GOLD%%NAME%%YELLOW%✠✠%ORANGE%✠✠%RED%✠✠%PURPLE%✠✠%NL%%SPACE%<<HIGH>>
+ItemDisplay[(rin OR amu OR xh9 OR uap OR ulm OR usk OR urn OR ci3 OR upl OR uar OR uit OR xtb OR ulc OR 6lw OR 7gw OR pa9) UNI !ID]: %NL%%PURPLE%✠✠%RED%✠✠%ORANGE%✠✠%YELLOW%✠✠  %GOLD%%NAME%  %YELLOW%✠✠%ORANGE%✠✠%RED%✠✠%PURPLE%✠✠%NL%%SPACE%<<HIGH>>
 //──── 还可以的暗金:物免甲、守护天使、阿凯尼的荣耀、海蛇皮、魁黑刚的智慧、卓古拉之握、齐拉的守护、BB face、加尔的长发、腐肉骑士、沙暴、影舞者、纱织、侏儒、安戴尔的智慧
 ItemDisplay[(xhn OR xlt OR upl OR xea OR xtp OR uvg OR ci2 OR baa OR dra OR xhb OR uvb OR uhb OR xmb OR nea OR 6cs OR obc OR ama) UNI !ID FILTERLVL<6]: %NL%%RED%✠✠  %GOLD%%NAME%  %RED%✠✠%NL%%SPACE%<<MID>>
 ItemDisplay[(xhn OR xea OR baa OR uvb OR nea OR 6cs OR ama) UNI !ID]: %NL%%RED%✠✠  %GOLD%%NAME%  %RED%✠✠%NL%%SPACE%<<MID>>
