@@ -1,5 +1,15 @@
 ## Changelog:
 
+### 2024/3/27
+增加 魔法/物理 彩虹珠子 描述
+给箭袋增加新技能提升，新腐化1所有技能提示
+给赛季Synthesis物品整理了新的显示形态，上排的物品名称带有提示符号，下排的物品基底名称则包含其他描述性信息比如装等，插槽，腐化等等
+Add Magic/Phys facet description
+Add new skill stats (1~2ele&psn / 1 allskill buy corruption) to Quivers
+new filter style for Synthesis item (make symbol on the top of the item name ,and descriptions on the end of the basename)
+
+
+
 ### 2024/3/22
 small changes for Synthesis item's symbol
 
