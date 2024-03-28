@@ -1,5 +1,9 @@
 ## Changelog:
 
+### 2024/3/28
+美化物品显示模式（暗金/套装/RW成品），让物品额外信息显示到物品基底下面这一行
+change item showing style (uni/set/RW),make the descriptions go to the same line with  the basename
+
 ### 2024/3/27
 增加 魔法/物理 彩虹珠子 描述
 给箭袋增加新技能提升，新腐化1所有技能提示
