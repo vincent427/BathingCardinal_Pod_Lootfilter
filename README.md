@@ -55,10 +55,7 @@ Start the game, open the in-game settings menu (default hotkey is H), select thi
 启动游戏，打开游戏内设置菜单（默认按键是H），下拉选择本过滤器，选择需要的过滤器等级，然后点击过滤器文件名旁边的箭头按钮即可
 
 # Plans:
-Add new D2R runewords notification，Add new （phy/magic）rainbowfacet description
-HOPE someone could help me find out what STAT code is for the new -Physical Res% -Magic Res%
-
-添加新赛季符文之语提示，添加新暗金彩虹刻面提示
-希望有人能帮我找到-物抗%-魔法抗%的STAT代码
+Add more sound mapicons borders to special items
+给过滤器增加更多美化、声音、边框、地图图标等
 
 
