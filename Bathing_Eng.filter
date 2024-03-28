@@ -10,8 +10,8 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: Vincent 
 Attribute[Name]: BathingCardinal Pod Loot filter
-Attribute[Version]: #21-1.13 Eng
-Attribute[Date]: 2024/3/27 18:27 UTC8
+Attribute[Version]: #21-1.14 Eng
+Attribute[Date]: 2024/3/28 16:50 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -57,19 +57,15 @@ ItemDisplay[MAG cm1]: SC%CONTINUE%
 ItemDisplay[MAG cm2]: LC%CONTINUE%
 ItemDisplay[MAG cm3]: GC%CONTINUE%
 // JEWELRY'S NAME (BASE)
-ItemDisplay[jew]: JEW%CONTINUE%
-ItemDisplay[!SET !UNI !RW amu]: Amulet%CONTINUE%
-ItemDisplay[!SET !UNI !RW rin]: Ring%CONTINUE%
+ItemDisplay[jew]: %BASENAME%%CONTINUE%
 // QUIVER'S NAME (BASE)
-ItemDisplay[(MAG OR RARE OR CRAFT) aq2]: Arrows[*]%CONTINUE%
-ItemDisplay[(MAG OR RARE OR CRAFT) cq2]: Bolts[*]%CONTINUE%
-// CIRCLET'S NAME (BASE)
-ItemDisplay[(MAG OR RARE OR CRAFT) !RW ci0]: Circlet%CONTINUE%
-ItemDisplay[(MAG OR RARE OR CRAFT) !RW ci1]: Coronet%CONTINUE%
-ItemDisplay[(MAG OR RARE OR CRAFT) !RW ci2]: Tiara%CONTINUE%
-ItemDisplay[(MAG OR RARE OR CRAFT) !RW ci3]: Diadem%CONTINUE%
+ItemDisplay[(MAG OR RARE OR CRAFT OR UNI) (aq2 OR cq2)]: %BASENAME%[*]%CONTINUE%
 // SYNTH (BASE)
 ItemDisplay[SYNTH]: %BASENAME%%CONTINUE%
+// UNI/SET/RARE/CRAFT BASE
+ItemDisplay[(UNI OR SET OR RARE OR CRAFT) !RW !jew !cm1 !cm2 !cm3 !aq2 !cq2]: %BASENAME%%CONTINUE%
+// RW BASE
+ItemDisplay[(WEAPON OR ARMOR) RW]: %BASENAME%%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                  ▬▬▬▬▬ Item Tier、Item level、Armor&Shield weight▬▬▬▬▬                        ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -79,7 +75,7 @@ ItemDisplay[(WEAPON OR ARMOR) ELT]: %NAME% [Elt]%CONTINUE%
 ItemDisplay[(qui OR lea OR hla OR stu OR brs OR xui OR ltp OR xea OR xla OR xtu OR xrs OR xtp OR uui OR uea OR ula OR utu OR urs OR utp OR buc OR sml OR kit OR bsh OR spk OR xuc OR xml OR xit OR xsh OR xpk OR uuc OR uml OR uit OR ush OR upk) OR CL3 OR CL4 ]: %NAME%[L]%CONTINUE%
 ItemDisplay[(rng OR chn OR spl OR fld OR gth OR aar OR xng OR xhn OR xpl OR xld OR xth OR xar OR ung OR uhn OR upl OR uld OR uth OR uar OR lrg OR gts OR xrg OR xts OR urg OR uts)]: %NAME%[M]%CONTINUE%
 ItemDisplay[(scl OR plt OR ful OR xcl OR xlt OR xul OR ucl OR ult OR uul OR tow OR xow OR uow)]: %NAME%[H]%CONTINUE%
-ItemDisplay[(WEAPON OR ARMOR OR jew OR amu OR rin OR cm1 OR cm2 OR cm3)]: %NAME%[i:%ILVL%]%CONTINUE%
+ItemDisplay[(WEAPON OR ARMOR OR jew OR amu OR rin OR cm1 OR cm2 OR cm3 OR aq2 OR cq2)]: %NAME%[i:%ILVL%]%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                              ▬▬▬▬▬ Weapon base speed & Range ▬▬▬▬▬                            ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -109,9 +105,9 @@ ItemDisplay[(WP9 OR WP10) !(8rx OR 6rx OR rxb OR bkf OR 9bk OR 7bk OR hbw OR cbw
 //║                                    ▬▬▬▬▬ ETL & Sockets ▬▬▬▬▬                                  ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[ETH !NMAG !INF !RW]: [E] %NAME%%CONTINUE%
-ItemDisplay[!RW !NMAG !INF !RW SOCK>0]: %NAME% (%SOCKETS%) %CONTINUE%
+ItemDisplay[!RW !NMAG !INF !RW SOCK>0]: %NAME%(%SOCKETS%)%CONTINUE%
 ItemDisplay[!EQ2 !WP3 !WP7 !WP8 !7wa !7gm ETH NMAG !RW]: [E] %NAME%%CONTINUE%
-ItemDisplay[NMAG !RW SOCK>0]: %NAME% (%SOCKETS%) %CONTINUE%
+ItemDisplay[NMAG !RW SOCK>0]: %NAME%(%SOCKETS%)%CONTINUE%
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[WEAPON !WP5 !NMAG]: %NAME%{%NAME%%NL%}%CONTINUE%
 //─────────────────────────────────────────────────────────────────────────────────────────────────
@@ -219,7 +215,7 @@ ItemDisplay[(CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7)]: [%CL%] %NAME%%CONT
 ItemDisplay[(WEAPON OR ARMOR) RW ETH SUP]: %GRAY%[%WHITE%e, s%GRAY%] %GOLD%%NAME%%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) RW ETH !SUP]: %GRAY%[%WHITE%e%GRAY%] %GOLD%%NAME%%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) RW !ETH SUP]: %GRAY%[%WHITE%s%GRAY%] %GOLD%%NAME%%CONTINUE%
-ItemDisplay[(WEAPON OR ARMOR) RW]: %NAME% %RED% (%SOCKETS%) %BGCOLOR(138)%
+ItemDisplay[(WEAPON OR ARMOR) RW]: %NAME%%RED%(%SOCKETS%)%NL%%GOLD%%ITEMNAME%%BGCOLOR(138)%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                             ▬▬▬▬▬ Other Specific Information ▬▬▬▬▬                            ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -916,7 +912,6 @@ ItemDisplay[jew UNI ID STAT334>0]: %GOLD%[-%STAT(334.0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT335>0]: %GOLD%+%STAT(331,0)%]%BLUE%Cold%GOLD%%NL%%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT335>0]: %GOLD%[-%STAT(335.0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT336>0]: %GOLD%+%STAT(332,0)%]%GREEN%Poison%GOLD%%NL%%NAME%%CONTINUE%
-ItemDisplay[jew UNI ID STAT336>0]: %GOLD%[-%STAT(336.0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT336>0]: %GOLD%[-%STAT(336,0)%/%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT357>0]: %GOLD%+%STAT(358,0)%]%WHITE%Magic%GOLD%%NL%%NAME%%CONTINUE%
 ItemDisplay[jew UNI ID STAT357>0]: %GOLD%[-%STAT(357,0)%/%NAME%%CONTINUE%
@@ -1485,7 +1480,7 @@ ItemDisplay[(WEAPON OR ARMOR OR aq2 OR cq2 OR rin OR amu) (RARE OR CRAFT) ID]: %
 ItemDisplay[SET !ID (7qr OR xtb OR uar OR xmg OR uth OR amu)]: %NL%%NAME%%NL%%SPACE%<<HIGH>>
 ItemDisplay[(uh9 OR utc OR ne9 OR ulg OR oba OR ucl OR 7gd OR 7wd OR xul OR rin) SET !ID FILTERLVL<6]: %NAME%<<LOW>>
 ItemDisplay[SET !ID FILTERLVL<4]: %NAME% 
-ItemDisplay[SET ID]: %NAME% 
+ItemDisplay[SET ID]: %NAME%%NL%%GREEN%%ITEMNAME% 
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                       ▬▬▬▬▬ Unique ▬▬▬▬▬                                      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -1499,7 +1494,7 @@ ItemDisplay[(rin OR amu OR xh9 OR uap OR ulm OR usk OR urn OR ci3 OR upl OR uar 
 ItemDisplay[(xhn OR xlt OR upl OR xea OR xtp OR uvg OR ci2 OR baa OR dra OR xhb OR uvb OR uhb OR xmb OR nea OR 6cs OR obc OR ama) UNI !ID FILTERLVL<6]: %NL%%RED%✠✠  %GOLD%%NAME%  %RED%✠✠%NL%%SPACE%<<MID>>
 ItemDisplay[(xhn OR xea OR baa OR uvb OR nea OR 6cs OR ama) UNI !ID]: %NL%%RED%✠✠  %GOLD%%NAME%  %RED%✠✠%NL%%SPACE%<<MID>>
 ItemDisplay[UNI !ID FILTERLVL<6]: %NAME%  
-ItemDisplay[UNI ID]: %NAME%  
+ItemDisplay[UNI ID]: %NAME%%NL%%GOLD%%ITEMNAME% 
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                        ▬▬▬▬▬ WHITE ▬▬▬▬▬                                      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
