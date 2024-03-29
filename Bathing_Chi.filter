@@ -63,7 +63,7 @@ ItemDisplay[(MAG OR RARE OR CRAFT OR UNI) (aq2 OR cq2)]: %BASENAME%[*]%CONTINUE%
 // SYNTH (BASE)
 ItemDisplay[SYNTH]: %BASENAME%%CONTINUE%
 // UNI/SET/RARE/CRAFT BASE
-ItemDisplay[(UNI OR SET OR RARE OR CRAFT) !RW !jew !cm1 !cm2 !cm3 !aq2 !cq2]: %BASENAME%%CONTINUE%
+ItemDisplay[(UNI OR SET OR RARE OR CRAFT) !RW !jew !cm1 !cm2 !cm3 !aq2 !cq2 !MAP]: %BASENAME%%CONTINUE%
 // RW BASE
 ItemDisplay[(WEAPON OR ARMOR) RW]: %BASENAME%%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -743,7 +743,7 @@ ItemDisplay[ma8]: (Musty Crypt)%NL%发霉地穴%NL%%GREEN%【T2-Lv87】<<MAP>>{%
 ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%**冰:150,%RED%**火:120,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:33,%ORANGE%魔法:0,%GOLD%物理:75,%DGREEN%毒:65%NL%%ORANGE%地图怪物基础抗性:} //昏暗地窖 (Dim Cellar)
 ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心农场%NL%%DGREEN%【T0-Lv86】<<MAP>>{%NL%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //悅心農場 (Pleasant Pasture) 
 ItemDisplay[ma12]: (Baleful Alcazar)%NL%恶意城堡%NL%%RED%【T3-Lv88】<<MAP>>{%NL%？？未知？？%NL%%ORANGE%地图怪物基础抗性:} //恶意城堡 (Baleful Alcazar)
-ItemDisplay[ma13]: (Decomposing Settlement)%NL%恶意城堡%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%？？未知？？%NL%%ORANGE%地图怪物基础抗性:} //腐败居地 (Decomposing Settlement)
+ItemDisplay[ma13]: (Decomposing Settlement)%NL%腐败居地%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%？？未知？？%NL%%ORANGE%地图怪物基础抗性:} //腐败居地 (Decomposing Settlement)
 ItemDisplay[MAP ID]: (new relics)%NL%新地图%NL%%WHITE%【T?-Lv??】<<MAP>>
 ItemDisplay[maz]: %GOLD%⚝⚝⚝⚝⚝⚝%NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%祝君好运！%NL%你只有一次机会%NL%进入后无法开启传送门，死亡后无法返回}<<HIGH>>//地獄審判
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
