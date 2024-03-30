@@ -1268,7 +1268,7 @@ ItemDisplay[(6l7 OR 6lw) NMAG !RW SOCK=6]: %NAME%{%GOLD%寂静:%ORANGE%[#14]+[#2
 ItemDisplay[(6hb OR 6cb OR 6s7 OR 6lb OR 8hb OR 8cb OR 8s8 OR 8lb OR hbw OR lbw OR cbw OR sbb) NMAG !INF !RW SOCK=4 CLVL<60 FILTERLVL=1]: %NAME%%GRAY% [过渡-眼光弓底材]{%NAME%} //60级前显示过渡用4S弓（眼光）
 ItemDisplay[6lb NMAG !RW SOCK=4 ED=15]: %NL%%DGREEN%%NAME%{%NAME%}%NL%%SPACE%<<MID>> //阴影弓(15ED) PET信心JP材料
 ItemDisplay[(6hb OR 6cb OR 6s7 OR 6lb) NMAG !RW SOCK=4 ED>12 FILTERLVL<4]: %NAME%{%NAME%}<<LOW>> //刀鋒弓、巨弓、鑽石弓、阴影弓(13%ED以上) 信心
-ItemDisplay[(6l7 OR 6lw) NMAG !RW (SOCK=0 OR SOCK=6) ED=15 FILTERLVL<4]: %NAME%{%NAME%}}<<LOW>> //十字軍之弓、九頭蛇弓(15%ED) 寂静/死亡呼吸
+ItemDisplay[(6l7 OR 6lw) NMAG !RW (SOCK=0 OR SOCK=6) ED=15 FILTERLVL<4]: %NAME%{%NAME%}<<LOW>> //十字軍之弓、九頭蛇弓(15%ED) 寂静/死亡呼吸
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                 ▬▬▬▬▬ 职业限定RW基底装备 ▬▬▬▬▬                                ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝

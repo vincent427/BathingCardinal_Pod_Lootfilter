@@ -1254,7 +1254,7 @@ ItemDisplay[(6l7 OR 6lw) NMAG !RW SOCK=6]: %NAME%{%GOLD%Silence:%ORANGE%[#14]+[#
 ItemDisplay[(6hb OR 6cb OR 6s7 OR 6lb OR 8hb OR 8cb OR 8s8 OR 8lb OR hbw OR lbw OR cbw OR sbb) NMAG !INF !RW SOCK=4 CLVL<60 FILTERLVL=1]: %NAME%%GRAY% [early ladder Insight Base(bow)]{%NAME%} //60级前显示过渡用4S弓（眼光）
 ItemDisplay[6lb NMAG !RW SOCK=4 ED=15]: %NL%%DGREEN%%NAME%{%NAME%}%NL%%SPACE%<<MID>> 
 ItemDisplay[(6hb OR 6cb OR 6s7 OR 6lb) NMAG !RW SOCK=4 ED>12 FILTERLVL<4]: %NAME%{%NAME%}<<LOW>> 
-ItemDisplay[(6l7 OR 6lw) NMAG !RW (SOCK=0 OR SOCK=6) ED=15 FILTERLVL<4]: %NAME%{%NAME%}}<<LOW>>
+ItemDisplay[(6l7 OR 6lw) NMAG !RW (SOCK=0 OR SOCK=6) ED=15 FILTERLVL<4]: %NAME%{%NAME%}<<LOW>>
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                           ▬▬▬▬▬ Class-Restricted Items RW BASE ▬▬▬▬▬                          ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
