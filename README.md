@@ -58,4 +58,6 @@ Start the game, open the in-game settings menu (default hotkey is H), select thi
 Add more sound mapicons borders to special items
 给过滤器增加更多美化、声音、边框、地图图标等
 
+3圣盾权杖给PAL做CTA+开圣盾副手
+
 
