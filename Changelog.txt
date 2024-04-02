@@ -1,6 +1,10 @@
 ## Changelog:
 
 ### 2024/3/28
+添加3圣盾5孔权杖（CTA底材），给新地图加入怪物抗性提升
+Add +3 Holy shield specter(CTA base), new relic monster's res information added
+
+### 2024/3/28
 美化物品显示模式（暗金/套装/RW成品），让物品额外信息显示到物品基底下面这一行
 change item showing style (uni/set/RW),make the descriptions go to the same line with  the basename
 
