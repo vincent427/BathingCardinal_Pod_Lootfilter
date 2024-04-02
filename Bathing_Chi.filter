@@ -1306,7 +1306,7 @@ ItemDisplay[(pab OR pac) !ETH NMAG !INF !RW RES>43 (SOCK=0 OR SOCK=3 OR SOCK=4) 
 ItemDisplay[CL3 !ETH NMAG !INF !RW RES>40 (SOCK=0 OR SOCK=3 OR SOCK=4) CLVL<85 FILTERLVL=1]: %NAME%{%NAME%}  //有形圣骑盾(40抗以上)
 ItemDisplay[CL3 !ETH ELT NMAG !INF !RW RES>40 (SOCK=0 OR SOCK=3 OR SOCK=4) FILTERLVL<4]: %NAME%{%NAME%}  //有形精英级圣骑盾(40抗以上)
 ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !RW SOCK=4 FILTERLVL=1]:%NAME%{%NAME%}//巨戰權杖、神屬權杖-#5+#8+#9+#7
-ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !RW (SOCK=0 OR SOCK=5) FILTERLVL<4]:%NAME%{%NAME%}//3Holy Shield  - CTA
+ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !RW (SOCK=0 OR SOCK=5) SK117=3 FILTERLVL<4]:%NAME%{%NAME%}//3Holy Shield  - CTA
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //──── 死灵 ────
 //─────────────────────────────────────────────────────────────────────────────────────────────────
