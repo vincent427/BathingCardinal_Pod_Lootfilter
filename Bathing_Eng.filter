@@ -10,8 +10,8 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: Vincent 
 Attribute[Name]: BathingCardinal Pod Loot filter
-Attribute[Version]: #21-1.15 Eng
-Attribute[Date]: 2024/4/2 16:55 UTC8
+Attribute[Version]: #22:Minium-1.01 Eng
+Attribute[Date]: 2024/11/16 14:33 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -714,36 +714,38 @@ ItemDisplay[leg]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YE
 ItemDisplay[cx5]: %NL%%GOLD%✠✠✠✠%WHITE%✠✠ %NAME% %WHITE%✠✠%GOLD%✠✠✠✠%NL%%SPACE%<<JEW>>{%ORANGE%Relic:%GREEN%[3.4%]Pleasant Pasture%PURPLE%[23.6%]Gains a new Affix%WHITE%[25%]CNC%DGREEN%[48%]Random new Rare Relic%NL%%ORANGE%Socketable Item:%RED%[25%]Gains Sockets(*)%PURPLE%[25%]Gains a new Affix%WHITE%[25%]CNC/%DGREEN%[25%]Wasted%NL%%ORANGE%Unsocketable Item:%PURPLE%[25%]Gains a new Affix%WHITE%[50%]CNC%DGREEN%[25%]Wasted%NL%%RED%Corruption probability:} 
 ItemDisplay[cx6]: %NL%%GOLD%✠✠✠✠ %DGREEN%%NAME% %GOLD%✠✠✠✠%NL%%SPACE%<<MID>>
 ItemDisplay[cx7]: %NL%%WHITE%✠✠✠✠ %DGREEN%%NAME% %WHITE%✠✠✠✠%NL%%SPACE%<<LOW>> 
+ItemDisplay[cx8]: %NL%%GOLD%★★%WHITE%☆ %NAME% %WHITE%☆%GOLD%★★%NL%%SPACE%<<JEW>>
+ItemDisplay[cx9]: %NL%%GOLD%★★%WHITE%☆ %NAME% %WHITE%☆%GOLD%★★%NL%%SPACE%<<JEW>>
 ItemDisplay[ear]: %ORANGE%%NAME%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                      ▬▬▬▬▬ (Relic) ▬▬▬▬▬                                      ║ 
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[ma10 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%WHITE%** T1-Lv86 **{%WHITE%(Icy Cavern)} <<MAP>>
+ItemDisplay[ma10 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Icy Cavern)} <<MAP>>
 ItemDisplay[ma2 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Forgotten Desert)} <<MAP>>
 ItemDisplay[ma3 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%DGREEN%** T?-Lv?? **{%DGREEN%(Abandoned Precinct)} <<MAP>> 
 ItemDisplay[ma4 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Desecrated Temple)} <<MAP>> 
-ItemDisplay[ma5 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%WHITE%** T1-Lv86 **{%WHITE%(Frigid Plateau)} <<MAP>>
+ItemDisplay[ma5 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Frigid Plateau)} <<MAP>>
 ItemDisplay[ma6 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Ruined Citadel)} <<MAP>>
 ItemDisplay[ma7 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Burnt Forest)} <<MAP>>
-ItemDisplay[ma8 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Musty Crypt)} <<MAP>> 
+ItemDisplay[ma8 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Musty Crypt)} <<MAP>> 
 ItemDisplay[ma9 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Dim Cellar)} <<MAP>>
 ItemDisplay[ma11 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%DGREEN%** T0-Lv86 **{%DGREEN%(Pleasant Pasture)} <<MAP>> 
-ItemDisplay[ma12 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%RED%** T3-Lv88 **{%RED%(Baleful Alcazar)} <<MAP>>
-ItemDisplay[ma13 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Decomposing Settlement)} <<MAP>>
+ItemDisplay[ma12 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%WHITE%** T1-Lv86 **{%WHITE%(Baleful Alcazar)} <<MAP>>
+ItemDisplay[ma13 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%WHITE%** T1-Lv86 **{%WHITE%(Decomposing Settlement)} <<MAP>>
 ItemDisplay[MAP !ID]: ⛪  Relics  ⛪%NL%NEW RELIC%NL%%WHITE%** T?-Lv?? **<<MAP>>
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[ma10]: Icy Cavern%NL%%WHITE%** T1-Lv86 ** <<MAP>> {%NL%Immunities:%RED%*F:120,%YELLOW%*L:100,%GOLD%*Phy:100,%DGREEN%*P:120%NL%%WHITE%High Res:%BLUE%C:50,%RED%F:33,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
-ItemDisplay[ma2]: Forgotten Desert%NL%%RED%** T3-Lv88 ** <<MAP>> {%NL%Immunities:%BLUE%*C:160,%RED%***F:130,%YELLOW%**L:100,%GOLD%*Phy:100,%DGREEN%***P:120%NL%%WHITE%High Res:%BLUE%C:50,%RED%F:66,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
-ItemDisplay[ma3]: Abandoned Precinct%NL%%DGREEN%** T?-Lv?? ** <<MAP>> {%NL%Immunities:%BLUE%C:,%RED%F:,%YELLOW%L:,%ORANGE%M:,%GOLD%Phy:,%DGREEN%P:%NL%%WHITE%High Res:%BLUE%C:,%RED%F:,%YELLOW%L:,%ORANGE%M:,%GOLD%Phy:,%DGREEN%P:%NL%%ORANGE%Monster Base Resistances and Immunities:} 
-ItemDisplay[ma4]: Desecrated Temple%NL%%GREEN%** T2-Lv87 ** <<MAP>> {%NL%Immunities:%BLUE%***C:190,%RED%***F:140,%YELLOW%*L:100,%DGREEN%*P:120%NL%%WHITE%High Res:%BLUE%C:50,%RED%F:66,%YELLOW%L:60,%ORANGE%M:50,%GOLD%Phy:75,%DGREEN%P:75%NL%%ORANGE%Monster Base Resistances and Immunities:} 
-ItemDisplay[ma5]: Frigid Plateau%NL%%WHITE%** T1-Lv86 ** <<MAP>> {%NL%Immunities:%BLUE%*C:150,%RED%*F:140,%YELLOW%*****L:100,%DGREEN%**P:140%NL%%WHITE%High Res:%BLUE%C:66,%RED%F:66,%YELLOW%L:66,%ORANGE%M:50,%GOLD%Phy:75,%DGREEN%P:75%NL%%ORANGE%Monster Base Resistances and Immunities:} 
-ItemDisplay[ma6]: Ruined Citadel%NL%%RED%** T3-Lv88 ** <<MAP>> {%NL%Immunities:%BLUE%****C:160,%YELLOW%***L:120,%GOLD%*Phy:100,%DGREEN%**P:120%NL%%WHITE%High Res:%BLUE%C:80,%RED%F:66,%YELLOW%L:50,%ORANGE%M:70,%GOLD%Phy:50,%DGREEN%P:75%NL%%ORANGE%Monster Base Resistances and Immunities:} 
-ItemDisplay[ma7]: Burnt Forest%NL%%RED%** T3-Lv88 ** <<MAP>> {%NL%Immunities:%BLUE%***C:140,%RED%*F:145,%YELLOW%*****L:120,%ORANGE%**M:100,%DGREEN%**P:145%NL%%WHITE%High Res:%BLUE%C:66,%RED%F:66,%YELLOW%L:66,%ORANGE%M:20,%GOLD%Phy:80,%DGREEN%P:50%NL%%ORANGE%Monster Base Resistances and Immunities:} 
-ItemDisplay[ma8]: Musty Crypt%NL%%GREEN%** T2-Lv87 ** <<MAP>> {%NL%Immunities:%BLUE%****C:190,%RED%***F:120,%YELLOW%****L:120,%GOLD%*Phy:100,%DGREEN%*P:120%NL%%WHITE%High Res:%BLUE%C:50,%RED%F:60,%YELLOW%L:33,%ORANGE%M:50,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
-ItemDisplay[ma9]: Dim Cellar%NL%%GREEN%** T2-Lv87 ** <<MAP>> {%NL%Immunities:%BLUE%**C:150,%RED%**F:120,%YELLOW%*L:100,%DGREEN%*P:120%NL%%WHITE%High Res:%BLUE%C:50,%RED%F:50,%YELLOW%L:33,%ORANGE%M:0,%GOLD%Phy:75,%DGREEN%P:65%NL%%ORANGE%Monster Base Resistances and Immunities:} 
-ItemDisplay[ma11]: Pleasant Pasture%NL%%DGREEN%** T0-Lv86 ** <<MAP>> {%NL%High Res:%BLUE%C:50,%RED%F:50,%YELLOW%L:50,%ORANGE%M:33,%GOLD%Phy:50,%DGREEN%P:33%NL%%ORANGE%Monster Base Resistances and Immunities:} 
-ItemDisplay[ma12]: Baleful Alcazar%NL%%RED%** T3-Lv88 ** <<MAP>> {%NL%Immunities:%BLUE%*C:150,%RED%***F:140,%ORANGE%**M:100,%GOLD%*Phy:100,%DGREEN%**P:140%NL%%WHITE%High Res:%BLUE%C:66,%RED%F:66,%YELLOW%L:75,%ORANGE%M:25,%GOLD%Phy:50,%DGREEN%P:75%NL%%ORANGE%Monster Base Resistances and Immunities:} 
-ItemDisplay[ma13]: Decomposing Settlement%NL%%GREEN%** T2-Lv87 ** <<MAP>> {%NL%Immunities:%BLUE%**C:160,%RED%*F:120,%YELLOW%**L:100,%ORANGE%*M:100,%GOLD%*Phy:100,%DGREEN%**P:120%NL%%WHITE%High Res:%BLUE%C:80,%RED%F:60,%YELLOW%L:50,%ORANGE%M:70,%GOLD%Phy:75,%DGREEN%P:75%NL%%ORANGE%Monster Base Resistances and Immunities:} 
+ItemDisplay[ma10]: Icy Cavern%NL%%GREEN%** T2-Lv87 ** <<MAP>> 
+ItemDisplay[ma2]: Forgotten Desert%NL%%RED%** T3-Lv88 ** <<MAP>> 
+ItemDisplay[ma3]: Abandoned Precinct%NL%%DGREEN%** T?-Lv?? ** <<MAP>> 
+ItemDisplay[ma4]: Desecrated Temple%NL%%GREEN%** T2-Lv87 ** <<MAP>> 
+ItemDisplay[ma5]: Frigid Plateau%NL%%RED%** T3-Lv88 ** <<MAP>> 
+ItemDisplay[ma6]: Ruined Citadel%NL%%RED%** T3-Lv88 ** <<MAP>> 
+ItemDisplay[ma7]: Burnt Forest%NL%%RED%** T3-Lv88 ** <<MAP>> 
+ItemDisplay[ma8]: Musty Crypt%NL%%RED%** T3-Lv88 ** <<MAP>> 
+ItemDisplay[ma9]: Dim Cellar%NL%%GREEN%** T2-Lv87 ** <<MAP>> 
+ItemDisplay[ma11]: Pleasant Pasture%NL%%DGREEN%** T0-Lv86 ** <<MAP>> 
+ItemDisplay[ma12]: Baleful Alcazar%NL%%WHITE%** T1-Lv86 ** <<MAP>> 
+ItemDisplay[ma13]: Decomposing Settlement%NL%%WHITE%** T1-Lv86 ** <<MAP>> 
 ItemDisplay[MAP ID]: new relics%NL%%WHITE%** T?-Lv?? ** <<MAP>> 
 ItemDisplay[maz]: %GOLD%⚝⚝⚝⚝⚝⚝%NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%Good Luck!%NL%You only have one chance%NL%Unable to open the portal upon entry, unable to return after death}<<HIGH>>
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -1455,14 +1457,14 @@ ItemDisplay[(rin OR amu) MAG !ID ILVL>89 FILTERLVL<4]: %NAME%
 ItemDisplay[amu MAG (TABSK0=3 OR TABSK1=3 OR TABSK2=3 OR TABSK8=3 OR TABSK9=3 OR TABSK10=3 OR TABSK16=3 OR TABSK17=3 OR TABSK18=3 OR TABSK24=3 OR TABSK25=3 OR TABSK26=3 OR TABSK32=3 OR TABSK33=3 OR TABSK34=3 OR TABSK40=3 OR TABSK41=3 OR TABSK42=3 OR TABSK48=3 OR TABSK49=3 OR TABSK50=3)]: %NAME%%BORDER(4,1)%   
 ItemDisplay[rin OR amu MAG ID]: %NAME%  
 //──── Cube base ────
-ItemDisplay[(vgl OR xvg OR uvg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [Blood] {%ORANGE%CRAFT:[#4]+Ruby+Jew} 
-ItemDisplay[(mgl OR xmg OR umg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [Hitpower] {%ORANGE%CRAFT:[#9]+Sapphire+Jew} 
-ItemDisplay[(lgl OR xlg OR ulg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#9]+Amethyst+Jew} 
-ItemDisplay[(lbt OR xlb OR ulb) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#10]+Amethyst+Jew} 
-ItemDisplay[(zvb OR uvc) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#6]+Amethyst+Jew} 
-ItemDisplay[(lgl OR xlg OR ulg) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#9]+Amethyst+Jew%NL%early ladder} 
-ItemDisplay[(lbt OR xlb OR ulb) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#10]+Amethyst+Jew%NL%early ladder} 
-ItemDisplay[(zvb OR uvc) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#6]+Amethyst+Jew%NL%early ladder} 
+//ItemDisplay[(vgl OR xvg OR uvg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [Blood] {%ORANGE%CRAFT:[#4]+Ruby+Jew} 
+//ItemDisplay[(mgl OR xmg OR umg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [Hitpower] {%ORANGE%CRAFT:[#9]+Sapphire+Jew} 
+//ItemDisplay[(lgl OR xlg OR ulg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#9]+Amethyst+Jew} 
+//ItemDisplay[(lbt OR xlb OR ulb) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#10]+Amethyst+Jew} 
+//ItemDisplay[(zvb OR uvc) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#6]+Amethyst+Jew} 
+//ItemDisplay[(lgl OR xlg OR ulg) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#9]+Amethyst+Jew%NL%early ladder} 
+//ItemDisplay[(lbt OR xlb OR ulb) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#10]+Amethyst+Jew%NL%early ladder} 
+//ItemDisplay[(zvb OR uvc) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [caster] {%ORANGE%CRAFT:[#6]+Amethyst+Jew%NL%early ladder} 
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                        ▬▬▬▬▬ Rare ▬▬▬▬▬                                       ║  
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝

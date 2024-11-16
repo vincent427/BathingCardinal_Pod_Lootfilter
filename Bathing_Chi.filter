@@ -10,8 +10,8 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: 沐红衣 
 Attribute[Name]: BathingCardinal Pod Loot filter
-Attribute[Version]: #21-1.15 Chi
-Attribute[Date]: 2024/4/2 16:55 UTC8
+Attribute[Version]: #22:Minium-1.01 Chi
+Attribute[Date]: 2024/11/16 14:33 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -714,36 +714,50 @@ ItemDisplay[leg]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%GOLD% %NAME% %BLUE%*%GREEN%*%YE
 ItemDisplay[cx5]: %NL%%GOLD%★★%WHITE%☆ %NAME% (ooc) %WHITE%☆%GOLD%★★%NL%%SPACE%<<JEW>>{%NL%%ORANGE%地图:%GREEN%[3.4%]变成心悦农场%PURPLE%[23.6%]新增词缀%WHITE%[25%]无变化%DGREEN%[48%]重新洗牌%NL%%ORANGE%可打孔装备:%RED%[25%]出随机孔数%PURPLE%[25%]新增词缀%WHITE%[25%]无变化%DGREEN%[25%]报废%NL%%ORANGE%不可打孔装备:%PURPLE%[25%]新增词缀%WHITE%[50%]无变化%DGREEN%[25%]报废%NL%%RED%腐化机率:} //腐化宝珠
 ItemDisplay[cx6]: %NL%%GOLD%✡✡ %DGREEN%%NAME% %GOLD%✡✡%NL%%SPACE%<<MID>> //暗黑破坏神的灵魂石
 ItemDisplay[cx7]: %NL%%WHITE%☆☆ %DGREEN%%NAME% %WHITE%☆☆%NL%%SPACE%<<LOW>> //混沌之钥
+ItemDisplay[cx8]: %NL%%GOLD%★★%WHITE%☆ %NAME% %WHITE%☆%GOLD%★★%NL%%SPACE%<<JEW>>
+ItemDisplay[cx9]: %NL%%GOLD%★★%WHITE%☆ %NAME% %WHITE%☆%GOLD%★★%NL%%SPACE%<<JEW>>
 ItemDisplay[ear]: %ORANGE%%NAME%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                  ▬▬▬▬▬ 遗物地图(Relic) ▬▬▬▬▬                                  ║ 
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[ma10 !ID]: ⛪  Relics  ⛪%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】{%WHITE%(Icy Cavern)} <<MAP>> //寒霜洞窟 (Icy Cavern)  
+ItemDisplay[ma10 !ID]: ⛪  Relics  ⛪%NL%寒霜洞窟%NL%%GREEN%【T2-Lv87】{%GREEN%(Icy Cavern)} <<MAP>> //寒霜洞窟 (Icy Cavern)  
 ItemDisplay[ma2 !ID]: ⛪  Relics  ⛪%NL%蜃景荒漠%NL%%RED%【T3-Lv88】{%RED%(Forgotten Desert)} <<MAP>> //蜃景荒漠 (Forgotten Desert)
 ItemDisplay[ma3 !ID]: ⛪  Relics  ⛪%NL%遗弃之地%NL%%DGREEN%【T?-Lv??】{%DGREEN%(Abandoned Precinct)} <<MAP>> //遺棄之地 (Abandoned Precinct)
 ItemDisplay[ma4 !ID]: ⛪  Relics  ⛪%NL%亵渎教堂%NL%%GREEN%【T2-Lv87】{%GREEN%(Desecrated Temple)} <<MAP>> //亵渎教堂 (Desecrated Temple)
-ItemDisplay[ma5 !ID]: ⛪  Relics  ⛪%NL%凛冬高原%NL%%WHITE%【T1-Lv86】{%WHITE%(Frigid Plateau)} <<MAP>> //凜冬高原 (Frigid Plateau)
+ItemDisplay[ma5 !ID]: ⛪  Relics  ⛪%NL%凛冬高原%NL%%RED%【T3-Lv88】{%RED%(Frigid Plateau)} <<MAP>> //凜冬高原 (Frigid Plateau)
 ItemDisplay[ma6 !ID]: ⛪  Relics  ⛪%NL%崩坏堡垒%NL%%RED%【T3-Lv88】{%RED%(Ruined Citadel)} <<MAP>> //崩壞堡壘 (Ruined Citadel)
 ItemDisplay[ma7 !ID]: ⛪  Relics  ⛪%NL%焚烧森林%NL%%RED%【T3-Lv88】{%RED%(Burnt Forest)} <<MAP>> //焚燒森林 (Burnt Forest)
-ItemDisplay[ma8 !ID]: ⛪  Relics  ⛪%NL%发霉地穴%NL%%GREEN%【T2-Lv87】{%GREEN%(Musty Crypt)} <<MAP>> //發霉地穴 (Musty Crypt)
+ItemDisplay[ma8 !ID]: ⛪  Relics  ⛪%NL%发霉地穴%NL%%RED%【T3-Lv88】{%RED%(Musty Crypt)} <<MAP>> //發霉地穴 (Musty Crypt)
 ItemDisplay[ma9 !ID]: ⛪  Relics  ⛪%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】{%GREEN%(Dim Cellar)} <<MAP>> //昏暗地窖 (Dim Cellar)
 ItemDisplay[ma11 !ID]: ⛪  Relics  ⛪%NL%悅心农场%NL%%DGREEN%【T0-Lv86】{%DGREEN%(Pleasant Pasture)} <<MAP>>  //悅心農場 (Pleasant Pasture) 
-ItemDisplay[ma12 !ID]: ⛪  Relics  ⛪%NL%恶意城堡%NL%%RED%【T3-Lv88】{%RED%(Baleful Alcazar)} <<MAP>>  //恶意城堡 (Baleful Alcazar)
-ItemDisplay[ma13 !ID]: ⛪  Relics  ⛪%NL%腐败居地%NL%%GREEN%【T2-Lv87】{%GREEN%(Decomposing Settlement)} <<MAP>>  //腐败居地 (Decomposing Settlement)
+ItemDisplay[ma12 !ID]: ⛪  Relics  ⛪%NL%恶意城堡%NL%%WHITE%【T1-Lv86】{%WHITE%(Baleful Alcazar)} <<MAP>>  //恶意城堡 (Baleful Alcazar)
+ItemDisplay[ma13 !ID]: ⛪  Relics  ⛪%NL%腐败居地%NL%%WHITE%【T1-Lv86】{%WHITE%(Decomposing Settlement)} <<MAP>>  //腐败居地 (Decomposing Settlement)
 ItemDisplay[MAP !ID]: ⛪  Relics  ⛪%NL%新地图%NL%%WHITE%【T?-Lv??】<<MAP>>
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】<<MAP>>{%NL%免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //寒霜洞窟 (Icy Cavern)  
-ItemDisplay[ma2]: (Forgotten Desert)%NL%蜃景荒漠%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%*冰:160,%RED%***火:130,%YELLOW%**电:100,%GOLD%*物理:100,%DGREEN%***毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma3]: (Abandoned Precinct)%NL%遗弃之地%NL%%DGREEN%【T?-Lv??】<<MAP>>{%NL%免疫:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%WHITE%高抗性:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%ORANGE%地图怪物基础抗性:} //遺棄之地 (Abandoned Precinct)
-ItemDisplay[ma4]: (Desecrated Temple)%NL%亵渎教堂%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%***冰:190,%RED%***火:140,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:60,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //亵渎教堂 (Desecrated Temple)
-ItemDisplay[ma5]: (Frigid Plateau)%NL%凛冬高原%NL%%WHITE%【T1-Lv86】<<MAP>>{%NL%免疫:%BLUE%*冰:150,%RED%*火:140,%YELLOW%*****电:100,%DGREEN%**毒:140%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma6]: (Ruined Citadel)%NL%崩坏堡垒%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%****冰:160,%YELLOW%***电:120,%GOLD%*物理:100,%DGREEN%**毒:120%NL%%WHITE%高抗性:%BLUE%冰:80,%RED%火:66,%YELLOW%电:50,%ORANGE%魔法:70,%GOLD%物理:50,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7]: (Burnt Forest)%NL%焚烧森林%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%***冰:140,%RED%*火:145,%YELLOW%*****电:120,%ORANGE%**魔法:100,%DGREEN%**毒:145%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:20,%GOLD%物理:80,%DGREEN%毒:50%NL%%ORANGE%地图怪物基础抗性:} //焚燒森林 (Burnt Forest)
-ItemDisplay[ma8]: (Musty Crypt)%NL%发霉地穴%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%****冰:190,%RED%***火:120,%YELLOW%****电:120,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:60,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //發霉地穴 (Musty Crypt)
-ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%**冰:150,%RED%**火:120,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:33,%ORANGE%魔法:0,%GOLD%物理:75,%DGREEN%毒:65%NL%%ORANGE%地图怪物基础抗性:} //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心农场%NL%%DGREEN%【T0-Lv86】<<MAP>>{%NL%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //悅心農場 (Pleasant Pasture) 
-ItemDisplay[ma12]: (Baleful Alcazar)%NL%恶意城堡%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%*冰:150,%RED%***火:140,%ORANGE%**魔法:100,%GOLD%*物理:100,%DGREEN%**毒:140%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:75,%ORANGE%魔法:25,%GOLD%物理:50,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //恶意城堡 (Baleful Alcazar)
-ItemDisplay[ma13]: (Decomposing Settlement)%NL%腐败居地%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%**冰:160,%RED%*火:120,%YELLOW%**电:100,%ORANGE%*魔法:100,%GOLD%*物理:100,%DGREEN%**毒:120%NL%%WHITE%高抗性:%BLUE%冰:80,%RED%火:60,%YELLOW%电:50,%ORANGE%魔法:70,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //腐败居地 (Decomposing Settlement)
+//ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //寒霜洞窟 (Icy Cavern)  
+//ItemDisplay[ma2]: (Forgotten Desert)%NL%蜃景荒漠%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%*冰:160,%RED%***火:130,%YELLOW%**电:100,%GOLD%*物理:100,%DGREEN%***毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //蜃景荒漠 (Forgotten Desert)
+//ItemDisplay[ma3]: (Abandoned Precinct)%NL%遗弃之地%NL%%DGREEN%【T?-Lv??】<<MAP>>{%NL%免疫:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%WHITE%高抗性:%BLUE%冰:,%RED%火:,%YELLOW%电:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%ORANGE%地图怪物基础抗性:} //遺棄之地 (Abandoned Precinct)
+//ItemDisplay[ma4]: (Desecrated Temple)%NL%亵渎教堂%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%***冰:190,%RED%***火:140,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%电:60,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //亵渎教堂 (Desecrated Temple)
+//ItemDisplay[ma5]: (Frigid Plateau)%NL%凛冬高原%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%*冰:150,%RED%*火:140,%YELLOW%*****电:100,%DGREEN%**毒:140%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //凜冬高原 (Frigid Plateau)
+//ItemDisplay[ma6]: (Ruined Citadel)%NL%崩坏堡垒%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%****冰:160,%YELLOW%***电:120,%GOLD%*物理:100,%DGREEN%**毒:120%NL%%WHITE%高抗性:%BLUE%冰:80,%RED%火:66,%YELLOW%电:50,%ORANGE%魔法:70,%GOLD%物理:50,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //崩壞堡壘 (Ruined Citadel)
+//ItemDisplay[ma7]: (Burnt Forest)%NL%焚烧森林%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%***冰:140,%RED%*火:145,%YELLOW%*****电:120,%ORANGE%**魔法:100,%DGREEN%**毒:145%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:66,%ORANGE%魔法:20,%GOLD%物理:80,%DGREEN%毒:50%NL%%ORANGE%地图怪物基础抗性:} //焚燒森林 (Burnt Forest)
+//ItemDisplay[ma8]: (Musty Crypt)%NL%发霉地穴%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%****冰:190,%RED%***火:120,%YELLOW%****电:120,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:60,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //發霉地穴 (Musty Crypt)
+//ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%**冰:150,%RED%**火:120,%YELLOW%*电:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:33,%ORANGE%魔法:0,%GOLD%物理:75,%DGREEN%毒:65%NL%%ORANGE%地图怪物基础抗性:} //昏暗地窖 (Dim Cellar)
+//ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心农场%NL%%DGREEN%【T0-Lv86】<<MAP>>{%NL%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%电:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //悅心農場 (Pleasant Pasture) 
+//ItemDisplay[ma12]: (Baleful Alcazar)%NL%恶意城堡%NL%%WHITE%【T1-Lv86】<<MAP>>{%NL%免疫:%BLUE%*冰:150,%RED%***火:140,%ORANGE%**魔法:100,%GOLD%*物理:100,%DGREEN%**毒:140%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%电:75,%ORANGE%魔法:25,%GOLD%物理:50,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //恶意城堡 (Baleful Alcazar)
+//ItemDisplay[ma13]: (Decomposing Settlement)%NL%腐败居地%NL%%WHITE%【T1-Lv86】<<MAP>>{%NL%免疫:%BLUE%**冰:160,%RED%*火:120,%YELLOW%**电:100,%ORANGE%*魔法:100,%GOLD%*物理:100,%DGREEN%**毒:120%NL%%WHITE%高抗性:%BLUE%冰:80,%RED%火:60,%YELLOW%电:50,%ORANGE%魔法:70,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地图怪物基础抗性:} //腐败居地 (Decomposing Settlement)
+ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%GREEN%【T2-Lv87】<<MAP>> //寒霜洞窟 (Icy Cavern)  
+ItemDisplay[ma2]: (Forgotten Desert)%NL%蜃景荒漠%NL%%RED%【T3-Lv88】<<MAP>> //蜃景荒漠 (Forgotten Desert)
+ItemDisplay[ma3]: (Abandoned Precinct)%NL%遗弃之地%NL%%DGREEN%【T?-Lv??】<<MAP>> //遺棄之地 (Abandoned Precinct)
+ItemDisplay[ma4]: (Desecrated Temple)%NL%亵渎教堂%NL%%GREEN%【T2-Lv87】<<MAP>> //亵渎教堂 (Desecrated Temple)
+ItemDisplay[ma5]: (Frigid Plateau)%NL%凛冬高原%NL%%RED%【T3-Lv88】<<MAP>> //凜冬高原 (Frigid Plateau)
+ItemDisplay[ma6]: (Ruined Citadel)%NL%崩坏堡垒%NL%%RED%【T3-Lv88】<<MAP>> //崩壞堡壘 (Ruined Citadel)
+ItemDisplay[ma7]: (Burnt Forest)%NL%焚烧森林%NL%%RED%【T3-Lv88】<<MAP>> //焚燒森林 (Burnt Forest)
+ItemDisplay[ma8]: (Musty Crypt)%NL%发霉地穴%NL%%RED%【T3-Lv88】<<MAP>> //發霉地穴 (Musty Crypt)
+ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】<<MAP>> //昏暗地窖 (Dim Cellar)
+ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心农场%NL%%DGREEN%【T0-Lv86】<<MAP>> //悅心農場 (Pleasant Pasture) 
+ItemDisplay[ma12]: (Baleful Alcazar)%NL%恶意城堡%NL%%WHITE%【T1-Lv86】<<MAP>> //恶意城堡 (Baleful Alcazar)
+ItemDisplay[ma13]: (Decomposing Settlement)%NL%腐败居地%NL%%WHITE%【T1-Lv86】<<MAP>> //腐败居地 (Decomposing Settlement)
 ItemDisplay[MAP ID]: (new relics)%NL%新地图%NL%%WHITE%【T?-Lv??】<<MAP>>
 ItemDisplay[maz]: %GOLD%⚝⚝⚝⚝⚝⚝%NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%祝君好运！%NL%你只有一次机会%NL%进入后无法开启传送门，死亡后无法返回}<<HIGH>>//地獄審判
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -1469,14 +1483,14 @@ ItemDisplay[(rin OR amu) MAG !ID ILVL>89 FILTERLVL<4]: %NAME%
 ItemDisplay[amu MAG (TABSK0=3 OR TABSK1=3 OR TABSK2=3 OR TABSK8=3 OR TABSK9=3 OR TABSK10=3 OR TABSK16=3 OR TABSK17=3 OR TABSK18=3 OR TABSK24=3 OR TABSK25=3 OR TABSK26=3 OR TABSK32=3 OR TABSK33=3 OR TABSK34=3 OR TABSK40=3 OR TABSK41=3 OR TABSK42=3 OR TABSK48=3 OR TABSK49=3 OR TABSK50=3)]: %NAME%%BORDER(4,1)%   //3技能项链
 ItemDisplay[rin OR amu MAG ID]: %NAME%  //显示所有已鉴定蓝装戒指、项链
 //──── 底材SHOP ────
-ItemDisplay[(vgl OR xvg OR uvg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [Blood底材] {%ORANGE%CRAFT:[#4]+P红+珠} // 重手套、鯊皮手套、吸血鬼骸骨手套
-ItemDisplay[(mgl OR xmg OR umg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [Hitpower底材] {%ORANGE%CRAFT:[#9]+P蓝+珠} // 鎖鍊手套、重型手鐲、吸血鬼手套
-ItemDisplay[(lgl OR xlg OR ulg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [caster底材] {%ORANGE%CRAFT:[#9]+P紫+珠} // 皮手套、魔皮手套、荊棘連指手套
-ItemDisplay[(lbt OR xlb OR ulb) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [caster底材] {%ORANGE%CRAFT:[#10]+P紫+珠} // 皮靴、魔皮靴、飛龍皮靴
-ItemDisplay[(zvb OR uvc) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [caster底材] {%ORANGE%CRAFT:[#6]+P紫+珠} // 鯊皮腰帶、吸血鬼獠牙腰帶
-ItemDisplay[(lgl OR xlg OR ulg) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [caster底材] {%ORANGE%CRAFT:[#9]+P紫+珠%NL%开荒期的低级底材} // 皮手套、魔皮手套、荊棘連指手套
-ItemDisplay[(lbt OR xlb OR ulb) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [caster底材] {%ORANGE%CRAFT:[#10]+P紫+珠%NL%开荒期的低级底材} // 皮靴、魔皮靴、飛龍皮靴
-ItemDisplay[(zvb OR uvc) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [caster底材] {%ORANGE%CRAFT:[#6]+P紫+珠%NL%开荒期的低级底材} // 鯊皮腰帶、吸血鬼獠牙腰帶
+//ItemDisplay[(vgl OR xvg OR uvg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [Blood底材] {%ORANGE%CRAFT:[#4]+P红+珠} // 重手套、鯊皮手套、吸血鬼骸骨手套
+//ItemDisplay[(mgl OR xmg OR umg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [Hitpower底材] {%ORANGE%CRAFT:[#9]+P蓝+珠} // 鎖鍊手套、重型手鐲、吸血鬼手套
+//ItemDisplay[(lgl OR xlg OR ulg) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [caster底材] {%ORANGE%CRAFT:[#9]+P紫+珠} // 皮手套、魔皮手套、荊棘連指手套
+//ItemDisplay[(lbt OR xlb OR ulb) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [caster底材] {%ORANGE%CRAFT:[#10]+P紫+珠} // 皮靴、魔皮靴、飛龍皮靴
+//ItemDisplay[(zvb OR uvc) !ETH MAG ID ILVL>87]: %NAME%%ORANGE% [caster底材] {%ORANGE%CRAFT:[#6]+P紫+珠} // 鯊皮腰帶、吸血鬼獠牙腰帶
+//ItemDisplay[(lgl OR xlg OR ulg) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [caster底材] {%ORANGE%CRAFT:[#9]+P紫+珠%NL%开荒期的低级底材} // 皮手套、魔皮手套、荊棘連指手套
+//ItemDisplay[(lbt OR xlb OR ulb) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [caster底材] {%ORANGE%CRAFT:[#10]+P紫+珠%NL%开荒期的低级底材} // 皮靴、魔皮靴、飛龍皮靴
+//ItemDisplay[(zvb OR uvc) !ETH MAG !ID CLVL<60 FILTERLVL=1]: %NAME%%ORANGE% [caster底材] {%ORANGE%CRAFT:[#6]+P紫+珠%NL%开荒期的低级底材} // 鯊皮腰帶、吸血鬼獠牙腰帶
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                  ▬▬▬▬▬ 亮金装备（黄装）▬▬▬▬▬                                  ║  部分特殊提醒包含在蓝装一档了
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
