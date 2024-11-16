@@ -1,5 +1,9 @@
 ## Changelog:
 
+### 2024/11/16
+更新适配#22赛季，添加新的改造宝珠，修改地图T级
+update for new season #22, add new Orb of Alteration ,change relic tiers to new season.
+
 ### 2024/3/28
 添加3圣盾5孔权杖（CTA底材），给新地图加入怪物抗性提升,TP卷轴少于10张时，会显示TP
 Add +3 Holy shield specter(CTA base), new relic monster's res information added，show TPscrolls when your book is less than 10 scrools
