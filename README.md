@@ -9,7 +9,7 @@ If you find any bugs when using my filter,please open a issue and let me know
 
 发现任何BUG请填写Issues，或者联系我的QQ:33752753
 
-Version： #22:Minium-1.01
+Version： #22:Minium-1.02
 
 ## Features:
 * clear almost useless trash
