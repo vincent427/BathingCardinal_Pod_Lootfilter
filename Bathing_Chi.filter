@@ -10,8 +10,8 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: 沐红衣 
 Attribute[Name]: BathingCardinal Pod Loot filter
-Attribute[Version]: #22:Minium-1.01 Chi
-Attribute[Date]: 2024/11/16 14:33 UTC8
+Attribute[Version]: #22:Minium-1.02 Chi
+Attribute[Date]: 2024/11/23 4:09 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -732,6 +732,7 @@ ItemDisplay[ma9 !ID]: ⛪  Relics  ⛪%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】{%
 ItemDisplay[ma11 !ID]: ⛪  Relics  ⛪%NL%悅心农场%NL%%DGREEN%【T0-Lv86】{%DGREEN%(Pleasant Pasture)} <<MAP>>  //悅心農場 (Pleasant Pasture) 
 ItemDisplay[ma12 !ID]: ⛪  Relics  ⛪%NL%恶意城堡%NL%%WHITE%【T1-Lv86】{%WHITE%(Baleful Alcazar)} <<MAP>>  //恶意城堡 (Baleful Alcazar)
 ItemDisplay[ma13 !ID]: ⛪  Relics  ⛪%NL%腐败居地%NL%%WHITE%【T1-Lv86】{%WHITE%(Decomposing Settlement)} <<MAP>>  //腐败居地 (Decomposing Settlement)
+ItemDisplay[ma14 !ID]: ⛪  Relics  ⛪%NL%深渊熔炉%NL%%GREEN%【T2-Lv87】{%GREEN%(Abyssal Furnace)} <<MAP>> //深渊熔炉 (Abyssal Furnace)
 ItemDisplay[MAP !ID]: ⛪  Relics  ⛪%NL%新地图%NL%%WHITE%【T?-Lv??】<<MAP>>
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%RED%*火:120,%YELLOW%*电:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%电:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地图怪物基础抗性:} //寒霜洞窟 (Icy Cavern)  
@@ -758,6 +759,7 @@ ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】<<MAP>> //
 ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心农场%NL%%DGREEN%【T0-Lv86】<<MAP>> //悅心農場 (Pleasant Pasture) 
 ItemDisplay[ma12]: (Baleful Alcazar)%NL%恶意城堡%NL%%WHITE%【T1-Lv86】<<MAP>> //恶意城堡 (Baleful Alcazar)
 ItemDisplay[ma13]: (Decomposing Settlement)%NL%腐败居地%NL%%WHITE%【T1-Lv86】<<MAP>> //腐败居地 (Decomposing Settlement)
+ItemDisplay[ma14]: (Abyssal Furnace)%NL%深渊熔炉%NL%%GREEN%【T2-Lv87】<<MAP>> //深渊熔炉 (Abyssal Furnace)
 ItemDisplay[MAP ID]: (new relics)%NL%新地图%NL%%WHITE%【T?-Lv??】<<MAP>>
 ItemDisplay[maz]: %GOLD%⚝⚝⚝⚝⚝⚝%NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%祝君好运！%NL%你只有一次机会%NL%进入后无法开启传送门，死亡后无法返回}<<HIGH>>//地獄審判
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗

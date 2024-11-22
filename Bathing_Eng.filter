@@ -10,8 +10,8 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: Vincent 
 Attribute[Name]: BathingCardinal Pod Loot filter
-Attribute[Version]: #22:Minium-1.01 Eng
-Attribute[Date]: 2024/11/16 14:33 UTC8
+Attribute[Version]: #22:Minium-1.02 Eng
+Attribute[Date]: 2024/11/23 4:09 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -732,6 +732,7 @@ ItemDisplay[ma9 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%
 ItemDisplay[ma11 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%DGREEN%** T0-Lv86 **{%DGREEN%(Pleasant Pasture)} <<MAP>> 
 ItemDisplay[ma12 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%WHITE%** T1-Lv86 **{%WHITE%(Baleful Alcazar)} <<MAP>>
 ItemDisplay[ma13 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%WHITE%** T1-Lv86 **{%WHITE%(Decomposing Settlement)} <<MAP>>
+ItemDisplay[ma14 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Abyssal Furnace)} <<MAP>> 
 ItemDisplay[MAP !ID]: ⛪  Relics  ⛪%NL%NEW RELIC%NL%%WHITE%** T?-Lv?? **<<MAP>>
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[ma10]: Icy Cavern%NL%%GREEN%** T2-Lv87 ** <<MAP>> 
@@ -746,6 +747,7 @@ ItemDisplay[ma9]: Dim Cellar%NL%%GREEN%** T2-Lv87 ** <<MAP>>
 ItemDisplay[ma11]: Pleasant Pasture%NL%%DGREEN%** T0-Lv86 ** <<MAP>> 
 ItemDisplay[ma12]: Baleful Alcazar%NL%%WHITE%** T1-Lv86 ** <<MAP>> 
 ItemDisplay[ma13]: Decomposing Settlement%NL%%WHITE%** T1-Lv86 ** <<MAP>> 
+ItemDisplay[ma14]: Abyssal Furnace%NL%%GREEN%** T2-Lv87 ** <<MAP>> 
 ItemDisplay[MAP ID]: new relics%NL%%WHITE%** T?-Lv?? ** <<MAP>> 
 ItemDisplay[maz]: %GOLD%⚝⚝⚝⚝⚝⚝%NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%Good Luck!%NL%You only have one chance%NL%Unable to open the portal upon entry, unable to return after death}<<HIGH>>
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
