@@ -1,5 +1,9 @@
 ## Changelog:
 
+### 2024/11/23
+增加新地图深渊熔炉（MA14)
+Add new relic Abyssal Furnace（MA14）
+
 ### 2024/11/16
 更新适配#22赛季，添加新的改造宝珠，修改地图T级
 update for new season #22, add new Orb of Alteration ,change relic tiers to new season.
