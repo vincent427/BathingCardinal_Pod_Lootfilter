@@ -1,5 +1,12 @@
 ## Changelog:
 
+### 2024/12/9
+添加新地图怪物抗性速查，添加职业各类速度档位速查表和CUBE公式速查表，增加德鲁伊头盔D2R符文之语（变化），修正绿装双刃斧天生孔数4~5
+Add Relic Monster Immunities and Resistances info
+Add Class breakpiont/Cube formula
+Add Dru helm RW Metamorphosis
+changes SET Double Axe Socketed (4-5, ilvl dependent)
+
 ### 2024/11/23
 增加新地图深渊熔炉（MA14)
 Add new relic Abyssal Furnace（MA14）
