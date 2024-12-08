@@ -10,8 +10,8 @@
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
 Attribute[Author]: Vincent 
 Attribute[Name]: BathingCardinal Pod Loot filter
-Attribute[Version]: #22:Minium-1.02 Eng
-Attribute[Date]: 2024/11/23 4:09 UTC8
+Attribute[Version]: #22:Minium-1.03 Chi
+Attribute[Date]: 2024/12/9 2:22 UTC8
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -182,6 +182,8 @@ ItemDisplay[UNI ID uh9 STR>24 STAT136>9]: %NAME%{%WHITE%Fixed Sockets:%TAN%(%WHI
 ItemDisplay[UNI ID upk STAT238>0 STAT36>14]: %NAME%{%WHITE%Fixed Sockets:%TAN%(%WHITE%1S%TAN%)}%CONTINUE%
 ItemDisplay[SET ID lbb]: %NAME%{%WHITE%[Base Speed: %WPNSPD%]%NL%%WHITE%Fixed Sockets:%TAN%(%WHITE%4S%TAN%)}%CONTINUE%
 ItemDisplay[UNI ID wsd]: %NAME%{%WHITE%[Base Speed: %WPNSPD%, Range: %RANGE%]%NL%%WHITE%Fixed Sockets:%TAN%(%WHITE%3S%TAN%)}%CONTINUE%
+ItemDisplay[SET ID 2ax ILVL>25]: %NAME%{%WHITE%[Base Speed: %WPNSPD%, Range: %RANGE%]%NL%%WHITE%Fixed Sockets:%TAN%(%WHITE%5S%TAN%)}%CONTINUE%
+ItemDisplay[SET ID 2ax ILVL<26]: %NAME%{%WHITE%[Base Speed: %WPNSPD%, Range: %RANGE%]%NL%%WHITE%Fixed Sockets:%TAN%(%WHITE%4S%TAN%)}%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                   ▬▬▬▬▬ Upgrade Recipe ▬▬▬▬▬                                  ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -735,19 +737,19 @@ ItemDisplay[ma13 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%WHITE%** T1-Lv86 **{%WHITE
 ItemDisplay[ma14 !ID]: ⛪  Relics  ⛪%NL%%NAME%%NL%%GREEN%** T2-Lv87 **{%GREEN%(Abyssal Furnace)} <<MAP>> 
 ItemDisplay[MAP !ID]: ⛪  Relics  ⛪%NL%NEW RELIC%NL%%WHITE%** T?-Lv?? **<<MAP>>
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[ma10]: Icy Cavern%NL%%GREEN%** T2-Lv87 ** <<MAP>> 
-ItemDisplay[ma2]: Forgotten Desert%NL%%RED%** T3-Lv88 ** <<MAP>> 
-ItemDisplay[ma3]: Abandoned Precinct%NL%%DGREEN%** T?-Lv?? ** <<MAP>> 
-ItemDisplay[ma4]: Desecrated Temple%NL%%GREEN%** T2-Lv87 ** <<MAP>> 
-ItemDisplay[ma5]: Frigid Plateau%NL%%RED%** T3-Lv88 ** <<MAP>> 
-ItemDisplay[ma6]: Ruined Citadel%NL%%RED%** T3-Lv88 ** <<MAP>> 
-ItemDisplay[ma7]: Burnt Forest%NL%%RED%** T3-Lv88 ** <<MAP>> 
-ItemDisplay[ma8]: Musty Crypt%NL%%RED%** T3-Lv88 ** <<MAP>> 
-ItemDisplay[ma9]: Dim Cellar%NL%%GREEN%** T2-Lv87 ** <<MAP>> 
-ItemDisplay[ma11]: Pleasant Pasture%NL%%DGREEN%** T0-Lv86 ** <<MAP>> 
-ItemDisplay[ma12]: Baleful Alcazar%NL%%WHITE%** T1-Lv86 ** <<MAP>> 
-ItemDisplay[ma13]: Decomposing Settlement%NL%%WHITE%** T1-Lv86 ** <<MAP>> 
-ItemDisplay[ma14]: Abyssal Furnace%NL%%GREEN%** T2-Lv87 ** <<MAP>> 
+ItemDisplay[ma10]: Icy Cavern%NL%%GREEN%** T2-Lv87 ** <<MAP>>{%NL%Immunities:%RED%Fire*1:140,%GOLD%Physical*1:100%NL%%WHITE%High Res:%BLUE%Ice:87,%RED%Fire:80,%YELLOW%Lightning:80,%ORANGE%Magic:80,%GOLD%Physical:90,%DGREEN%Poison:80%NL%%ORANGE%Monster Base Immunities and Resistances:} 
+ItemDisplay[ma2]: Forgotten Desert%NL%%RED%** T3-Lv88 ** <<MAP>>{%NL%Immunities:%BLUE%Ice*1:130,%YELLOW%Lightning*2:136/122,%ORANGE%Magic*1:100,%GOLD%Physical*1:103%NL%%WHITE%High Res:%BLUE%Ice:84,%RED%Fire:88,%YELLOW%Lightning:92,%ORANGE%Magic:75,%GOLD%Physical:66,%DGREEN%Poison:90%NL%%ORANGE%Monster Base Immunities and Resistances:} 
+ItemDisplay[ma3]: Abandoned Precinct%NL%%DGREEN%** T?-Lv?? ** <<MAP>>
+ItemDisplay[ma4]: Desecrated Temple%NL%%GREEN%** T2-Lv87 ** <<MAP>>{%NL%Immunities:%ORANGE%Magic*1:100,%DGREEN%Poison*1:110%NL%%WHITE%High Res:%BLUE%Ice:88,%RED%Fire:75,%YELLOW%Lightning:85,%ORANGE%Magic:50,%GOLD%Physical:90,%DGREEN%Poison:75%NL%%ORANGE%Monster Base Immunities and Resistances:} 
+ItemDisplay[ma5]: Frigid Plateau%NL%%RED%** T3-Lv88 ** <<MAP>>{%NL%Immunities:%RED%Fire*2:120/131,%GOLD%Physical*1:100,%DGREEN%Poison*2:100/134%NL%%WHITE%High Res:%BLUE%Ice:95,%RED%Fire:78,%YELLOW%Lightning:75,%ORANGE%Magic:75,%GOLD%Physical:50,%DGREEN%Poison:85%NL%%ORANGE%Monster Base Immunities and Resistances:} 
+ItemDisplay[ma6]: Ruined Citadel%NL%%RED%** T3-Lv88 ** <<MAP>>{%NL%Immunities:%BLUE%Ice*2:117/127,%RED%Fire*1:118,%YELLOW%Lightning*1:118,%GOLD%Physical*1:100%NL%%WHITE%High Res:%BLUE%Ice:90,%RED%Fire:56,%YELLOW%Lightning:75,%ORANGE%Magic:85,%GOLD%Physical:90,%DGREEN%Poison:80%NL%%ORANGE%Monster Base Immunities and Resistances:} 
+ItemDisplay[ma7]: Burnt Forest%NL%%RED%** T3-Lv88 ** <<MAP>>{%NL%Immunities:%RED%Fire*1:119,%YELLOW%Lightning*1:117,%ORANGE%Magic*1:100,%GOLD%Physical*1:133,%DGREEN%Poison*2:102/105%NL%%WHITE%High Res:%BLUE%Ice:85,%RED%Fire:95,%YELLOW%Lightning:95,%ORANGE%Magic:75,%GOLD%Physical:90,%DGREEN%Poison:95%NL%%ORANGE%Monster Base Immunities and Resistances:} 
+ItemDisplay[ma8]: Musty Crypt%NL%%RED%** T3-Lv88 ** <<MAP>>{%NL%Immunities:%BLUE%Ice*2:118/124,%RED%Fire*1:121,%YELLOW%Lightning*1:125,%DGREEN%Poison*1:115%NL%%WHITE%High Res:%BLUE%Ice:90,%RED%Fire:90,%YELLOW%Lightning:90,%ORANGE%Magic:75,%GOLD%Physical:78,%DGREEN%Poison:97%NL%%ORANGE%Monster Base Immunities and Resistances:} 
+ItemDisplay[ma9]: Dim Cellar%NL%%GREEN%** T2-Lv87 ** <<MAP>>{%NL%Immunities:%BLUE%Ice*1:101,%YELLOW%Lightning*1:119%NL%%WHITE%High Res:%BLUE%Ice:66,%RED%Fire:87,%YELLOW%Lightning:68,%ORANGE%Magic:50,%GOLD%Physical:66,%DGREEN%Poison:68%NL%%ORANGE%Monster Base Immunities and Resistances:} 
+ItemDisplay[ma11]: Pleasant Pasture%NL%%DGREEN%** T0-Lv86 ** <<MAP>>{%NL%Immunities:None%NL%%WHITE%High Res:%BLUE%Ice:50,%RED%Fire50,%YELLOW%Lightning:50,%ORANGE%Magic:33,%GOLD%Physical:50,%DGREEN%Poison:33%NL%%ORANGE%Monster Base Immunities and Resistances:} 
+ItemDisplay[ma12]: Baleful Alcazar%NL%%WHITE%** T1-Lv86 ** <<MAP>>{%NL%Immunities:None%NL%%WHITE%High Res:%BLUE%Ice:66,%RED%Fire:75,%YELLOW%Lightning:66,%ORANGE%Magic:80,%GOLD%Physical:50,%DGREEN%Poison:66%NL%%ORANGE%Monster Base Immunities and Resistances:} 
+ItemDisplay[ma13]: Decomposing Settlement%NL%%WHITE%** T1-Lv86 ** <<MAP>>{%NL%Immunities:None%NL%%WHITE%High Res:%BLUE%Ice:55,%RED%Fire:60,%YELLOW%Lightning:66,%ORANGE%Magic:66,%GOLD%Physical:66,%DGREEN%Poison:66%NL%%ORANGE%Monster Base Immunities and Resistances:} 
+ItemDisplay[ma14]: Abyssal Furnace%NL%%GREEN%** T2-Lv87 ** <<MAP>>{%NL%Immunities:%YELLOW%Lightning*1:124,%DGREEN%Poison*1:111%NL%%WHITE%High Res:%BLUE%Ice:88,%RED%Fire:80,%YELLOW%Lightning:62,%ORANGE%Magic:80,%GOLD%Physical:80,%DGREEN%Poison:85%NL%%ORANGE%Monster Base Immunities and Resistances:} 
 ItemDisplay[MAP ID]: new relics%NL%%WHITE%** T?-Lv?? ** <<MAP>> 
 ItemDisplay[maz]: %GOLD%⚝⚝⚝⚝⚝⚝%NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%Good Luck!%NL%You only have one chance%NL%Unable to open the portal upon entry, unable to return after death}<<HIGH>>
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -755,8 +757,14 @@ ItemDisplay[maz]: %GOLD%⚝⚝⚝⚝⚝⚝%NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[tsc TPSCROLLS<10]: %BLUE%TP
 ItemDisplay[isc DIFFICULTY=0]: %GREEN%ID
-ItemDisplay[tbk]: %GOLD%%NAME%
-ItemDisplay[ibk]: %GOLD%%NAME%
+ItemDisplay[tbk PLRCLASS(AMA)]: %GOLD%%NAME%{ %GOLD%FCR%WHITE%: 7, 14, 22, 32, 48, 68, 99, 152%NL%%GOLD%Faster Block%WHITE%: 13, 32, 86%NL%%GOLD%FHR%WHITE%: 6, 13, 20, 32, 52%WHITE%%NL%%ORANGE%(Titans or -10 Base)%GOLD%IAS%WHITE%: 10, 26, 50, 95%NL%%PURPLE%Amazon Breakpoints%WHITE%%NL%}
+ItemDisplay[tbk PLRCLASS(DRU)]: %GOLD%%NAME%{ %GOLD%FHR%ORANGE%(Bear)%WHITE%: 5, 10, 16, 24, 37, 54, 86, 152, 360%NL%%GOLD%FHR%ORANGE%(Wolf)%WHITE%: 9, 20, 42, 86, 280%NL%%GOLD%Fast Block%ORANGE%(Human)%WHITE%: 0, 6, 13 20, 32, 52, 86, 174, 600%NL%%GOLD%Fast Block%ORANGE%(Bear)%WHITE%: 5, 10, 16, 27, 40, 65, 109, 223%NL%%GOLD%Fast Block%ORANGE%(Wolf)%WHITE%: 7, 15, 27, 48, 86, 200%NL%%GOLD%FCR%ORANGE%(Human)%WHITE%: 4, 10, 19, 30, 46, 68, 99, 163%NL%%GOLD%FCR %ORANGE%(Bear)%WHITE%: 7, 15, 26, 40, 63, 99, 163%NL%%GOLD%FCR%ORANGE%(Wolf)%WHITE%: 6, 14, 26, 40, 60, 95, 157%NL%%PURPLE%Character Breakpoints%WHITE%%NL%}
+ItemDisplay[tbk PLRCLASS(ASS)]: %GOLD%%NAME%{ %GOLD%FCR%WHITE%: 8, 16, 27, 42, 65, 102, 174%NL%%GOLD%Faster Block%WHITE%: 13, 32, 86%NL%%GOLD%FHR%WHITE%: 7, 15, 27, 48, 86, 200%NL%%PURPLE%Assasin Breakpoints%WHITE%%NL%}
+ItemDisplay[tbk PLRCLASS(BAR)]: %GOLD%%NAME%{ %GOLD%FCR%WHITE%: 9, 20, 37, 63, 105, 200%NL%%GOLD%Faster Block%WHITE%: 20, 42, 86, 280%NL%%GOLD%FHR%WHITE%: 7, 15, 27, 48, 86, 200%NL%%PURPLE%Barbarian Breakpoints%WHITE%%NL%}
+ItemDisplay[tbk PLRCLASS(NEC)]: %GOLD%%NAME%{ %GOLD%FCR%ORANGE%(Human)%WHITE%: 9, 18, 30, 48, 75, 125%NL%%GOLD%Faster Block%WHITE%: 6, 13, 20, 32, 52, 86, 174, 600%NL%%GOLD%FHR%ORANGE%(Human)%WHITE%: 5, 10, 15, 26, 39, 56, 86, 152%NL%%PURPLE%Necromancer Breakpoints%WHITE%%NL%}
+ItemDisplay[tbk PLRCLASS(PAL)]: %GOLD%%NAME%{ %GOLD%FCR%WHITE%: 9, 18, 30, 48, 75, 125%NL%%GOLD%Faster Block%ORANGE%(Holy Shield)%WHITE%: 0, 86%NL%%GOLD%Faster Block%WHITE%: 13, 32, 86%NL%%GOLD%FHR%ORANGE%(Spear/Staves)%WHITE%: 3, 7, 13, 20, 32, 48, 75, 129%NL%%GOLD%FHR%WHITE%: 7, 15, 27, 48, 86, 200%NL%%PURPLE%Paladin Breakpoints%WHITE%%NL%}
+ItemDisplay[tbk PLRCLASS(SOR)]: %GOLD%%NAME%{ %GOLD%FCR%WHITE%: 9, 20, 37, 63, 105, 200%NL%%GOLD%FCR%ORANGE%(Lightning)%WHITE%: 7, 15, 23, 35, 52, 78, 117, 194%NL%%GOLD%Faster Block%WHITE%: 7, 15, 27, 48, 86, 200%NL%%GOLD%FHR%WHITE%: 5, 9, 14, 20, 30, 42, 60, 86, 142%NL%%PURPLE%Sorceress Breakpoints%WHITE%%NL%}
+ItemDisplay[ibk]: %GOLD%%NAME%{%TAN%Hitpower %WHITE%Cold Arrows: %WHITE%El%SAGE%+%BLUE%Sapphire%SAGE%+%BLUE%Jewel%NL%%RED%Blood %WHITE%Fire Arrows: %WHITE%Eld%SAGE%+%RED%Ruby%SAGE%+%BLUE%Jewel%NL%%PURPLE%Caster %WHITE%Ice Arrows: %WHITE%Eld%SAGE%+%PURPLE%Ameth%SAGE%+%BLUE%Jewel%NL%%ORANGE%Safety %WHITE%Magic Arrows: %WHITE%El%SAGE%+%GREEN%Emerald%SAGE%+%BLUE%Jewel%NL%%ORANGE%Arrows / Bolts%NL%%TAN%Boots 4-7 FRW: %WHITE%Ral%SAGE%+%BLUE%Sapphire%SAGE%+%BLUE%Jewel%NL%%TAN%Amulet +1 to Summon: %WHITE%Thul%SAGE%+%BLUE%Sapphire%SAGE%+%BLUE%Jewel%NL%%TAN%Hitpower%NL%%PURPLE%Belt: %WHITE%Ith%SAGE%+%PURPLE%Ameth%SAGE%+%BLUE%Jewel%NL%%PURPLE%Ring: %WHITE%Amn%SAGE%+%PURPLE%Ameth%SAGE%+%BLUE%Jewel%NL%%PURPLE%Amulet: %WHITE%Ral%SAGE%+%PURPLE%Ameth%SAGE%+%BLUE%Jewel%NL%%PURPLE%Caster%WHITE%}
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                        ▬▬▬▬▬ GOLD ▬▬▬▬▬                                       ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -1265,6 +1273,7 @@ ItemDisplay[(6l7 OR 6lw) NMAG !RW (SOCK=0 OR SOCK=6) ED=15 FILTERLVL<4]: %NAME%{
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 //──── DRU ────  
 //─────────────────────────────────────────────────────────────────────────────────────────────────
+ItemDisplay[CL1 NMAG !RW SOCK=3]: %NAME%{%GOLD%Metamorphosis:%ORANGE%[#16]+[#32]+[#19]%NL%%NAME%}%CONTINUE%
 ItemDisplay[CL1 !ETH NMAG !RW !SOCK=1 ILVL>25 ((SK247=3 AND (SK237=3 OR SK226=3 OR SK236=3 OR SK237=3  OR SK233=3)) OR (SK250=3 AND SK249=3) OR (SK245=3 AND SK250=3) OR (SK250=3 AND SK240=3) OR (SK237=3 AND SK247=3 AND (SK226=3 OR SK236=3  OR SK233=3)) OR (SK236=3 AND SK226=3))]: %DGREEN%%NAME%{%NAME%}<<MID>>
 ItemDisplay[CL1 !ETH NMAG !RW !SOCK=1 ILVL>25 ((SK247=3 AND (SK237>0 OR SK226>0 OR SK236>0 OR SK237>0  OR SK233>0)) OR (SK250=3 AND SK249=3) OR (SK245=3 AND SK250=3) OR (SK250=3 AND SK240=3) OR (SK237=3 AND SK247>0 AND (SK226>0 OR SK236>0  OR SK233>0)) OR (SK236=3 AND SK226=3)) FILTERLVL<6]: %DGREEN%%NAME%{%NAME%}<<MID>>
 ItemDisplay[CL1 !ETH NMAG !RW !SOCK=1 ILVL>25 (SK245=3 OR SK247=3 OR SK250=3) FILTERLVL<4]: %NAME%{%NAME%}
@@ -1536,7 +1545,7 @@ ItemDisplay[NMAG !ID EQ7]: %NAME%
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
-ItemDisplay[(WP7 OR WP8) NMAG !RW SOCK=4 (FILTERLVL=1 OR FILTERLVL=3 OR FILTERLVL=5 OR FILTERLVL=7)]: %DGREEN%Insight Iron Golem{%GOLD%Insight:%ORANGE%[#8]+[#3]+[#7]+[#12]%NL%%NAME%}
+//ItemDisplay[(WP7 OR WP8) NMAG !RW SOCK=4 (FILTERLVL=1 OR FILTERLVL=3 OR FILTERLVL=5 OR FILTERLVL=7)]: %DGREEN%Insight Iron Golem{%GOLD%Insight:%ORANGE%[#8]+[#3]+[#7]+[#12]%NL%%NAME%}
 //ItemDisplay[(CL4 OR CL1 OR CL2) RARE !ID]: %NAME%
 //ItemDisplay[WP9 !CL7 NMAG !RW SOCK=4 NORM]: %NAME%  //Harmony
 //ItemDisplay[yps MAPID>0]: %DGREEN%! A%WHITE%  
